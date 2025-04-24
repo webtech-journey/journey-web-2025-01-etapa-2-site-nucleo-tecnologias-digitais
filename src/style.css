@@ -1,0 +1,37 @@
+:root {
+    --backgroundBlue: #dde8ea;
+    --darkBlue: #25596d;
+    --orange: #ff7f1c;
+}
+
+* {
+  margin: 0;
+  font-family: Montserrat, Arial;
+  border: 1px solid red;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--darkBlue);
+    height: 130px;
+}
+
+.logo, .logo a {
+    display: flex;
+    height: 100%;
+}
+
+/*  */
+
+.mainImageContainer {
+    height: 45dvh;
+    overflow: hidden;
+    display: flex;
+}
+
+.mainImage {
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 40%;
+}
