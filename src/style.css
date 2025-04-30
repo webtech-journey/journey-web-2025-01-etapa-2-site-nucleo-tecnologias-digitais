@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: var(--backgroundBlue);
+  background-color: var(--backgroundBlue);
 }
 
 header {
@@ -24,17 +24,17 @@ header {
 /* Logo Header */
 
 .logosContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
 }
 
 .divLogo {
-    height: 100%;
-    width: 1px;
-    background-color: white;
+  height: 100%;
+  width: 1px;
+  background-color: white;
 }
 
 .logosContainer img {
@@ -44,57 +44,214 @@ header {
 /* Opções Header */
 
 .opcoesContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .opcoesContainer a {
-
-    color: white;
-    text-decoration: none;
-    font-size: 2rem;
-
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
 }
 
 /* Main Image */
 
 .mainImage {
-    height: 400px;
-    overflow: hidden;
+  height: 400px;
+  overflow: hidden;
 }
 
 .mainImage img {
-    width: 100%;
-    object-fit: cover;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* Áreas de Interesse */
 
+.areasInteresse {
+  padding: 2rem 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.areasInteresseHeader {
+  width: 100%;
+}
+
+.areasInteresseHeader h1 {
+  color: var(--darkBlue);
+  font-size: 2rem;
+}
+
 .areaCardContainer {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .areaCard {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    padding: 0.8rem;
-    border-radius: 1rem;
-    font-size: 2rem;
-    text-decoration: none;
-    color: var(--darkBlue);
-    font-weight: 500;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(--darkBlue);
+  font-weight: 500;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .maisCursos {
-    gap: 10px;
-    color: white;
-    background-color: var(--darkBlue);
+  gap: 10px;
+  color: white;
+  background-color: var(--darkBlue);
 }
 
-/*  */
+/* Carousel */
+
+.carouselSection {
+  background-color: var(--lightBlue);
+  border-radius: 1rem;
+  height: 600px;
+  margin: 2rem 10%;
+  padding: 2rem;
+}
+
+.carouselHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.carouselHeader h1 {
+  background-color: var(--orange);
+  border-radius: 1rem;
+  padding: 1rem;
+  color: white;
+  font-size: 2rem;
+}
+
+/* Ver Cursos */
+
+.verCursosSection {
+  background-color: var(--darkBlue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  gap: 2rem;
+  padding: 2rem 25%;
+}
+
+.verCursosHeader {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.verCursosBtn {
+  background-color: var(--orange);
+  color: white;
+  text-decoration: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.verCusosDesc {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+/* Sobre */
+
+.sobreSection {
+  color: var(--darkBlue);
+  background-color: var(--lightBlue);
+}
+
+.sobreContainer {
+  display: flex;
+  justify-content: center;
+  padding: 0 35%;
+  /* background-color: red; */
+}
+
+.sobreHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sobreHeader h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.sobreHeader div {
+  border-radius: 1rem;
+  height: 2px;
+  width: 80%;
+  background-color: var(--darkBlue);
+}
+
+.sobreHeader p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.sobreDuvidas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sobreDuvidas h1 {
+    font-size: 2rem;
+}
+
+.sobreDuvidas p {
+    font-size: 1.5rem;
+}
+.sobreDuvidas p a {
+    font-weight: 600;
+    color: var(--darkBlue);
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 4rem;
+  background-color: var(--darkBlue);
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer nav {
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  list-style: none;
+}
+footer nav a {
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
