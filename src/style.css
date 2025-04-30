@@ -1,37 +1,100 @@
 :root {
-    --backgroundBlue: #dde8ea;
-    --darkBlue: #25596d;
-    --orange: #ff7f1c;
+  --backgroundBlue: #dde8ea;
+  --darkBlue: #25596d;
+  --orange: #ff7f1c;
+  --lightBlue: #cad7d9;
 }
 
 * {
   margin: 0;
   font-family: Montserrat, Arial;
-  border: 1px solid red;
+}
+
+body {
+    background-color: var(--backgroundBlue);
 }
 
 header {
-    display: flex;
-    justify-content: space-around;
-    background-color: var(--darkBlue);
-    height: 130px;
+  background-color: var(--darkBlue);
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 10%;
 }
 
-.logo, .logo a {
+/* Logo Header */
+
+.logosContainer {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.divLogo {
     height: 100%;
+    width: 1px;
+    background-color: white;
+}
+
+.logosContainer img {
+  height: 100px;
+}
+
+/* Opções Header */
+
+.opcoesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.opcoesContainer a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+
+}
+
+/* Main Image */
+
+.mainImage {
+    height: 400px;
+    overflow: hidden;
+}
+
+.mainImage img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Áreas de Interesse */
+
+.areaCardContainer {
+    display: flex;
+    gap: 1rem;
+}
+
+.areaCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--darkBlue);
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.maisCursos {
+    gap: 10px;
+    color: white;
+    background-color: var(--darkBlue);
 }
 
 /*  */
-
-.mainImageContainer {
-    height: 45dvh;
-    overflow: hidden;
-    display: flex;
-}
-
-.mainImage {
-    width: 100%;
-    object-fit: cover;
-    object-position: 0% 40%;
-}

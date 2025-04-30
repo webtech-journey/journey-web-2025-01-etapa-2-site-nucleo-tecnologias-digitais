@@ -1,0 +1,51 @@
+[
+  {
+    "video_link": "https://www.youtube.com/embed/grSc4TgbFN8?list=PLMIXFNJw_nWEoZY35JMEDD7kRZ6CeM0sQ",
+    "titulo": "Inteligência Artificial em Ciência de Dados",
+    "video_desc": "Aplicação de técnicas de IA, como aprendizado de máquina e processamento de linguagem natural, para analisar grandes conjuntos de dados, extrair insights e automatizar processos de tomada de decisão.",
+    "prof_nome": "Prof. Rodrigo Richard",
+    "prof_link": "https://www.linkedin.com/in/rodrigorichardgomes/"
+  },
+  {
+    "video_link": "https://www.youtube.com/embed/KTdCJIu85Bs?list=PLMIXFNJw_nWEoZY35JMEDD7kRZ6CeM0sQ",
+    "titulo": "Transformações Digitais",
+    "video_desc": "Adoção e integração de tecnologias digitais em processos, produtos e modelos de negócios para melhorar a eficiência, inovação e experiência do cliente.",
+    "prof_nome": "Prof. Rommel Carneiro",
+    "prof_link": "https://www.linkedin.com/in/rommelcarneiro/"
+  },
+  {
+    "video_link": "https://www.youtube.com/embed/MNqltORcurI?list=PLMIXFNJw_nWEoZY35JMEDD7kRZ6CeM0sQ",
+    "titulo": "Modalidades de Ensino Pós PUC Minas",
+    "video_desc": "Conheça as características de cada uma das modalidades de cursos oferecidas pela Pós PUC Minas. Uma delas certamente atende a sua necessidade.",
+    "prof_nome": "Profa. Lívia Barros",
+    "prof_link": ""
+  },
+  {
+    "video_link": "https://www.youtube.com/embed/l2_2608dulg?list=PLMIXFNJw_nWEoZY35JMEDD7kRZ6CeM0sQ",
+    "titulo": "Cibersegurança e Governança de Dados",
+    "video_desc": "Práticas que garantem a proteção, integridade e confidencialidade das informações digitais, assegurando conformidade com regulamentações e diretrizes para o gerenciamento seguro e ético dos dados.",
+    "prof_nome": "Profa. Samantha Nunes",
+    "prof_link": "https://www.linkedin.com/in/samanthamoraisnunes/"
+  },
+  {
+    "video_link": "https://www.youtube.com/embed/wCutIWZDpBg?list=PLMIXFNJw_nWEoZY35JMEDD7kRZ6CeM0sQ",
+    "titulo": "Cloud Computing",
+    "video_desc": "Modelo de computação que permite o acesso a recursos de conectividade, armazenamento e processamento de dados através da internet, proporcionando escalabilidade, flexibilidade e economia de custos para usuários e organizações.",
+    "prof_nome": "Prof. Ilo Rivero",
+    "prof_link": "https://www.linkedin.com/in/ilorivero/"
+  },
+  {
+    "video_link": "https://www.youtube.com/embed/L6usA7499e8?list=PLMIXFNJw_nWEoZY35JMEDD7kRZ6CeM0sQ",
+    "titulo": "Data Literacy e Cultura Data-driven",
+    "video_desc": "Capacitação de profissionais e criação de uma mentalidade organizacional que visa habilitar todas as pessoas na organizações para compreender, interpretar e comunicar dados de forma eficaz com foco no processo de tomada de decisões.",
+    "prof_nome": "Profa. Priscila Papazissis",
+    "prof_link": "https://www.linkedin.com/in/priscila-j-papazissis-paolinelli-41b5b822/"
+  },
+  {
+    "video_link": "https://www.youtube.com/embed/68V4KPsFVI0?list=PLMIXFNJw_nWEoZY35JMEDD7kRZ6CeM0sQ",
+    "titulo": "Benefícios e Recursos da Pós PUC Minas",
+    "video_desc": "A Pós PUC Minas oferece uma infraestrutura completa para o seu aprendizado. Conheça tudo que a Universidade tem para potencializar sua jornada de educação continuada.",
+    "prof_nome": "Prof. Rommel Carneiro",
+    "prof_link": "https://www.linkedin.com/in/rommelcarneiro/"
+  }
+]

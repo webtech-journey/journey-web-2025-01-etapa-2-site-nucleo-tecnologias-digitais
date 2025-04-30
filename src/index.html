@@ -2,32 +2,89 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Pós em Tecnologias Digitais PUC Minas" />
+    <meta
+      property="og:description"
+      content="A maior oferta do Brasil de cursos de pós-graduação lato sensu em tecnologias digitais com a qualidade PUC Minas."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://icei.pucminas.br/latosensu/" />
+
+    <!--adicionar o endereço da imagem do banner abaixo-->
+    <meta property="og:image" content="" />
+    <meta property="og:image:secure_url" content="" />
+    <!--adicionar o endereço da imagem do banner acima-->
+
+    <meta property="og:image:type" content="image/jpeg" />
     <title>Pós em Tecnologias Digitais - PUC Minas</title>
+
+    <!--Relacionar CSS-->
     <link rel="stylesheet" href="style.css" />
+    <!--Relacionar Icons-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
+    <!-- Header -->
     <header>
-      <div class="logo">
+      <div class="logosContainer">
         <a href="">
-          <img src="/assets/images/logo-C6uyADFD.png" alt="Logo PUC-Minas" />
+          <img src="/assets/images/logo-C6uyADFD.png" />
         </a>
+        <div class="divLogo"></div>
         <a href="">
-          <img src="/assets/images/logo-6747747fa550c.png" alt="Logo ICEI" />
+          <img src="/assets/images/logo-6747747fa550c.png" />
         </a>
       </div>
-
-      <div>
-        <a href="">Cursos</a>
-        <a href="">Dúvidas</a>
+      <div class="opcoesContainer">
+        <a href="">CURSOS</a>
+        <a href="">DÚVIDAS</a>
       </div>
     </header>
 
-    <!--  -->
+    <!-- Imagem de Fundo -->
+    <section>
+      <div class="mainImage">
+        <img src="/assets/images/banner-1132602854.jpg" />
+      </div>
+    </section>
 
-    <div class="mainImageContainer">
-        <img class="mainImage" src="/assets/images/banner-1132602854.jpg" alt="" srcset="">
-    </div>
+    <!-- Áreas de Interesse -->
+    <section class="areasInteresse">
+      <h1>Áreas de Interesse</h1>
+      <div class="areaCardContainer">
+        <a href="" class="areaCard">Software</a>
+        <a href="" class="areaCard">Cloud e Redes</a>
+        <a href="" class="areaCard">Software</a>
+        <a href="" class="areaCard maisCursos"
+          >Mais Cursos
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </a>
+      </div>
+    </section>
 
+    <!-- Carousel -->
+     
+    <section class="carouselSection">
+      <div class="carouselHeader">
+        <h1>Conheça os temas dos cursos</h1>
+      </div>
+
+      <div id="carouselContainer">
+
+      </div>
+
+    </section>
+
+    <!--Relacionar JS-->
+    <script src="node.js"></script>
   </body>
 </html>
