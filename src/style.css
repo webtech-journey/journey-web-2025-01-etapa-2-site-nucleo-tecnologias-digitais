@@ -88,8 +88,9 @@ footer nav a {
 /* Main Image */
 
 .mainImage {
-  height: 400px;
+  height: 45dvh;
   overflow: hidden;
+  display: flex;
 }
 
 .mainImage img {
