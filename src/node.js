@@ -8,22 +8,29 @@ fetch("videos.json")
         `
         
         <div class="carouselCard">
-        <h1>
-        ` +
-        video.prof_nome +
-        // <div class="carouselVideo">
-        //     <iframe
-        //     src="` + video.video_link + `"
-        //     title="` + video.title + `"
-        //     allowfullscreen
-        //     ></iframe>
-        // </div>
-        //     <h1 class="carouselDesc">` + video.video_desc + `</h1>
-        //     <a href="` + video.prof_link + `" target="_blank">` + video.prof_nome + `</a>
-        `
-        </h1>
+        <div class="carouselVideo">
+            <iframe
+            src="` +
+        video.video_link +
+        `"
+            title="` +
+        video.titulo +
+        `"
+            allowfullscreen
+            ></iframe>
         </div>
-
+        <div class="carouselDescContainer">
+        <h3 class="carouselDesc">` +
+        video.video_desc +
+        `</h3>
+        <a class="carouselProf" href="` +
+        video.prof_link +
+        `" target="_blank">` +
+        video.prof_nome +
+        `</a>
+        </div>
+        
+        </div>
         `;
     });
 
@@ -31,8 +38,11 @@ fetch("videos.json")
     // Make the carousel move
 
     let items = document.querySelectorAll(".carouselContainer .carouselCard");
+    let itemsDesc = document.querySelectorAll(".carouselDescContainer");
     let nextCard = document.getElementById("carouselNext");
     let prevCard = document.getElementById("carouselPrev");
+
+    console.log(itemsDesc);
 
     let active = 3;
 
@@ -43,6 +53,7 @@ fetch("videos.json")
       items[active].style.zIndex = "1";
       items[active].style.filter = "none";
       items[active].style.opacity = 1;
+      itemsDesc[active].style.opacity = 1;
 
       for (var i = active + 1; i < items.length; i++) {
         stt++;
@@ -51,7 +62,8 @@ fetch("videos.json")
         })`;
         items[i].style.zIndex = -stt;
         items[i].style.filter = "blur(1px)";
-        items[i].style.opacity = stt > 2 ? 0 : 0.6;
+        items[i].style.opacity = stt > 1 ? 0 : 0.6;
+        itemsDesc[i].style.opacity = 0;
       }
 
       stt = 0;
@@ -62,19 +74,19 @@ fetch("videos.json")
         })`;
         items[i].style.zIndex = -stt;
         items[i].style.filter = "blur(1px)";
-        items[i].style.opacity = stt > 2 ? 0 : 0.6;
+        items[i].style.opacity = stt > 1 ? 0 : 0.6;
+        itemsDesc[i].style.opacity = 0;
       }
     }
 
     loadShow();
 
-    nextCard.onclick = function() {
+    nextCard.onclick = function () {
       active = active + 1 < items.length ? active + 1 : active;
-      loadShow()
-    }
-    prevCard.onclick = function() {
+      loadShow();
+    };
+    prevCard.onclick = function () {
       active = active - 1 >= 0 ? active - 1 : active;
-      loadShow()
-    }
+      loadShow();
+    };
   });
-

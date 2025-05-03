@@ -172,36 +172,73 @@ footer nav a {
 .carouselContainer {
   position: relative;
   width: 100%;
-  height: 370px;
+  height: 600px;
   overflow: hidden;
   z-index: 10;
   display: flex;
-  justify-content: center ;
+  justify-content: center;
 }
 
 .carouselCard {
   position: absolute;
-  width: 200px;
-  height: 320px;
-  background-color: var(--orange);
+  width: 500px;
+  padding: 2rem;
   transition: 500ms;
   top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
-#carouselNext, #carouselPrev {
+.carouselVideo {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  aspect-ratio: 16/9;
+}
+.carouselVideo iframe {
+  aspect-ratio: 16/9;
+  border: none;
+  border-radius: 1rem;
+}
+
+.carouselDescContainer {
+  transition: 500ms;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.carouselDesc {
+  font-weight: 500;
+  color: var(--darkBlue);
+  text-align: center;
+}
+
+.carouselProf {
+  font-weight: 800;
+  color: var(--darkBlue);
+}
+
+#carouselNext,
+#carouselPrev {
   position: absolute;
-  top: 40%;
-  left: 50px;
-  color: white;
+  top: 50%;
+  left: 5px;
+  color: var(--orange);
   border: none;
   background-color: transparent;
   font-size: xxx-large;
   font-weight: bold;
+  cursor: pointer;
 }
 
 #carouselNext {
   left: unset;
-  right: 50px;
+  right: 5px;
 }
 
 /* Ver Cursos */
