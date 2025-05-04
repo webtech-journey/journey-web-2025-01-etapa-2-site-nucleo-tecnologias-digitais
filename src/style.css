@@ -278,13 +278,9 @@ footer nav a {
 /* Sobre */
 
 .sobreSection {
-  padding: 2rem;
+  padding: 2rem 0;
   color: var(--darkBlue);
   background-color: var(--lightBlue);
-}
-
-.sobreContainer {
-  
 }
 
 .sobreHeader {
@@ -323,15 +319,40 @@ footer nav a {
   display: flex;
   gap: 1rem;
   width: 100%;
+  min-width: calc(var(--width) * var(--quantity));
+  height: 150px;
   margin: 4rem 0;
 }
 
 .sobreCard {
-  position: relative;
+  position: absolute;
+  display: flex;
   background-color: var(--orange);
   border-radius: 1rem;
-  min-width: 400px;
-  height: 150px;
+  width: var(--width);
+  height: var(--height);
+  left: 100%;
+  animation: autoRun 20s linear infinite;
+  animation-delay: calc((20s/var(--quantity)) * (var(--position) - 10));
+  transition: 200ms;
+}
+
+.sobreCarousel:hover .sobreCard {
+  animation-play-state: paused !important;
+  opacity: 0.75;
+}
+
+.sobreCard:hover {
+  opacity: 1 !important;
+  
+}
+
+@keyframes autoRun {
+  from  {
+    left: 100%;
+  }to {
+    left: calc(var(--width) * -1);
+  }
 }
 
 .sobreIcon {
@@ -342,6 +363,8 @@ footer nav a {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   border-radius: 100%;
+  transition: 200ms;
+
 }
 
 .sobreDuvidas {
