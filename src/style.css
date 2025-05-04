@@ -278,15 +278,13 @@ footer nav a {
 /* Sobre */
 
 .sobreSection {
+  padding: 2rem;
   color: var(--darkBlue);
   background-color: var(--lightBlue);
 }
 
 .sobreContainer {
-  display: flex;
-  justify-content: center;
-  padding: 0 35%;
-  /* background-color: red; */
+  
 }
 
 .sobreHeader {
@@ -312,6 +310,38 @@ footer nav a {
 .sobreHeader p {
   font-size: 1.5rem;
   text-align: center;
+}
+
+/* sobreCarousel */
+
+.sobreCarouselContainer {
+  overflow: hidden;
+}
+
+.sobreCarousel {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  margin: 4rem 0;
+}
+
+.sobreCard {
+  position: relative;
+  background-color: var(--orange);
+  border-radius: 1rem;
+  min-width: 400px;
+  height: 150px;
+}
+
+.sobreIcon {
+  background-color: var(--orange);
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 100%;
 }
 
 .sobreDuvidas {

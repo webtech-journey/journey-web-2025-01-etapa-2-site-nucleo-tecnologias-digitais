@@ -9,7 +9,7 @@ fetch("videos.json")
         
         <div class="carouselCard">
         <div class="carouselVideo">
-            <iframe
+            <iframe 
             src="` +
         video.video_link +
         `"
@@ -54,6 +54,7 @@ fetch("videos.json")
       items[active].style.filter = "none";
       items[active].style.opacity = 1;
       itemsDesc[active].style.opacity = 1;
+      items[active].style.pointerEvents = "unset";
 
       for (var i = active + 1; i < items.length; i++) {
         stt++;
@@ -63,6 +64,7 @@ fetch("videos.json")
         items[i].style.zIndex = -stt;
         items[i].style.filter = "blur(1px)";
         items[i].style.opacity = stt > 1 ? 0 : 0.6;
+        items[i].style.pointerEvents = "none";
         itemsDesc[i].style.opacity = 0;
       }
 
@@ -75,6 +77,7 @@ fetch("videos.json")
         items[i].style.zIndex = -stt;
         items[i].style.filter = "blur(1px)";
         items[i].style.opacity = stt > 1 ? 0 : 0.6;
+        items[i].style.pointerEvents = "none";
         itemsDesc[i].style.opacity = 0;
       }
     }
