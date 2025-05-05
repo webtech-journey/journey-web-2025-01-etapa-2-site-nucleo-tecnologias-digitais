@@ -34,15 +34,12 @@ fetch("videos.json")
         `;
     });
 
-    console.log(data);
     // Make the carousel move
 
     let items = document.querySelectorAll(".carouselContainer .carouselCard");
     let itemsDesc = document.querySelectorAll(".carouselDescContainer");
     let nextCard = document.getElementById("carouselNext");
     let prevCard = document.getElementById("carouselPrev");
-
-    console.log(itemsDesc);
 
     let active = 3;
 
@@ -92,4 +89,30 @@ fetch("videos.json")
       active = active - 1 >= 0 ? active - 1 : active;
       loadShow();
     };
+  });
+
+const sobre = document.getElementById("sobreCarousel");
+
+fetch("porque.json")
+  .then((res) => res.json())
+  .then((data) => {
+
+    sobre.style.setProperty('--quantity', data.length)
+
+    var sobreCount = 0
+    data.forEach(sobreCard => {
+      
+      sobreCount++
+
+      sobre.innerHTML += `
+      <div class="sobreCard" style="--position: ${sobreCount}">
+              <span class="sobreIcon">
+                <ion-icon name="${sobreCard.iconName}"></ion-icon>
+              </span>
+              <h3>${sobreCard.text}</h3>
+        </div>
+      `
+    });
+
+    console.log(data)
   });

@@ -48,13 +48,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .opcoesContainer a {
   color: white;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 /* Footer */
@@ -115,7 +115,7 @@ footer nav a {
 
 .areasInteresseHeader h1 {
   color: var(--darkBlue);
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .areaCardContainer {
@@ -131,7 +131,7 @@ footer nav a {
   background-color: white;
   padding: 0.8rem;
   border-radius: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-decoration: none;
   color: var(--darkBlue);
   font-weight: 500;
@@ -252,7 +252,7 @@ footer nav a {
   text-align: center;
   color: white;
   gap: 2rem;
-  padding: 2rem 25%;
+  padding: 3rem 25%;
 }
 
 .verCursosHeader {
@@ -278,7 +278,7 @@ footer nav a {
 /* Sobre */
 
 .sobreSection {
-  padding: 2rem 0;
+  padding: 4rem 0;
   color: var(--darkBlue);
   background-color: var(--lightBlue);
 }
@@ -321,20 +321,25 @@ footer nav a {
   width: 100%;
   min-width: calc(var(--width) * var(--quantity));
   height: 150px;
-  margin: 4rem 0;
+  margin: 6rem 0;
 }
+
+/* Card */
 
 .sobreCard {
   position: absolute;
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--orange);
   border-radius: 1rem;
   width: var(--width);
   height: var(--height);
   left: 100%;
   animation: autoRun 20s linear infinite;
-  animation-delay: calc((20s/var(--quantity)) * (var(--position) - 10));
+  animation-delay: calc((20s / var(--quantity)) * (var(--position) - 10));
   transition: 200ms;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .sobreCarousel:hover .sobreCard {
@@ -344,16 +349,9 @@ footer nav a {
 
 .sobreCard:hover {
   opacity: 1 !important;
-  
 }
 
-@keyframes autoRun {
-  from  {
-    left: 100%;
-  }to {
-    left: calc(var(--width) * -1);
-  }
-}
+/* Icon */
 
 .sobreIcon {
   background-color: var(--orange);
@@ -361,18 +359,46 @@ footer nav a {
   height: 100px;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(calc(-50% - 2rem));
   border-radius: 100%;
   transition: 200ms;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.sobreIcon ion-icon {
+  font-size: 4rem;
+  color: var(--darkOrange);
+}
+
+/* Text */
+
+.sobreCard h3 {
+  color: white;
+  text-align: center;
+  margin: 1rem;
+  margin-top: 2rem;
+  z-index: 10;
+}
+
+@keyframes autoRun {
+  from {
+    left: 100%;
+  }
+  to {
+    left: calc(var(--width) * -1);
+  }
+}
+
+/* Duvidas */
 
 .sobreDuvidas {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  gap: 2rem;
 }
 
 .sobreDuvidas h1 {
@@ -385,6 +411,41 @@ footer nav a {
 .sobreDuvidas p a {
   font-weight: 600;
   color: var(--darkBlue);
+}
+
+/* Duvidas */
+
+.duvidasContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: fit-content;
+}
+
+.duvidasCard {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  width: 30%;
+  padding: 1rem;
+  background-color: var(--darkBlue);
+  border-radius: 1rem;
+  color: white;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.duvidasCard h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.duvidasCard h2 {
+  font-weight: 400;
+  color: var(--lightBlue);
+  font-size: 1rem;
+  padding: 0 2rem;
 }
 
 /* MAIN PAGE - END*/
