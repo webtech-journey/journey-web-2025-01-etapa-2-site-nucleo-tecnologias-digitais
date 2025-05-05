@@ -88,14 +88,46 @@ footer nav a {
 /* Main Image */
 
 .mainImage {
+  position: relative;
   height: 45dvh;
   overflow: hidden;
   display: flex;
+  z-index: -1;
 }
 
 .mainImage img {
   width: 100%;
   object-fit: cover;
+}
+
+.floatingCards {
+  position: absolute;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-align: center;
+  height: 45dvh;
+  right: 10%;
+}
+
+.floatingCardsTop, .floatingCardsBottom {
+  padding: 1.5rem 1rem;
+  width: 250px;
+}
+
+.floatingCardsTop {
+  position: relative;
+  background-color: var(--orange);
+  border-radius: 0 0 1rem 1rem;
+  z-index: 1;
+}
+.floatingCardsBottom {
+  position: absolute;
+  top: 80px;
+  left: -25%;
+  z-index: 0;
+  background-color: var(--darkBlue);
+  border-radius: 1rem;
 }
 
 /* MAIN PAGE - START*/
