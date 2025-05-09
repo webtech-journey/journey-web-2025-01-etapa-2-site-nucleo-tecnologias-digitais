@@ -52,10 +52,13 @@
 
     <!-- Imagem de Fundo -->
     <section>
-
       <div class="floatingCards">
-        <div class="floatingCardsTop">CURSOS DE PÓS EM TECNOLOGIAS DIGITAIS</div>
-        <div class="floatingCardsBottom">INOVAÇÃO PARA UM MUNDO EM EVOLUÇÃO</div>
+        <div class="floatingCardsTop">
+          CURSOS DE PÓS EM TECNOLOGIAS DIGITAIS
+        </div>
+        <div class="floatingCardsBottom">
+          INOVAÇÃO PARA UM MUNDO EM EVOLUÇÃO
+        </div>
       </div>
 
       <div class="mainImage">
@@ -113,11 +116,7 @@
             >
 
             <label for="B"
-              ><input
-                type="checkbox"
-                name="cursoTipo"
-                id="B"
-              />Online</label
+              ><input type="checkbox" name="cursoTipo" id="B" />Online</label
             >
 
             <label for="C"
@@ -126,7 +125,45 @@
           </div>
         </div>
       </aside>
-      <div class="cursosContainer"></div>
+
+      <div class="Cursos">
+        <div class="textoCurso">
+          <h1>Cursos</h1>
+        </div>
+
+        <div class="textotopico">
+          <h1>Desenvolvimento de Software</h1>
+          <div class="qtdCursos">
+            <h1>23 Cursos</h1>
+          </div>
+        </div>
+
+        <div class="cursosContainer">
+          <div class="cursoCard">
+            <label class="compararLabel">
+              Comparar:
+              <input type="checkbox" />
+            </label>
+
+            <div class="cursoCardTop">
+              <span class="Modalidade" id="modalidadeCurso">Modalidade</span>
+            </div>
+
+            <div class="cursoBody">
+              <h3>Engenharia de Software</h3>
+              <img src="/assets/images/placeHolderCoureseCardImage.png" />
+            </div>
+
+            <button class="btnDetalhes">Detalhes</button>
+          </div>
+        </div>
+        <div class="MostrarMais">
+          <button class="botaoMostrarMais">
+            Mostrar Mais
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
     </main>
 
     <!-- Footer -->
