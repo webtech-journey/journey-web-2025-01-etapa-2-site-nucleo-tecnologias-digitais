@@ -1,4 +1,3 @@
-
 /* MAIN PAGE - START*/
 
 /* Áreas de Interesse */
@@ -22,7 +21,7 @@
 .areaCardContainer {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0.8rem;
 }
 
 .areaCard {
@@ -51,7 +50,7 @@
   background-color: var(--lightBlue);
   border-radius: 1rem;
   height: 600px;
-  margin: 2rem 20%;
+  margin: 4rem 20%;
   padding: 2rem;
 }
 
@@ -65,7 +64,7 @@
   border-radius: 1rem;
   padding: 1rem;
   color: white;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 /* Carousel Slider */
@@ -82,7 +81,6 @@
 
 .carouselCard {
   position: absolute;
-  width: 500px;
   padding: 2rem;
   transition: 500ms;
   top: 0;
@@ -96,7 +94,6 @@
 .carouselVideo {
   display: flex;
   justify-content: center;
-  height: 300px;
   aspect-ratio: 16/9;
 }
 .carouselVideo iframe {
@@ -107,6 +104,7 @@
 
 .carouselDescContainer {
   transition: 500ms;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -127,19 +125,21 @@
 #carouselNext,
 #carouselPrev {
   position: absolute;
-  left: 5px;
-  padding: 20% 10%;
+  left: 0;
+  bottom: 10%;
+  padding: 0 20%;
   color: var(--orange);
   border: none;
   background-color: transparent;
   font-size: xxx-large;
   font-weight: bold;
   cursor: pointer;
+  z-index: 2;
 }
 
 #carouselNext {
   left: unset;
-  right: 5px;
+  right: 0;
 }
 
 /* Ver Cursos */
@@ -158,7 +158,7 @@
 
 .verCursosHeader {
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .verCursosBtn {
@@ -168,23 +168,23 @@
   border-radius: 1rem;
   padding: 1rem;
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .verCusosDesc {
-  font-weight: 400;
-  font-size: 1.8rem;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 /* Sobre */
 
 .sobreSection {
-  padding: 10rem 0;
   color: var(--darkBlue);
   background-color: var(--lightBlue);
   display: flex;
   flex-direction: column;
-  gap: 10rem;
+  padding-top: 4rem;
+  gap: 2rem;
 }
 
 .sobreHeader {
@@ -196,19 +196,19 @@
 }
 
 .sobreHeader h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
 .sobreHeader div {
   border-radius: 1rem;
   height: 2px;
-  width: 80%;
+  width: 30%;
   background-color: var(--darkBlue);
 }
 
 .sobreHeader p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 
@@ -234,14 +234,14 @@
   position: absolute;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   background-color: var(--orange);
   border-radius: 1rem;
   width: var(--width);
   height: var(--height);
   left: 100%;
-  animation: autoRun 20s linear infinite;
-  animation-delay: calc((20s / var(--quantity)) * (var(--position) - 10));
+  animation: autoRun 60s linear infinite;
+  animation-delay: calc((60s / var(--quantity)) * (var(--position) - 10));
   transition: 200ms;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -259,11 +259,11 @@
 
 .sobreIcon {
   background-color: var(--orange);
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%) translateY(calc(-50% - 2rem));
+  transform: translateX(-50%) translateY(calc(-50% - 0rem));
   border-radius: 100%;
   transition: 200ms;
   display: flex;
@@ -272,7 +272,7 @@
 }
 
 .sobreIcon ion-icon {
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--darkOrange);
 }
 
@@ -281,8 +281,9 @@
 .sobreCard h3 {
   color: white;
   text-align: center;
+  font-size: 1rem;
   margin: 1rem;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   z-index: 10;
 }
 
@@ -298,7 +299,9 @@
 /* Duvidas */
 
 .sobreDuvidas {
+  background-color: var(--backgroundBlue);
   display: flex;
+  padding: 2rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -306,11 +309,11 @@
 }
 
 .sobreDuvidas h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .sobreDuvidas p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .sobreDuvidas p a {
   font-weight: 600;
@@ -321,7 +324,9 @@
 
 .duvidasContainer {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
   width: 100%;
   height: fit-content;
 }
@@ -331,145 +336,50 @@
   flex-direction: column;
   gap: 1rem;
   align-items: center;
-  width: 30%;
-  padding: 1rem;
+  padding: 2rem;
   background-color: var(--darkBlue);
   border-radius: 1rem;
   color: white;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 300px;
 }
 
 .duvidasCard h1 {
   font-weight: 800;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .duvidasCard h2 {
   font-weight: 400;
   color: var(--lightBlue);
-  font-size: 1rem;
-  padding: 0 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  word-spacing: 0.15rem;
+  padding: 0 2rem 2rem;
 }
 
 /* MAIN PAGE - END*/
 
-/* CURSOS PAGE - START */
+/* Media Queries */
 
-.divMain {
-  height: 10px;
-  background-color: var(--darkBlue);
+@media (max-width: 768px) {
+  .areasInteresse {
+    padding: 2rem 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .carouselSection {
+    margin: 0;
+    border-radius: 0;
+  }
 }
 
-main {
-  display: flex;
-}
+@media (min-width: 1024px) {
+  .carouselVideo {
+    height: 300px;
+  }
 
-/* Aside Filtros */
-
-main aside {
-  width: 20%;
-  color: white;
-  position: sticky;
-  height: 100dvh;
-  top: 0;
-  background-color: var(--darkBlue);
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  overflow: scroll;
-}
-
-/* Comparar + Pesquisar (Btn) */
-
-.asideBtns {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-/* Seleciona os dois Btn */
-.asideBtns * {
-  border: none;
-  height: 50px;
-  font-size: 100%;
-  border-radius: 1rem;
-}
-
-/* Comparar Cursos */
-
-.compararCursos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  background-color: var(--orange);
-  color: var(--darkOrange);
-  cursor: pointer;
-}
-
-.compararCursos h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Pesquisar Cursos */
-
-.pesquisarCursos {
-  padding: 0 1rem;
-}
-
-/* Tipos de Curso */
-
-.tipoCursosHeader {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.tipoCursosHeader button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  background-color: var(--backgroundBlue);
-  color: var(--darkBlue);
-  font-size: 1rem;
-  font-weight: 800;
-  border: none;
-  width: 1.5rem;
-  height: 1.5rem;
-  padding: 10px;
-  border-radius: 100%;
-}
-
-.cursosSelect {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1rem;
-  gap: 10px;
-}
-
-.cursosSelect input {
-  border: 0px;
-  width: 10%;
-  height: 1rem;
-}
-
-.cursosSelect label {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  padding: 0.5rem 0;
-  width: 100%;
-  font-size: 1.5rem;
-}
-
-/* Cursos Container */
-
-.cursosContainer {
-  height: 200dvh;
 }

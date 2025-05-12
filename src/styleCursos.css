@@ -1,0 +1,121 @@
+
+/* CURSOS PAGE - START */
+
+.divMain {
+    height: 10px;
+    background-color: var(--darkBlue);
+  }
+  
+  main {
+    display: flex;
+  }
+  
+  /* Aside Filtros */
+  
+  main aside {
+    width: 20%;
+    color: white;
+    position: sticky;
+    height: 100dvh;
+    top: 0;
+    background-color: var(--darkBlue);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    overflow: scroll;
+  }
+  
+  /* Comparar + Pesquisar (Btn) */
+  
+  .asideBtns {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  /* Seleciona os dois Btn */
+  .asideBtns * {
+    border: none;
+    height: 50px;
+    font-size: 100%;
+    border-radius: 1rem;
+  }
+  
+  /* Comparar Cursos */
+  
+  .compararCursos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--orange);
+    color: var(--darkOrange);
+    cursor: pointer;
+  }
+  
+  .compararCursos h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Pesquisar Cursos */
+  
+  .pesquisarCursos {
+    padding: 0 1rem;
+  }
+  
+  /* Tipos de Curso */
+  
+  .tipoCursosHeader {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .tipoCursosHeader button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--backgroundBlue);
+    color: var(--darkBlue);
+    font-size: 1rem;
+    font-weight: 800;
+    border: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 10px;
+    border-radius: 100%;
+  }
+  
+  .cursosSelect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    gap: 10px;
+  }
+  
+  .cursosSelect input {
+    border: 0px;
+    width: 10%;
+    height: 1rem;
+  }
+  
+  .cursosSelect label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.5rem 0;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  
+  /* Cursos Container */
+  
+  .cursosContainer {
+    height: 200dvh;
+  }
+  
