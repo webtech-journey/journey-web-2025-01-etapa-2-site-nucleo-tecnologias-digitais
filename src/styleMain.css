@@ -1,141 +1,10 @@
-:root {
-  --backgroundBlue: #dde8ea;
-  --darkBlue: #25596d;
-  --orange: #ff7f1c;
-  --darkOrange: #803f0e;
-  --lightBlue: #cad7d9;
-}
-
-* {
-  margin: 0;
-  font-family: Montserrat, Arial;
-}
-
-body {
-  background-color: var(--backgroundBlue);
-}
-
-header {
-  background-color: var(--darkBlue);
-  display: flex;
-  justify-content: space-between;
-  padding: 0% 10%;
-}
-
-/* Logo Header */
-
-.logosContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  gap: 10px;
-}
-
-.divLogo {
-  height: 100%;
-  width: 1px;
-  background-color: white;
-}
-
-.logosContainer img {
-  height: 100px;
-}
-
-/* Opções Header */
-
-.opcoesContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
-}
-
-.opcoesContainer a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-
-/* Footer */
-
-footer {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  padding: 1.5rem;
-  background-color: var(--darkBlue);
-}
-
-footer nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-footer nav {
-  display: flex;
-  gap: 1rem;
-  margin: 0;
-  list-style: none;
-}
-footer nav a {
-  font-weight: 500;
-  color: white;
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-
-/* Main Image */
-
-.mainImage {
-  position: relative;
-  height: 45dvh;
-  overflow: hidden;
-  display: flex;
-  z-index: -1;
-}
-
-.mainImage img {
-  width: 100%;
-  object-fit: cover;
-}
-
-.floatingCards {
-  position: absolute;
-  color: white;
-  font-weight: 600;
-  font-size: 1.1rem;
-  text-align: center;
-  height: 45dvh;
-  right: 10%;
-}
-
-.floatingCardsTop, .floatingCardsBottom {
-  padding: 1.5rem 1rem;
-  width: 250px;
-}
-
-.floatingCardsTop {
-  position: relative;
-  background-color: var(--orange);
-  border-radius: 0 0 1rem 1rem;
-  z-index: 1;
-}
-.floatingCardsBottom {
-  position: absolute;
-  top: 80px;
-  left: -25%;
-  z-index: 0;
-  background-color: var(--darkBlue);
-  border-radius: 1rem;
-}
 
 /* MAIN PAGE - START*/
 
 /* Áreas de Interesse */
 
 .areasInteresse {
-  padding: 2rem 10%;
+  padding: 2rem 20%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -162,11 +31,11 @@ footer nav a {
   align-items: center;
   background-color: white;
   padding: 0.8rem;
-  border-radius: 1rem;
-  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
   text-decoration: none;
   color: var(--darkBlue);
-  font-weight: 500;
+  font-weight: 600;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -182,7 +51,7 @@ footer nav a {
   background-color: var(--lightBlue);
   border-radius: 1rem;
   height: 600px;
-  margin: 2rem 10%;
+  margin: 2rem 20%;
   padding: 2rem;
 }
 
@@ -258,8 +127,8 @@ footer nav a {
 #carouselNext,
 #carouselPrev {
   position: absolute;
-  top: 50%;
   left: 5px;
+  padding: 20% 10%;
   color: var(--orange);
   border: none;
   background-color: transparent;
@@ -310,9 +179,12 @@ footer nav a {
 /* Sobre */
 
 .sobreSection {
-  padding: 4rem 0;
+  padding: 10rem 0;
   color: var(--darkBlue);
   background-color: var(--lightBlue);
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
 }
 
 .sobreHeader {

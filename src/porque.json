@@ -4,11 +4,19 @@
         "text": "ENTRE AS 10 UNIVERSIDADES MAIS RESPEITADAS PELOS EMPREGADORES DO BRASIL"
     }, 
     {
-        "iconName": "school-outline",
+        "iconName": "time-outline",
         "text": "60 ANOS DE QUALIDADE E TRADIÇÃO"
     },
     {
         "iconName": "earth-outline",
         "text": "A MAIOR UNIVERSIDADE CATÓLICA DO MUNDO"
+    },
+    {
+        "iconName": "flask-outline",
+        "text": "LABORATÓRIOS COMPLETOS COM ESTRUTURA DE PONTA"
+    },
+    {
+        "iconName": "school-outline",
+        "text": "95% DO CORPO DOCENTE FORMADO POR MESTRES E DOUTORES"
     }
 ]

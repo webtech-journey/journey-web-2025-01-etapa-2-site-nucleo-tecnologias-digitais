@@ -1,0 +1,133 @@
+:root {
+    --backgroundBlue: #dde8ea;
+    --darkBlue: #25596d;
+    --orange: #ff7f1c;
+    --darkOrange: #803f0e;
+    --lightBlue: #cad7d9;
+  }
+  
+  * {
+    margin: 0;
+    font-family: Montserrat, Arial;
+  }
+  
+  body {
+    background-color: var(--backgroundBlue);
+  }
+  
+  header {
+    background-color: var(--darkBlue);
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 10%;
+  }
+  
+  /* Logo Header */
+  
+  .logosContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+  }
+  
+  .divLogo {
+    height: 100%;
+    width: 1px;
+    background-color: white;
+  }
+  
+  .logosContainer img {
+    height: 100px;
+  }
+  
+  /* Opções Header */
+  
+  .opcoesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .opcoesContainer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 2rem;
+  }
+  
+  /* Footer */
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    background-color: var(--darkBlue);
+  }
+  
+  footer nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer nav {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    list-style: none;
+  }
+  footer nav a {
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  /* Main Image */
+  
+  .mainImage {
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    z-index: -1;
+  }
+  
+  .mainImage img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .floatingCards {
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    height: 45dvh;
+    right: 10%;
+  }
+  
+  .floatingCardsTop, .floatingCardsBottom {
+    padding: 1.8rem 1rem;
+    width: 250px;
+  }
+  
+  .floatingCardsTop {
+    position: relative;
+    background-color: var(--orange);
+    border-radius: 0 0 1rem 1rem;
+    z-index: 1;
+  }
+  .floatingCardsBottom {
+    position: absolute;
+    top: 80px;
+    left: -25%;
+    z-index: 0;
+    background-color: var(--darkBlue);
+    border-radius: 1rem;
+  }
