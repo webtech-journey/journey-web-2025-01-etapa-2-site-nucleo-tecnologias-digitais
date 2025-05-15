@@ -91,18 +91,18 @@ fetch("videos.json")
     };
   });
 
+/* Populate Sobre */
+
 const sobre = document.getElementById("sobreCarousel");
 
 fetch("porque.json")
   .then((res) => res.json())
   .then((data) => {
+    sobre.style.setProperty("--quantity", data.length);
 
-    sobre.style.setProperty('--quantity', data.length)
-
-    var sobreCount = 0
-    data.forEach(sobreCard => {
-      
-      sobreCount++
+    var sobreCount = 0;
+    data.forEach((sobreCard) => {
+      sobreCount++;
 
       sobre.innerHTML += `
       <div class="sobreCard" style="--position: ${sobreCount}">
@@ -111,8 +111,39 @@ fetch("porque.json")
               </span>
               <h3>${sobreCard.text}</h3>
         </div>
-      `
+      `;
+    });
+  });
+
+/* Populate Cursos */
+
+const cursosContainer = document.getElementById("cursosContainer");
+
+fetch("https://apisisiec.rommelcarneiro.me/cursos?ativo=true")
+  .then((res) => res.json())
+  .then((data) => {
+    data.forEach((curso) => {
+      cursosContainer.innerHTML += `
+      <div class="cursoCard">
+        <div class="cursoIcon">
+          <h4>Online</h4>
+          <img
+            src="https://icei.pucminas.br/latosensu/assets/icones/${curso.dsc_sigla_curso}.svg"
+          />
+        </div>
+        <div class="cursoDesc">
+          <h3>${curso.dsc_titulo_visualizacao}</h3>
+          <a href="">Detalhes</a>
+        </div>
+
+      </div>
+      `;
+      console.log(curso);
     });
 
-    console.log(data)
+    cursosContainer.innerHTML += `
+        <div class="nextCurso">
+          <button>></button>
+        </div>
+    `;
   });

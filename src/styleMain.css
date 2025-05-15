@@ -1,5 +1,104 @@
 /* MAIN PAGE - START*/
 
+/* Cursos */
+
+.cursos {
+  padding: 0 10%;
+}
+
+.cursosContainer {
+  /* background-color: red; */
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  height: 250px;
+  gap: 1dvw;
+
+}
+
+.cursoCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(var(--darkerBlue) 25%, var(--darkBlue) 75%);
+  min-width: 200px;
+  height: 100%;
+  border-radius: 1rem;
+  color: white;
+}
+
+.cursoIcon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.cursoIcon h4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0.5rem;
+  padding: 0.25rem;
+  background-color: var(--darkBlue);
+  border-radius: 1rem;
+  z-index: 1;
+}
+
+.cursoIcon img{
+  filter: brightness(100);
+  height: 100px;
+  object-fit: scale-down;
+}
+
+.cursoDesc {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding: 1rem;
+}
+
+.cursoDesc h3 {
+  font-size: 1rem;
+}
+
+.cursoDesc a {
+  background-color: white;
+  text-decoration: none;
+  color: var(--darkerBlue);
+  border: none;
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.nextCurso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  height: 100%;
+  padding: 1rem;
+  background-color: var(--backgroundBlue);
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.nextCurso button {
+  cursor: pointer;
+  background-color: var(--darkBlue);
+  border: none;
+  color: white;
+  width: 4rem;
+  height: 4rem;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
 /* Áreas de Interesse */
 
 .areasInteresse {
@@ -369,6 +468,10 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+  }
+
+  .cursos {
+    padding: 0 5%;
   }
 
   .carouselSection {

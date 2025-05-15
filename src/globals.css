@@ -1,6 +1,7 @@
 :root {
   --backgroundBlue: #dde8ea;
   --darkBlue: #25596d;
+  --darkerBlue: #223a42;
   --orange: #ff7f1c;
   --darkOrange: #803f0e;
   --lightBlue: #cad7d9;
@@ -173,7 +174,6 @@ footer nav a {
   .mainImage {
     height: 200px;
   }
-
   .floatingCards {
     right: 2%;
     font-size: 0.65rem;
