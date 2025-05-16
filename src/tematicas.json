@@ -1,0 +1,72 @@
+[
+    {
+      "id_tematica": 1,
+      "tematica_name": "Aplicações Distribuídas",
+      "dsc_sigla_tematica": "AD"
+    },
+    {
+      "id_tematica": 2,
+      "tematica_name": "Automação",
+      "dsc_sigla_tematica": "AU"
+    },
+    {
+      "id_tematica": 3,
+      "tematica_name": "Bancos de Dados",
+      "dsc_sigla_tematica": "BD"
+    },
+    {
+      "id_tematica": 4,
+      "tematica_name": "Cloud e Redes",
+      "dsc_sigla_tematica": "CR"
+    },
+    {
+      "id_tematica": 5,
+      "tematica_name": "Data Analytics",
+      "dsc_sigla_tematica": "DA"
+    },
+    {
+      "id_tematica": 6,
+      "tematica_name": "Desenvolvimento de Software",
+      "dsc_sigla_tematica": "DS"
+    },
+    {
+      "id_tematica": 7,
+      "tematica_name": "Estratégia de Dados",
+      "dsc_sigla_tematica": "ED"
+    },
+    {
+      "id_tematica": 8,
+      "tematica_name": "Games",
+      "dsc_sigla_tematica": "GA"
+    },
+    {
+      "id_tematica": 9,
+      "tematica_name": "Metodologias e Processos",
+      "dsc_sigla_tematica": "MP"
+    },
+    {
+      "id_tematica": 10,
+      "tematica_name": "Negócios Digitais",
+      "dsc_sigla_tematica": "ND"
+    },
+    {
+      "id_tematica": 11,
+      "tematica_name": "Planejamento e Gestão",
+      "dsc_sigla_tematica": "PG"
+    },
+    {
+      "id_tematica": 12,
+      "tematica_name": "Saúde",
+      "dsc_sigla_tematica": "SA"
+    },
+    {
+      "id_tematica": 13,
+      "tematica_name": "Segurança",
+      "dsc_sigla_tematica": "SI"
+    },
+    {
+      "id_tematica": 14,
+      "tematica_name": "UX e Design",
+      "dsc_sigla_tematica": "UD"
+    }
+  ]

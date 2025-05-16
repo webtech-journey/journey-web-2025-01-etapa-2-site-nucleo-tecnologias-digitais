@@ -119,35 +119,47 @@ fetch("porque.json")
 
 const cursosFiltro = document.getElementById("areaCardContainer");
 
-fetch("");
+fetch("tematicas.json")
+  .then((res) => res.json())
+  .then((data) => {
+    data.forEach((tematica) => {
+      cursosFiltro.innerHTML += `
+    <button name="tematica" value="${tematica.id_tematica}" class="areaCard">
+      ${tematica.tematica_name}
+    </button>
+    `;
+    });
+  });
 
 /* Populate Cursos */
 
 const cursosContainer = document.getElementById("cursosContainer");
 
-fetch("https://apisisiec.rommelcarneiro.me/cursos?ativo=true")
+fetch("cursos.json")
   .then((res) => res.json())
   .then((data) => {
     let index = 0;
 
-    data.forEach((curso) => {
-      cursosContainer.innerHTML += `
+    data.forEach((categoria) => {
+      categoria.cursos.forEach((curso) => {
+        cursosContainer.innerHTML += `
       <div class="cursoCard" id="card${index}">
       <div class="cursoIcon">
-      <h4>Online</h4>
+      <h4>${curso.modalidade}</h4>
       <img
-      src="https://icei.pucminas.br/latosensu/assets/icones/${curso.dsc_sigla_curso}.svg"
+      src="https://icei.pucminas.br/latosensu/assets/icones/${curso.icon}.svg"
       />
       </div>
       <div class="cursoDesc">
-      <h3>${curso.dsc_titulo_visualizacao}</h3>
+      <h3>${curso.nome_do_curso}</h3>
       <a href="">Detalhes</a>
       </div>
       
       </div>
       `;
 
-      index++;
+        index++;
+      });
     });
 
     const prevCurso = document.getElementById("prevCurso");
@@ -181,7 +193,6 @@ fetch("https://apisisiec.rommelcarneiro.me/cursos?ativo=true")
     }
     changeScrollBtn(0);
 
-
     let leftPos = 0;
     let rightPos = 1;
 
@@ -203,7 +214,6 @@ fetch("https://apisisiec.rommelcarneiro.me/cursos?ativo=true")
         firstElement++;
         cursosContainer.scrollLeft = 210 * firstElement;
         rightPos = 210 * firstElement;
-
       }
       changeScrollBtn(rightPos);
     };

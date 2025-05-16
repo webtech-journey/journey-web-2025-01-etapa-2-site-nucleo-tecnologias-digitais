@@ -1,0 +1,2190 @@
+[
+    {
+      "id_curso": 10,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Engenharia de Software Online",
+      "dsc_sigla_curso": "ES",
+      "criado_em": "2021-12-24T17:53:17.195Z",
+      "atualizado_em": "2021-12-24T17:53:17.195Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Engenharia de Software",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Engenharia-de-Software_Online.aspx?pageID=381&moda=5&modaTipo=2&polo=40&curso=174&situ=1",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        4,
+        74,
+        83,
+        262,
+        263,
+        265,
+        269,
+        277,
+        294,
+        360,
+        384,
+        413,
+        499,
+        609,
+        621,
+        730
+      ],
+      "ids_tematicas": [
+        6,
+        9,
+        10
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 11,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Gestão e Análise Estratégica de Dados Online",
+      "dsc_sigla_curso": "GAED",
+      "criado_em": "2021-12-24T17:53:18.876Z",
+      "atualizado_em": "2021-12-24T17:53:18.877Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Gestão e Análise Estratégica de Dados",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Gest%C3%A3o-e-An%C3%A1lise-Estrat%C3%A9gica-de-Dados_Online.aspx?pageID=3821&moda=5&modaTipo=2&polo=40&curso=707&situ=1",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        74,
+        162,
+        164,
+        166,
+        167,
+        169,
+        170,
+        270,
+        289,
+        413,
+        511,
+        512,
+        603,
+        604,
+        605,
+        606
+      ],
+      "ids_tematicas": [
+        5,
+        10,
+        11
+      ],
+      "ids_nucleos": [
+        2
+      ]
+    },
+    {
+      "id_curso": 12,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Analytics e Business Intelligence Online",
+      "dsc_sigla_curso": "ABI",
+      "criado_em": "2021-12-24T17:53:17.755Z",
+      "atualizado_em": "2022-02-28T19:54:18.385Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "Analytics e Business Intelligence",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Analytics-e-Business-Intelligence_Online.aspx?pageID=3812&moda=5&modaTipo=2&polo=40&curso=134&situ=1",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        21,
+        27,
+        28,
+        74,
+        121,
+        162,
+        167,
+        169,
+        268,
+        284,
+        289,
+        304,
+        413,
+        603,
+        619,
+        762
+      ],
+      "ids_tematicas": [
+        3,
+        5,
+        10
+      ],
+      "ids_nucleos": [
+        2
+      ]
+    },
+    {
+      "id_curso": 13,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Ciência de Dados e Big Data Online",
+      "dsc_sigla_curso": "CDBD",
+      "criado_em": "2021-12-24T17:53:19.440Z",
+      "atualizado_em": "2021-12-24T17:53:19.440Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "Ciência de Dados e Big Data",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Ci%C3%AAncia-de-Dados-e-Big-Data-_Online.aspx",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        28,
+        30,
+        166,
+        169,
+        265,
+        268,
+        270,
+        304,
+        402,
+        413,
+        415,
+        416,
+        497,
+        618,
+        619,
+        732
+      ],
+      "ids_tematicas": [
+        5,
+        10,
+        12
+      ],
+      "ids_nucleos": [
+        2
+      ]
+    },
+    {
+      "id_curso": 15,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Arquitetura de Software Distribuído Online",
+      "dsc_sigla_curso": "ASD",
+      "criado_em": "2021-12-24T17:53:20.560Z",
+      "atualizado_em": "2021-12-24T17:53:20.561Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "Arquitetura de Software Distribuído",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Arquitetura-de-Software-Distribu%C3%ADdo-_Online.aspx?pageID=3814&moda=5&modaTipo=2&polo=40&curso=128&situ=1",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        4,
+        98,
+        103,
+        106,
+        262,
+        263,
+        269,
+        360,
+        384,
+        413,
+        414,
+        432,
+        602,
+        614,
+        677,
+        744
+      ],
+      "ids_tematicas": [
+        1,
+        6,
+        10
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 17,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Arquitetura de Soluções Online",
+      "dsc_sigla_curso": "AS",
+      "criado_em": "2021-12-24T17:53:21.682Z",
+      "atualizado_em": "2021-12-24T17:53:21.682Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Arquitetura de Soluções",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Arquitetura%20de%20Solucoes_Pos%20Online_Especializacao%20e%20Master.aspx?pageID=4065&moda=5&modaTipo=2&polo=40&curso=1140&situ=1",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        4,
+        261,
+        262,
+        263,
+        269,
+        368,
+        384,
+        413,
+        432,
+        506,
+        670,
+        677,
+        745,
+        747,
+        765,
+        766
+      ],
+      "ids_tematicas": [
+        4,
+        10,
+        11
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 22,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Computação em Nuvem Online",
+      "dsc_sigla_curso": "CN",
+      "criado_em": "2021-12-24T17:53:23.368Z",
+      "atualizado_em": "2021-12-24T17:53:23.369Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "Computação em Nuvem",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Computa%C3%A7%C3%A3o-em-Nuvem_Online.aspx?pageID=3805&moda=5&modaTipo=2&polo=40&curso=141&situ=1",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        74,
+        267,
+        309,
+        316,
+        360,
+        384,
+        385,
+        386,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        413
+      ],
+      "ids_tematicas": [
+        4,
+        10,
+        13
+      ],
+      "ids_nucleos": [
+        4
+      ]
+    },
+    {
+      "id_curso": 29,
+      "id_unidade": 2,
+      "dsc_nome_curso": "CiberSegurança e Governança de Dados Online",
+      "dsc_sigla_curso": "CGD",
+      "criado_em": "2022-02-22T01:00:00.000Z",
+      "atualizado_em": "2022-02-22T01:00:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "CiberSegurança e Governança de Dados",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Ciberseguran%C3%A7a-e-Governan%C3%A7a-de-Dados.aspx?pageID=4357&moda=5&modaTipo=2&polo=40&curso=1443&situ=1",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        167,
+        324,
+        360,
+        361,
+        362,
+        364,
+        365,
+        366,
+        367,
+        368,
+        413,
+        428,
+        432,
+        469,
+        470,
+        712
+      ],
+      "ids_tematicas": [
+        4,
+        10,
+        13
+      ],
+      "ids_nucleos": [
+        4
+      ]
+    },
+    {
+      "id_curso": 32,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Engenharia de Dados Online",
+      "dsc_sigla_curso": "ED",
+      "criado_em": "2022-03-15T09:13:00.000Z",
+      "atualizado_em": "2022-03-15T09:13:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 3,
+      "dsc_titulo_visualizacao": "Engenharia de Dados",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Engenharia-de-Dados.aspx?pageID=3903&moda=5&modaTipo=2&polo=40&curso=607&situ=1",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        164,
+        167,
+        266,
+        267,
+        268,
+        269,
+        394,
+        395,
+        396,
+        397,
+        398,
+        399,
+        400,
+        401,
+        402,
+        413
+      ],
+      "ids_tematicas": [
+        3,
+        4,
+        7
+      ],
+      "ids_nucleos": [
+        2
+      ]
+    },
+    {
+      "id_curso": 34,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Inteligência Artificial e Aprendizado de Máquina Online",
+      "dsc_sigla_curso": "IAAM",
+      "criado_em": "2021-12-24T17:53:13.688Z",
+      "atualizado_em": "2022-08-30T10:54:20.916Z",
+      "ativo": true,
+      "ind_nivel_ti": 3,
+      "dsc_titulo_visualizacao": "Inteligência Artificial e Aprendizado de Máquina",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Intelig%C3%AAncia-Artificial-e-Aprendizado-de-M%C3%A1quina_Online.aspx?PageID=3823&moda=5&modaTipo=2&polo=40&curso=1097&situ=1",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        28,
+        30,
+        131,
+        166,
+        169,
+        258,
+        268,
+        270,
+        304,
+        413,
+        415,
+        416,
+        423,
+        686,
+        687,
+        692
+      ],
+      "ids_tematicas": [
+        5,
+        6,
+        7
+      ],
+      "ids_nucleos": [
+        2
+      ]
+    },
+    {
+      "id_curso": 35,
+      "id_unidade": 2,
+      "dsc_nome_curso": "UX e Design de Produtos Digitais Online",
+      "dsc_sigla_curso": "UDPD",
+      "criado_em": "2023-03-07T00:00:00.000Z",
+      "atualizado_em": "2023-03-07T00:00:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "UX e Design de Produtos Digitais",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/UX%20e%20Design%20de%20Produtos%20Digitais-.aspx?PageID=3868&moda=5&modaTipo=2&polo=40&curso=327&situ=1",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        74,
+        270,
+        413,
+        479,
+        480,
+        481,
+        482,
+        483,
+        485,
+        486,
+        487,
+        488,
+        489,
+        490,
+        767,
+        777
+      ],
+      "ids_tematicas": [
+        10,
+        14
+      ],
+      "ids_nucleos": [
+        5
+      ]
+    },
+    {
+      "id_curso": 36,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Automação de Processos: RPA e Hiperautomação Online",
+      "dsc_sigla_curso": "APRH",
+      "criado_em": "2023-03-07T00:00:00.000Z",
+      "atualizado_em": "2023-03-07T00:00:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "Automação de Processos: RPA e Hiperautomação",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Automa%C3%A7%C3%A3o-de-Processos-RPA-e-hiperautoma%C3%A7%C3%A3o.aspx?pageID=4468&moda=5&modaTipo=2&polo=40&curso=1535&situ=1",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        4,
+        164,
+        269,
+        413,
+        446,
+        447,
+        448,
+        449,
+        450,
+        616,
+        689,
+        730,
+        748,
+        749,
+        760,
+        761
+      ],
+      "ids_tematicas": [
+        2,
+        9,
+        10
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 37,
+      "id_unidade": 2,
+      "dsc_nome_curso": "DevOps & Continuous Software Engineering Online",
+      "dsc_sigla_curso": "DCSE",
+      "criado_em": "2023-03-07T00:00:00.000Z",
+      "atualizado_em": "2023-03-07T00:00:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 3,
+      "dsc_titulo_visualizacao": "DevOps & Continuous Software Engineering",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/DevOps--Continuous-Software-Engineering.aspx?PageID=4469&moda=5&modaTipo=2&polo=40&curso=1536&situ=1",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        4,
+        360,
+        384,
+        413,
+        432,
+        454,
+        455,
+        456,
+        459,
+        460,
+        461,
+        509,
+        609,
+        620,
+        730,
+        731
+      ],
+      "ids_tematicas": [
+        2,
+        4,
+        6
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 38,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Site Reliability Engineering",
+      "dsc_sigla_curso": "SRE",
+      "criado_em": "2023-03-07T00:00:00.000Z",
+      "atualizado_em": "2023-03-07T00:00:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "Site Reliability Engineering",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Site-Reliability-Engineering-(SRE).aspx?pageID=4478&moda=5&modaTipo=2&polo=40&curso=1545&situ=1",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        316,
+        384,
+        413,
+        432,
+        456,
+        460,
+        502,
+        509,
+        690,
+        691,
+        726,
+        731,
+        770,
+        772,
+        773,
+        775
+      ],
+      "ids_tematicas": [
+        2,
+        4,
+        13
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 39,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Arquitetura de Dados",
+      "dsc_sigla_curso": "AD",
+      "criado_em": "2023-03-07T00:00:00.000Z",
+      "atualizado_em": "2023-03-07T00:00:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "Arquitetura de Dados",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Arquitetura-de-Dados.aspx?pageID=4467&moda=5&modaTipo=2&polo=40&curso=151&situ=1",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        167,
+        268,
+        270,
+        398,
+        400,
+        413,
+        429,
+        432,
+        613,
+        671,
+        672,
+        673,
+        679,
+        741,
+        742,
+        743
+      ],
+      "ids_tematicas": [
+        1,
+        3,
+        9
+      ],
+      "ids_nucleos": [
+        2
+      ]
+    },
+    {
+      "id_curso": 40,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Engenharia de Redes Online",
+      "dsc_sigla_curso": "ER",
+      "criado_em": "2023-03-16T00:00:00.000Z",
+      "atualizado_em": "2024-10-01T18:10:00.536Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "Engenharia de Redes",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Engenharia-de-Redes-Online.aspx?PageID=3809&moda=5&modaTipo=2&polo=40&curso=334&situ=1",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        267,
+        316,
+        328,
+        330,
+        384,
+        413,
+        472,
+        473,
+        474,
+        475,
+        476,
+        477
+      ],
+      "ids_tematicas": [
+        4,
+        13
+      ],
+      "ids_nucleos": [
+        4
+      ]
+    },
+    {
+      "id_curso": 41,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Engenharia de Qualidade e Teste de Software",
+      "dsc_sigla_curso": "EQTS",
+      "criado_em": "2021-12-24T17:53:11.165Z",
+      "atualizado_em": "2021-12-24T17:53:11.165Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Engenharia de Qualidade e Teste de Software",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Engenharia%20de%20Qualidade%20e%20Teste%20de%20Software_Pos%20Online_Especializacao%20e%20Master.aspx?pageID=4585&moda=5&modaTipo=2&polo=40&curso=1634&situ=1",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        167,
+        384,
+        413,
+        432,
+        456,
+        501,
+        502,
+        505,
+        723,
+        724,
+        725,
+        726,
+        727,
+        728,
+        729,
+        730
+      ],
+      "ids_tematicas": [
+        5,
+        10
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 42,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Estatística para Ciência de Dados",
+      "dsc_sigla_curso": "ECD",
+      "criado_em": "2021-12-24T17:53:11.165Z",
+      "atualizado_em": "2021-12-24T17:53:11.165Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Estatística para Ciência de Dados",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Estat%C3%ADstica-para-Ci%C3%AAncia-de-Dados.aspx?pageID=4473&moda=5&modaTipo=2&polo=40&curso=1540&situ=1",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        28,
+        167,
+        268,
+        270,
+        304,
+        413,
+        415,
+        416,
+        491,
+        492,
+        493,
+        494,
+        495,
+        496,
+        497,
+        619
+      ],
+      "ids_tematicas": [
+        6,
+        9,
+        11
+      ],
+      "ids_nucleos": [
+        2
+      ]
+    },
+    {
+      "id_curso": 44,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Geoprocessamento EAD",
+      "dsc_sigla_curso": "GEO",
+      "criado_em": "2023-09-22T17:02:07.624Z",
+      "atualizado_em": "2023-09-22T16:00:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Geoprocessamento",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Geoprocessamento_EAD_Especializacao%20e%20Master.aspx?pageID=5326&moda=5&polo=43&curso=1889&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        524,
+        526,
+        527,
+        538,
+        542,
+        543,
+        544,
+        545,
+        562,
+        566,
+        568,
+        569,
+        578,
+        591,
+        597,
+        658
+      ],
+      "ids_tematicas": [
+        1,
+        3,
+        10
+      ],
+      "ids_nucleos": [
+        5
+      ]
+    },
+    {
+      "id_curso": 45,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Geoprocessamento e Análise Espacial",
+      "dsc_sigla_curso": "GAP",
+      "criado_em": "2023-09-22T17:02:07.787Z",
+      "atualizado_em": "2023-09-22T16:00:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Geoprocessamento e Análise Espacial",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Geoprocessamento-e-An%C3%A1lise-Espacial.aspx?pageID=3934&moda=5&modaTipo=2&polo=40&curso=296&situ=1",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        413,
+        517,
+        518,
+        519,
+        541,
+        563,
+        587,
+        639,
+        640,
+        642,
+        643,
+        644
+      ],
+      "ids_tematicas": [
+        1,
+        3,
+        10
+      ],
+      "ids_nucleos": [
+        2
+      ]
+    },
+    {
+      "id_curso": 46,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Geotecnologias e Desenvolvimento de SIG EAD",
+      "dsc_sigla_curso": "GDS",
+      "criado_em": "2023-09-22T17:02:07.945Z",
+      "atualizado_em": "2023-09-22T16:00:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Geotecnologias e Desenvolvimento de SIG",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/GeotecnologiaseDesenvolvimentodeSIG%E2%80%93SistemadeInformacaoGeografica_EAD_Especializacao%20e%20Master.aspx?pageID=5316&moda=5&polo=43&curso=1882&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        4,
+        74,
+        262,
+        309,
+        524,
+        530,
+        531,
+        542,
+        545,
+        546,
+        561,
+        562,
+        569,
+        570,
+        591,
+        658
+      ],
+      "ids_tematicas": [
+        1,
+        3,
+        10
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 49,
+      "id_unidade": 3,
+      "dsc_nome_curso": "MBA em Gestão Estratégica de TI EAD",
+      "dsc_sigla_curso": "GETI",
+      "criado_em": "2023-09-22T17:02:08.374Z",
+      "atualizado_em": "2023-09-22T16:00:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "MBA em Gestão Estratégica de TI",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/MBAemGestaoEstrategicadeTI_EAD_Especializacao%20e%20Master.aspx?pageID=5362&moda=5&polo=43&curso=1674&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        74,
+        167,
+        261,
+        309,
+        316,
+        320,
+        321,
+        384,
+        484,
+        528,
+        551,
+        552,
+        577,
+        598,
+        599,
+        658
+      ],
+      "ids_tematicas": [
+        4,
+        10,
+        11
+      ],
+      "ids_nucleos": [
+        4
+      ]
+    },
+    {
+      "id_curso": 52,
+      "id_unidade": 2,
+      "dsc_nome_curso": "MBA em Marketing Analytics",
+      "dsc_sigla_curso": "MMA",
+      "criado_em": "2023-09-22T17:02:08.850Z",
+      "atualizado_em": "2023-09-22T16:00:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "MBA em Marketing Analytics",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Marketing-Analytics-opera%C3%A7%C3%B5es,-big-data-e-metodologias-%C3%A1geis.aspx?pageID=4353&moda=5&modaTipo=2&polo=40&curso=1440&situ=1",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        74,
+        167,
+        169,
+        270,
+        277,
+        413,
+        510,
+        515,
+        516,
+        525,
+        549,
+        557,
+        565,
+        596,
+        771,
+        776,
+        777
+      ],
+      "ids_tematicas": [
+        5,
+        10,
+        11
+      ],
+      "ids_nucleos": [
+        5
+      ]
+    },
+    {
+      "id_curso": 53,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Analytics e Business Intelligence EAD",
+      "dsc_sigla_curso": "ABI",
+      "criado_em": "2023-10-05T22:33:37.347Z",
+      "atualizado_em": "2023-10-05T01:01:01.001Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "Analytics e Business Intelligence",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/AnalyticseBusinessIntelligence_EAD_Especializacao%20e%20Master.aspx?pageID=5272&moda=5&polo=43&curso=134&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        21,
+        27,
+        28,
+        74,
+        121,
+        167,
+        169,
+        265,
+        268,
+        284,
+        289,
+        304,
+        603,
+        619,
+        658,
+        762
+      ],
+      "ids_tematicas": [
+        3,
+        5,
+        10
+      ],
+      "ids_nucleos": [
+        2
+      ]
+    },
+    {
+      "id_curso": 54,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Arquitetura de Software Distribuído EAD",
+      "dsc_sigla_curso": "ASD",
+      "criado_em": "2023-10-05T22:33:37.598Z",
+      "atualizado_em": "2023-10-05T01:01:01.001Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "Arquitetura de Software Distribuído",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/ArquiteturadeSoftwareDistribuido_EAD_Especializacao%20e%20Master.aspx?pageID=5205&moda=5&polo=43&curso=128&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        4,
+        98,
+        103,
+        106,
+        262,
+        263,
+        269,
+        360,
+        384,
+        414,
+        432,
+        602,
+        614,
+        658,
+        677,
+        744
+      ],
+      "ids_tematicas": [
+        1,
+        6,
+        10
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 55,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Arquitetura de Soluções EAD",
+      "dsc_sigla_curso": "AS",
+      "criado_em": "2023-10-05T22:33:37.757Z",
+      "atualizado_em": "2023-10-05T01:01:01.001Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Arquitetura de Soluções",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/ArquiteturadeSolucoes_EAD_Especializacao%20e%20Master.aspx?pageID=5286&moda=5&polo=43&curso=1140&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        4,
+        261,
+        262,
+        263,
+        269,
+        368,
+        384,
+        432,
+        506,
+        658,
+        670,
+        677,
+        745,
+        747,
+        765,
+        766
+      ],
+      "ids_tematicas": [
+        4,
+        10,
+        11
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 56,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Ciência de Dados e Big Data EAD",
+      "dsc_sigla_curso": "CDBD",
+      "criado_em": "2023-10-05T22:33:37.915Z",
+      "atualizado_em": "2023-10-05T01:01:01.001Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "Ciência de Dados e Big Data",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/CienciadedadoseBigData_EAD_Especializacao%20e%20Master.aspx?pageID=5233&moda=5&polo=43&curso=138&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        28,
+        30,
+        166,
+        169,
+        265,
+        268,
+        270,
+        304,
+        402,
+        415,
+        416,
+        442,
+        618,
+        619,
+        658,
+        732
+      ],
+      "ids_tematicas": [
+        5,
+        10,
+        12
+      ],
+      "ids_nucleos": [
+        2
+      ]
+    },
+    {
+      "id_curso": 57,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Computação em Nuvem EAD",
+      "dsc_sigla_curso": "CN",
+      "criado_em": "2023-10-05T22:51:35.368Z",
+      "atualizado_em": "2023-10-05T01:01:01.001Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "Computação em Nuvem",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/ComputacaoemNuvem_EAD_Especializacao%20e%20Master.aspx?pageID=5249&moda=5&polo=43&curso=141&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        74,
+        267,
+        309,
+        316,
+        360,
+        384,
+        385,
+        386,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        658
+      ],
+      "ids_tematicas": [
+        4,
+        10,
+        13
+      ],
+      "ids_nucleos": [
+        4
+      ]
+    },
+    {
+      "id_curso": 58,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Mobile Engineering EAD",
+      "dsc_sigla_curso": "ME",
+      "criado_em": "2023-10-05T22:51:35.629Z",
+      "atualizado_em": "2023-10-05T01:01:01.001Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "Mobile Engineering",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/MobileEngineering_EAD_Especializacao%20e%20Master.aspx?pageID=5343&moda=5&polo=43&curso=1053&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        4,
+        74,
+        274,
+        277,
+        608,
+        610,
+        611,
+        625,
+        626,
+        627,
+        628,
+        629,
+        630,
+        632,
+        633,
+        658
+      ],
+      "ids_tematicas": [
+        1,
+        6,
+        14
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 59,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Desenvolvimento Full Stack EAD",
+      "dsc_sigla_curso": "DFS",
+      "criado_em": "2023-10-05T22:51:35.772Z",
+      "atualizado_em": "2023-10-05T01:01:01.001Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "Desenvolvimento Full Stack",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/DesenvolvimentoFullStack_EAD_Especializacao%20e%20Master.aspx?pageID=5403&moda=5&polo=43&curso=691&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        4,
+        74,
+        262,
+        265,
+        269,
+        277,
+        311,
+        314,
+        452,
+        608,
+        611,
+        634,
+        635,
+        636,
+        637,
+        658
+      ],
+      "ids_tematicas": [
+        1,
+        3,
+        6
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 60,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Engenharia de Dados EAD",
+      "dsc_sigla_curso": "ED",
+      "criado_em": "2023-10-05T22:51:35.924Z",
+      "atualizado_em": "2023-10-05T01:01:01.001Z",
+      "ativo": true,
+      "ind_nivel_ti": 3,
+      "dsc_titulo_visualizacao": "Engenharia de Dados",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/EngenhariadeDados_EAD_Especializacao%20e%20Master.aspx?pageID=5314&moda=5&polo=43&curso=607&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        164,
+        167,
+        266,
+        267,
+        269,
+        394,
+        395,
+        396,
+        397,
+        398,
+        399,
+        400,
+        401,
+        402,
+        584,
+        658
+      ],
+      "ids_tematicas": [
+        3,
+        4,
+        7
+      ],
+      "ids_nucleos": [
+        2
+      ]
+    },
+    {
+      "id_curso": 61,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Engenharia de Software EAD",
+      "dsc_sigla_curso": "ES",
+      "criado_em": "2023-10-05T22:51:36.065Z",
+      "atualizado_em": "2023-10-05T01:01:01.001Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Engenharia de Software",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/EngenhariadeSoftware_EAD_Especializacao%20e%20Master.aspx?pageID=5217&moda=5&polo=43&curso=174&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        4,
+        74,
+        83,
+        262,
+        263,
+        265,
+        269,
+        277,
+        294,
+        360,
+        384,
+        499,
+        609,
+        621,
+        658,
+        730
+      ],
+      "ids_tematicas": [
+        6,
+        9,
+        10
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 62,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Gestão e Análise Estratégica de Dados EAD",
+      "dsc_sigla_curso": "GAED",
+      "criado_em": "2023-10-05T22:51:36.221Z",
+      "atualizado_em": "2023-10-05T01:01:01.001Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Gestão e Análise Estratégica de Dados",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/GestaoeAnaliseEstrategicadeDados_EAD_Especializacao%20e%20Master.aspx?pageID=5274&moda=5&polo=43&curso=707&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        21,
+        74,
+        164,
+        166,
+        167,
+        169,
+        170,
+        270,
+        289,
+        511,
+        512,
+        603,
+        604,
+        605,
+        606,
+        658
+      ],
+      "ids_tematicas": [
+        5,
+        10,
+        11
+      ],
+      "ids_nucleos": [
+        2
+      ]
+    },
+    {
+      "id_curso": 63,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Inteligência Artificial e Aprendizado de Máquina EAD",
+      "dsc_sigla_curso": "IAAM",
+      "criado_em": "2023-10-05T22:51:36.372Z",
+      "atualizado_em": "2023-10-05T01:01:01.001Z",
+      "ativo": true,
+      "ind_nivel_ti": 3,
+      "dsc_titulo_visualizacao": "Inteligência Artificial e Aprendizado de Máquina",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/InteligenciaArtificialeAprendizadodeMaquina_EAD_Especializacao%20e%20Master.aspx?pageID=5248&moda=5&polo=43&curso=1097&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        28,
+        30,
+        131,
+        166,
+        169,
+        258,
+        268,
+        270,
+        304,
+        415,
+        416,
+        423,
+        658,
+        686,
+        687,
+        692
+      ],
+      "ids_tematicas": [
+        5,
+        6,
+        7
+      ],
+      "ids_nucleos": [
+        2
+      ]
+    },
+    {
+      "id_curso": 64,
+      "id_unidade": 3,
+      "dsc_nome_curso": "CiberSegurança e Governança de Dados EAD",
+      "dsc_sigla_curso": "CGD",
+      "criado_em": "2023-10-05T23:30:16.307Z",
+      "atualizado_em": "2023-10-05T01:01:01.001Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "CiberSegurança e Governança de Dados",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/CibersegurancaeGovernancadeDados_EAD_Especializacao%20e%20Master.aspx?pageID=5309&moda=5&polo=43&curso=1443&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        167,
+        324,
+        360,
+        361,
+        362,
+        364,
+        365,
+        366,
+        367,
+        368,
+        428,
+        432,
+        469,
+        470,
+        658,
+        712
+      ],
+      "ids_tematicas": [
+        4,
+        10,
+        13
+      ],
+      "ids_nucleos": [
+        4
+      ]
+    },
+    {
+      "id_curso": 65,
+      "id_unidade": 2,
+      "dsc_nome_curso": "UX Engineering",
+      "dsc_sigla_curso": "UXE",
+      "criado_em": "2023-10-08T22:47:47.837Z",
+      "atualizado_em": "2023-10-08T10:45:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "UX Engineering",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Desenvolvimento%20Web%20Front%20End_Pos%20Online_Especializacao%20e%20Master.aspx",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        1,
+        4,
+        74,
+        263,
+        269,
+        413,
+        479,
+        483,
+        489,
+        510,
+        601,
+        608,
+        611,
+        636,
+        637,
+        767
+      ],
+      "ids_tematicas": [
+        6,
+        10,
+        14
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 66,
+      "id_unidade": 3,
+      "dsc_nome_curso": "UX Engineering EAD",
+      "dsc_sigla_curso": "UXE",
+      "criado_em": "2023-10-08T22:48:38.219Z",
+      "atualizado_em": "2023-10-08T10:45:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "UX Engineering",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/UXEngineering_EAD_Especializacao%20e%20Master.aspx?pageID=5346&moda=5&polo=43&curso=1146&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        1,
+        4,
+        74,
+        263,
+        269,
+        479,
+        483,
+        489,
+        510,
+        601,
+        608,
+        611,
+        636,
+        637,
+        658,
+        767
+      ],
+      "ids_tematicas": [
+        6,
+        10,
+        14
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 67,
+      "id_unidade": 3,
+      "dsc_nome_curso": "UX e Design de Produtos Digitais EAD",
+      "dsc_sigla_curso": "UDPD",
+      "criado_em": "2023-10-16T13:24:56.687Z",
+      "atualizado_em": "2023-10-05T01:01:01.001Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "UX e Design de Produtos Digitais",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/UXeDesigndeProdutosDigitais_EAD_Especializacao%20e%20Master.aspx?pageID=5345&moda=5&polo=43&curso=327&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        74,
+        270,
+        479,
+        480,
+        481,
+        482,
+        483,
+        485,
+        486,
+        487,
+        488,
+        489,
+        601,
+        658,
+        767,
+        777
+      ],
+      "ids_tematicas": [
+        10,
+        14
+      ],
+      "ids_nucleos": [
+        5
+      ]
+    },
+    {
+      "id_curso": 69,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Arquitetura de Dados EAD",
+      "dsc_sigla_curso": "AD",
+      "criado_em": "2023-10-17T05:08:59.943Z",
+      "atualizado_em": "2023-10-08T10:45:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Arquitetura de Dados",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/ArquiteturadeDados_EAD_Especializacao%20e%20Master.aspx?pageID=5339&moda=5&polo=43&curso=1533&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        167,
+        268,
+        270,
+        398,
+        400,
+        429,
+        432,
+        613,
+        658,
+        671,
+        672,
+        673,
+        679,
+        741,
+        742,
+        743
+      ],
+      "ids_tematicas": [
+        1,
+        3,
+        9
+      ],
+      "ids_nucleos": [
+        2
+      ]
+    },
+    {
+      "id_curso": 70,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Automação de Processos: RPA e Hiperautomação EAD",
+      "dsc_sigla_curso": "APRH",
+      "criado_em": "2023-10-17T05:09:00.343Z",
+      "atualizado_em": "2023-10-08T10:45:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Automação de Processos: RPA e Hiperautomação",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/AutomacaodeProcessosRPAeHiperautomacao_EAD_Especializacao%20e%20Master.aspx?pageID=5340&moda=5&polo=43&curso=1900&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        4,
+        164,
+        269,
+        446,
+        447,
+        448,
+        449,
+        450,
+        616,
+        658,
+        689,
+        730,
+        748,
+        749,
+        760,
+        761
+      ],
+      "ids_tematicas": [
+        2,
+        9,
+        10
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 71,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Ciência de Dados Aplicada à Saude EAD",
+      "dsc_sigla_curso": "CDAS",
+      "criado_em": "2023-10-17T05:09:00.523Z",
+      "atualizado_em": "2023-10-08T10:45:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Ciência de Dados Aplicada à Saude",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Cienciadedadosaplicadaasaude_EAD_Especializacao%20e%20Master.aspx?pageID=5310&moda=5&polo=43&curso=1382&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        166,
+        167,
+        169,
+        270,
+        286,
+        304,
+        418,
+        442,
+        618,
+        658,
+        682,
+        684,
+        778,
+        779,
+        780,
+        781
+      ],
+      "ids_tematicas": [
+        5,
+        10,
+        12
+      ],
+      "ids_nucleos": [
+        2
+      ]
+    },
+    {
+      "id_curso": 72,
+      "id_unidade": 3,
+      "dsc_nome_curso": "DevOps & Continuous Software Engineering EAD",
+      "dsc_sigla_curso": "DCSE",
+      "criado_em": "2023-10-17T05:09:00.688Z",
+      "atualizado_em": "2023-10-08T10:45:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 3,
+      "dsc_titulo_visualizacao": "DevOps & Continuous Software Engineering",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/DevOps_ContinuousSoftwareEngineering_EAD_Especializacao%20e%20Master.aspx?pageID=5439&moda=5&polo=43&curso=1536&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        4,
+        360,
+        384,
+        432,
+        454,
+        455,
+        456,
+        459,
+        460,
+        461,
+        509,
+        609,
+        620,
+        658,
+        730,
+        731
+      ],
+      "ids_tematicas": [
+        2,
+        4,
+        6
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 73,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Engenharia de Qualidade e Teste de Software EAD",
+      "dsc_sigla_curso": "EQTS",
+      "criado_em": "2023-10-17T05:09:00.844Z",
+      "atualizado_em": "2023-10-08T10:45:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Engenharia de Qualidade e Teste de Software",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/EngenhariadeQualidadeeTestedeSoftware_EAD_Especializacao%20e%20Master.aspx?pageID=5341&moda=5&polo=43&curso=1634&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        167,
+        384,
+        432,
+        456,
+        501,
+        502,
+        505,
+        658,
+        723,
+        724,
+        725,
+        726,
+        727,
+        728,
+        729,
+        730
+      ],
+      "ids_tematicas": [
+        5,
+        10
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 74,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Estatística para Ciência de Dados EAD",
+      "dsc_sigla_curso": "ECD",
+      "criado_em": "2023-10-17T05:09:01.002Z",
+      "atualizado_em": "2023-10-08T10:45:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Estatística para Ciência de Dados",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/EstatisticaparaCienciadeDados_EAD_Especializacao%20e%20Master.aspx?pageID=5342&moda=5&polo=43&curso=1540&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        28,
+        167,
+        268,
+        270,
+        304,
+        415,
+        416,
+        437,
+        441,
+        442,
+        491,
+        493,
+        494,
+        495,
+        619,
+        658
+      ],
+      "ids_tematicas": [
+        6,
+        9,
+        11
+      ],
+      "ids_nucleos": [
+        2
+      ]
+    },
+    {
+      "id_curso": 75,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Site Reliability Engineering EAD",
+      "dsc_sigla_curso": "SRE",
+      "criado_em": "2023-10-17T05:09:01.164Z",
+      "atualizado_em": "2023-10-08T10:45:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "Site Reliability Engineering (SRE)",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/SiteReliabilityEngineering_EAD_Especializacao%20e%20Master.aspx?pageID=5344&moda=5&polo=43&curso=1901&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        316,
+        384,
+        432,
+        456,
+        460,
+        502,
+        509,
+        658,
+        690,
+        691,
+        726,
+        731,
+        770,
+        772,
+        773,
+        775
+      ],
+      "ids_tematicas": [
+        2,
+        4,
+        13
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 78,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Desenvolvimento Full Stack Online",
+      "dsc_sigla_curso": "DFS",
+      "criado_em": "2023-10-19T21:35:44.681Z",
+      "atualizado_em": "2023-10-08T10:45:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "Desenvolvimento Full Stack",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Desenvolvimento-Web-Full-Stack_Online.aspx",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        1,
+        2,
+        4,
+        74,
+        262,
+        265,
+        269,
+        277,
+        311,
+        314,
+        413,
+        452,
+        608,
+        611,
+        636,
+        637
+      ],
+      "ids_tematicas": [
+        1,
+        3,
+        6
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 79,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Mobile Engineering Online",
+      "dsc_sigla_curso": "ME",
+      "criado_em": "2023-10-19T22:29:46.068Z",
+      "atualizado_em": "2023-03-07T00:00:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 2,
+      "dsc_titulo_visualizacao": "Mobile Engineering",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Desenvolvimento-Mobile_Online.aspx",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        4,
+        74,
+        274,
+        277,
+        413,
+        608,
+        610,
+        611,
+        625,
+        626,
+        627,
+        628,
+        629,
+        630,
+        632,
+        633
+      ],
+      "ids_tematicas": [
+        1,
+        6,
+        14
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 80,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Gestão de Produtos Digitais",
+      "dsc_sigla_curso": "GDPD",
+      "criado_em": "2023-10-08T10:45:00.000Z",
+      "atualizado_em": "2023-10-08T10:45:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Gestão de Produtos Digitais",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Gest%C3%A3o-e-Desenvolvimento-de-Produtos-Digitais.aspx",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        74,
+        270,
+        287,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        410,
+        412,
+        413,
+        767,
+        768,
+        774,
+        777
+      ],
+      "ids_tematicas": [
+        10,
+        11,
+        14
+      ],
+      "ids_nucleos": [
+        5
+      ]
+    },
+    {
+      "id_curso": 81,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Gestão de Produtos Digitais EAD",
+      "dsc_sigla_curso": "GDPD",
+      "criado_em": "2023-10-08T10:45:00.000Z",
+      "atualizado_em": "2023-10-08T10:45:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Gestão de Produtos Digitais",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/GestaodeProdutosDigitais_EAD_Especializacao%20e%20Master.aspx?pageID=5363&moda=5&polo=43&curso=1444&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        74,
+        270,
+        287,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        410,
+        606,
+        658,
+        767,
+        768,
+        774,
+        777
+      ],
+      "ids_tematicas": [
+        10,
+        11,
+        14
+      ],
+      "ids_nucleos": [
+        5
+      ]
+    },
+    {
+      "id_curso": 84,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Análise e Desenvolvimento de Sistemas",
+      "dsc_sigla_curso": "ADS",
+      "criado_em": "2023-10-25T15:39:06.070Z",
+      "atualizado_em": "2023-10-08T10:45:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Análise e Desenvolvimento de Sistemas",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/An%C3%A1lise-e-Desenvolvimento-de-Sistemas.aspx",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        4,
+        74,
+        164,
+        269,
+        277,
+        413,
+        446,
+        452,
+        510,
+        608,
+        634,
+        635,
+        636,
+        637,
+        659,
+        660
+      ],
+      "ids_tematicas": [
+        1,
+        3,
+        6
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 85,
+      "id_unidade": 3,
+      "dsc_nome_curso": "Análise e Desenvolvimento de Sistemas EAD",
+      "dsc_sigla_curso": "ADS",
+      "criado_em": "2023-10-26T10:37:47.884Z",
+      "atualizado_em": "2023-10-08T10:45:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Análise e Desenvolvimento de Sistemas",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/AnaliseeDesenvolvimentodeSistemas_EAD_Especializacao%20e%20Master.aspx?pageID=5338&moda=5&polo=43&curso=1749&situ=1",
+      "ind_modalidade": 2,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        4,
+        74,
+        164,
+        269,
+        277,
+        446,
+        452,
+        510,
+        608,
+        634,
+        635,
+        636,
+        637,
+        658,
+        659,
+        660
+      ],
+      "ids_tematicas": [
+        1,
+        3,
+        6
+      ],
+      "ids_nucleos": [
+        3
+      ]
+    },
+    {
+      "id_curso": 86,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Gestão de Cibersegurança e Riscos",
+      "dsc_sigla_curso": "GCR",
+      "criado_em": "2023-10-25T15:39:06.070Z",
+      "atualizado_em": "2023-10-08T10:45:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "Gestão de Cibersegurança e Riscos",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Gestao%20de%20Ciberseguranca%20e%20Riscos_Pos%20Online_Especializacao%20e%20Master.aspx",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        167,
+        360,
+        413,
+        428,
+        432,
+        469,
+        470,
+        661,
+        662,
+        663,
+        664,
+        665,
+        666,
+        667,
+        668,
+        712
+      ],
+      "ids_tematicas": [
+        10,
+        11,
+        13
+      ],
+      "ids_nucleos": [
+        4
+      ]
+    },
+    {
+      "id_curso": 88,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Visão Computacional",
+      "dsc_sigla_curso": "VC",
+      "criado_em": "2023-10-25T15:39:06.070Z",
+      "atualizado_em": "2023-10-08T10:45:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 3,
+      "dsc_titulo_visualizacao": "Visão Computacional",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Gestao%20de%20Ciberseguranca%20e%20Riscos_Pos%20Online_Especializacao%20e%20Master.aspx",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        28,
+        169,
+        268,
+        304,
+        384,
+        413,
+        686,
+        687,
+        699,
+        700,
+        701,
+        702,
+        703,
+        704,
+        705,
+        763
+      ],
+      "ids_tematicas": [
+        5,
+        6,
+        7
+      ],
+      "ids_nucleos": [
+        2
+      ]
+    },
+    {
+      "id_curso": 89,
+      "id_unidade": 2,
+      "dsc_nome_curso": "Processamento de Linguagem Natural",
+      "dsc_sigla_curso": "PLN",
+      "criado_em": "2023-10-25T15:39:06.070Z",
+      "atualizado_em": "2023-10-08T10:45:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 3,
+      "dsc_titulo_visualizacao": "Processamento de Linguagem natural",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Gestao%20de%20Ciberseguranca%20e%20Riscos_Pos%20Online_Especializacao%20e%20Master.aspx",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        28,
+        268,
+        270,
+        304,
+        384,
+        413,
+        415,
+        686,
+        687,
+        692,
+        693,
+        694,
+        695,
+        696,
+        697,
+        698
+      ],
+      "ids_tematicas": [
+        5,
+        6,
+        7
+      ],
+      "ids_nucleos": [
+        2
+      ]
+    },
+    {
+      "id_curso": 94,
+      "id_unidade": 2,
+      "dsc_nome_curso": "MBA em Liderança Estratégica em IA",
+      "dsc_sigla_curso": "LEIA",
+      "criado_em": "2024-12-17T18:00:00.000Z",
+      "atualizado_em": "2024-12-17T18:00:00.000Z",
+      "ativo": true,
+      "ind_nivel_ti": 1,
+      "dsc_titulo_visualizacao": "MBA em Liderança Estratégica em IA",
+      "url_site": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/MBA_em_Lideranca_Estrategica_em_IA_Pos_Online_Especializacao_e_Master.aspx?PageID=5502&moda=5&modaTipo=2&polo=40&curso=1997&situ=1",
+      "ind_modalidade": 3,
+      "publicado": true,
+      "ids_disciplinas_ofertadas": [
+        270,
+        284,
+        413,
+        606,
+        713,
+        714,
+        715,
+        716,
+        717,
+        718,
+        719,
+        720,
+        721,
+        722,
+        767,
+        777
+      ],
+      "ids_tematicas": [
+        5,
+        10,
+        11
+      ],
+      "ids_nucleos": [
+        2
+      ]
+    }
+  ]
