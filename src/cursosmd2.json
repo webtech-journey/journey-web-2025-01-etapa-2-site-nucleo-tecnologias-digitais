@@ -4,6 +4,8 @@
       "nome_do_curso": "Engenharia de Software",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -14,6 +16,8 @@
       "nome_do_curso": "Arquitetura de Software Distribuído",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -24,6 +28,8 @@
       "nome_do_curso": "Arquitetura de Soluções",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -34,6 +40,8 @@
       "nome_do_curso": "Automação de Processos: RPA e Hiperautomação",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -44,6 +52,8 @@
       "nome_do_curso": "DevOps & Continuous Software Engineering",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -54,6 +64,8 @@
       "nome_do_curso": "Site Reliability Engineering",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -64,6 +76,8 @@
       "nome_do_curso": "Engenharia de Qualidade e Teste de Software",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -74,6 +88,8 @@
       "nome_do_curso": "Geotecnologias e Desenvolvimento de SIG",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -84,6 +100,8 @@
       "nome_do_curso": "Arquitetura de Software Distribuído",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -94,6 +112,8 @@
       "nome_do_curso": "Arquitetura de Soluções",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -104,6 +124,8 @@
       "nome_do_curso": "Mobile Engineering",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -114,6 +136,8 @@
       "nome_do_curso": "Desenvolvimento Full Stack",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -124,6 +148,8 @@
       "nome_do_curso": "Engenharia de Software",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -134,6 +160,8 @@
       "nome_do_curso": "UX Engineering",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -144,6 +172,8 @@
       "nome_do_curso": "UX Engineering",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -154,6 +184,8 @@
       "nome_do_curso": "Automação de Processos: RPA e Hiperautomação",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -164,6 +196,8 @@
       "nome_do_curso": "DevOps & Continuous Software Engineering",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -174,6 +208,8 @@
       "nome_do_curso": "Engenharia de Qualidade e Teste de Software",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -184,6 +220,8 @@
       "nome_do_curso": "Site Reliability Engineering (SRE)",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -194,6 +232,8 @@
       "nome_do_curso": "Desenvolvimento Full Stack",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -204,6 +244,8 @@
       "nome_do_curso": "Mobile Engineering",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -214,6 +256,8 @@
       "nome_do_curso": "Análise e Desenvolvimento de Sistemas",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -224,6 +268,8 @@
       "nome_do_curso": "Análise e Desenvolvimento de Sistemas",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -236,6 +282,8 @@
       "nome_do_curso": "UX e Design de Produtos Digitais",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -246,6 +294,8 @@
       "nome_do_curso": "Geoprocessamento",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -256,6 +306,8 @@
       "nome_do_curso": "MBA em Marketing Analytics",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -266,6 +318,8 @@
       "nome_do_curso": "UX e Design de Produtos Digitais",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -276,6 +330,8 @@
       "nome_do_curso": "Gestão de Produtos Digitais",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -286,6 +342,8 @@
       "nome_do_curso": "Gestão de Produtos Digitais",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -298,6 +356,8 @@
       "nome_do_curso": "Computação em Nuvem",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -308,6 +368,8 @@
       "nome_do_curso": "CiberSegurança e Governança de Dados",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -318,6 +380,8 @@
       "nome_do_curso": "Engenharia de Redes",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -328,6 +392,8 @@
       "nome_do_curso": "MBA em Gestão Estratégica de TI",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -338,6 +404,8 @@
       "nome_do_curso": "Computação em Nuvem",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -348,6 +416,8 @@
       "nome_do_curso": "CiberSegurança e Governança de Dados",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -358,6 +428,8 @@
       "nome_do_curso": "Gestão de Cibersegurança e Riscos",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -370,6 +442,8 @@
       "nome_do_curso": "Gestão e Análise Estratégica de Dados",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -380,6 +454,8 @@
       "nome_do_curso": "Analytics e Business Intelligence",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -390,6 +466,8 @@
       "nome_do_curso": "Ciência de Dados e Big Data",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -400,6 +478,8 @@
       "nome_do_curso": "Engenharia de Dados",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -410,6 +490,8 @@
       "nome_do_curso": "Inteligência Artificial e Aprendizado de Máquina",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -420,6 +502,8 @@
       "nome_do_curso": "Arquitetura de Dados",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -430,6 +514,8 @@
       "nome_do_curso": "Estatística para Ciência de Dados",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -440,6 +526,8 @@
       "nome_do_curso": "Geoprocessamento e Análise Espacial",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -450,6 +538,8 @@
       "nome_do_curso": "Analytics e Business Intelligence",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -460,6 +550,8 @@
       "nome_do_curso": "Ciência de Dados e Big Data",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -470,6 +562,8 @@
       "nome_do_curso": "Engenharia de Dados",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -480,6 +574,8 @@
       "nome_do_curso": "Gestão e Análise Estratégica de Dados",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -490,6 +586,8 @@
       "nome_do_curso": "Inteligência Artificial e Aprendizado de Máquina",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -500,6 +598,8 @@
       "nome_do_curso": "Arquitetura de Dados",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -510,6 +610,8 @@
       "nome_do_curso": "Ciência de Dados Aplicada à Saude",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -520,6 +622,8 @@
       "nome_do_curso": "Estatística para Ciência de Dados",
       "modalidade": "EAD",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -530,6 +634,8 @@
       "nome_do_curso": "Visão Computacional",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -540,6 +646,8 @@
       "nome_do_curso": "Processamento de Linguagem natural",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
@@ -550,6 +658,8 @@
       "nome_do_curso": "MBA em Liderança Estratégica em IA",
       "modalidade": "Online",
       "objetivos": ["", ""],
+      "link": "",
+      "icon": "",
       "caracteristicas": {
         "caracteristica_1": 1,
         "caracteristica_2": 1,
