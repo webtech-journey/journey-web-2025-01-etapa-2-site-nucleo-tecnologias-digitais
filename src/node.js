@@ -130,8 +130,6 @@ fetch("https://apisisiec.rommelcarneiro.me/cursos?ativo=true")
   .then((data) => {
     let index = 0;
 
-    
-
     data.forEach((curso) => {
       cursosContainer.innerHTML += `
       <div class="cursoCard" id="card${index}">
@@ -148,17 +146,65 @@ fetch("https://apisisiec.rommelcarneiro.me/cursos?ativo=true")
       
       </div>
       `;
-      // console.log(curso);
+
       index++;
     });
 
     const prevCurso = document.getElementById("prevCurso");
     const nextCurso = document.getElementById("nextCurso");
 
-    let active = 0;
+    let firstElement = 0;
 
-    prevCurso.onclick = () => {
+    function changeScrollBtn(position) {
+      if (position > 0) {
+        prevCurso.style.opacity = 1;
+        prevCurso.disabled = false;
+        prevCurso.style.pointerEvents = "all";
+      } else {
+        prevCurso.style.opacity = 0.5;
+        prevCurso.disabled = true;
+        prevCurso.style.pointerEvents = "none";
+      }
+
+      if (
+        position + cursosContainer.clientWidth <
+        cursosContainer.scrollWidth
+      ) {
+        nextCurso.style.opacity = 1;
+        nextCurso.disabled = false;
+        nextCurso.style.pointerEvents = "all";
+      } else {
+        nextCurso.style.opacity = 0.5;
+        nextCurso.disabled = true;
+        nextCurso.style.pointerEvents = "none";
+      }
+    }
+    changeScrollBtn(0);
+
+
+    let leftPos = 0;
+    let rightPos = 1;
+
+    prevCurso.onclick = function () {
+      if (cursosContainer.scrollLeft > 0) {
+        firstElement--;
+        cursosContainer.scrollLeft = 210 * firstElement;
+        leftPos = 210 * firstElement;
+      }
+
+      changeScrollBtn(leftPos);
     };
-    nextCurso.onclick = () => {
+
+    nextCurso.onclick = function () {
+      if (
+        cursosContainer.scrollLeft + cursosContainer.clientWidth <
+        cursosContainer.scrollWidth
+      ) {
+        firstElement++;
+        cursosContainer.scrollLeft = 210 * firstElement;
+        rightPos = 210 * firstElement;
+
+      }
+      changeScrollBtn(rightPos);
     };
   });

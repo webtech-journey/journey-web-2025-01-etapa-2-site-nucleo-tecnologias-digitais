@@ -3,30 +3,33 @@
 /* Cursos */
 
 .cursos {
-  padding: 0 10%;
   position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 10%;
+  gap: 1rem;
 }
 
 .cursosContainer {
-  gap: 10px;
+  scroll-behavior: smooth;
   position: relative;
   display: flex;
   overflow: hidden;
   height: 250px;
-  max-width: 80%;
-  margin: 0 10%;
+  width: min-content;
+  padding: 1rem 0;
+  gap: 10px;
 }
 
 .cursoCard {
   display: flex;
+  flex:  0 0 auto;
   flex-direction: column;
   justify-content: space-between;
   background: linear-gradient(var(--darkerBlue) 25%, var(--darkBlue) 75%);
-  min-width: 200px;
+  width: 200px;
   height: 100%;
   border-radius: 1rem;
   color: white;
@@ -70,7 +73,7 @@
 }
 
 .cursoDesc h3 {
-  font-size: 1rem;
+  font-size: 80%;
 }
 
 .cursoDesc a {
@@ -102,11 +105,6 @@
   font-size: calc(2dvw + 20px);
   padding: 1rem;
   border-radius: 1rem;
-}
-
-.btnOff button {
-  cursor: auto;
-  opacity: 50%;
 }
 
 /* Áreas de Interesse */
