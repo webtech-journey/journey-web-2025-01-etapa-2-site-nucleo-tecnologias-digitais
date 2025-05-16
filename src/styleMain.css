@@ -4,16 +4,21 @@
 
 .cursos {
   padding: 0 10%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .cursosContainer {
-  /* background-color: red; */
+  gap: 10px;
   position: relative;
   display: flex;
   overflow: hidden;
   height: 250px;
-  gap: 1dvw;
-
+  max-width: 80%;
+  margin: 0 10%;
 }
 
 .cursoCard {
@@ -25,6 +30,7 @@
   height: 100%;
   border-radius: 1rem;
   color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .cursoIcon {
@@ -40,12 +46,15 @@
   left: 0;
   margin: 0.5rem;
   padding: 0.25rem;
-  background-color: var(--darkBlue);
+  background-color: white;
+  font-weight: 600;
+  color: var(--darkBlue);
   border-radius: 1rem;
   z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }
 
-.cursoIcon img{
+.cursoIcon img {
   filter: brightness(100);
   height: 100px;
   object-fit: scale-down;
@@ -74,29 +83,30 @@
   border-radius: 1rem;
 }
 
-.nextCurso {
+.btnCurso {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: sticky;
-  height: 100%;
-  padding: 1rem;
-  background-color: var(--backgroundBlue);
-  top: 0;
-  right: 0;
-  z-index: 10;
 }
 
-.nextCurso button {
+
+.btnCurso button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   background-color: var(--darkBlue);
   border: none;
   color: white;
-  width: 4rem;
-  height: 4rem;
-  font-size: 2rem;
+  aspect-ratio: 1/1;
+  font-size: calc(2dvw + 20px);
   padding: 1rem;
   border-radius: 1rem;
+}
+
+.btnOff button {
+  cursor: auto;
+  opacity: 50%;
 }
 
 /* Áreas de Interesse */
@@ -474,6 +484,16 @@
     padding: 0 5%;
   }
 
+  .nextCurso {
+    top: 0;
+    right: 5%;
+  }
+
+  .prevCurso {
+    top: 0;
+    left: 5%;
+  }
+
   .carouselSection {
     margin: 0;
     border-radius: 0;
@@ -484,5 +504,4 @@
   .carouselVideo {
     height: 300px;
   }
-
 }

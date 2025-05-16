@@ -115,6 +115,12 @@ fetch("porque.json")
     });
   });
 
+/* Populate Filtro */
+
+const cursosFiltro = document.getElementById("areaCardContainer");
+
+fetch("");
+
 /* Populate Cursos */
 
 const cursosContainer = document.getElementById("cursosContainer");
@@ -122,28 +128,37 @@ const cursosContainer = document.getElementById("cursosContainer");
 fetch("https://apisisiec.rommelcarneiro.me/cursos?ativo=true")
   .then((res) => res.json())
   .then((data) => {
+    let index = 0;
+
+    
+
     data.forEach((curso) => {
       cursosContainer.innerHTML += `
-      <div class="cursoCard">
-        <div class="cursoIcon">
-          <h4>Online</h4>
-          <img
-            src="https://icei.pucminas.br/latosensu/assets/icones/${curso.dsc_sigla_curso}.svg"
-          />
-        </div>
-        <div class="cursoDesc">
-          <h3>${curso.dsc_titulo_visualizacao}</h3>
-          <a href="">Detalhes</a>
-        </div>
-
+      <div class="cursoCard" id="card${index}">
+      <div class="cursoIcon">
+      <h4>Online</h4>
+      <img
+      src="https://icei.pucminas.br/latosensu/assets/icones/${curso.dsc_sigla_curso}.svg"
+      />
+      </div>
+      <div class="cursoDesc">
+      <h3>${curso.dsc_titulo_visualizacao}</h3>
+      <a href="">Detalhes</a>
+      </div>
+      
       </div>
       `;
-      console.log(curso);
+      // console.log(curso);
+      index++;
     });
 
-    cursosContainer.innerHTML += `
-        <div class="nextCurso">
-          <button>></button>
-        </div>
-    `;
+    const prevCurso = document.getElementById("prevCurso");
+    const nextCurso = document.getElementById("nextCurso");
+
+    let active = 0;
+
+    prevCurso.onclick = () => {
+    };
+    nextCurso.onclick = () => {
+    };
   });
