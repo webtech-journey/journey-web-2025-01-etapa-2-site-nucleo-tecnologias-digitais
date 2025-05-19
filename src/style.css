@@ -601,6 +601,7 @@ main aside {
 
 .Cursos {
   margin-top: 3em;
+  margin-bottom: 3em;
   padding-left: 3em;
   flex: 1;
   width: 100%;
@@ -657,7 +658,7 @@ main aside {
   background: #fff;
   border-radius: 40px;
   padding: 20px 16px 16px 16px;
-  width: 300px;
+  flex: 0 1 300px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
@@ -714,4 +715,11 @@ main aside {
   align-self: flex-start;
   cursor: pointer;
   transition: background 0.2s ease;
+}
+
+.conjunto {
+  display: flex;
+  flex-wrap: wrap;      /* permite quebrar linha */
+  gap: 16px;            /* espaço entre os cards */
+  justify-content: center;
 }
