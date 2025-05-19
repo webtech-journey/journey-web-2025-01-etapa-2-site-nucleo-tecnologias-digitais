@@ -32,7 +32,7 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
   </head>
-  <body>
+  <body onload="importarCursos()">
     <!-- Header -->
     <header>
       <div class="logosContainer">
@@ -131,38 +131,17 @@
           <h1>Cursos</h1>
         </div>
 
-        <div class="textotopico">
-          <h1>Desenvolvimento de Software</h1>
-          <div class="qtdCursos">
-            <h1>23 Cursos</h1>
-          </div>
-        </div>
+        <section id="dados-importados">
+        
+        </section>
 
-        <div class="cursosContainer">
-          <div class="cursoCard">
-            <label class="compararLabel">
-              Comparar:
-              <input type="checkbox" />
-            </label>
-
-            <div class="cursoCardTop">
-              <span class="Modalidade" id="modalidadeCurso">Modalidade</span>
-            </div>
-
-            <div class="cursoBody">
-              <h3>Engenharia de Software</h3>
-              <img src="/assets/images/placeHolderCoureseCardImage.png" />
-            </div>
-
-            <button class="btnDetalhes">Detalhes</button>
-          </div>
-        </div>
+        <!--Depois fazemos o carregamento dinâmico
         <div class="MostrarMais">
           <button class="botaoMostrarMais">
             Mostrar Mais
             <ion-icon name="chevron-down-outline"></ion-icon>
           </button>
-        </div>
+        </div>-->
       </div>
     </main>
 
@@ -186,5 +165,6 @@
 
     <!--Relacionar JS-->
     <script src="node.js"></script>
+    <script src="cursos.js"></script>
   </body>
 </html>

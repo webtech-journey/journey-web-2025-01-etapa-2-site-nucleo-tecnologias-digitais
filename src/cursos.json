@@ -1,607 +1,1117 @@
 [
   {
-    "nome_do_curso": "Engenharia de Software",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
+    "categoria": "Desenvolvimento de Software",
+    "cursos": [
+      {
+        "nome_do_curso": "Engenharia de Software",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "ES",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          6,
+          9,
+          10
+        ]
+      },
+      {
+        "nome_do_curso": "Arquitetura de Software Distribuído",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "ASD",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          1,
+          6,
+          10
+        ]
+      },
+      {
+        "nome_do_curso": "Arquitetura de Soluções",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "AS",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          4,
+          10,
+          11
+        ]
+      },
+      {
+        "nome_do_curso": "Automação de Processos: RPA e Hiperautomação",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "APRH",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          2,
+          9,
+          10
+        ]
+      },
+      {
+        "nome_do_curso": "DevOps & Continuous Software Engineering",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "DCSE",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "nome_do_curso": "Site Reliability Engineering",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "SRE",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          2,
+          4,
+          13
+        ]
+      },
+      {
+        "nome_do_curso": "Engenharia de Qualidade e Teste de Software",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "EQTS",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          5,
+          10
+        ]
+      },
+      {
+        "nome_do_curso": "Geotecnologias e Desenvolvimento de SIG",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "GDS",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          1,
+          3,
+          10
+        ]
+      },
+      {
+        "nome_do_curso": "Arquitetura de Software Distribuído",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "ASD",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          1,
+          6,
+          10
+        ]
+      },
+      {
+        "nome_do_curso": "Arquitetura de Soluções",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "AS",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          4,
+          10,
+          11
+        ]
+      },
+      {
+        "nome_do_curso": "Mobile Engineering",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "ME",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          1,
+          6,
+          14
+        ]
+      },
+      {
+        "nome_do_curso": "Desenvolvimento Full Stack",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "DFS",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          1,
+          3,
+          6
+        ]
+      },
+      {
+        "nome_do_curso": "Engenharia de Software",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "ES",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          6,
+          9,
+          10
+        ]
+      },
+      {
+        "nome_do_curso": "UX Engineering",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "UXE",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          6,
+          10,
+          14
+        ]
+      },
+      {
+        "nome_do_curso": "UX Engineering",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "UXE",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          6,
+          10,
+          14
+        ]
+      },
+      {
+        "nome_do_curso": "Automação de Processos: RPA e Hiperautomação",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "APRH",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          2,
+          9,
+          10
+        ]
+      },
+      {
+        "nome_do_curso": "DevOps & Continuous Software Engineering",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "DCSE",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "nome_do_curso": "Engenharia de Qualidade e Teste de Software",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "EQTS",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          5,
+          10
+        ]
+      },
+      {
+        "nome_do_curso": "Site Reliability Engineering (SRE)",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "SRE",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          2,
+          4,
+          13
+        ]
+      },
+      {
+        "nome_do_curso": "Desenvolvimento Full Stack",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "DFS",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          1,
+          3,
+          6
+        ]
+      },
+      {
+        "nome_do_curso": "Mobile Engineering",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "ME",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          1,
+          6,
+          14
+        ]
+      },
+      {
+        "nome_do_curso": "Análise e Desenvolvimento de Sistemas",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "ADS",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          1,
+          3,
+          6
+        ]
+      },
+      {
+        "nome_do_curso": "Análise e Desenvolvimento de Sistemas",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "ADS",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          1,
+          3,
+          6
+        ]
+      }
+    ]
   },
   {
-    "nome_do_curso": "Arquitetura de Software Distribuído",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
+    "categoria": "Soluções e Negócios Digitais",
+    "cursos": [
+      {
+        "nome_do_curso": "UX e Design de Produtos Digitais",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "UDPD",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          10,
+          14
+        ]
+      },
+      {
+        "nome_do_curso": "Geoprocessamento",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "GEO",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          1,
+          3,
+          10
+        ]
+      },
+      {
+        "nome_do_curso": "MBA em Marketing Analytics",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "MMA",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          5,
+          10,
+          11
+        ]
+      },
+      {
+        "nome_do_curso": "UX e Design de Produtos Digitais",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "UDPD",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          10,
+          14
+        ]
+      },
+      {
+        "nome_do_curso": "Gestão de Produtos Digitais",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "GDPD",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          10,
+          11,
+          14
+        ]
+      },
+      {
+        "nome_do_curso": "Gestão de Produtos Digitais",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "GDPD",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          10,
+          11,
+          14
+        ]
+      }
+    ]
   },
   {
-    "nome_do_curso": "Arquitetura de Soluções",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
+    "categoria": "Gestão & Infraestrutura de TI",
+    "cursos": [
+      {
+        "nome_do_curso": "Computação em Nuvem",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "CN",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          4,
+          10,
+          13
+        ]
+      },
+      {
+        "nome_do_curso": "CiberSegurança e Governança de Dados",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "CGD",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          4,
+          10,
+          13
+        ]
+      },
+      {
+        "nome_do_curso": "Engenharia de Redes",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "ER",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          4,
+          13
+        ]
+      },
+      {
+        "nome_do_curso": "MBA em Gestão Estratégica de TI",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "GETI",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          4,
+          10,
+          11
+        ]
+      },
+      {
+        "nome_do_curso": "Computação em Nuvem",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "CN",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          4,
+          10,
+          13
+        ]
+      },
+      {
+        "nome_do_curso": "CiberSegurança e Governança de Dados",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "CGD",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          4,
+          10,
+          13
+        ]
+      },
+      {
+        "nome_do_curso": "Gestão de Cibersegurança e Riscos",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "GCR",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          10,
+          11,
+          13
+        ]
+      }
+    ]
   },
   {
-    "nome_do_curso": "Automação de Processos: RPA e Hiperautomação",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "DevOps & Continuous Software Engineering",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Site Reliability Engineering",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Engenharia de Qualidade e Teste de Software",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Geotecnologias e Desenvolvimento de SIG",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Arquitetura de Software Distribuído",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Arquitetura de Soluções",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Mobile Engineering",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Desenvolvimento Full Stack",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Engenharia de Software",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "UX Engineering",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "UX Engineering",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Automação de Processos: RPA e Hiperautomação",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "DevOps & Continuous Software Engineering",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Engenharia de Qualidade e Teste de Software",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Site Reliability Engineering (SRE)",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Desenvolvimento Full Stack",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Mobile Engineering",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Análise e Desenvolvimento de Sistemas",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Análise e Desenvolvimento de Sistemas",
-    "categoria":"Desenvolvimento de Software",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "UX e Design de Produtos Digitais",
-    "categoria":"Soluções e Negócios Digitais",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Geoprocessamento",
-    "categoria":"Soluções e Negócios Digitais",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "MBA em Marketing Analytics",
-    "categoria":"Soluções e Negócios Digitais",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "UX e Design de Produtos Digitais",
-    "categoria":"Soluções e Negócios Digitais",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Gestão de Produtos Digitais",
-    "categoria":"Soluções e Negócios Digitais",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Gestão de Produtos Digitais",
-    "categoria":"Soluções e Negócios Digitais",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Computação em Nuvem",
-    "categoria":"Gestão & Infraestrutura de TI",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "CiberSegurança e Governança de Dados",
-    "categoria":"Gestão & Infraestrutura de TI",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Engenharia de Redes",
-    "categoria":"Gestão & Infraestrutura de TI",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "MBA em Gestão Estratégica de TI",
-    "categoria":"Gestão & Infraestrutura de TI",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Computação em Nuvem",
-    "categoria":"Gestão & Infraestrutura de TI",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "CiberSegurança e Governança de Dados",
-    "categoria":"Gestão & Infraestrutura de TI",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Gestão de Cibersegurança e Riscos",
-    "categoria":"Gestão & Infraestrutura de TI",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Gestão e Análise Estratégica de Dados",
-    "categoria":"Data Analytics & IA",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Analytics e Business Intelligence",
-    "categoria":"Data Analytics & IA",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Ciência de Dados e Big Data",
-    "categoria":"Data Analytics & IA",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Engenharia de Dados",
-    "categoria":"Data Analytics & IA",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Inteligência Artificial e Aprendizado de Máquina",
-    "categoria":"Data Analytics & IA",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Arquitetura de Dados",
-    "categoria":"Data Analytics & IA",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Estatística para Ciência de Dados",
-    "categoria":"Data Analytics & IA",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Geoprocessamento e Análise Espacial",
-    "categoria":"Data Analytics & IA",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Analytics e Business Intelligence",
-    "categoria":"Data Analytics & IA",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Ciência de Dados e Big Data",
-    "categoria":"Data Analytics & IA",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Engenharia de Dados",
-    "categoria":"Data Analytics & IA",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Gestão e Análise Estratégica de Dados",
-    "categoria":"Data Analytics & IA",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Inteligência Artificial e Aprendizado de Máquina",
-    "categoria":"Data Analytics & IA",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Arquitetura de Dados",
-    "categoria":"Data Analytics & IA",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Ciência de Dados Aplicada à Saude",
-    "categoria":"Data Analytics & IA",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Estatística para Ciência de Dados",
-    "categoria":"Data Analytics & IA",
-    "modalidade": "EAD",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Visão Computacional",
-    "categoria":"Data Analytics & IA",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "Processamento de Linguagem natural",
-    "categoria":"Data Analytics & IA",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
-  },
-  {
-    "nome_do_curso": "MBA em Liderança Estratégica em IA",
-    "categoria":"Data Analytics & IA",
-    "modalidade": "Online",
-    "objetivos": ["", ""],
-    "caracteristicas": {
-      "caracteristica_1": 1,
-      "caracteristica_2": 1,
-      "caracteristica_3": 1
-    }
+    "categoria": "Data Analytics & IA",
+    "cursos": [
+      {
+        "nome_do_curso": "Gestão e Análise Estratégica de Dados",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "GAED",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          5,
+          10,
+          11
+        ]
+      },
+      {
+        "nome_do_curso": "Analytics e Business Intelligence",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "ABI",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          3,
+          5,
+          10
+        ]
+      },
+      {
+        "nome_do_curso": "Ciência de Dados e Big Data",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "CDBD",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          5,
+          10,
+          12
+        ]
+      },
+      {
+        "nome_do_curso": "Engenharia de Dados",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "ED",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          3,
+          4,
+          7
+        ]
+      },
+      {
+        "nome_do_curso": "Inteligência Artificial e Aprendizado de Máquina",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "IAAM",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "nome_do_curso": "Arquitetura de Dados",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "AD",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "nome_do_curso": "Estatística para Ciência de Dados",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "ECD",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          6,
+          9,
+          11
+        ]
+      },
+      {
+        "nome_do_curso": "Geoprocessamento e Análise Espacial",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "GAP",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          1,
+          3,
+          10
+        ]
+      },
+      {
+        "nome_do_curso": "Analytics e Business Intelligence",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "ABI",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          3,
+          5,
+          10
+        ]
+      },
+      {
+        "nome_do_curso": "Ciência de Dados e Big Data",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "CDBD",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          5,
+          10,
+          12
+        ]
+      },
+      {
+        "nome_do_curso": "Engenharia de Dados",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "ED",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          3,
+          4,
+          7
+        ]
+      },
+      {
+        "nome_do_curso": "Gestão e Análise Estratégica de Dados",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "GAED",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          5,
+          10,
+          11
+        ]
+      },
+      {
+        "nome_do_curso": "Inteligência Artificial e Aprendizado de Máquina",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "IAAM",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "nome_do_curso": "Arquitetura de Dados",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "AD",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          1,
+          3,
+          9
+        ]
+      },
+      {
+        "nome_do_curso": "Ciência de Dados Aplicada à Saude",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "CDAS",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          5,
+          10,
+          12
+        ]
+      },
+      {
+        "nome_do_curso": "Estatística para Ciência de Dados",
+        "modalidade": "EAD",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "ECD",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          6,
+          9,
+          11
+        ]
+      },
+      {
+        "nome_do_curso": "Visão Computacional",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "VC",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "nome_do_curso": "Processamento de Linguagem natural",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "PLN",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "nome_do_curso": "MBA em Liderança Estratégica em IA",
+        "modalidade": "Online",
+        "objetivos": [
+          "",
+          ""
+        ],
+        "link": "",
+        "icon": "LEIA",
+        "caracteristicas": {
+          "caracteristica_1": 1,
+          "caracteristica_2": 1,
+          "caracteristica_3": 1
+        },
+        "ids_tematicas": [
+          5,
+          10,
+          11
+        ]
+      }
+    ]
   }
 ]
