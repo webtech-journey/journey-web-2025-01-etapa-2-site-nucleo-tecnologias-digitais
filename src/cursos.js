@@ -15,7 +15,7 @@ function importarCursos() {
           <div class="textotopico">
             <h1>${categoria.categoria}</h1>
             <div class="qtdCursos">
-              <h1>${categoria.cursos.length}</h1>
+              <h1>${categoria.cursos.length} Cursos</h1>
             </div>
           </div>
         `;

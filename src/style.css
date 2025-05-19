@@ -497,7 +497,7 @@ main {
 /* Aside Filtros */
 
 main aside {
-  width: 20%;
+  width: 13%;
   color: white;
   position: sticky;
   height: 100dvh;
@@ -719,7 +719,7 @@ main aside {
 
 .conjunto {
   display: flex;
-  flex-wrap: wrap;      /* permite quebrar linha */
-  gap: 16px;            /* espaço entre os cards */
+  flex-wrap: wrap;
+  gap: 16px;
   justify-content: center;
 }
