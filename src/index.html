@@ -33,9 +33,12 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
     <!-- Relacionar Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Header -->
@@ -96,22 +99,39 @@
     </section>
 
     <!-- Cursos -->
-    <div class="cursos" >
+    <div class="cursos">
       <div class="cursosCarousel">
-
         <div class="btnCurso prevCurso">
-          <button id="prevCurso" ><</button>
+          <button id="prevCurso"><</button>
         </div>
         <div class="cursosContainer" id="cursosContainer"></div>
         <div class="btnCurso nextCurso">
           <button id="nextCurso">></button>
         </div>
-        
       </div>
-      <div>
-        <h1>Ver Todos os Cursos</h1>
+      <div class="maisCursosContainer">
+        <a href="cursos.html" class="maisCursos">Ver Todos os Cursos</a>
       </div>
 
+      <div class="comparadorContainer">
+        <div class="comparador">
+          <button class="compararBtn">
+            <ion-icon name="git-compare-outline"></ion-icon>
+            <h4>Comparar Cursos</h4>
+          </button>
+          <div class="cursosInput">
+            <button>
+              <h4>Curso</h4>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </button>
+            <button>
+              <h4>Curso</h4>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </button>
+          </div>
+          <button class="addCursoBtn">+</button>
+        </div>
+      </div>
     </div>
     <!-- Carousel -->
 

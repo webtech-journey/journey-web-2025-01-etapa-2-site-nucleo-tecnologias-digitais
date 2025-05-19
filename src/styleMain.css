@@ -1,5 +1,51 @@
 /* MAIN PAGE - START*/
 
+
+/* Áreas de Interesse */
+
+.cursos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.areasInteresse {
+  padding: 2rem 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.areasInteresseHeader {
+  width: 100%;
+}
+
+.areasInteresseHeader h1 {
+  color: var(--darkBlue);
+  font-size: 1.5rem;
+}
+
+.areaCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.areaCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  border: none;
+  cursor: pointer;
+  color: var(--darkBlue);
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 /* Cursos */
 
 .cursosCarousel {
@@ -18,7 +64,6 @@
   overflow: hidden;
   height: 250px;
   width: min-content;
-  padding: 1rem 0;
   gap: 10px;
 }
 
@@ -106,49 +151,100 @@
   border-radius: 1rem;
 }
 
-/* Áreas de Interesse */
+/* Mais Cursos */
 
-.areasInteresse {
-  padding: 2rem 20%;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.areasInteresseHeader {
-  width: 100%;
-}
-
-.areasInteresseHeader h1 {
-  color: var(--darkBlue);
-  font-size: 1.5rem;
-}
-
-.areaCardContainer {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-}
-
-.areaCard {
+.maisCursosContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  padding: 0.8rem;
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  border: none;
-  cursor: pointer;
-  color: var(--darkBlue);
-  font-weight: 600;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 
 .maisCursos {
   gap: 10px;
   color: white;
-  background-color: var(--darkBlue);
+  background-color: var(--darkerBlue);
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+/* Comparador */
+
+.comparadorContainer {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comparador {
+  background-color: var(--orange);
+  border-radius: 1rem;
+  padding: 1rem 1rem 1rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  position: relative;
+}
+
+.compararBtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-25%) translateY(-25%);
+  background-color: var(--orange);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border: none;
+  border-radius: 2rem;
+  width: 100px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+
+.cursosInput {
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.cursosInput button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.cursosInput ion-icon {
+  color: var(--darkOrange);
+  font-size: 1rem;
+}
+
+.cursosInput button h4 {
+  color: var(--darkOrange);
+  font-weight: 500;
+}
+
+.addCursoBtn {
+  border: none;
+  border-radius: 1rem;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  background-color: #DA6B15;
+  color: white;
+  cursor: pointer;
 }
 
 /* Carousel */
