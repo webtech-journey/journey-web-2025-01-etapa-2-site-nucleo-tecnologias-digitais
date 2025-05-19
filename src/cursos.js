@@ -20,7 +20,7 @@ function importarCursos() {
           </div>
         `;
 
-        html += `<div class="conjunto">`;  // abre um conjunto de cards
+        html += `<div class="conjunto">`;  // abre o conjunto de cards da categoria
         categoria.cursos.forEach(curso => {
             html += `
                 <div class="cursoCard">
@@ -41,7 +41,7 @@ function importarCursos() {
                 </div>
             `;
         });
-        html += `</div>`; // fecha linha depois do loop
+        html += `</div>`; // fecha o conjunto de cards da categoria
       });
 
       section.innerHTML = html;
@@ -49,6 +49,24 @@ function importarCursos() {
     .catch(error => {
       console.error('Erro ao importar cursos:', error);
     });
+
+  fetch('cursos.json')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Erro ao carregar o arquivo cursos.json');
+      }
+      return response.json();
+    })
+
+  .then(dados => {
+      const section2 = document.getElementById('filtro-cursos');
+      let html = "";
+
+      dados.forEach(categoria => {
+        html += `<label for="A${categoria.id}">
+              <input type="radio"name="cursoTipo"id="A${categoria.id}"/>${categoria.categoria}
+            </label>`;
+      });
+      section2.innerHTML = html;
+  });
 }
-
-

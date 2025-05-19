@@ -1,6 +1,7 @@
 [
   {
     "categoria": "Desenvolvimento de Software",
+    "id": 1,
     "cursos": [
       {
         "nome_do_curso": "Engenharia de Software",
@@ -464,6 +465,7 @@
   },
   {
     "categoria": "Soluções e Negócios Digitais",
+    "id": 2,
     "cursos": [
       {
         "nome_do_curso": "UX e Design de Produtos Digitais",
@@ -587,6 +589,7 @@
   },
   {
     "categoria": "Gestão & Infraestrutura de TI",
+    "id": 3,
     "cursos": [
       {
         "nome_do_curso": "Computação em Nuvem",
@@ -731,6 +734,7 @@
   },
   {
     "categoria": "Data Analytics & IA",
+    "id": 4,
     "cursos": [
       {
         "nome_do_curso": "Gestão e Análise Estratégica de Dados",
