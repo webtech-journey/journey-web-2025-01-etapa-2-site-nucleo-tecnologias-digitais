@@ -47,7 +47,7 @@ fetch("videos.json")
       let stt = 0;
 
       items[active].style.transform = `none`;
-      items[active].style.zIndex = "1";
+      items[active].style.zIndex = "0";
       items[active].style.filter = "none";
       items[active].style.opacity = 1;
       itemsDesc[active].style.opacity = 1;
@@ -134,33 +134,80 @@ fetch("tematicas.json")
 /* Populate Cursos */
 
 const cursosContainer = document.getElementById("cursosContainer");
+const cursosInputDropdown = document.querySelectorAll(".cursosInputDropdown");
 
 fetch("cursos.json")
   .then((res) => res.json())
   .then((data) => {
     let index = 0;
 
-    data.forEach((categoria) => {
-      categoria.cursos.forEach((curso) => {
-        cursosContainer.innerHTML += `
-      <div class="cursoCard" id="card${index}">
-      <div class="cursoIcon">
-      <h4>${curso.modalidade}</h4>
-      <img
-      src="https://icei.pucminas.br/latosensu/assets/icones/${curso.icon}.svg"
-      />
-      </div>
-      <div class="cursoDesc">
-      <h3>${curso.nome_do_curso}</h3>
-      <a href="">Detalhes</a>
-      </div>
-      
-      </div>
-      `;
+    // Query Filtro
+    const query = new URLSearchParams(window.location.search);
+    const filtro = query.get("tematica");
 
-        index++;
+    if (filtro == null || filtro == 0) {
+      data.forEach((categoria) => {
+        categoria.cursos.forEach((curso) => {
+          cursosInputDropdown.forEach((element) => {
+            element.innerHTML += `
+                  <button><h4>${curso.nome_do_curso} (${curso.modalidade})</h4></button>
+      
+            `;
+          });
+
+          cursosContainer.innerHTML += `
+              <div class="cursoCard" id="card${index}">
+              <div class="cursoIcon">
+              <h4>${curso.modalidade}</h4>
+              <img
+            src="https://icei.pucminas.br/latosensu/assets/icones/${curso.icon}.svg"
+            />
+            </div>
+            <div class="cursoDesc">
+            <h3>${curso.nome_do_curso}</h3>
+            <a href="">Detalhes</a>
+        </div>
+        
+        </div>
+        `;
+
+          index++;
+        });
       });
-    });
+    } else {
+      data.forEach((categoria) => {
+        categoria.cursos.forEach((curso) => {
+          cursosInputDropdown.forEach((element) => {
+            element.innerHTML += `
+                          <button><h4>${curso.nome_do_curso} (${curso.modalidade})</h4></button>
+              
+                    `;
+          });
+
+          curso.ids_tematicas.forEach((tematica) => {
+            if (filtro == tematica) {
+              cursosContainer.innerHTML += `
+            <div class="cursoCard" id="card${index}">
+            <div class="cursoIcon">
+            <h4>${curso.modalidade}</h4>
+            <img
+            src="https://icei.pucminas.br/latosensu/assets/icones/${curso.icon}.svg"
+            />
+            </div>
+            <div class="cursoDesc">
+            <h3>${curso.nome_do_curso}</h3>
+            <a href="">Detalhes</a>
+            </div>
+            
+            </div>
+            `;
+
+              index++;
+            }
+          });
+        });
+      });
+    }
 
     const prevCurso = document.getElementById("prevCurso");
     const nextCurso = document.getElementById("nextCurso");

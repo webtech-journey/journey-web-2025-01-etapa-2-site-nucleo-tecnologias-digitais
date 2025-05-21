@@ -82,20 +82,11 @@
       <div class="areasInteresseHeader">
         <h1>Áreas de Interesse</h1>
       </div>
-      <form method="get" class="areaCardContainer" id="areaCardContainer">
-        <!-- <a href="" class="areaCard">Software</a>
-        <a href="" class="areaCard">Cloud e Redes</a>
-        <a href="" class="areaCard">Data Analytics</a>
-        <a href="" class="areaCard">UX & Design</a>
-        <a href="" class="areaCard">Gestão e Negócios</a>
-        <a href="" class="areaCard">Banco de Dados</a>
-        <a href="" class="areaCard">Segurança</a>
-        <a href="" class="areaCard">Saúde</a> -->
-        <!-- <a href="" class="areaCard maisCursos"
-          >Ver Todos
-          <ion-icon name="arrow-forward-outline"></ion-icon>
-        </a> -->
-      </form>
+      <form
+        method="get"
+        class="areaCardContainer"
+        id="areaCardContainer"
+      ></form>
     </section>
 
     <!-- Cursos -->
@@ -113,6 +104,8 @@
         <a href="cursos.html" class="maisCursos">Ver Todos os Cursos</a>
       </div>
 
+      <!-- Comparador -->
+
       <div class="comparadorContainer">
         <div class="comparador">
           <button class="compararBtn">
@@ -120,14 +113,22 @@
             <h4>Comparar Cursos</h4>
           </button>
           <div class="cursosInput">
-            <button>
-              <h4>Curso</h4>
-              <ion-icon name="chevron-down-outline"></ion-icon>
-            </button>
-            <button>
-              <h4>Curso</h4>
-              <ion-icon name="chevron-down-outline"></ion-icon>
-            </button>
+            <div class="cursosInputContainer">
+              <div class="cursosInputHeader">
+                <input placeholder="Curso" />
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </div>
+              <div class="cursosInputDropdown"></div>
+            </div>
+          </div>
+          <div class="cursosInput">
+            <div class="cursosInputContainer">
+              <div class="cursosInputHeader">
+                <input placeholder="Curso" />
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </div>
+              <div class="cursosInputDropdown"></div>
+            </div>
           </div>
           <button class="addCursoBtn">+</button>
         </div>
