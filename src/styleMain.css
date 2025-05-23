@@ -1,181 +1,103 @@
 /* MAIN PAGE - START*/
 
-/* Áreas de Interesse */
+/* Cursos */
 
-.cursos {
+.cursosSection {
+  /* background-color: red; */
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cursosHeaderCarousel {
+  width: 60%;
+  color: var(--darkerBlue);
+}
+
+.cursosHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.cursosHeader h1 {
+  font-size: 1.5rem;
+}
+.cursosHeader h4 {
+  font-size: 1rem;
+  opacity: 0.75;
+  font-weight: 600;
+}
+
+.cursosFiltro {
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.cursosFiltro button {
+  background-color: white;
+  border: 2px solid var(--darkerBlue);
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  color: var(--darkerBlue);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Cursos Carousel */
+
+.cursosCarousel {
+  /* background-color: red; */
+}
+
+/* Card to Cursos Page */
+
+.cursosRedirect {
+  background: linear-gradient(180deg, var(--darkerBlue) 0%, var(--darkBlue) 100%);
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 400px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 1rem;
+  text-align: center;
 }
 
-.areasInteresse {
-  padding: 2rem 20%;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.areasInteresseHeader {
-  width: 100%;
-}
-
-.areasInteresseHeader h1 {
-  color: var(--darkBlue);
+.cursosRedirect h1 {
+  font-weight: 600;
   font-size: 1.5rem;
 }
 
-.areaCardContainer {
-  display: grid;
-  grid: auto-flow / repeat(auto-fit, minmax(150px, 1fr));
-  justify-content: space-between;
-  gap: 0.3rem;
+.cursosRedirect h4 {
+  font-weight: 400;
+  font-size: 1rem;
 }
 
-.areaCard {
-  background-color: white;
-  padding: 0.8rem;
-  border-radius: 0.5rem;
-  font-size: 0.8rem;
-  border: none;
-  cursor: pointer;
-  color: var(--darkBlue);
-  font-weight: 600;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-/* Cursos */
-
-.cursosCarousel {
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 10%;
-  gap: 1rem;
-}
-
-.cursosContainer {
-  scroll-behavior: smooth;
-  position: relative;
-  display: flex;
-  overflow: hidden;
-  height: 250px;
-  width: min-content;
-  gap: 10px;
-  padding: 1rem 0;
-}
-
-.cursoCard {
-  display: flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  justify-content: space-between;
-  background: linear-gradient(var(--darkerBlue) 25%, var(--darkBlue) 75%);
-  width: 200px;
-  height: 100%;
-  border-radius: 1rem;
-  color: white;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.cursoIcon {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
-}
-
-.cursoIcon h4 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 0.5rem;
-  padding: 0.25rem;
-  background-color: white;
-  font-weight: 600;
-  color: var(--darkBlue);
-  border-radius: 1rem;
-  z-index: 1;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
-}
-
-.cursoIcon img {
-  filter: brightness(100);
-  height: 100px;
-  object-fit: scale-down;
-}
-
-.cursoDesc {
-  height: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: start;
-  padding: 1rem;
-}
-
-.cursoDesc h3 {
-  font-size: 80%;
-}
-
-.cursoDesc a {
-  background-color: white;
+.cursosRedirect a {
   text-decoration: none;
-  color: var(--darkerBlue);
-  border: none;
-  font-weight: 600;
-  padding: 0.5rem;
-  border-radius: 1rem;
-}
-
-.btnCurso {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.btnCurso button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  background-color: var(--darkBlue);
-  border: none;
   color: white;
-  aspect-ratio: 1/1;
-  font-size: calc(2dvw + 20px);
-  padding: 1rem;
+  border: 2px solid white;
+  padding: 1rem 4rem;
   border-radius: 1rem;
-}
-
-/* Mais Cursos */
-
-.maisCursosContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.maisCursos {
-  gap: 10px;
-  color: white;
-  background-color: var(--darkerBlue);
-  text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
-  padding: 1rem;
-  border-radius: 0.5rem;
 }
 
 /* Comparador */
 
 .comparadorContainer {
-  margin-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   z-index: 1;
+  margin-top: 4rem;
 }
 
 .comparador {
@@ -212,10 +134,6 @@
   transform: translateX(-30%) translateY(-30%);
   filter:contrast(1.1);
 }
-
-/* .cursosInput {
-  
-} */
 
 .cursosInputContainer {
   border: 2px solid var(--orange);
@@ -297,18 +215,14 @@
   cursor: pointer;
 }
 
-
-/* Curso Dropdown */
-
-
-
 /* Carousel */
 
 .carouselSection {
   background-color: var(--lightBlue);
   border-radius: 1rem;
   height: 600px;
-  margin: 4rem 20%;
+  margin: 0 20%;
+  margin-top: 4rem;
   padding: 2rem;
 }
 
@@ -412,6 +326,7 @@
   color: white;
   gap: 2rem;
   padding: 3rem 25%;
+  margin-top: 4rem;
 }
 
 .verCursosHeader {
@@ -622,12 +537,6 @@
 /* Media Queries */
 
 @media (max-width: 768px) {
-  .areasInteresse {
-    padding: 2rem 5%;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
 
   .cursos {
     padding: 0 5%;

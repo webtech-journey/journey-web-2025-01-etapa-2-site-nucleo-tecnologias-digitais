@@ -5,10 +5,7 @@
       {
         "nome_do_curso": "Engenharia de Software",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "ES",
         "caracteristicas": {
@@ -16,19 +13,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          6,
-          9,
-          10
+        "ids_tematicas": [6, 9, 10],
+        "principais_carreiras": [
+          "Engenheiro de Software",
+          "Desenvolvedor de Software",
+          "Arquiteto de Software/Soluções"
         ]
       },
       {
         "nome_do_curso": "Arquitetura de Software Distribuído",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "ASD",
         "caracteristicas": {
@@ -36,19 +31,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          1,
-          6,
-          10
+        "ids_tematicas": [1, 6, 10],
+        "principais_carreiras": [
+          "Arquiteto de Software/Soluções",
+          "Engenheiro de Software",
+          "Desenvolvedor de Software"
         ]
       },
       {
         "nome_do_curso": "Arquitetura de Soluções",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "AS",
         "caracteristicas": {
@@ -56,19 +49,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          4,
-          10,
-          11
+        "ids_tematicas": [4, 10, 11],
+        "principais_carreiras": [
+          "Arquiteto de Software/Soluções",
+          "Engenheiro de Cloud",
+          "Consultor de TI"
         ]
       },
       {
         "nome_do_curso": "Automação de Processos: RPA e Hiperautomação",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "APRH",
         "caracteristicas": {
@@ -76,19 +67,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          2,
-          9,
-          10
+        "ids_tematicas": [2, 9, 10],
+        "principais_carreiras": [
+          "Desenvolvedor de Software",
+          "Engenheiro de Software",
+          "Consultor de TI"
         ]
       },
       {
         "nome_do_curso": "DevOps & Continuous Software Engineering",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "DCSE",
         "caracteristicas": {
@@ -96,19 +85,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          2,
-          4,
-          6
+        "ids_tematicas": [2, 4, 6],
+        "principais_carreiras": [
+          "Engenheiro DevOps",
+          "Engenheiro de Software",
+          "Engenheiro de Cloud"
         ]
       },
       {
         "nome_do_curso": "Site Reliability Engineering",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "SRE",
         "caracteristicas": {
@@ -116,19 +103,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          2,
-          4,
-          13
+        "ids_tematicas": [2, 4, 13],
+        "principais_carreiras": [
+          "Engenheiro DevOps",
+          "Engenheiro de Software",
+          "Engenheiro de Cloud"
         ]
       },
       {
         "nome_do_curso": "Engenharia de Qualidade e Teste de Software",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "EQTS",
         "caracteristicas": {
@@ -136,18 +121,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          5,
-          10
+        "ids_tematicas": [5, 10],
+        "principais_carreiras": [
+          "Engenheiro de Software",
+          "Desenvolvedor de Software",
+          "Analista de Sistemas"
         ]
       },
       {
         "nome_do_curso": "Geotecnologias e Desenvolvimento de SIG",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "GDS",
         "caracteristicas": {
@@ -155,19 +139,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          1,
-          3,
-          10
+        "ids_tematicas": [1, 3, 10],
+        "principais_carreiras": [
+          "Desenvolvedor de Software",
+          "Analista de Dados",
+          "Consultor de TI"
         ]
       },
       {
         "nome_do_curso": "Arquitetura de Software Distribuído",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "ASD",
         "caracteristicas": {
@@ -175,19 +157,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          1,
-          6,
-          10
+        "ids_tematicas": [1, 6, 10],
+        "principais_carreiras": [
+          "Arquiteto de Software/Soluções",
+          "Engenheiro de Software",
+          "Desenvolvedor de Software"
         ]
       },
       {
         "nome_do_curso": "Arquitetura de Soluções",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "AS",
         "caracteristicas": {
@@ -195,19 +175,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          4,
-          10,
-          11
+        "ids_tematicas": [4, 10, 11],
+        "principais_carreiras": [
+          "Arquiteto de Software/Soluções",
+          "Engenheiro de Cloud",
+          "Consultor de TI"
         ]
       },
       {
         "nome_do_curso": "Mobile Engineering",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "ME",
         "caracteristicas": {
@@ -215,19 +193,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          1,
-          6,
-          14
+        "ids_tematicas": [1, 6, 14],
+        "principais_carreiras": [
+          "Desenvolvedor de Software",
+          "Engenheiro de Software",
+          "Arquiteto de Software/Soluções"
         ]
       },
       {
         "nome_do_curso": "Desenvolvimento Full Stack",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "DFS",
         "caracteristicas": {
@@ -235,19 +211,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          1,
-          3,
-          6
+        "ids_tematicas": [1, 3, 6],
+        "principais_carreiras": [
+          "Desenvolvedor de Software",
+          "Engenheiro de Software",
+          "Analista de Sistemas"
         ]
       },
       {
         "nome_do_curso": "Engenharia de Software",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "ES",
         "caracteristicas": {
@@ -255,19 +229,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          6,
-          9,
-          10
+        "ids_tematicas": [6, 9, 10],
+        "principais_carreiras": [
+          "Engenheiro de Software",
+          "Desenvolvedor de Software",
+          "Arquiteto de Software/Soluções"
         ]
       },
       {
         "nome_do_curso": "UX Engineering",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "UXE",
         "caracteristicas": {
@@ -275,19 +247,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          6,
-          10,
-          14
+        "ids_tematicas": [6, 10, 14],
+        "principais_carreiras": [
+          "UX/UI Designer",
+          "Desenvolvedor de Software",
+          "Engenheiro de Software"
         ]
       },
       {
         "nome_do_curso": "UX Engineering",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "UXE",
         "caracteristicas": {
@@ -295,19 +265,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          6,
-          10,
-          14
+        "ids_tematicas": [6, 10, 14],
+        "principais_carreiras": [
+          "UX/UI Designer",
+          "Desenvolvedor de Software",
+          "Engenheiro de Software"
         ]
       },
       {
         "nome_do_curso": "Automação de Processos: RPA e Hiperautomação",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "APRH",
         "caracteristicas": {
@@ -315,19 +283,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          2,
-          9,
-          10
+        "ids_tematicas": [2, 9, 10],
+        "principais_carreiras": [
+          "Desenvolvedor de Software",
+          "Engenheiro de Software",
+          "Consultor de TI"
         ]
       },
       {
         "nome_do_curso": "DevOps & Continuous Software Engineering",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "DCSE",
         "caracteristicas": {
@@ -335,19 +301,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          2,
-          4,
-          6
+        "ids_tematicas": [2, 4, 6],
+        "principais_carreiras": [
+          "Engenheiro DevOps",
+          "Engenheiro de Software",
+          "Engenheiro de Cloud"
         ]
       },
       {
         "nome_do_curso": "Engenharia de Qualidade e Teste de Software",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "EQTS",
         "caracteristicas": {
@@ -355,18 +319,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          5,
-          10
+        "ids_tematicas": [5, 10],
+        "principais_carreiras": [
+          "Engenheiro de Software",
+          "Desenvolvedor de Software",
+          "Analista de Sistemas"
         ]
       },
       {
         "nome_do_curso": "Site Reliability Engineering (SRE)",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "SRE",
         "caracteristicas": {
@@ -374,19 +337,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          2,
-          4,
-          13
+        "ids_tematicas": [2, 4, 13],
+        "principais_carreiras": [
+          "Engenheiro DevOps",
+          "Engenheiro de Software",
+          "Engenheiro de Cloud"
         ]
       },
       {
         "nome_do_curso": "Desenvolvimento Full Stack",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "DFS",
         "caracteristicas": {
@@ -394,19 +355,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          1,
-          3,
-          6
+        "ids_tematicas": [1, 3, 6],
+        "principais_carreiras": [
+          "Desenvolvedor de Software",
+          "Engenheiro de Software",
+          "Analista de Sistemas"
         ]
       },
       {
         "nome_do_curso": "Mobile Engineering",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "ME",
         "caracteristicas": {
@@ -414,19 +373,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          1,
-          6,
-          14
+        "ids_tematicas": [1, 6, 14],
+        "principais_carreiras": [
+          "Desenvolvedor de Software",
+          "Engenheiro de Software",
+          "Arquiteto de Software/Soluções"
         ]
       },
       {
         "nome_do_curso": "Análise e Desenvolvimento de Sistemas",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "ADS",
         "caracteristicas": {
@@ -434,19 +391,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          1,
-          3,
-          6
+        "ids_tematicas": [1, 3, 6],
+        "principais_carreiras": [
+          "Analista de Sistemas",
+          "Desenvolvedor de Software",
+          "Engenheiro de Software"
         ]
       },
       {
         "nome_do_curso": "Análise e Desenvolvimento de Sistemas",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "ADS",
         "caracteristicas": {
@@ -454,10 +409,11 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          1,
-          3,
-          6
+        "ids_tematicas": [1, 3, 6],
+        "principais_carreiras": [
+          "Analista de Sistemas",
+          "Desenvolvedor de Software",
+          "Engenheiro de Software"
         ]
       }
     ]
@@ -468,10 +424,7 @@
       {
         "nome_do_curso": "UX e Design de Produtos Digitais",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "UDPD",
         "caracteristicas": {
@@ -479,18 +432,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          10,
-          14
+        "ids_tematicas": [10, 14],
+        "principais_carreiras": [
+          "UX/UI Designer",
+          "Gerente de Produto",
+          "Analista de Dados"
         ]
       },
       {
         "nome_do_curso": "Geoprocessamento",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "GEO",
         "caracteristicas": {
@@ -498,19 +450,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          1,
-          3,
-          10
+        "ids_tematicas": [1, 3, 10],
+        "principais_carreiras": [
+          "Analista de Dados",
+          "Consultor de TI",
+          "Desenvolvedor de Software"
         ]
       },
       {
         "nome_do_curso": "MBA em Marketing Analytics",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "MMA",
         "caracteristicas": {
@@ -518,19 +468,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          5,
-          10,
-          11
+        "ids_tematicas": [5, 10, 11],
+        "principais_carreiras": [
+          "Analista de Dados",
+          "Cientista de Dados",
+          "Gerente de TI/Projetos"
         ]
       },
       {
         "nome_do_curso": "UX e Design de Produtos Digitais",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "UDPD",
         "caracteristicas": {
@@ -538,18 +486,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          10,
-          14
+        "ids_tematicas": [10, 14],
+        "principais_carreiras": [
+          "UX/UI Designer",
+          "Gerente de Produto",
+          "Analista de Dados"
         ]
       },
       {
         "nome_do_curso": "Gestão de Produtos Digitais",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "GDPD",
         "caracteristicas": {
@@ -557,19 +504,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          10,
-          11,
-          14
+        "ids_tematicas": [10, 11, 14],
+        "principais_carreiras": [
+          "Gerente de Produto",
+          "Analista de Dados",
+          "UX/UI Designer"
         ]
       },
       {
         "nome_do_curso": "Gestão de Produtos Digitais",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "GDPD",
         "caracteristicas": {
@@ -577,10 +522,11 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          10,
-          11,
-          14
+        "ids_tematicas": [10, 11, 14],
+        "principais_carreiras": [
+          "Gerente de Produto",
+          "Analista de Dados",
+          "UX/UI Designer"
         ]
       }
     ]
@@ -591,10 +537,7 @@
       {
         "nome_do_curso": "Computação em Nuvem",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "CN",
         "caracteristicas": {
@@ -602,19 +545,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          4,
-          10,
-          13
+        "ids_tematicas": [4, 10, 13],
+        "principais_carreiras": [
+          "Engenheiro de Cloud",
+          "Arquiteto de Software/Soluções",
+          "Analista de Cibersegurança"
         ]
       },
       {
         "nome_do_curso": "CiberSegurança e Governança de Dados",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "CGD",
         "caracteristicas": {
@@ -622,19 +563,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          4,
-          10,
-          13
+        "ids_tematicas": [4, 10, 13],
+        "principais_carreiras": [
+          "Analista de Cibersegurança",
+          "Consultor de TI",
+          "Engenheiro de Cloud"
         ]
       },
       {
         "nome_do_curso": "Engenharia de Redes",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "ER",
         "caracteristicas": {
@@ -642,18 +581,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          4,
-          13
+        "ids_tematicas": [4, 13],
+        "principais_carreiras": [
+          "Engenheiro de Cloud",
+          "Analista de Cibersegurança",
+          "Consultor de TI"
         ]
       },
       {
         "nome_do_curso": "MBA em Gestão Estratégica de TI",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "GETI",
         "caracteristicas": {
@@ -661,19 +599,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          4,
-          10,
-          11
+        "ids_tematicas": [4, 10, 11],
+        "principais_carreiras": [
+          "Gerente de TI/Projetos",
+          "Consultor de TI",
+          "Arquiteto de Software/Soluções"
         ]
       },
       {
         "nome_do_curso": "Computação em Nuvem",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "CN",
         "caracteristicas": {
@@ -681,19 +617,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          4,
-          10,
-          13
+        "ids_tematicas": [4, 10, 13],
+        "principais_carreiras": [
+          "Engenheiro de Cloud",
+          "Arquiteto de Software/Soluções",
+          "Analista de Cibersegurança"
         ]
       },
       {
         "nome_do_curso": "CiberSegurança e Governança de Dados",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "CGD",
         "caracteristicas": {
@@ -701,19 +635,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          4,
-          10,
-          13
+        "ids_tematicas": [4, 10, 13],
+        "principais_carreiras": [
+          "Analista de Cibersegurança",
+          "Consultor de TI",
+          "Engenheiro de Cloud"
         ]
       },
       {
         "nome_do_curso": "Gestão de Cibersegurança e Riscos",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "GCR",
         "caracteristicas": {
@@ -721,10 +653,11 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          10,
-          11,
-          13
+        "ids_tematicas": [10, 11, 13],
+        "principais_carreiras": [
+          "Gerente de TI/Projetos",
+          "Analista de Cibersegurança",
+          "Consultor de TI"
         ]
       }
     ]
@@ -735,10 +668,7 @@
       {
         "nome_do_curso": "Gestão e Análise Estratégica de Dados",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "GAED",
         "caracteristicas": {
@@ -746,19 +676,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          5,
-          10,
-          11
+        "ids_tematicas": [5, 10, 11],
+        "principais_carreiras": [
+          "Gerente de TI/Projetos",
+          "Analista de Dados",
+          "Cientista de Dados"
         ]
       },
       {
         "nome_do_curso": "Analytics e Business Intelligence",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "ABI",
         "caracteristicas": {
@@ -766,19 +694,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          3,
-          5,
-          10
+        "ids_tematicas": [3, 5, 10],
+        "principais_carreiras": [
+          "Analista de Dados",
+          "Cientista de Dados",
+          "Desenvolvedor de Software"
         ]
       },
       {
         "nome_do_curso": "Ciência de Dados e Big Data",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "CDBD",
         "caracteristicas": {
@@ -786,19 +712,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          5,
-          10,
-          12
+        "ids_tematicas": [5, 10, 12],
+        "principais_carreiras": [
+          "Cientista de Dados",
+          "Engenheiro de Dados",
+          "Analista de Dados"
         ]
       },
       {
         "nome_do_curso": "Engenharia de Dados",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "ED",
         "caracteristicas": {
@@ -806,19 +730,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          3,
-          4,
-          7
+        "ids_tematicas": [3, 4, 7],
+        "principais_carreiras": [
+          "Engenheiro de Dados",
+          "Cientista de Dados",
+          "Desenvolvedor de Software"
         ]
       },
       {
         "nome_do_curso": "Inteligência Artificial e Aprendizado de Máquina",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "IAAM",
         "caracteristicas": {
@@ -826,19 +748,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          5,
-          6,
-          7
+        "ids_tematicas": [5, 6, 7],
+        "principais_carreiras": [
+          "Especialista em IA/Machine Learning",
+          "Cientista de Dados",
+          "Engenheiro de Software"
         ]
       },
       {
         "nome_do_curso": "Arquitetura de Dados",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "AD",
         "caracteristicas": {
@@ -846,19 +766,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          1,
-          3,
-          9
+        "ids_tematicas": [1, 3, 9],
+        "principais_carreiras": [
+          "Engenheiro de Dados",
+          "Arquiteto de Software/Soluções",
+          "Analista de Dados"
         ]
       },
       {
         "nome_do_curso": "Estatística para Ciência de Dados",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "ECD",
         "caracteristicas": {
@@ -866,19 +784,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          6,
-          9,
-          11
+        "ids_tematicas": [6, 9, 11],
+        "principais_carreiras": [
+          "Cientista de Dados",
+          "Analista de Dados",
+          "Especialista em IA/Machine Learning"
         ]
       },
       {
         "nome_do_curso": "Geoprocessamento e Análise Espacial",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "GAP",
         "caracteristicas": {
@@ -886,19 +802,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          1,
-          3,
-          10
+        "ids_tematicas": [1, 3, 10],
+        "principais_carreiras": [
+          "Analista de Dados",
+          "Cientista de Dados",
+          "Consultor de TI"
         ]
       },
       {
         "nome_do_curso": "Analytics e Business Intelligence",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "ABI",
         "caracteristicas": {
@@ -906,19 +820,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          3,
-          5,
-          10
+        "ids_tematicas": [3, 5, 10],
+        "principais_carreiras": [
+          "Analista de Dados",
+          "Cientista de Dados",
+          "Desenvolvedor de Software"
         ]
       },
       {
         "nome_do_curso": "Ciência de Dados e Big Data",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "CDBD",
         "caracteristicas": {
@@ -926,19 +838,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          5,
-          10,
-          12
+        "ids_tematicas": [5, 10, 12],
+        "principais_carreiras": [
+          "Cientista de Dados",
+          "Engenheiro de Dados",
+          "Analista de Dados"
         ]
       },
       {
         "nome_do_curso": "Engenharia de Dados",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "ED",
         "caracteristicas": {
@@ -946,19 +856,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          3,
-          4,
-          7
+        "ids_tematicas": [3, 4, 7],
+        "principais_carreiras": [
+          "Engenheiro de Dados",
+          "Cientista de Dados",
+          "Desenvolvedor de Software"
         ]
       },
       {
         "nome_do_curso": "Gestão e Análise Estratégica de Dados",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "GAED",
         "caracteristicas": {
@@ -966,19 +874,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          5,
-          10,
-          11
+        "ids_tematicas": [5, 10, 11],
+        "principais_carreiras": [
+          "Gerente de TI/Projetos",
+          "Analista de Dados",
+          "Cientista de Dados"
         ]
       },
       {
         "nome_do_curso": "Inteligência Artificial e Aprendizado de Máquina",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "IAAM",
         "caracteristicas": {
@@ -986,19 +892,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          5,
-          6,
-          7
+        "ids_tematicas": [5, 6, 7],
+        "principais_carreiras": [
+          "Especialista em IA/Machine Learning",
+          "Cientista de Dados",
+          "Engenheiro de Software"
         ]
       },
       {
         "nome_do_curso": "Arquitetura de Dados",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "AD",
         "caracteristicas": {
@@ -1006,19 +910,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          1,
-          3,
-          9
+        "ids_tematicas": [1, 3, 9],
+        "principais_carreiras": [
+          "Engenheiro de Dados",
+          "Arquiteto de Software/Soluções",
+          "Analista de Dados"
         ]
       },
       {
         "nome_do_curso": "Ciência de Dados Aplicada à Saude",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "CDAS",
         "caracteristicas": {
@@ -1026,19 +928,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          5,
-          10,
-          12
+        "ids_tematicas": [5, 10, 12],
+        "principais_carreiras": [
+          "Cientista de Dados",
+          "Analista de Dados",
+          "Consultor de TI"
         ]
       },
       {
         "nome_do_curso": "Estatística para Ciência de Dados",
         "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "ECD",
         "caracteristicas": {
@@ -1046,19 +946,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          6,
-          9,
-          11
+        "ids_tematicas": [6, 9, 11],
+        "principais_carreiras": [
+          "Cientista de Dados",
+          "Analista de Dados",
+          "Especialista em IA/Machine Learning"
         ]
       },
       {
         "nome_do_curso": "Visão Computacional",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "VC",
         "caracteristicas": {
@@ -1066,19 +964,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          5,
-          6,
-          7
+        "ids_tematicas": [5, 6, 7],
+        "principais_carreiras": [
+          "Especialista em IA/Machine Learning",
+          "Engenheiro de Software",
+          "Cientista de Dados"
         ]
       },
       {
         "nome_do_curso": "Processamento de Linguagem natural",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "PLN",
         "caracteristicas": {
@@ -1086,19 +982,17 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          5,
-          6,
-          7
+        "ids_tematicas": [5, 6, 7],
+        "principais_carreiras": [
+          "Especialista em IA/Machine Learning",
+          "Desenvolvedor de Software",
+          "Cientista de Dados"
         ]
       },
       {
         "nome_do_curso": "MBA em Liderança Estratégica em IA",
         "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
+        "objetivos": ["", ""],
         "link": "",
         "icon": "LEIA",
         "caracteristicas": {
@@ -1106,10 +1000,11 @@
           "caracteristica_2": 1,
           "caracteristica_3": 1
         },
-        "ids_tematicas": [
-          5,
-          10,
-          11
+        "ids_tematicas": [5, 10, 11],
+        "principais_carreiras": [
+          "Gerente de TI/Projetos",
+          "Especialista em IA/Machine Learning",
+          "Consultor de TI"
         ]
       }
     ]
