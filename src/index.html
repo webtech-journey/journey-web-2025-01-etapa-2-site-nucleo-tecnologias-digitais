@@ -39,6 +39,11 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <!-- Relacionar SwiperJS (Carousel Library) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <!-- Header -->
@@ -106,9 +111,18 @@
           </div>
         </div>
 
-        <!-- Carousel -->
-        <div class="cursosCarousel">
-          <div></div>
+        <!-- Slider main container -->
+        <div class="cursosCarousel swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper" id="cursosCarousel">
+            <!-- Slides -->
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
       </div>
 
@@ -257,6 +271,8 @@
       </nav>
     </footer>
 
+    <!--Relacionar SwiperJS (Carousel Library)-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!--Relacionar JS-->
     <script src="node.js"></script>
   </body>

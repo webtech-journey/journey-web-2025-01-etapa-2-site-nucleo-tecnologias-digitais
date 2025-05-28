@@ -106,11 +106,70 @@ fetch("porque.json")
 
       sobre.innerHTML += `
       <div class="sobreCard" style="--position: ${sobreCount}">
-              <span class="sobreIcon">
+      <span class="sobreIcon">
                 <ion-icon name="${sobreCard.iconName}"></ion-icon>
-              </span>
-              <h3>${sobreCard.text}</h3>
+                </span>
+                <h3>${sobreCard.text}</h3>
         </div>
       `;
     });
   });
+
+// Cursos
+
+const cursosCarousel = document.getElementById("cursosCarousel");
+
+fetch("cursos.json")
+  .then((res) => res.json())
+  .then((data) => {
+    data.forEach((category) => {
+      category.cursos.forEach((curso) => {
+        cursosCarousel.innerHTML += `
+            <div class="cursosCarouselCard swiper-slide">
+              <div href="#" class="cursosCardLink">
+                <div class="cursosCardHeader">
+                  <img
+                  src="https://icei.pucminas.br/latosensu/assets/icones/${curso.icon}.svg"
+                  alt="Curso 1"
+                  />
+                </div>
+                <div class="cursosCardBody">
+                  <h2>${curso.nome_do_curso}</h2>
+                </div>
+              </div>
+            </div>
+        `;
+      });
+    });
+  });
+
+new Swiper(".swiper", {
+  // Optional parameters
+  loop: true,
+  spaceBetween: 10,
+
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 4,
+    },
+  },
+});
