@@ -11,7 +11,7 @@
 }
 
 .cursosHeaderCarousel {
-  width: 60%;
+  width: 80%;
   color: var(--darkerBlue);
 }
 
@@ -49,14 +49,86 @@
 
 /* Cursos Carousel */
 
-.cursosCarousel {
-  /* background-color: red; */
+.cursosCarouselCard {
+  background: linear-gradient(
+    180deg,
+    var(--darkBlue) 0%,
+    var(--darkerBlue) 100%
+  );
+  border-radius: 1rem;
+  color: white;
+}
+
+.cursosCarouselCardHeader {
+  padding: 1rem 1rem 0.25rem 1rem;
+}
+
+.cursosCarouselCardHeader h4 {
+  background-color: white;
+  color: var(--darkBlue);
+  position: absolute;
+  border-radius: 1rem;
+  padding: 0.25rem;
+  transform: translateX(-10%) translateY(-20%);
+  border: 1px solid var(--darkBlue);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.cursosCarouselCardHeader img {
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.cursosCarouselCardBody {
+  padding: 0.25rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+.cursosCarouselCardBody h2 {
+  font-size: 1rem;
+  height: 2.5rem;
+}
+
+.cursosCarouselCardBody a {
+  background-color: white;
+  border: 1px solid var(--darkerBlue);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: var(--darkerBlue);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.cursosCarouselCardTematicas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.cursosCarouselCardTematicas h6 {
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--darkerBlue);
+  border-radius: 1rem;
 }
 
 /* Card to Cursos Page */
 
 .cursosRedirect {
-  background: linear-gradient(180deg, var(--darkerBlue) 0%, var(--darkBlue) 100%);
+  background: linear-gradient(
+    180deg,
+    var(--darkerBlue) 0%,
+    var(--darkBlue) 100%
+  );
   border-radius: 1rem;
   padding: 2rem;
   width: 400px;
@@ -89,10 +161,7 @@
   font-weight: 600;
 }
 
-/* Cursos Carousel */
-
 /* Comparador */
-
 
 .comparadorContainer {
   display: flex;
@@ -135,7 +204,7 @@
 
 .compararBtn:hover {
   transform: translateX(-30%) translateY(-30%);
-  filter:contrast(1.1);
+  filter: contrast(1.1);
 }
 
 .cursosInputContainer {
@@ -224,7 +293,7 @@
   background-color: var(--lightBlue);
   border-radius: 1rem;
   height: 600px;
-  margin: 0 20%;
+  margin: 0 10%;
   margin-top: 4rem;
   padding: 2rem;
 }
@@ -540,7 +609,6 @@
 /* Media Queries */
 
 @media (max-width: 768px) {
-
   .cursos {
     padding: 0 5%;
   }

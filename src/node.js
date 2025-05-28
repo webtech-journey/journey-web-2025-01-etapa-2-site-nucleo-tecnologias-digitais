@@ -8,27 +8,27 @@ fetch("videos.json")
         `
         
         <div class="carouselCard">
-        <div class="carouselVideo">
-            <iframe 
-            src="` +
+          <div class="carouselVideo">
+                <iframe 
+                src="` +
         video.video_link +
         `"
-            title="` +
+                title="` +
         video.titulo +
         `"
-            allowfullscreen
-            ></iframe>
-        </div>
-        <div class="carouselDescContainer">
-        <h3 class="carouselDesc">` +
+                allowfullscreen
+                ></iframe>
+          </div>
+          <div class="carouselDescContainer">
+              <h3 class="carouselDesc">` +
         video.video_desc +
         `</h3>
-        <a class="carouselProf" href="` +
+            <a class="carouselProf" href="` +
         video.prof_link +
         `" target="_blank">` +
         video.prof_nome +
         `</a>
-        </div>
+          </div>
         
         </div>
         `;
@@ -55,7 +55,7 @@ fetch("videos.json")
 
       for (var i = active + 1; i < items.length; i++) {
         stt++;
-        items[i].style.transform = `translateX(calc(${120 * stt}px)) scale(${
+        items[i].style.transform = `translateX(calc(${200 * stt}px)) scale(${
           1 - 0.2 * stt
         })`;
         items[i].style.zIndex = -stt;
@@ -68,7 +68,7 @@ fetch("videos.json")
       stt = 0;
       for (var i = active - 1; i >= 0; i--) {
         stt++;
-        items[i].style.transform = `translateX(${-120 * stt}px) scale(${
+        items[i].style.transform = `translateX(${-200 * stt}px) scale(${
           1 - 0.2 * stt
         })`;
         items[i].style.zIndex = -stt;
@@ -124,18 +124,23 @@ fetch("cursos.json")
   .then((data) => {
     data.forEach((category) => {
       category.cursos.forEach((curso) => {
+
         cursosCarousel.innerHTML += `
             <div class="cursosCarouselCard swiper-slide">
-              <div href="#" class="cursosCardLink">
-                <div class="cursosCardHeader">
-                  <img
-                  src="https://icei.pucminas.br/latosensu/assets/icones/${curso.icon}.svg"
-                  alt="Curso 1"
-                  />
+              <div class="cursosCarouselCardHeader">
+                <h4>Online</h4>
+                <img
+                  src="https://www.shutterstock.com/image-photo/digital-technology-big-data-storage-600nw-2164313403.jpg"
+                />
+              </div>
+
+              <div class="cursosCarouselCardBody">
+                <div class="cursosCarouselCardTematicas">
+                  <h6>Software</h6>
+                  <h6>Metodologias e Processos</h6>
                 </div>
-                <div class="cursosCardBody">
-                  <h2>${curso.nome_do_curso}</h2>
-                </div>
+                <h2>${curso.nome_do_curso}</h2>
+                <a href="#">Detalhes</a>
               </div>
             </div>
         `;
@@ -145,7 +150,7 @@ fetch("cursos.json")
 
 new Swiper(".swiper", {
   // Optional parameters
-  loop: true,
+  loop: false,
   spaceBetween: 10,
 
   // If we need pagination

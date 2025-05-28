@@ -23,7 +23,8 @@ header {
   justify-content: space-between;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   z-index: 2;
-  position: relative;
+  position: sticky;
+  top: 0;
 }
 
 /* Logo Header */
@@ -44,7 +45,7 @@ header {
 }
 
 .logosContainer img {
-  height: 80px;
+  height: 60px;
 }
 
 /* Opções Header */
