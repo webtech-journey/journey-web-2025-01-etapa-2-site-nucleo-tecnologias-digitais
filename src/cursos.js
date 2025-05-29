@@ -50,13 +50,17 @@ function importarCursos() {
 
       html += `
         </div>
-        <div class="mostrarMais">
-          <button class="mostrarMaisBtn">Mostrar mais</button>
-        </div>
       `;
 
+      if (categoria.cursos.length > 8) {
         html += `
-          
+          <div class="mostrarMais">
+            <button class="mostrarMaisBtn">Mostrar mais</button>
+          </div>
+        `;
+      }
+
+        html += `
         </div>`;
       });
 

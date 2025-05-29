@@ -609,7 +609,7 @@ main aside {
 }
 
 .textoCurso h1 {
-  font-size: 4em;
+  font-size: 3.5em;
   color: var(--orange);
 }
 
@@ -787,4 +787,24 @@ input[type="checkbox"] {
   align-items: center;
   border: none;
   cursor: pointer;
+}
+
+.tipoCursos label {
+  font-size: 1.1rem;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.tipoCursos label input[type="radio"]:checked {
+  accent-color: white;
+  cursor: pointer;
+}
+
+.tipoCursos label input[type="radio"] {
+  accent-color: var(--darkBlue);
+  cursor: pointer;
+  
 }
