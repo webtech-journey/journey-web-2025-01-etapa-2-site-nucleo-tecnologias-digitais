@@ -806,5 +806,4 @@ input[type="checkbox"] {
 .tipoCursos label input[type="radio"] {
   accent-color: var(--darkBlue);
   cursor: pointer;
-  
 }
