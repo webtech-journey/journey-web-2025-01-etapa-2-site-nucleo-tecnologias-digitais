@@ -55,7 +55,7 @@ function importarCursos() {
       if (categoria.cursos.length > 8) {
         html += `
           <div class="mostrarMais">
-            <button class="mostrarMaisBtn">Mostrar mais</button>
+            <button class="mostrarMaisBtn">Mostrar mais<ion-icon name="chevron-down-outline"></ion-icon> </button>
           </div>
         `;
       }
