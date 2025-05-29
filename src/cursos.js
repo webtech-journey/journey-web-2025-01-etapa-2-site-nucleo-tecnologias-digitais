@@ -12,6 +12,7 @@ function importarCursos() {
 
       dados.forEach(categoria => {
         html += `
+        <div class="conjuntoCards">
           <div class="textotopico">
             <h1>${categoria.categoria}</h1>
             <div class="qtdCursos">
@@ -20,31 +21,83 @@ function importarCursos() {
           </div>
         `;
 
-        html += `<div class="conjunto">`;  // abre o conjunto de cards da categoria
-        categoria.cursos.forEach(curso => {
-            html += `
-                <div class="cursoCard">
+        html += `<div class="conjunto">`;
+        categoria.cursos.forEach((curso, index) => {
+        html += `
+          <div class="cursoCard${index >= 7 ? ' hidden' : ''}">
+            <div class="cursoCardTop">
                 <label class="compararLabel">
+                    <span>Comparar</span>
                     <input type="checkbox" />
                 </label>
+                <span class="Modalidade">${curso.modalidade}</span>
+            </div>
 
-                <div class="cursoCardTop">
-                    <span class="Modalidade">${curso.modalidade}</span>
-                </div>
+            <div class="cursoBody">
+              <div class="cursoBodyText">
+                <h3>${curso.nome_do_curso}</h3>
+              </div>
+              <div class="image_div">
+                <img class="image_card" src="/assets/images/placeHolderCoureseCardImage.png" />
+              </div>
+            </div>
+            <div>
+              <button class="btnDetalhes">Detalhes</button>
+            </div>
+          </div>
+        `;
+      });
 
-                <div class="cursoBody">
-                    <h3>${curso.nome_do_curso}</h3>
-                    <img src="/assets/images/placeHolderCoureseCardImage.png" />
-                </div>
+      html += `
+        </div>
+        <div class="mostrarMais">
+          <button class="mostrarMaisBtn">Mostrar mais</button>
+        </div>
+      `;
 
-                <button class="btnDetalhes">Detalhes</button>
-                </div>
-            `;
-        });
-        html += `</div>`; // fecha o conjunto de cards da categoria
+        html += `
+          
+        </div>`;
       });
 
       section.innerHTML = html;
+
+      const mostrarMaisBtns = document.querySelectorAll('.mostrarMaisBtn');
+      mostrarMaisBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+          const conjunto = this.closest('.conjuntoCards').querySelectorAll('.cursoCard');
+          const ocultos = this.closest('.conjuntoCards').querySelectorAll('.cursoCard.hidden');
+
+          if (ocultos.length > 0) {
+            conjunto.forEach((card, index) => {
+              if (index >= 7) {
+                card.classList.remove('hidden');
+              }
+            });
+            this.textContent = 'Mostrar menos';
+          } else {
+            conjunto.forEach((card, index) => {
+              if (index >= 7) {
+                card.classList.add('hidden');
+              }
+            });
+            this.textContent = 'Mostrar mais';
+          }
+        });
+      });
+
+
+      const checkboxes = document.querySelectorAll('.cursoCard input[type="checkbox"]');
+      checkboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', function() {
+          const card = this.closest('.cursoCard');
+          if (this.checked) {
+            card.classList.add('selecionado');
+          } else {
+            card.classList.remove('selecionado');
+          }
+        });
+      });
     })
     .catch(error => {
       console.error('Erro ao importar cursos:', error);
