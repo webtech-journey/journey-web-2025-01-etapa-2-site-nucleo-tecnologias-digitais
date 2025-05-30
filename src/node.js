@@ -4,34 +4,37 @@ fetch("videos.json")
   .then((res) => res.json())
   .then((data) => {
     data.forEach((video) => {
-      carousel.innerHTML +=
-        `
-        
+      carousel.innerHTML += `
         <div class="carouselCard swiper-slide">
           <div class="carouselVideo">
                 <iframe 
-                src="` +
-        video.video_link +
-        `"
-                title="` +
-        video.titulo +
-        `"
+                src="${video.video_link}"
+                title="${video.titulo}"
                 allowfullscreen
                 ></iframe>
           </div>
           <div class="carouselDescContainer">
-              <h3 class="carouselDesc">` +
-        video.video_desc +
-        `</h3>
-            <a class="carouselProf" href="` +
-        video.prof_link +
-        `" target="_blank">` +
-        video.prof_nome +
-        `</a>
+              <h3 class="carouselDesc">${video.video_desc}</h3>
+            <a class="carouselProf" href="${video.prof_link}" target="_blank">${video.prof_nome}</a>
           </div>
         
         </div>
         `;
+    });
+  });
+
+/* Populate Carreiras */
+
+const carreirasContainer = document.getElementById("cursosFiltro");
+
+fetch("carreiras.json")
+  .then((res) => res.json())
+  .then((data) => {
+    data.forEach((carreira) => {
+      console.log(carreira);
+      carreirasContainer.innerHTML += `
+        <button>${carreira.nome}</button>
+      `;
     });
   });
 
@@ -117,7 +120,54 @@ new Swiper(".cursosCarouselContainer", {
       slidesPerView: 2,
     },
     1024: {
+      slidesPerView: 3,
+    },
+    1440: {
       slidesPerView: 4,
+    },
+  },
+});
+
+new Swiper(".carouselVideos", {
+  // Optional parameters
+  loop: true,
+  spaceBetween: 100,
+  effect: "coverflow",
+  centeredSlides: true,
+  allowTouchMove: false,
+
+  keyboard: {
+    enabled: true,
+  },
+
+  coverflowEffect: {
+    depth: 1000,
+    rotate: 0,
+    slideShadows: false,
+    modifier: 0.25,
+  },
+
+  // If we need pagination
+  pagination: {
+    el: ".videos-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".videos-next",
+    prevEl: ".videos-prev",
+  },
+
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+      allowTouchMove: true,
+      touchRatio: 1,
+    },
+    1024: {
+      slidesPerView: 3,
     },
   },
 });

@@ -2,6 +2,61 @@
 
 /* Cursos */
 
+
+.cursosSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10%;
+  margin-top: 4rem;
+}
+
+.cursosContainer {
+  width: 100%;
+  color: var(--darkerBlue);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+}
+
+.cursosHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.cursosHeader h1 {
+  font-size: 1.5rem;
+}
+.cursosHeader h4 {
+  font-size: 1rem;
+  opacity: 0.75;
+  font-weight: 600;
+}
+
+.cursosFiltro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.cursosFiltro button {
+  background-color: white;
+  border: 1.5px solid var(--darkerBlue);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: var(--darkerBlue);
+  font-size: clamp(0.5rem);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Cursos Carousel */
+
+
 .cursos-prev,
 .cursos-next {
   position: absolute;
@@ -24,63 +79,22 @@
 }
 
 .cursos-pagination {
-  position: relative;
+  position: absolute;
   --swiper-pagination-color: var(--darkerBlue);
   --swiper-pagination-bullet-width: 1rem;
   --swiper-pagination-bullet-height: 1rem;
 }
 
-.cursosCarouselContainer {
-  overflow: hidden;
-}
-
-.cursosSection {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.cursosHeaderCarousel {
-  width: 80vw;
-  color: var(--darkerBlue);
-}
-
-.cursosHeader {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.cursosHeader h1 {
-  font-size: 1.5rem;
-}
-.cursosHeader h4 {
-  font-size: 1rem;
-  opacity: 0.75;
-  font-weight: 600;
-}
-
-.cursosFiltro {
-  /* background-color: red; */
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.cursosFiltro button {
-  background-color: white;
-  border: 2px solid var(--darkerBlue);
-  padding: 0.5rem;
-  border-radius: 1.5rem;
-  color: var(--darkerBlue);
-  font-weight: 500;
-  cursor: pointer;
-}
-
-/* Cursos Carousel */
 
 .cursosCarousel {
   padding: 0 50px;
+  padding-bottom: 2rem;
   position: relative;
+}
+
+
+.cursosCarouselContainer {
+  overflow: hidden;
 }
 
 .cursosCarouselCard {
@@ -119,11 +133,12 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
+  gap: 0.5rem;
+  height: 150px;
 }
 
 .cursosCarouselCardBody h2 {
-  font-size: 1rem;
-  height: 2.5rem;
+  font-size: clamp(1rem, 1vw, 1rem);
 }
 
 .cursosCarouselCardBody a {
@@ -141,7 +156,7 @@
 .cursosCarouselCardTematicas {
   display: flex;
   flex-wrap: wrap;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .cursosCarouselCardTematicas h6 {
@@ -316,7 +331,95 @@
 
 /* Carousel */
 
+
+.videosSection {
+  position: relative;
+  background-color: var(--lightBlue);
+  display: flex;
+  flex-direction: column;
+  margin: 0 10%;
+  border-radius: 1rem;
+}
+
+.carouselVideosHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.carouselVideosHeader h1 {
+  background-color: var(--orange);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
 /* Carousel Slider */
+
+
+.videos-pagination {
+  position: absolute;
+  z-index: 1;
+}
+
+.carouselVideos {
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.videoCard {
+  color: var(--darkBlue);
+  /* background-color: var(--lightBlue); */
+}
+
+.videoCard:not(.swiper-slide-active) {
+  pointer-events: none;
+  opacity: 50%;
+}
+
+.videoCard:not(.swiper-slide-visible) {
+  opacity: 0;
+}
+
+.videoCard  {
+  color: var(--darkBlue);
+  /* background-color: var(--lightBlue); */
+}
+
+.videoHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoHeader iframe {
+  background-color: var(--darkerBlue);
+  border: none;
+  border-radius: 1rem;
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+
+.videoBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.videoDesc {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.videoProf {
+  /* background-color: white; */
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
 
 /* Ver Cursos */
 
@@ -439,7 +542,7 @@
   font-size: 1rem;
   margin: 1rem;
   margin-top: 2.5rem;
-  z-index: 10;
+  z-index: 2;
 }
 
 @keyframes autoRun {

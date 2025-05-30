@@ -1,20 +1,62 @@
-{
-    "carreiras": [
-      "Engenheiro de Software",
-      "Desenvolvedor de Software",
-      "Arquiteto de Software/Soluções",
-      "Engenheiro de Dados",
-      "Cientista de Dados",
-      "Analista de Dados",
-      "Engenheiro de Cloud",
-      "Engenheiro DevOps",
-      "Analista de Cibersegurança",
-      "UX/UI Designer",
-      "Gerente de Produto",
-      "Gerente de TI/Projetos",
-      "Especialista em IA/Machine Learning",
-      "Analista de Sistemas",
-      "Consultor de TI"
-    ]
+[
+  {
+    "id": 1,
+    "nome": "Engenheiro de Software"
+  },
+  {
+    "id": 2,
+    "nome": "Desenvolvedor de Software"
+  },
+  {
+    "id": 3,
+    "nome": "Arquiteto de Software/Soluções"
+  },
+  {
+    "id": 4,
+    "nome": "Engenheiro de Dados"
+  },
+  {
+    "id": 5,
+    "nome": "Cientista de Dados"
+  },
+  {
+    "id": 6,
+    "nome": "Analista de Dados"
+  },
+  {
+    "id": 7,
+    "nome": "Engenheiro de Cloud"
+  },
+  {
+    "id": 8,
+    "nome": "Engenheiro DevOps"
+  },
+  {
+    "id": 9,
+    "nome": "Analista de Cibersegurança"
+  },
+  {
+    "id": 10,
+    "nome": "UX/UI Designer"
+  },
+  {
+    "id": 11,
+    "nome": "Gerente de Produto"
+  },
+  {
+    "id": 12,
+    "nome": "Gerente de TI/Projetos"
+  },
+  {
+    "id": 13,
+    "nome": "Especialista em IA/Machine Learning"
+  },
+  {
+    "id": 14,
+    "nome": "Analista de Sistemas"
+  },
+  {
+    "id": 15,
+    "nome": "Consultor de TI"
   }
-  
+]
