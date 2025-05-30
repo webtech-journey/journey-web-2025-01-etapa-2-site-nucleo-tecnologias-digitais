@@ -1,4 +1,4 @@
-const carousel = document.getElementById("carouselContainer");
+const carousel = document.getElementById("carouselWrapper");
 
 fetch("videos.json")
   .then((res) => res.json())
@@ -7,7 +7,7 @@ fetch("videos.json")
       carousel.innerHTML +=
         `
         
-        <div class="carouselCard">
+        <div class="carouselCard swiper-slide">
           <div class="carouselVideo">
                 <iframe 
                 src="` +
@@ -33,62 +33,6 @@ fetch("videos.json")
         </div>
         `;
     });
-
-    // Make the carousel move
-
-    let items = document.querySelectorAll(".carouselContainer .carouselCard");
-    let itemsDesc = document.querySelectorAll(".carouselDescContainer");
-    let nextCard = document.getElementById("carouselNext");
-    let prevCard = document.getElementById("carouselPrev");
-
-    let active = 3;
-
-    function loadShow() {
-      let stt = 0;
-
-      items[active].style.transform = `none`;
-      items[active].style.zIndex = "0";
-      items[active].style.filter = "none";
-      items[active].style.opacity = 1;
-      itemsDesc[active].style.opacity = 1;
-      items[active].style.pointerEvents = "unset";
-
-      for (var i = active + 1; i < items.length; i++) {
-        stt++;
-        items[i].style.transform = `translateX(calc(${200 * stt}px)) scale(${
-          1 - 0.2 * stt
-        })`;
-        items[i].style.zIndex = -stt;
-        items[i].style.filter = "blur(1px)";
-        items[i].style.opacity = stt > 1 ? 0 : 0.6;
-        items[i].style.pointerEvents = "none";
-        itemsDesc[i].style.opacity = 0;
-      }
-
-      stt = 0;
-      for (var i = active - 1; i >= 0; i--) {
-        stt++;
-        items[i].style.transform = `translateX(${-200 * stt}px) scale(${
-          1 - 0.2 * stt
-        })`;
-        items[i].style.zIndex = -stt;
-        items[i].style.filter = "blur(1px)";
-        items[i].style.opacity = stt > 1 ? 0 : 0.6;
-        items[i].style.pointerEvents = "none";
-        itemsDesc[i].style.opacity = 0;
-      }
-    }
-
-    loadShow();
-
-    nextCard.onclick = function () {
-      active = active + 1 < items.length ? active + 1 : active;
-      loadShow();
-    };
-    prevCard.onclick = function () {
-      active = active - 1 >= 0 ? active - 1 : active;
-      loadShow();
-    };
   });
 
 /* Populate Sobre */
@@ -124,7 +68,6 @@ fetch("cursos.json")
   .then((data) => {
     data.forEach((category) => {
       category.cursos.forEach((curso) => {
-
         cursosCarousel.innerHTML += `
             <div class="cursosCarouselCard swiper-slide">
               <div class="cursosCarouselCardHeader">
@@ -148,22 +91,22 @@ fetch("cursos.json")
     });
   });
 
-new Swiper(".swiper", {
+new Swiper(".cursosCarouselContainer", {
   // Optional parameters
   loop: false,
   spaceBetween: 10,
 
   // If we need pagination
   pagination: {
-    el: ".swiper-pagination",
+    el: ".cursos-pagination",
     clickable: true,
     dynamicBullets: true,
   },
 
   // Navigation arrows
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".cursos-next",
+    prevEl: ".cursos-prev",
   },
 
   breakpoints: {

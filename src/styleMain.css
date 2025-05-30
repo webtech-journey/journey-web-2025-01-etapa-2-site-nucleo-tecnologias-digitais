@@ -2,8 +2,39 @@
 
 /* Cursos */
 
+.cursos-prev,
+.cursos-next {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.cursos-prev {
+  left: 0;
+}
+
+.cursos-next {
+  right: 0;
+}
+
+.cursos-pagination {
+  position: relative;
+  --swiper-pagination-color: var(--darkerBlue);
+  --swiper-pagination-bullet-width: 1rem;
+  --swiper-pagination-bullet-height: 1rem;
+}
+
+.cursosCarouselContainer {
+  overflow: hidden;
+}
+
 .cursosSection {
-  /* background-color: red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +42,7 @@
 }
 
 .cursosHeaderCarousel {
-  width: 80%;
+  width: 80vw;
   color: var(--darkerBlue);
 }
 
@@ -19,7 +50,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 0.5rem;
 }
 .cursosHeader h1 {
   font-size: 1.5rem;
@@ -34,7 +64,6 @@
   /* background-color: red; */
   display: flex;
   flex-wrap: wrap;
-  gap: 0.25rem;
 }
 
 .cursosFiltro button {
@@ -48,6 +77,11 @@
 }
 
 /* Cursos Carousel */
+
+.cursosCarousel {
+  padding: 0 50px;
+  position: relative;
+}
 
 .cursosCarouselCard {
   background: linear-gradient(
@@ -72,7 +106,6 @@
   transform: translateX(-10%) translateY(-20%);
   border: 1px solid var(--darkBlue);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
 }
 
 .cursosCarouselCardHeader img {
@@ -86,7 +119,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
-  gap: 0.5rem;
 }
 
 .cursosCarouselCardBody h2 {
@@ -104,13 +136,11 @@
   font-weight: 600;
   text-decoration: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
 }
 
 .cursosCarouselCardTematicas {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
   font-size: 0.8rem;
 }
 
@@ -137,7 +167,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
   text-align: center;
 }
 
@@ -178,7 +207,6 @@
   background-color: var(--orange);
   border-radius: 1rem;
   padding: 1rem 1rem 1rem 90px;
-  gap: 1rem;
   height: 50px;
   position: relative;
 }
@@ -242,7 +270,6 @@
 .cursosInputDropdown {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
   height: 200px;
   overflow: scroll;
   margin: 1rem;
@@ -289,107 +316,11 @@
 
 /* Carousel */
 
-.carouselSection {
-  background-color: var(--lightBlue);
-  border-radius: 1rem;
-  height: 600px;
-  margin: 0 10%;
-  margin-top: 4rem;
-  padding: 2rem;
-}
-
-.carouselHeader {
-  display: flex;
-  justify-content: center;
-}
-
-.carouselHeader h1 {
-  background-color: var(--orange);
-  border-radius: 1rem;
-  padding: 1rem;
-  color: white;
-  font-size: 1rem;
-}
-
 /* Carousel Slider */
-
-.carouselContainer {
-  position: relative;
-  width: 100%;
-  height: 600px;
-  overflow: hidden;
-  z-index: 0;
-  display: flex;
-  justify-content: center;
-}
-
-.carouselCard {
-  position: absolute;
-  padding: 2rem;
-  transition: 500ms;
-  top: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.carouselVideo {
-  display: flex;
-  justify-content: center;
-  aspect-ratio: 16/9;
-}
-.carouselVideo iframe {
-  aspect-ratio: 16/9;
-  border: none;
-  border-radius: 1rem;
-}
-
-.carouselDescContainer {
-  transition: 500ms;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-}
-
-.carouselDesc {
-  font-weight: 500;
-  color: var(--darkBlue);
-  text-align: center;
-}
-
-.carouselProf {
-  font-weight: 800;
-  color: var(--darkBlue);
-}
-
-#carouselNext,
-#carouselPrev {
-  position: absolute;
-  left: 0;
-  bottom: 10%;
-  padding: 0 20%;
-  color: var(--orange);
-  border: none;
-  background-color: transparent;
-  font-size: xxx-large;
-  font-weight: bold;
-  cursor: pointer;
-  z-index: 2;
-}
-
-#carouselNext {
-  left: unset;
-  right: 0;
-}
 
 /* Ver Cursos */
 
 .verCursosSection {
-  background-color: var(--darkBlue);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -398,27 +329,6 @@
   color: white;
   gap: 2rem;
   padding: 3rem 25%;
-  margin-top: 4rem;
-}
-
-.verCursosHeader {
-  font-weight: 500;
-  font-size: 1.5rem;
-}
-
-.verCursosBtn {
-  background-color: var(--orange);
-  color: white;
-  text-decoration: none;
-  border-radius: 1rem;
-  padding: 1rem;
-  font-weight: 600;
-  font-size: 2rem;
-}
-
-.verCusosDesc {
-  font-weight: 500;
-  font-size: 1rem;
 }
 
 /* Sobre */
@@ -571,7 +481,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
   width: 100%;
   height: fit-content;
 }
@@ -579,7 +488,6 @@
 .duvidasCard {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
   align-items: center;
   padding: 2rem;
   background-color: var(--darkBlue);
@@ -605,32 +513,3 @@
 }
 
 /* MAIN PAGE - END*/
-
-/* Media Queries */
-
-@media (max-width: 768px) {
-  .cursos {
-    padding: 0 5%;
-  }
-
-  .nextCurso {
-    top: 0;
-    right: 5%;
-  }
-
-  .prevCurso {
-    top: 0;
-    left: 5%;
-  }
-
-  .carouselSection {
-    margin: 0;
-    border-radius: 0;
-  }
-}
-
-@media (min-width: 1024px) {
-  .carouselVideo {
-    height: 300px;
-  }
-}
