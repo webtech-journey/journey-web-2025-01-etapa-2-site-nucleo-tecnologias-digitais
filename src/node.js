@@ -1,25 +1,79 @@
-const carousel = document.getElementById("carouselWrapper");
+const carousel = document.getElementById("videosContainer");
 
 fetch("videos.json")
   .then((res) => res.json())
   .then((data) => {
     data.forEach((video) => {
       carousel.innerHTML += `
-        <div class="carouselCard swiper-slide">
-          <div class="carouselVideo">
-                <iframe 
+          <div class="videoCard swiper-slide">
+            <div class="videoHeader">
+              <iframe
                 src="${video.video_link}"
                 title="${video.titulo}"
                 allowfullscreen
-                ></iframe>
+              ></iframe>
+            </div>
+            <div class="videoBody">
+              <h4 class="videoDesc">
+                ${video.video_desc}
+              </h4>
+              <div class="videoProf">
+                <h3>${video.prof_nome}</h3>
+                <a target="_blank" href="${video.prof_link}"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
           </div>
-          <div class="carouselDescContainer">
-              <h3 class="carouselDesc">${video.video_desc}</h3>
-            <a class="carouselProf" href="${video.prof_link}" target="_blank">${video.prof_nome}</a>
-          </div>
-        
-        </div>
         `;
+    });
+
+    new Swiper(".carouselVideos", {
+      // Optional parameters
+      loop: true,
+      spaceBetween: 0,
+      effect: "coverflow",
+      centeredSlides: true,
+      allowTouchMove: false,
+      mousewheel: true,
+      speed: 600,
+
+      mousewheel: {
+        forceToAxis: true,
+      },
+
+      keyboard: {
+        enabled: true,
+      },
+
+      coverflowEffect: {
+        depth: 1000,
+        rotate: 0,
+        slideShadows: false,
+        modifier: 0.25,
+      },
+
+      // If we need pagination
+      pagination: {
+        el: ".videos-pagination",
+        clickable: true,
+        dynamicBullets: true,
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: ".videos-next",
+        prevEl: ".videos-prev",
+      },
+
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+          allowTouchMove: true,
+          touchRatio: 1,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+      },
     });
   });
 
@@ -98,6 +152,12 @@ new Swiper(".cursosCarouselContainer", {
   // Optional parameters
   loop: false,
   spaceBetween: 10,
+  mousewheel: true,
+  speed: 600,
+
+  mousewheel: {
+    forceToAxis: true,
+  },
 
   // If we need pagination
   pagination: {
@@ -124,50 +184,6 @@ new Swiper(".cursosCarouselContainer", {
     },
     1440: {
       slidesPerView: 4,
-    },
-  },
-});
-
-new Swiper(".carouselVideos", {
-  // Optional parameters
-  loop: true,
-  spaceBetween: 100,
-  effect: "coverflow",
-  centeredSlides: true,
-  allowTouchMove: false,
-
-  keyboard: {
-    enabled: true,
-  },
-
-  coverflowEffect: {
-    depth: 1000,
-    rotate: 0,
-    slideShadows: false,
-    modifier: 0.25,
-  },
-
-  // If we need pagination
-  pagination: {
-    el: ".videos-pagination",
-    clickable: true,
-    dynamicBullets: true,
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: ".videos-next",
-    prevEl: ".videos-prev",
-  },
-
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
-      allowTouchMove: true,
-      touchRatio: 1,
-    },
-    1024: {
-      slidesPerView: 3,
     },
   },
 });
