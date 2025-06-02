@@ -30,19 +30,13 @@ function importarCursos() {
                     <span>Comparar</span>
                     <input type="checkbox" />
                 </label>
-                <span class="Modalidade">${curso.modalidade}</span>
             </div>
 
             <div class="cursoBody">
               <div class="cursoBodyText">
                 <h3>${curso.nome_do_curso}</h3>
+                <span class="Modalidade">${curso.modalidade}</span>
               </div>
-              <div class="image_div">
-                <img class="image_card" src="/assets/images/placeHolderCoureseCardImage.png" />
-              </div>
-            </div>
-            <div>
-              <button class="btnDetalhes">Detalhes</button>
             </div>
           </div>
         `;

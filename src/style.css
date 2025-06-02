@@ -675,6 +675,7 @@ main aside {
   height: 9rem;
   width: 20rem;
   font-size: 0.9em;
+  color: var(--darkBlue);
 }
 
 .selecionado {
@@ -688,11 +689,15 @@ input[type="checkbox"] {
 
 .compararLabel {
   position: absolute;
+  justify-content: center;
   right: 10px;
   display: flex;
   gap: 10px;
-  font-size: 1.2em;
+  font-size: 1em;
   padding: 2px 6px;
+  background-color: var(--darkBlue);
+  color: white;
+  border-radius: 10rem;
 }
 
 .compararLabel input[type="checkbox"] {
@@ -705,21 +710,19 @@ input[type="checkbox"] {
   padding: 4px 10px;
   border: 1px solid;
   border-radius: 20px;
-  font-size: 0.9em;
   background-color: #f8f8f8;
 }
 
 .cursoBody {
-  display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: space-between;
   height: 5rem;
+  background-color: white;
 }
 
 .cursoBodyText {
-  display: flex;
-  align-items: center;
-  font-size: 0.8rem;
+  align-items: end;
+  font-size: 0.7rem;
   height: 5rem;
 }
 
