@@ -500,14 +500,14 @@ main aside {
   width: 13%;
   color: white;
   position: sticky;
-  height: 90dvh;
+  height: 100dvh;
   top: 0;
   background-color: var(--darkBlue);
   padding: 2rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  overflow-y: scroll;
+  overflow-y: hidden;
   overflow-x: hidden;
 }
 
@@ -813,17 +813,20 @@ input[type="checkbox"] {
 }
 
 .tipoCursos option {
-  font-size: 0.8rem;
+  font-size: 1rem;
   background-color: var(--darkBlue);
   color: white;
   cursor: pointer;
 }
 
 .tipoCursos select {
-  font-size: 0.8rem;
+  font-size: 1rem;
   background-color: var(--darkBlue);
   color: white;
   cursor: pointer;
   border-style: none;
-  width: 15rem;
+  width: auto;
+  height: 2rem;
+  border-radius: 0.5rem;
+  position: relative;
 }
