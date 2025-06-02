@@ -78,37 +78,28 @@
           </button>
           
         </div>
+
+        <!--Filtro 1-->
         <div class="tipoCursos">
           <div class="tipoCursosHeader">
             <h1>Tipo de Curso</h1>
           </div>
           <div class="cursosSelect">
-
-            <!--Filtro 1-->
-            <label for="todos">
-              <input type="radio" name="cursoTipo1" id="todos" checked />Todos
-            </label>
-            <label for="online">
-              <input type="radio" name="cursoTipo1" id="online" />Online
-            </label>
-            <label for="ead">
-              <input type="radio" name="cursoTipo1" id="ead" />EAD
-            </label>
-
+            <select id="opcoes" name="opcoes">
+              <option value="opcao1">Todos</option>
+              <option value="opcao2">Online</option>
+              <option value="opcao3">EAD</option>
+            </select>
           </div>
         </div>
+
+        <!--Filtro 2-->
         <div class="tipoCursos">
           <div class="tipoCursosHeader">
             <h1>Tópico</h1>
           </div>
           <div class="cursosSelect">
-
-            <!--Filtro 2-->
-            <label for="A0">
-                <input type="radio" name="cursoTipo" id="A0" checked/>Todos
-            </label>
-            <section id="filtro-cursos">
-            </section>
+            <select id="filtro-cursos" name="filtro-cursos"></select>
           </div>
         </div>
       </aside>

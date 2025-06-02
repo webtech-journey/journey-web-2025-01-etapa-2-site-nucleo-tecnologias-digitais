@@ -811,3 +811,19 @@ input[type="checkbox"] {
   accent-color: var(--darkBlue);
   cursor: pointer;
 }
+
+.tipoCursos option {
+  font-size: 0.8rem;
+  background-color: var(--darkBlue);
+  color: white;
+  cursor: pointer;
+}
+
+.tipoCursos select {
+  font-size: 0.8rem;
+  background-color: var(--darkBlue);
+  color: white;
+  cursor: pointer;
+  border-style: none;
+  width: 15rem;
+}

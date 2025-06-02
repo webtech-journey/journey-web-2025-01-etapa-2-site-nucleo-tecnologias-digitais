@@ -120,9 +120,9 @@ function importarCursos() {
       let html = "";
 
       dados.forEach(categoria => {
-        html += `<label for="A${categoria.id}">
-              <input type="radio"name="cursoTipo"id="A${categoria.id}"/>${categoria.categoria}
-            </label>`;
+        html += `
+            <option value="opcao${categoria.id}">${categoria.categoria}</option>
+            `;
       });
       section2.innerHTML = html;
   });
