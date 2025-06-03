@@ -2,7 +2,6 @@
 
 /* Cursos */
 
-
 .cursosSection {
   display: flex;
   flex-direction: column;
@@ -18,7 +17,6 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  
 }
 
 .cursosHeader {
@@ -57,7 +55,6 @@
 
 /* Cursos Carousel */
 
-
 .cursos-prev,
 .cursos-next {
   position: absolute;
@@ -71,6 +68,29 @@
   padding: 1rem;
 }
 
+@media (max-width: 500px) {
+  .cursos-prev,
+  .cursos-next {
+    position: absolute;
+    z-index: 2;
+    top: auto;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 1rem;
+  }
+
+  .cursos-prev {
+    left: 25px !important;
+  }
+
+  .cursos-next {
+    right: 25px !important;
+  }
+}
+
 .cursos-prev {
   left: -50px;
 }
@@ -80,21 +100,20 @@
 }
 
 .cursos-pagination {
-  position: absolute;
+  position: relative;
   --swiper-pagination-color: var(--darkerBlue);
   --swiper-pagination-bullet-width: 1rem;
   --swiper-pagination-bullet-height: 1rem;
 }
-
 
 .cursosCarousel {
   padding-bottom: 2rem;
   position: relative;
 }
 
-
 .cursosCarouselContainer {
   overflow: hidden;
+  padding-bottom: 1rem;
 }
 
 .cursosCarouselCard {
@@ -103,6 +122,8 @@
     var(--darkBlue) 0%,
     var(--darkerBlue) 100%
   );
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
   border-radius: 1rem;
   color: white;
 }
@@ -331,6 +352,51 @@
 
 /* Carousel */
 
+.videos-prev,
+.videos-next {
+  position: absolute;
+  z-index: 2;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  top: 35%;
+  color: var(--darkBlue);
+}
+
+.videos-prev {
+  padding: 50% 26% 50% 5%;
+  left: 0;
+}
+.videos-next {
+  padding: 50% 5% 50% 26%;
+  right: 0;
+}
+
+@media (max-width: 500px) {
+  .videos-prev,
+  .videos-next {
+    position: absolute;
+    z-index: 2;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    top: auto;
+    color: var(--darkBlue);
+  }
+
+  .videos-prev {
+    padding: 0 1rem;
+    left: 0;
+  }
+  .videos-next {
+    padding: 0 1rem;
+    right: 0;
+  }
+}
 
 .videosSection {
   position: relative;
@@ -340,6 +406,10 @@
   padding: 1rem;
   margin: 0 10%;
   border-radius: 1rem;
+}
+
+.videosContainer {
+  padding-bottom: 1rem;
 }
 
 .carouselVideosHeader {
@@ -360,6 +430,9 @@
 .videos-pagination {
   position: absolute;
   z-index: 1;
+  --swiper-pagination-color: var(--darkerBlue);
+  --swiper-pagination-bullet-width: 1rem;
+  --swiper-pagination-bullet-height: 1rem;
 }
 
 .carouselVideos {
@@ -388,7 +461,7 @@
   transition: 500ms;
 }
 
-.videoCard  {
+.videoCard {
   color: var(--darkBlue);
 }
 

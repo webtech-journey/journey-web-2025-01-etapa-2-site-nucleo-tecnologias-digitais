@@ -1,3 +1,92 @@
+/* Populate Carreiras */
+
+const carreirasContainer = document.getElementById("cursosFiltro");
+
+fetch("carreiras.json")
+  .then((res) => res.json())
+  .then((data) => {
+    data.forEach((carreira) => {
+      console.log(carreira);
+      carreirasContainer.innerHTML += `
+        <button>${carreira.nome}</button>
+      `;
+    });
+  });
+
+/* Populate Cursos Carousel */
+
+const cursosCarousel = document.getElementById("cursosCarousel");
+
+fetch("cursos.json")
+  .then((res) => res.json())
+  .then((data) => {
+    data.forEach((category) => {
+      category.cursos.forEach((curso) => {
+        cursosCarousel.innerHTML += `
+            <div class="cursosCarouselCard swiper-slide">
+              <div class="cursosCarouselCardHeader">
+                <h4>${curso.modalidade}</h4>
+                <img
+                  src="https://www.shutterstock.com/image-photo/digital-technology-big-data-storage-600nw-2164313403.jpg"
+                />
+              </div>
+
+              <div class="cursosCarouselCardBody">
+                <div class="cursosCarouselCardTematicas">
+                  <h6>Software</h6>
+                  <h6>Metodologias e Processos</h6>
+                </div>
+                <h2>${curso.nome_do_curso}</h2>
+                <a href="#">Detalhes</a>
+              </div>
+            </div>
+        `;
+      });
+    });
+
+    new Swiper(".cursosCarouselContainer", {
+      // Optional parameters
+      loop: false,
+      spaceBetween: 10,
+      mousewheel: true,
+      speed: 500,
+
+      mousewheel: {
+        forceToAxis: true,
+      },
+
+      // If we need pagination
+      pagination: {
+        el: ".cursos-pagination",
+        clickable: true,
+        dynamicBullets: true,
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: ".cursos-next",
+        prevEl: ".cursos-prev",
+      },
+
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+        1440: {
+          slidesPerView: 4,
+        },
+      },
+    });
+  });
+
+/* Populate Videos Carousel */
+
 const carousel = document.getElementById("videosContainer");
 
 fetch("videos.json")
@@ -34,7 +123,7 @@ fetch("videos.json")
       centeredSlides: true,
       allowTouchMove: false,
       mousewheel: true,
-      speed: 600,
+      speed: 500,
 
       mousewheel: {
         forceToAxis: true,
@@ -77,21 +166,6 @@ fetch("videos.json")
     });
   });
 
-/* Populate Carreiras */
-
-const carreirasContainer = document.getElementById("cursosFiltro");
-
-fetch("carreiras.json")
-  .then((res) => res.json())
-  .then((data) => {
-    data.forEach((carreira) => {
-      console.log(carreira);
-      carreirasContainer.innerHTML += `
-        <button>${carreira.nome}</button>
-      `;
-    });
-  });
-
 /* Populate Sobre */
 
 const sobre = document.getElementById("sobreCarousel");
@@ -115,75 +189,3 @@ fetch("porque.json")
       `;
     });
   });
-
-// Cursos
-
-const cursosCarousel = document.getElementById("cursosCarousel");
-
-fetch("cursos.json")
-  .then((res) => res.json())
-  .then((data) => {
-    data.forEach((category) => {
-      category.cursos.forEach((curso) => {
-        cursosCarousel.innerHTML += `
-            <div class="cursosCarouselCard swiper-slide">
-              <div class="cursosCarouselCardHeader">
-                <h4>Online</h4>
-                <img
-                  src="https://www.shutterstock.com/image-photo/digital-technology-big-data-storage-600nw-2164313403.jpg"
-                />
-              </div>
-
-              <div class="cursosCarouselCardBody">
-                <div class="cursosCarouselCardTematicas">
-                  <h6>Software</h6>
-                  <h6>Metodologias e Processos</h6>
-                </div>
-                <h2>${curso.nome_do_curso}</h2>
-                <a href="#">Detalhes</a>
-              </div>
-            </div>
-        `;
-      });
-    });
-  });
-
-new Swiper(".cursosCarouselContainer", {
-  // Optional parameters
-  loop: false,
-  spaceBetween: 10,
-  mousewheel: true,
-  speed: 600,
-
-  mousewheel: {
-    forceToAxis: true,
-  },
-
-  // If we need pagination
-  pagination: {
-    el: ".cursos-pagination",
-    clickable: true,
-    dynamicBullets: true,
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: ".cursos-next",
-    prevEl: ".cursos-prev",
-  },
-
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
-    },
-    768: {
-      slidesPerView: 2,
-    },
-    1024: {
-      slidesPerView: 3,
-    },
-    1440: {
-      slidesPerView: 4,
-    },
-  },
-});
