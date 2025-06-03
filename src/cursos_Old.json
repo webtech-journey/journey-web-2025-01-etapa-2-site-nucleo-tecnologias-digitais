@@ -20,9 +20,9 @@
           "Arquiteto de Software/Soluções"
         ],
         "descriptions": [
-          "Aborda a aplicação sistemática de princípios de engenharia para o desenvolvimento de software.",
-          "Cobre todo o ciclo de vida do software, desde a concepção e análise de requisitos até a manutenção.",
-          "Visa produzir software de alta qualidade, confiável e de fácil manutenção, dentro do orçamento e dos prazos."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -43,9 +43,9 @@
           "Desenvolvedor de Software"
         ],
         "descriptions": [
-          "Foca no projeto de sistemas de software que são executados em múltiplos computadores conectados por uma rede.",
-          "Aborda desafios como concorrência, tolerância a falhas e escalabilidade.",
-          "Explora padrões e princípios para a construção de aplicações distribuídas robustas e resilientes."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -66,9 +66,9 @@
           "Consultor de TI"
         ],
         "descriptions": [
-          "Envolve o desenho e a definição da estrutura geral de uma solução tecnológica para atender a requisitos de negócios específicos.",
-          "Faz a ponte entre os problemas de negócio e as soluções tecnológicas.",
-          "Considera aspectos como infraestrutura, segurança e integração com outros sistemas."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -89,9 +89,9 @@
           "Consultor de TI"
         ],
         "descriptions": [
-          "Foca no uso de robôs de software (RPA) para automatizar processos de negócios repetitivos e baseados em regras.",
-          "Explora a hiperautomação, que combina RPA com outras tecnologias como IA e aprendizado de máquina para automações mais complexas.",
-          "Visa melhorar a eficiência, reduzir erros e liberar os trabalhadores humanos para tarefas mais estratégicas."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -112,9 +112,9 @@
           "Engenheiro de Cloud"
         ],
         "descriptions": [
-          "Visa encurtar o ciclo de vida de desenvolvimento de sistemas e fornecer entrega contínua com alta qualidade de software.",
-          "Enfatiza a colaboração e a comunicação entre desenvolvedores de software e profissionais de operações de TI.",
-          "Integra práticas de integração contínua, entrega contínua (CI/CD) e infraestrutura como código."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -135,9 +135,9 @@
           "Engenheiro de Cloud"
         ],
         "descriptions": [
-          "Uma disciplina que incorpora aspectos da engenharia de software e os aplica a problemas de infraestrutura e operações.",
-          "Foca na criação de sistemas de software escaláveis e altamente confiáveis.",
-          "Usa princípios de engenharia de software para automatizar tarefas de operações de TI."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -158,9 +158,9 @@
           "Analista de Sistemas"
         ],
         "descriptions": [
-          "Foca em garantir a qualidade do software por meio de testes sistemáticos e processos de garantia de qualidade.",
-          "Cobre várias metodologias de teste, desde testes de unidade até testes de ponta a ponta.",
-          "Visa identificar e corrigir defeitos no início do ciclo de desenvolvimento para entregar um produto de alta qualidade."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -181,9 +181,9 @@
           "Consultor de TI"
         ],
         "descriptions": [
-          "Foca no desenvolvimento de Sistemas de Informações Geográficas (SIG) para capturar, armazenar, analisar e gerenciar dados espaciais ou geográficos.",
-          "Envolve a programação e personalização de aplicações SIG para resolver problemas específicos.",
-          "Combina geografia, cartografia e ciência da computação."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -204,9 +204,9 @@
           "Desenvolvedor de Software"
         ],
         "descriptions": [
-          "Foca no projeto de sistemas de software que são executados em múltiplos computadores conectados por uma rede.",
-          "Aborda desafios como concorrência, tolerância a falhas e escalabilidade.",
-          "Explora padrões e princípios para a construção de aplicações distribuídas robustas e resilientes."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -227,9 +227,9 @@
           "Consultor de TI"
         ],
         "descriptions": [
-          "Envolve o desenho e a definição da estrutura geral de uma solução tecnológica para atender a requisitos de negócios específicos.",
-          "Faz a ponte entre os problemas de negócio e as soluções tecnológicas.",
-          "Considera aspectos como infraestrutura, segurança e integração com outros sistemas."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -250,9 +250,9 @@
           "Arquiteto de Software/Soluções"
         ],
         "descriptions": [
-          "Foca no projeto, desenvolvimento e manutenção de aplicações de software para dispositivos móveis como smartphones e tablets.",
-          "Cobre o desenvolvimento para diferentes plataformas, como iOS e Android.",
-          "Aborda desafios específicos para dispositivos móveis, como recursos limitados, tamanhos de tela variados e problemas de conectividade."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -273,9 +273,9 @@
           "Analista de Sistemas"
         ],
         "descriptions": [
-          "Cobre tanto o desenvolvimento front-end (lado do cliente) quanto o back-end (lado do servidor).",
-          "Permite que os desenvolvedores construam aplicações web completas do início ao fim.",
-          "Envolve o trabalho com bancos de dados, servidores, engenharia de sistemas e sites voltados para o cliente."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -296,9 +296,9 @@
           "Arquiteto de Software/Soluções"
         ],
         "descriptions": [
-          "Aborda a aplicação sistemática de princípios de engenharia para o desenvolvimento de software.",
-          "Cobre todo o ciclo de vida do software, desde a concepção e análise de requisitos até a manutenção.",
-          "Visa produzir software de alta qualidade, confiável e de fácil manutenção, dentro do orçamento e dos prazos."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -319,9 +319,9 @@
           "Engenheiro de Software"
         ],
         "descriptions": [
-          "Um papel híbrido que combina design de experiência do usuário (UX) com desenvolvimento front-end.",
-          "Foca na criação de interfaces funcionais e amigáveis, fazendo a ponte entre design e implementação.",
-          "Envolve a prototipagem, teste e implementação da interface do usuário para garantir uma experiência de usuário perfeita."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -342,9 +342,9 @@
           "Engenheiro de Software"
         ],
         "descriptions": [
-          "Um papel híbrido que combina design de experiência do usuário (UX) com desenvolvimento front-end.",
-          "Foca na criação de interfaces funcionais e amigáveis, fazendo a ponte entre design e implementação.",
-          "Envolve a prototipagem, teste e implementação da interface do usuário para garantir uma experiência de usuário perfeita."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -365,9 +365,9 @@
           "Consultor de TI"
         ],
         "descriptions": [
-          "Foca no uso de robôs de software (RPA) para automatizar processos de negócios repetitivos e baseados em regras.",
-          "Explora a hiperautomação, que combina RPA com outras tecnologias como IA e aprendizado de máquina para automações mais complexas.",
-          "Visa melhorar a eficiência, reduzir erros e liberar os trabalhadores humanos para tarefas mais estratégicas."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -388,9 +388,9 @@
           "Engenheiro de Cloud"
         ],
         "descriptions": [
-          "Visa encurtar o ciclo de vida de desenvolvimento de sistemas e fornecer entrega contínua com alta qualidade de software.",
-          "Enfatiza a colaboração e a comunicação entre desenvolvedores de software e profissionais de operações de TI.",
-          "Integra práticas de integração contínua, entrega contínua (CI/CD) e infraestrutura como código."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -411,9 +411,9 @@
           "Analista de Sistemas"
         ],
         "descriptions": [
-          "Foca em garantir a qualidade do software por meio de testes sistemáticos e processos de garantia de qualidade.",
-          "Cobre várias metodologias de teste, desde testes de unidade até testes de ponta a ponta.",
-          "Visa identificar e corrigir defeitos no início do ciclo de desenvolvimento para entregar um produto de alta qualidade."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -434,9 +434,9 @@
           "Engenheiro de Cloud"
         ],
         "descriptions": [
-          "Uma disciplina que incorpora aspectos da engenharia de software e os aplica a problemas de infraestrutura e operações.",
-          "Foca na criação de sistemas de software escaláveis e altamente confiáveis.",
-          "Usa princípios de engenharia de software para automatizar tarefas de operações de TI."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -457,9 +457,9 @@
           "Analista de Sistemas"
         ],
         "descriptions": [
-          "Cobre tanto o desenvolvimento front-end (lado do cliente) quanto o back-end (lado do servidor).",
-          "Permite que os desenvolvedores construam aplicações web completas do início ao fim.",
-          "Envolve o trabalho com bancos de dados, servidores, engenharia de sistemas e sites voltados para o cliente."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -480,9 +480,9 @@
           "Arquiteto de Software/Soluções"
         ],
         "descriptions": [
-          "Foca no projeto, desenvolvimento e manutenção de aplicações de software para dispositivos móveis como smartphones e tablets.",
-          "Cobre o desenvolvimento para diferentes plataformas, como iOS e Android.",
-          "Aborda desafios específicos para dispositivos móveis, como recursos limitados, tamanhos de tela variados e problemas de conectividade."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -503,9 +503,9 @@
           "Engenheiro de Software"
         ],
         "descriptions": [
-          "Foca no processo de criação e manutenção de sistemas de informação.",
-          "Envolve a compreensão das necessidades de negócios, o desenho de especificações de sistemas e o desenvolvimento do software.",
-          "Prepara profissionais para trabalhar com programação, bancos de dados e metodologias de engenharia de software."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -526,9 +526,9 @@
           "Engenheiro de Software"
         ],
         "descriptions": [
-          "Foca no processo de criação e manutenção de sistemas de informação.",
-          "Envolve a compreensão das necessidades de negócios, o desenho de especificações de sistemas e o desenvolvimento do software.",
-          "Prepara profissionais para trabalhar com programação, bancos de dados e metodologias de engenharia de software."
+          "",
+          "",
+          ""
         ]
       }
     ]
@@ -554,9 +554,9 @@
           "Analista de Dados"
         ],
         "descriptions": [
-          "Foca na criação de produtos digitais que oferecem uma experiência significativa e relevante aos usuários.",
-          "Envolve todo o processo de criação de produtos, desde a pesquisa e ideação até a prototipagem e testes com usuários.",
-          "Combina aspectos de experiência do usuário (UX), design de interface do usuário (UI) e estratégia de produto."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -577,9 +577,9 @@
           "Desenvolvedor de Software"
         ],
         "descriptions": [
-          "Envolve o processamento de dados georreferenciados.",
-          "Usa tecnologia para coletar, armazenar, processar, analisar e exibir informações geográficas.",
-          "É aplicado em vários campos como planejamento urbano, análise ambiental e logística."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -600,9 +600,9 @@
           "Gerente de TI/Projetos"
         ],
         "descriptions": [
-          "Foca na prática de medir, gerenciar e analisar o desempenho do marketing para maximizar sua eficácia.",
-          "Ensina como usar dados para entender o comportamento do cliente e otimizar as campanhas de marketing.",
-          "Combina princípios de marketing com análise de dados e métodos estatísticos."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -623,9 +623,9 @@
           "Analista de Dados"
         ],
         "descriptions": [
-          "Foca na criação de produtos digitais que oferecem uma experiência significativa e relevante aos usuários.",
-          "Envolve todo o processo de criação de produtos, desde a pesquisa e ideação até a prototipagem e testes com usuários.",
-          "Combina aspectos de experiência do usuário (UX), design de interface do usuário (UI) e estratégia de produto."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -646,9 +646,9 @@
           "UX/UI Designer"
         ],
         "descriptions": [
-          "Envolve a supervisão de todo o ciclo de vida de um produto digital, desde a concepção até o lançamento e além.",
-          "Foca na definição da visão, estratégia e roteiro do produto.",
-          "Requer a coordenação de equipes multifuncionais, incluindo design, engenharia e marketing."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -669,9 +669,9 @@
           "UX/UI Designer"
         ],
         "descriptions": [
-          "Envolve a supervisão de todo o ciclo de vida de um produto digital, desde a concepção até o lançamento e além.",
-          "Foca na definição da visão, estratégia e roteiro do produto.",
-          "Requer a coordenação de equipes multifuncionais, incluindo design, engenharia e marketing."
+          "",
+          "",
+          ""
         ]
       }
     ]
@@ -697,9 +697,9 @@
           "Analista de Cibersegurança"
         ],
         "descriptions": [
-          "Cobre a entrega de serviços de computação — incluindo servidores, armazenamento, bancos de dados, redes e software — pela Internet ('a nuvem').",
-          "Explora as principais plataformas de nuvem como AWS, Azure e Google Cloud.",
-          "Foca em arquitetura de nuvem, segurança e gerenciamento de custos."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -720,9 +720,9 @@
           "Engenheiro de Cloud"
         ],
         "descriptions": [
-          "Foca na proteção de sistemas e redes de computadores contra divulgação de informações, roubo ou danos.",
-          "Cobre o gerenciamento geral da disponibilidade, usabilidade, integridade e segurança dos dados.",
-          "Ensina como estabelecer políticas e procedimentos para o manuseio de dados e mitigação de ameaças."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -743,9 +743,9 @@
           "Consultor de TI"
         ],
         "descriptions": [
-          "Envolve o planejamento, projeto, implementação e manutenção de redes de computadores.",
-          "Cobre protocolos de rede, hardware e software.",
-          "Prepara profissionais para construir e gerenciar infraestruturas de rede robustas, seguras e escaláveis."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -766,9 +766,9 @@
           "Arquiteto de Software/Soluções"
         ],
         "descriptions": [
-          "Foca no alinhamento da estratégia de tecnologia da informação com a estratégia de negócios.",
-          "Ensina como usar a TI para obter vantagem competitiva e alcançar os objetivos de negócios.",
-          "Cobre tópicos como governança de TI, gerenciamento de projetos e transformação digital."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -789,9 +789,9 @@
           "Analista de Cibersegurança"
         ],
         "descriptions": [
-          "Cobre a entrega de serviços de computação — incluindo servidores, armazenamento, bancos de dados, redes e software — pela Internet ('a nuvem').",
-          "Explora as principais plataformas de nuvem como AWS, Azure e Google Cloud.",
-          "Foca em arquitetura de nuvem, segurança e gerenciamento de custos."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -812,9 +812,9 @@
           "Engenheiro de Cloud"
         ],
         "descriptions": [
-          "Foca na proteção de sistemas e redes de computadores contra divulgação de informações, roubo ou danos.",
-          "Cobre o gerenciamento geral da disponibilidade, usabilidade, integridade e segurança dos dados.",
-          "Ensina como estabelecer políticas e procedimentos para o manuseio de dados e mitigação de ameaças."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -835,9 +835,9 @@
           "Consultor de TI"
         ],
         "descriptions": [
-          "Foca na identificação, avaliação e mitigação de riscos de cibersegurança para uma organização.",
-          "Envolve o desenvolvimento e implementação de políticas, procedimentos e controles de segurança.",
-          "Combina conhecimento técnico de cibersegurança com princípios de gerenciamento de riscos e continuidade de negócios."
+          "",
+          "",
+          ""
         ]
       }
     ]
@@ -863,9 +863,9 @@
           "Cientista de Dados"
         ],
         "descriptions": [
-          "Foca no uso da análise de dados para informar decisões de negócios estratégicas.",
-          "Ensina como coletar, gerenciar e analisar dados para identificar tendências, padrões e insights.",
-          "Combina técnicas de gerenciamento de dados com estratégia de negócios e métodos analíticos."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -886,9 +886,9 @@
           "Desenvolvedor de Software"
         ],
         "descriptions": [
-          "Foca nos processos e tecnologias usadas para analisar dados e apresentar informações acionáveis para ajudar executivos, gerentes e outros usuários finais a tomar decisões de negócios informadas.",
-          "Cobre data warehousing, mineração de dados e visualização de dados.",
-          "Visa transformar dados brutos em informações significativas e úteis para fins comerciais."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -909,9 +909,9 @@
           "Analista de Dados"
         ],
         "descriptions": [
-          "Um campo interdisciplinar que usa métodos, processos, algoritmos e sistemas científicos para extrair conhecimento e insights de dados estruturados e não estruturados.",
-          "Lida com conjuntos de dados grandes e complexos (Big Data) que não podem ser facilmente gerenciados com ferramentas tradicionais de processamento de dados.",
-          "Incorpora habilidades de ciência da computação, estatística e conhecimento de domínio."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -932,9 +932,9 @@
           "Desenvolvedor de Software"
         ],
         "descriptions": [
-          "Foca na aplicação prática da coleta e análise de dados.",
-          "Envolve a construção e manutenção da infraestrutura e arquitetura para geração, armazenamento e processamento de dados.",
-          "Prepara os dados para uso por cientistas e analistas de dados, criando pipelines de dados."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -955,9 +955,9 @@
           "Engenheiro de Software"
         ],
         "descriptions": [
-          "Explora a teoria e o desenvolvimento de sistemas de computador capazes de realizar tarefas que normalmente exigem inteligência humana.",
-          "Foca no aprendizado de máquina, um subconjunto da IA onde os algoritmos são treinados em dados para aprender e fazer previsões.",
-          "Cobre tópicos como redes neurais, aprendizado profundo e processamento de linguagem natural."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -978,9 +978,9 @@
           "Analista de Dados"
         ],
         "descriptions": [
-          "Composto por modelos, políticas, regras e padrões que governam quais dados são coletados e como são armazenados, organizados, integrados e utilizados.",
-          "Fornece um blueprint para os sistemas de gerenciamento de dados de uma organização.",
-          "Garante que os dados sejam gerenciados de forma segura, confiável e alinhada aos objetivos de negócios."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -1001,9 +1001,9 @@
           "Especialista em IA/Machine Learning"
         ],
         "descriptions": [
-          "Foca nos conceitos e métodos estatísticos que formam a base da ciência de dados.",
-          "Cobre tópicos como probabilidade, teste de hipóteses e análise de regressão.",
-          "Equipa os alunos com as habilidades quantitativas necessárias para realizar análises de dados rigorosas e construir modelos preditivos precisos."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -1024,9 +1024,9 @@
           "Consultor de TI"
         ],
         "descriptions": [
-          "Foca na análise de dados geográficos para identificar padrões, relacionamentos e tendências.",
-          "Utiliza estatísticas espaciais e técnicas geoestatísticas.",
-          "Aplica-se a campos como planejamento urbano, ciências ambientais e epidemiologia."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -1047,9 +1047,9 @@
           "Desenvolvedor de Software"
         ],
         "descriptions": [
-          "Foca nos processos e tecnologias usadas para analisar dados e apresentar informações acionáveis para ajudar executivos, gerentes e outros usuários finais a tomar decisões de negócios informadas.",
-          "Cobre data warehousing, mineração de dados e visualização de dados.",
-          "Visa transformar dados brutos em informações significativas e úteis para fins comerciais."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -1070,9 +1070,9 @@
           "Analista de Dados"
         ],
         "descriptions": [
-          "Um campo interdisciplinar que usa métodos, processos, algoritmos e sistemas científicos para extrair conhecimento e insights de dados estruturados e não estruturados.",
-          "Lida com conjuntos de dados grandes e complexos (Big Data) que não podem ser facilmente gerenciados com ferramentas tradicionais de processamento de dados.",
-          "Incorpora habilidades de ciência da computação, estatística e conhecimento de domínio."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -1093,9 +1093,9 @@
           "Desenvolvedor de Software"
         ],
         "descriptions": [
-          "Foca na aplicação prática da coleta e análise de dados.",
-          "Envolve a construção e manutenção da infraestrutura e arquitetura para geração, armazenamento e processamento de dados.",
-          "Prepara os dados para uso por cientistas e analistas de dados, criando pipelines de dados."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -1116,9 +1116,9 @@
           "Cientista de Dados"
         ],
         "descriptions": [
-          "Foca no uso da análise de dados para informar decisões de negócios estratégicas.",
-          "Ensina como coletar, gerenciar e analisar dados para identificar tendências, padrões e insights.",
-          "Combina técnicas de gerenciamento de dados com estratégia de negócios e métodos analíticos."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -1139,9 +1139,9 @@
           "Engenheiro de Software"
         ],
         "descriptions": [
-          "Explora a teoria e o desenvolvimento de sistemas de computador capazes de realizar tarefas que normalmente exigem inteligência humana.",
-          "Foca no aprendizado de máquina, um subconjunto da IA onde os algoritmos são treinados em dados para aprender e fazer previsões.",
-          "Cobre tópicos como redes neurais, aprendizado profundo e processamento de linguagem natural."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -1162,9 +1162,9 @@
           "Analista de Dados"
         ],
         "descriptions": [
-          "Composto por modelos, políticas, regras e padrões que governam quais dados são coletados e como são armazenados, organizados, integrados e utilizados.",
-          "Fornece um blueprint para os sistemas de gerenciamento de dados de uma organização.",
-          "Garante que os dados sejam gerenciados de forma segura, confiável e alinhada aos objetivos de negócios."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -1185,9 +1185,9 @@
           "Consultor de TI"
         ],
         "descriptions": [
-          "Foca na aplicação de técnicas de ciência de dados para analisar dados relacionados à saúde.",
-          "Visa melhorar o atendimento ao paciente, otimizar as operações de saúde e avançar a pesquisa médica.",
-          "Envolve o trabalho com prontuários eletrônicos, dados de ensaios clínicos e dados genômicos."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -1208,9 +1208,9 @@
           "Especialista em IA/Machine Learning"
         ],
         "descriptions": [
-          "Foca nos conceitos e métodos estatísticos que formam a base da ciência de dados.",
-          "Cobre tópicos como probabilidade, teste de hipóteses e análise de regressão.",
-          "Equipa os alunos com as habilidades quantitativas necessárias para realizar análises de dados rigorosas e construir modelos preditivos precisos."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -1231,9 +1231,9 @@
           "Cientista de Dados"
         ],
         "descriptions": [
-          "Um campo científico interdisciplinar que lida com como os computadores podem ser feitos para obter uma compreensão de alto nível a partir de imagens ou vídeos digitais.",
-          "Envolve tarefas como reconhecimento de objetos, restauração de imagens e reconstrução de cenas.",
-          "Busca automatizar tarefas que o sistema visual humano pode realizar."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -1254,9 +1254,9 @@
           "Cientista de Dados"
         ],
         "descriptions": [
-          "Um subcampo da inteligência artificial focado em permitir que os computadores entendam, interpretem e gerem a linguagem humana.",
-          "Envolve tarefas como tradução de texto, análise de sentimentos e modelagem de tópicos.",
-          "Faz a ponte entre a comunicação humana e a compreensão do computador."
+          "",
+          "",
+          ""
         ]
       },
       {
@@ -1277,9 +1277,9 @@
           "Consultor de TI"
         ],
         "descriptions": [
-          "Foca na preparação de líderes para conduzir iniciativas e estratégias de IA dentro de uma organização.",
-          "Combina o conhecimento de tecnologias de IA com habilidades de liderança e gestão de negócios.",
-          "Ensina como identificar oportunidades para IA, gerenciar projetos de IA e navegar pelas implicações éticas da inteligência artificial."
+          "",
+          "",
+          ""
         ]
       }
     ]

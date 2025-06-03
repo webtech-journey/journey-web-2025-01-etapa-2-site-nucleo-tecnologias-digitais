@@ -228,126 +228,157 @@
 
 /* Comparador */
 
-.comparadorContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  z-index: 1;
-  margin-top: 4rem;
-}
-
-.comparador {
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--orange);
-  border-radius: 1rem;
-  padding: 1rem 1rem 1rem 90px;
-  height: 50px;
-  position: relative;
-}
-
-.compararBtn {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translateX(-25%) translateY(-25%);
-  background-color: var(--orange);
+.comparadorSection {
+  /* background-color: red; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem;
-  border: none;
-  border-radius: 2rem;
-  width: 100px;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+/* Comparador Header */
+
+.comparadorHeader {
+  background-color: var(--orange);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: white;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.comparadorHeader h1, .comparadorHeader h2 {
+  z-index: 1;
+}
+
+.comparadorHeader h1 {
+  font-size: 2rem;
+}
+.comparadorHeader h2 {
+  font-size: 1.25rem;
+}
+
+.comparadorHeader span {
+  position: absolute;
+  font-weight: 800;
+  font-size: 10rem;
+  color: black;
+  opacity: 5%;
+  transform: rotateZ(25deg);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Comparador Body */
+
+.comparadorBody {
+  width: 60%;
+}
+
+.comparadorBodyContainer {
+  background-color: var(--orange);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border-radius: 1rem;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.comparadorInputContainer {
+  display: flex;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.comparadorInputContainer input {
+  background: none;
+  border: none;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.comparadorInputActive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  opacity: 60%;
+  font-size: 0.75rem;
+  width: min-content;
+}
+
+.comparadorInputActive button {
+  color: var(--darkOrange);
+  border: none;
+  background: none;
+  text-wrap: nowrap;
   cursor: pointer;
-  transition: 200ms;
 }
 
-.compararBtn:hover {
-  transform: translateX(-30%) translateY(-30%);
-  filter: contrast(1.1);
+.comparadorInputActive button:hover {
+  color: red;
+  text-decoration: line-through;
 }
 
-.cursosInputContainer {
-  border: 2px solid var(--orange);
+.comparadorAdd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: var(--darkOrange);
+  opacity: 75%;
+}
+
+.comparadorButton {
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: var(--darkOrange);
+}
+
+.comparadorButton ion-icon {
+  font-size: 1rem;
+}
+
+.comparadorScreen {
   background-color: white;
   border-radius: 1rem;
-  max-height: 50px;
-  width: 300px;
-  overflow: hidden;
-  color: var(--darkOrange);
-  transition: 500ms;
-}
-
-.cursosInputContainer:hover {
-  max-height: 300px;
-}
-
-.cursosInputHeader {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.cursosInputHeader input {
-  border: none;
+  gap: 2rem;
   padding: 1rem;
-  font-size: 1rem;
 }
 
-.cursosInputHeader input:focus {
-  outline: none;
+.comparadorCurso h4 {
+  border-bottom: 1px solid var(--orange);
 }
 
-.cursosInputDropdown {
-  display: flex;
-  flex-direction: column;
-  height: 200px;
-  overflow: scroll;
-  margin: 1rem;
-}
-
-.cursosInputDropdown button {
-  box-shadow: var(--darkOrange) 0px -0.5px 0px;
-  background: none;
-  cursor: pointer;
-  color: var(--darkOrange);
-  border: none;
-  margin: 0 0.5rem;
-  padding: 1rem;
-  font-size: 1rem;
-  font-weight: 600;
-  transition: 250ms;
-  opacity: 0.75;
-}
-
-.cursosInputDropdown button:hover {
-  opacity: 1;
-}
-
-.compararBtn ion-icon {
-  color: var(--darkOrange);
-  font-size: 1.5rem;
-}
-
-.cursoInputBtn h4 {
-  color: var(--darkOrange);
-  font-weight: 500;
-}
-
-.addCursoBtn {
-  border: none;
-  border-radius: 1rem;
-  width: 50px;
-  height: 50px;
-  font-size: 1.5rem;
-  background-color: #da6b15;
-  color: white;
-  cursor: pointer;
+.comparadorCurso ul {
+  
 }
 
 /* Carousel */

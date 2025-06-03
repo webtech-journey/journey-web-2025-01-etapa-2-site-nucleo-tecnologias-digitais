@@ -111,6 +111,49 @@
 
     <!-- Comparador -->
 
+    <section class="comparadorSection">
+      <div class="comparadorHeader">
+        <h2>Dúvidas em qual escolher?</h2>
+        <h1>Compare!</h1>
+        <span>?</span>
+      </div>
+      <div class="comparadorBody">
+        <form class="comparadorBodyContainer" id="comparadorForm">
+          <div class="comparadorInputContainer" id="comparadorInputContainer">
+            <datalist id="comparadorList"> </datalist>
+
+            <input
+              type="text"
+              class="comparadorInput"
+              list="comparadorList"
+              placeholder="Digite um curso..."
+              required
+            />
+            <input
+              type="text"
+              class="comparadorInput"
+              list="comparadorList"
+              placeholder="Digite um curso..."
+              required
+            />
+          </div>
+
+          <button class="comparadorAdd" id="comparadorAdd" type="button">
+            <ion-icon name="add-outline"></ion-icon>
+          </button>
+          <button class="comparadorButton" id="comparadorButton" type="submit">
+            <ion-icon name="git-compare-outline"></ion-icon>
+            <p>Comparar</p>
+          </button>
+        </form>
+      </div>
+
+      <div class="comparadorScreen" id="comparadorScreen">
+        
+      </div>
+
+    </section>
+
     <!-- Carousel -->
 
     <section class="videosSection">

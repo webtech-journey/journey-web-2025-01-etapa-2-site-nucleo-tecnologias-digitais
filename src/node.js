@@ -6,7 +6,6 @@ fetch("carreiras.json")
   .then((res) => res.json())
   .then((data) => {
     data.forEach((carreira) => {
-      console.log(carreira);
       carreirasContainer.innerHTML += `
         <button>${carreira.nome}</button>
       `;
@@ -16,12 +15,14 @@ fetch("carreiras.json")
 /* Populate Cursos Carousel */
 
 const cursosCarousel = document.getElementById("cursosCarousel");
+const comparadorList = document.getElementById("comparadorList");
 
 fetch("cursos.json")
   .then((res) => res.json())
   .then((data) => {
     data.forEach((category) => {
       category.cursos.forEach((curso) => {
+        // Cursos Carousel
         cursosCarousel.innerHTML += `
             <div class="cursosCarouselCard swiper-slide">
               <div class="cursosCarouselCardHeader">
@@ -40,6 +41,10 @@ fetch("cursos.json")
                 <a href="#">Detalhes</a>
               </div>
             </div>
+        `;
+
+        comparadorList.innerHTML += `
+          <option value="${curso.nome_do_curso} - ${curso.modalidade}"></option>
         `;
       });
     });
@@ -182,10 +187,71 @@ fetch("porque.json")
       sobre.innerHTML += `
       <div class="sobreCard" style="--position: ${sobreCount}">
       <span class="sobreIcon">
-                <ion-icon name="${sobreCard.iconName}"></ion-icon>
-                </span>
-                <h3>${sobreCard.text}</h3>
+          <ion-icon name="${sobreCard.iconName}"></ion-icon>
+      </span>
+          <h3>${sobreCard.text}</h3>
         </div>
       `;
     });
   });
+
+// Backend Comparador
+
+const comparadorButton = document.getElementById("comparadorButton");
+const comparadorInput = document.querySelectorAll(".comparadorInput");
+const comparadorScreen = document.getElementById("comparadorScreen");
+
+comparadorButton.addEventListener("click", checkboxClick);
+
+function checkboxClick(event) {
+  // Confere se Todos inputs estão preenchidos
+  console.log(document.getElementById("comparadorForm").reportValidity());
+
+  comparadorScreen.innerHTML = ``;
+
+  const cursos = [];
+
+  let cursoComparadorID = 0;
+
+  fetch("cursos.json")
+    .then((res) => res.json())
+    .then((data) => {
+      if (document.getElementById("comparadorForm").reportValidity() == true) {
+        comparadorInput.forEach((curso) => {
+          data.forEach((category) => {
+            category.cursos.forEach((cursoJson) => {
+              if (
+                cursoJson.nome_do_curso + " - " + cursoJson.modalidade ==
+                curso.value
+              ) {
+
+                cursoComparadorID++;
+
+                comparadorScreen.innerHTML += `
+              <div class="comparadorCurso" >
+                <h4>
+                  ${cursoJson.nome_do_curso}
+                </h4>
+                <ul id="cursoComparador_${cursoComparadorID}">
+                  `;
+
+                cursoJson.descriptions.forEach((description) => {
+                  document.getElementById(`cursoComparador_${cursoComparadorID}`).innerHTML += `
+                      <li>${description}</li>
+                    `;
+                });
+                comparadorScreen.innerHTML += `
+                      
+                </ul>
+              </div>
+               `;
+              }
+            });
+          });
+        });
+      }
+    });
+
+  console.log(cursos);
+  event.preventDefault();
+}
