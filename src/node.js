@@ -28,6 +28,12 @@ getTematicas = fetch("tematicas.json")
     return data;
   });
 
+getDiciplinas = fetch("diciplinas.json")
+  .then((res) => res.json())
+  .then((data) => {
+    return data;
+  });
+
 getVideos = fetch("videos.json")
   .then((res) => res.json())
   .then((data) => {
@@ -286,10 +292,10 @@ function comparadorAddInput() {
 
 async function comparadorSend(event) {
   const comparadorInput = document.querySelectorAll(".comparadorInput");
-  // Confere se Todos inputs estão preenchidos
-  console.log(document.getElementById("comparadorForm").reportValidity());
-
-  console.log(comparadorInput);
+  const comparadorTableHeader = document.getElementById(
+    "cursoComparadorTableHeader"
+  );
+  const comparadorTable = document.getElementById("cursoComparadorTable");
 
   comparadorScreen.innerHTML = ``;
 
@@ -324,18 +330,93 @@ async function comparadorSend(event) {
           comparadorScreen.innerHTML += `
                       
                 </ul>
-
-                <div>
-                
-                
-
-                </div>
                 
               </div>
                `;
+
+          comparadorTableHeader.innerHTML += `<th>${curso.nome_do_curso}</th>`;
         }
       });
     });
+
+    // Comparar Diciplinas
+
+    const diciplinas = await getDiciplinas;
+
+    let lineDiciplina = [];
+    let groupDiciplina = {
+      nome: "",
+      cursos: [],
+    };
+    let cursoComparar = {
+      nome: "",
+      haveDiciplina: false,
+    };
+
+    diciplinas.forEach((diciplina) => {
+      let groupDiciplina = {
+        nome: "",
+        cursos: [],
+      };
+
+      groupDiciplina.nome = diciplina.dsc_nome_disciplina;
+
+      comparadorInput.forEach((cursoInput) => {
+        let cursoComparar = {
+          nome: "",
+          haveDiciplina: false,
+        };
+
+        cursoComparar.nome = cursoInput.value;
+        (cursoComparar.haveDiciplina = false),
+          cursos.forEach((curso) => {
+            if (
+              curso.nome_do_curso + " - " + curso.modalidade ==
+              cursoInput.value
+            ) {
+              curso.ids_disciplinas_ofertadas.forEach((cursoDiciplina) => {
+                if (cursoDiciplina == diciplina.id_disciplina) {
+                  cursoComparar.haveDiciplina = true;
+                }
+              });
+            }
+          });
+        groupDiciplina.cursos.push(cursoComparar);
+      });
+      let groupHaveDiciplina = false;
+      groupDiciplina.cursos.forEach((groupDiciplinaCursos) => {
+        if (groupHaveDiciplina == false) {
+          if (groupDiciplinaCursos.haveDiciplina == true) {
+            lineDiciplina.push(groupDiciplina);
+            groupHaveDiciplina = true;
+          }
+        }
+      });
+    });
+
+    // Printar Tabela
+
+    let lineID = 0;
+
+    lineDiciplina.forEach((line) => {
+      console.log(line);
+
+      lineID++;
+
+      comparadorTable.innerHTML += `
+            <tr id="line_${lineID}">
+              <td>${line.nome}</td>
+            </tr>
+      `;
+
+      line.cursos.forEach((curso) => {
+        document.getElementById(`line_${lineID}`).innerHTML += `
+        <td>${curso.haveDiciplina}</td>
+      `;
+      });
+    });
+
+    // console.log(lineDiciplina);
   }
 
   event.preventDefault();

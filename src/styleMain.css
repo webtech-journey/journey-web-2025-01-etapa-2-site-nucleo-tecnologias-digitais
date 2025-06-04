@@ -348,15 +348,20 @@
 
 /* Comparador Screen */
 
+table, th, td {
+  border: 1px solid black;
+}
+
 .comparadorScreenContainer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
+  border-radius: 1rem;
 }
 
 .comparadorScreen {
-  background-color: white;
-  border-radius: 1rem;
   display: flex;
   gap: 2rem;
   padding: 1rem;
