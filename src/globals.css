@@ -13,7 +13,20 @@
 }
 
 body {
-  background-color: var(--backgroundBlue);
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1000' height='1000' viewBox='0 0 1000 1000'%3E%3Cg fill='none' stroke='%2325596d' stroke-opacity='0.34' stroke-width='1'%3E%3Cpath d='M0 100 Q250 50 500 100 T1000 100' /%3E%3Cpath d='M0 200 Q250 150 500 200 T1000 200' /%3E%3Cpath d='M0 300 Q250 250 500 300 T1000 300' /%3E%3Cpath d='M0 400 Q250 350 500 400 T1000 400' /%3E%3Cpath d='M0 500 Q250 450 500 500 T1000 500' /%3E%3Cpath d='M0 600 Q250 550 500 600 T1000 600' /%3E%3Cpath d='M0 700 Q250 650 500 700 T1000 700' /%3E%3Cpath d='M0 800 Q250 750 500 800 T1000 800' /%3E%3Cpath d='M0 900 Q250 850 500 900 T1000 900' /%3E%3Cpath d='M100 0 Q50 250 100 500 T100 1000' /%3E%3Cpath d='M200 0 Q150 250 200 500 T200 1000' /%3E%3Cpath d='M300 0 Q250 250 300 500 T300 1000' /%3E%3Cpath d='M400 0 Q350 250 400 500 T400 1000' /%3E%3Cpath d='M500 0 Q450 250 500 500 T500 1000' /%3E%3Cpath d='M600 0 Q550 250 600 500 T600 1000' /%3E%3Cpath d='M700 0 Q650 250 700 500 T700 1000' /%3E%3Cpath d='M800 0 Q750 250 800 500 T800 1000' /%3E%3Cpath d='M900 0 Q850 250 900 500 T900 1000' /%3E%3C/g%3E%3C/svg%3E"),
+    linear-gradient(
+      to bottom,
+      var(--backgroundBlue) 0px,
+      var(--darkerBlue) 300px,
+      var(--darkBlue) 600px,
+      #ffffff 1000px
+    );
+  background-repeat: no-repeat, no-repeat;
+  background-size: 2000px 2000px, cover;
+  background-position: top, top;
+  background-attachment: fixed, scroll;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 header {
@@ -189,5 +202,4 @@ footer nav a {
   .floatingCardsBottom {
     top: 60px;
   }
-
 }
