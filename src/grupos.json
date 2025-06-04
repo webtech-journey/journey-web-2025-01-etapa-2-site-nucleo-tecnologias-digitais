@@ -1,0 +1,39 @@
+[
+  {
+    "id_grupo_disciplina": 2,
+    "dsc_grupo_disciplina": "PROGRAMAÇÃO DE SOFTWARE"
+  },
+  { "id_grupo_disciplina": 3, "dsc_grupo_disciplina": "GESTÃO E INOVAÇÃO" },
+  { "id_grupo_disciplina": 4, "dsc_grupo_disciplina": "HUMANIDADES" },
+  { "id_grupo_disciplina": 5, "dsc_grupo_disciplina": "INFRAESTRUTURA DE TI" },
+  {
+    "id_grupo_disciplina": 6,
+    "dsc_grupo_disciplina": "SEGURANÇA DA INFORMAÇÃO"
+  },
+  {
+    "id_grupo_disciplina": 7,
+    "dsc_grupo_disciplina": "INTELIGÊNCIA ARTIFICIAL"
+  },
+  {
+    "id_grupo_disciplina": 8,
+    "dsc_grupo_disciplina": "MATEMÁTICA E ESTATÍSTICA"
+  },
+  { "id_grupo_disciplina": 9, "dsc_grupo_disciplina": "SAÚDE" },
+  {
+    "id_grupo_disciplina": 10,
+    "dsc_grupo_disciplina": "VISUALIZAÇÃO E ANALYTICS"
+  },
+  {
+    "id_grupo_disciplina": 11,
+    "dsc_grupo_disciplina": "ARQUITETURA DE SOFTWARE"
+  },
+  { "id_grupo_disciplina": 12, "dsc_grupo_disciplina": "UX DESIGN" },
+  {
+    "id_grupo_disciplina": 13,
+    "dsc_grupo_disciplina": "ENGENHARIA DE SOFTWARE"
+  },
+  { "id_grupo_disciplina": 14, "dsc_grupo_disciplina": "GEOPROCESSAMENTO" },
+  { "id_grupo_disciplina": 15, "dsc_grupo_disciplina": "PROJETO INTEGRADO" },
+  { "id_grupo_disciplina": 16, "dsc_grupo_disciplina": "GESTÃO DE PESSOAS" },
+  { "id_grupo_disciplina": 1, "dsc_grupo_disciplina": "ENGENHARIA DE DADOS" }
+]

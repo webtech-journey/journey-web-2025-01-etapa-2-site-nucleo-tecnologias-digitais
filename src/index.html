@@ -101,6 +101,7 @@
               class="cursosCardWrapper swiper-wrapper"
               id="cursosCarousel"
             ></div>
+            <div class="cursos-scrollbar"></div>
           </div>
           <button class="cursos-prev"><</button>
           <button class="cursos-next">></button>
@@ -112,51 +113,56 @@
     <!-- Comparador -->
 
     <section class="comparadorSection">
-      <div class="comparadorHeader">
-        <h2>Dúvidas em qual escolher?</h2>
-        <h1>Compare!</h1>
-        <span>?</span>
-      </div>
       <div class="comparadorBody">
+        <div class="comparadorHeader">
+          <h2>Dúvidas em qual escolher?</h2>
+          <h1>Compare!</h1>
+          <span>?</span>
+        </div>
         <form class="comparadorBodyContainer" id="comparadorForm">
           <div class="comparadorInputContainer" id="comparadorInputContainer">
-            <input
-              type="text"
-              class="comparadorInput"
-              list="comparadorList"
-              placeholder="Digite um curso..."
-              required
-            />
-            <input
-              type="text"
-              class="comparadorInput"
-              list="comparadorList"
-              placeholder="Digite um curso..."
-              required
-            />
-            <datalist id="comparadorList"> </datalist>
-          </div>
+            <datalist id="comparadorList"></datalist>
 
-          <button class="comparadorAdd" id="comparadorAdd" type="button">
-            <ion-icon name="add-outline"></ion-icon>
-          </button>
-          <button class="comparadorButton" id="comparadorButton" type="submit">
-            <ion-icon name="git-compare-outline"></ion-icon>
-            <p>Comparar</p>
-          </button>
+            <input
+              type="text"
+              class="comparadorInput"
+              list="comparadorList"
+              placeholder="Digite um curso..."
+              required
+            />
+            <input
+              type="text"
+              class="comparadorInput"
+              list="comparadorList"
+              placeholder="Digite um curso..."
+              required
+            />
+          </div>
+          <div class="comparadorButtonContainer">
+            <button class="comparadorAdd" id="comparadorAdd" type="button">
+              <ion-icon name="add-outline"></ion-icon>
+            </button>
+            <button
+              class="comparadorButton"
+              id="comparadorButton"
+              type="submit"
+            >
+              <ion-icon name="git-compare-outline"></ion-icon>
+              <p>Comparar</p>
+            </button>
+          </div>
         </form>
       </div>
 
-      <div class="comparadorScreenContainer">
+      <div class="comparadorScreenContainer" id="comparadorScreenContainer">
+        <button class="comparadorClose">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
         <div class="comparadorScreen" id="comparadorScreen"></div>
         <div class="cursoComparadorMaterias">
-          <h2>Matérias Equivalentes:</h2>
+          <h2>Disciplinas Contempladas:</h2>
 
-          <table id="cursoComparadorTable">
-            <tr id="cursoComparadorTableHeader">
-              <th>Matérias</th>
-            </tr>
-          </table>
+          <table id="cursoComparadorTable"></table>
         </div>
       </div>
     </section>

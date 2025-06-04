@@ -4,6 +4,12 @@ getCategorias = fetch("cursos.json")
     return data;
   });
 
+getGrupos = fetch("grupos.json")
+  .then((res) => res.json())
+  .then((data) => {
+    return data;
+  });
+
 getCursos = fetch("cursos.json")
   .then((res) => res.json())
   .then((data) => {
@@ -102,7 +108,7 @@ async function populateCursos() {
                 ${tematicasDiv}
                 </div>
                 <h2>${curso.nome_do_curso}</h2>
-                <a href="#">Detalhes</a>
+                <a href="${curso.link}" target="_blank"">Detalhes</a>
               </div>
             </div>
         `;
@@ -118,10 +124,26 @@ async function populateCursos() {
     loop: false,
     spaceBetween: 10,
     mousewheel: true,
+    freeMode: true,
     speed: 500,
+
+    freeMode: {
+      sticky: true,
+    },
 
     mousewheel: {
       forceToAxis: true,
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+      el: ".cursos-scrollbar",
+      // Makes the Scrollbar Draggable
+      draggable: true,
+      // Snaps slider position to slides when you release Scrollbar
+      snapOnRelease: true,
+      // Size (Length) of Scrollbar Draggable Element in px
+      dragSize: "auto",
     },
 
     // If we need pagination
@@ -191,9 +213,10 @@ async function populateVideos() {
     spaceBetween: 0,
     effect: "coverflow",
     centeredSlides: true,
-    allowTouchMove: false,
+    allowTouchMove: true,
     mousewheel: true,
     speed: 500,
+    
 
     mousewheel: {
       forceToAxis: true,
@@ -226,7 +249,6 @@ async function populateVideos() {
     breakpoints: {
       0: {
         slidesPerView: 1,
-        allowTouchMove: true,
         touchRatio: 1,
       },
       1024: {
@@ -292,16 +314,30 @@ function comparadorAddInput() {
 
 async function comparadorSend(event) {
   const comparadorInput = document.querySelectorAll(".comparadorInput");
+  const comparadorTable = document.getElementById("cursoComparadorTable");
+
+  const comparadorScreenContainer = document.getElementById(
+    "comparadorScreenContainer"
+  );
+
+  comparadorScreenContainer.style.display = "none";
+
+  comparadorScreen.innerHTML = ``;
+  comparadorTable.innerHTML = `
+    <tr id="cursoComparadorTableHeader">
+      <th>Matérias</th>
+    </tr>
+  `;
+
   const comparadorTableHeader = document.getElementById(
     "cursoComparadorTableHeader"
   );
-  const comparadorTable = document.getElementById("cursoComparadorTable");
-
-  comparadorScreen.innerHTML = ``;
 
   let cursoComparadorID = 0;
 
   if (document.getElementById("comparadorForm").reportValidity()) {
+    comparadorScreenContainer.style.display = "unset";
+
     const cursos = await getCursos;
 
     comparadorInput.forEach((cursoInput) => {
@@ -346,6 +382,7 @@ async function comparadorSend(event) {
     let lineDiciplina = [];
     let groupDiciplina = {
       nome: "",
+      id_grupo_disciplina: -1,
       cursos: [],
     };
     let cursoComparar = {
@@ -356,10 +393,12 @@ async function comparadorSend(event) {
     diciplinas.forEach((diciplina) => {
       let groupDiciplina = {
         nome: "",
+        id_grupo_disciplina: -1,
         cursos: [],
       };
 
       groupDiciplina.nome = diciplina.dsc_nome_disciplina;
+      groupDiciplina.id_grupo_disciplina = diciplina.id_grupo_disciplina;
 
       comparadorInput.forEach((cursoInput) => {
         let cursoComparar = {
@@ -398,26 +437,70 @@ async function comparadorSend(event) {
 
     let lineID = 0;
 
-    lineDiciplina.forEach((line) => {
-      console.log(line);
+    lineDiciplina.sort((a, b) => a.id_grupo_disciplina - b.id_grupo_disciplina);
 
-      lineID++;
+    const grupos = await getGrupos;
+    let groupLines = {
+      nome: "",
+      lines: [],
+    };
 
-      comparadorTable.innerHTML += `
-            <tr id="line_${lineID}">
-              <td>${line.nome}</td>
-            </tr>
-      `;
+    let tableGroup = [];
 
-      line.cursos.forEach((curso) => {
-        document.getElementById(`line_${lineID}`).innerHTML += `
-        <td>${curso.haveDiciplina}</td>
-      `;
+    grupos.forEach((grupo) => {
+      groupLines = {
+        nome: "",
+        lines: [],
+      };
+
+      groupLines.nome = grupo.dsc_grupo_disciplina;
+      lineDiciplina.forEach((line) => {
+        if (grupo.id_grupo_disciplina == line.id_grupo_disciplina) {
+          groupLines.lines.push(line);
+        }
       });
+      tableGroup.push(groupLines);
     });
 
-    // console.log(lineDiciplina);
+    tableGroup.forEach((groupDiciplinas) => {
+      if (groupDiciplinas.lines.length > 0) {
+        console.log(groupDiciplinas);
+
+        comparadorTable.innerHTML += `
+                <tr>
+                  <td style="background-color: var(--darkBlue); color: white">
+                    ${groupDiciplinas.nome}
+                  </td>
+                </tr>
+          `;
+
+        groupDiciplinas.lines.forEach((lineDiciplina) => {
+          lineID++;
+
+          comparadorTable.innerHTML += `
+                <tr id="line_${lineID}">
+                  <td style="background-color:rgba(221, 232, 234, 50%)">${lineDiciplina.nome}</td>
+                </tr>
+          `;
+
+          lineDiciplina.cursos.forEach((curso) => {
+            if (curso.haveDiciplina) {
+              document.getElementById(`line_${lineID}`).innerHTML += `
+              <td>
+                <ion-icon style="background-color: var(--orange)" name="checkmark-outline"></ion-icon>
+              </td>
+            `;
+            } else {
+              document.getElementById(`line_${lineID}`).innerHTML += `
+              <td></td>
+            `;
+            }
+          });
+        });
+      }
+    });
   }
 
   event.preventDefault();
 }
+
