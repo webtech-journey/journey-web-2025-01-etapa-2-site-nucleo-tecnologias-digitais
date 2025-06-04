@@ -1,29 +1,88 @@
+getCategorias = fetch("cursos.json")
+  .then((res) => res.json())
+  .then((data) => {
+    return data;
+  });
+
+getCursos = fetch("cursos.json")
+  .then((res) => res.json())
+  .then((data) => {
+    const cursos = [];
+    data.forEach((category) => {
+      category.cursos.forEach((curso) => {
+        cursos.push(curso);
+      });
+    });
+    return cursos;
+  });
+
+getCarreiras = fetch("carreiras.json")
+  .then((res) => res.json())
+  .then((data) => {
+    return data;
+  });
+
+getTematicas = fetch("tematicas.json")
+  .then((res) => res.json())
+  .then((data) => {
+    return data;
+  });
+
+getVideos = fetch("videos.json")
+  .then((res) => res.json())
+  .then((data) => {
+    return data;
+  });
+
+getSobre = fetch("sobre.json")
+  .then((res) => res.json())
+  .then((data) => {
+    return data;
+  });
+
+/* Start Functions */
+
 /* Populate Carreiras */
 
 const carreirasContainer = document.getElementById("cursosFiltro");
-
-fetch("carreiras.json")
-  .then((res) => res.json())
-  .then((data) => {
-    data.forEach((carreira) => {
-      carreirasContainer.innerHTML += `
+async function populateCarreiras() {
+  const carreiras = await getCarreiras;
+  carreiras.forEach((carreira) => {
+    carreirasContainer.innerHTML += `
         <button>${carreira.nome}</button>
       `;
-    });
   });
+}
+populateCarreiras();
 
 /* Populate Cursos Carousel */
 
 const cursosCarousel = document.getElementById("cursosCarousel");
 const comparadorList = document.getElementById("comparadorList");
 
-fetch("cursos.json")
-  .then((res) => res.json())
-  .then((data) => {
-    data.forEach((category) => {
-      category.cursos.forEach((curso) => {
-        // Cursos Carousel
-        cursosCarousel.innerHTML += `
+async function populateCursos() {
+  const cursos = await getCursos;
+
+  let tematicasIndex = 0;
+
+  cursos.forEach(async (curso) => {
+    tematicasIndex++;
+
+    // JOIN tematicas com curso
+    const tematicas = await getTematicas;
+
+    let tematicasDiv = "";
+
+    curso.ids_tematicas.forEach((cursoTematica) => {
+      tematicas.forEach((tematica) => {
+        if (tematica.id_tematica == cursoTematica) {
+          tematicasDiv += `<h6>${tematica.tematica_name}</h6>`;
+        }
+      });
+    });
+
+    // Cursos Carousel
+    cursosCarousel.innerHTML += `
             <div class="cursosCarouselCard swiper-slide">
               <div class="cursosCarouselCardHeader">
                 <h4>${curso.modalidade}</h4>
@@ -33,9 +92,8 @@ fetch("cursos.json")
               </div>
 
               <div class="cursosCarouselCardBody">
-                <div class="cursosCarouselCardTematicas">
-                  <h6>Software</h6>
-                  <h6>Metodologias e Processos</h6>
+                <div class="cursosCarouselCardTematicas" id="tematicasIndex_${tematicasIndex}">
+                ${tematicasDiv}
                 </div>
                 <h2>${curso.nome_do_curso}</h2>
                 <a href="#">Detalhes</a>
@@ -43,62 +101,63 @@ fetch("cursos.json")
             </div>
         `;
 
-        comparadorList.innerHTML += `
+    // Populate Lista Comparar
+    comparadorList.innerHTML += `
           <option value="${curso.nome_do_curso} - ${curso.modalidade}"></option>
         `;
-      });
-    });
-
-    new Swiper(".cursosCarouselContainer", {
-      // Optional parameters
-      loop: false,
-      spaceBetween: 10,
-      mousewheel: true,
-      speed: 500,
-
-      mousewheel: {
-        forceToAxis: true,
-      },
-
-      // If we need pagination
-      pagination: {
-        el: ".cursos-pagination",
-        clickable: true,
-        dynamicBullets: true,
-      },
-
-      // Navigation arrows
-      navigation: {
-        nextEl: ".cursos-next",
-        prevEl: ".cursos-prev",
-      },
-
-      breakpoints: {
-        0: {
-          slidesPerView: 1,
-        },
-        768: {
-          slidesPerView: 2,
-        },
-        1024: {
-          slidesPerView: 3,
-        },
-        1440: {
-          slidesPerView: 4,
-        },
-      },
-    });
   });
+
+  new Swiper(".cursosCarouselContainer", {
+    // Optional parameters
+    loop: false,
+    spaceBetween: 10,
+    mousewheel: true,
+    speed: 500,
+
+    mousewheel: {
+      forceToAxis: true,
+    },
+
+    // If we need pagination
+    pagination: {
+      el: ".cursos-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: ".cursos-next",
+      prevEl: ".cursos-prev",
+    },
+
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+      1440: {
+        slidesPerView: 4,
+      },
+    },
+  });
+}
+populateCursos();
 
 /* Populate Videos Carousel */
 
 const carousel = document.getElementById("videosContainer");
 
-fetch("videos.json")
-  .then((res) => res.json())
-  .then((data) => {
-    data.forEach((video) => {
-      carousel.innerHTML += `
+async function populateVideos() {
+  const videos = await getVideos;
+
+  videos.forEach((video) => {
+    carousel.innerHTML += `
           <div class="videoCard swiper-slide">
             <div class="videoHeader">
               <iframe
@@ -118,140 +177,166 @@ fetch("videos.json")
             </div>
           </div>
         `;
-    });
-
-    new Swiper(".carouselVideos", {
-      // Optional parameters
-      loop: true,
-      spaceBetween: 0,
-      effect: "coverflow",
-      centeredSlides: true,
-      allowTouchMove: false,
-      mousewheel: true,
-      speed: 500,
-
-      mousewheel: {
-        forceToAxis: true,
-      },
-
-      keyboard: {
-        enabled: true,
-      },
-
-      coverflowEffect: {
-        depth: 1000,
-        rotate: 0,
-        slideShadows: false,
-        modifier: 0.25,
-      },
-
-      // If we need pagination
-      pagination: {
-        el: ".videos-pagination",
-        clickable: true,
-        dynamicBullets: true,
-      },
-
-      // Navigation arrows
-      navigation: {
-        nextEl: ".videos-next",
-        prevEl: ".videos-prev",
-      },
-
-      breakpoints: {
-        0: {
-          slidesPerView: 1,
-          allowTouchMove: true,
-          touchRatio: 1,
-        },
-        1024: {
-          slidesPerView: 3,
-        },
-      },
-    });
   });
+
+  new Swiper(".carouselVideos", {
+    // Optional parameters
+    loop: true,
+    spaceBetween: 0,
+    effect: "coverflow",
+    centeredSlides: true,
+    allowTouchMove: false,
+    mousewheel: true,
+    speed: 500,
+
+    mousewheel: {
+      forceToAxis: true,
+    },
+
+    keyboard: {
+      enabled: true,
+    },
+
+    coverflowEffect: {
+      depth: 1000,
+      rotate: 0,
+      slideShadows: false,
+      modifier: 0.25,
+    },
+
+    // If we need pagination
+    pagination: {
+      el: ".videos-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: ".videos-next",
+      prevEl: ".videos-prev",
+    },
+
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+        allowTouchMove: true,
+        touchRatio: 1,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+    },
+  });
+}
+populateVideos();
 
 /* Populate Sobre */
 
-const sobre = document.getElementById("sobreCarousel");
+const sobreCarousel = document.getElementById("sobreCarousel");
 
-fetch("porque.json")
-  .then((res) => res.json())
-  .then((data) => {
-    sobre.style.setProperty("--quantity", data.length);
+async function populateSobre() {
+  const sobre = await getSobre;
 
-    var sobreCount = 0;
-    data.forEach((sobreCard) => {
-      sobreCount++;
+  sobreCarousel.style.setProperty("--quantity", sobre.length);
 
-      sobre.innerHTML += `
-      <div class="sobreCard" style="--position: ${sobreCount}">
-      <span class="sobreIcon">
-          <ion-icon name="${sobreCard.iconName}"></ion-icon>
-      </span>
-          <h3>${sobreCard.text}</h3>
-        </div>
-      `;
-    });
+  var sobreCount = 0;
+  sobre.forEach((sobreCard) => {
+    sobreCount++;
+
+    sobreCarousel.innerHTML += `
+    <div class="sobreCard" style="--position: ${sobreCount}">
+    <span class="sobreIcon">
+        <ion-icon name="${sobreCard.iconName}"></ion-icon>
+    </span>
+        <h3>${sobreCard.text}</h3>
+      </div>
+    `;
   });
+}
+populateSobre();
 
 // Backend Comparador
 
 const comparadorButton = document.getElementById("comparadorButton");
-const comparadorInput = document.querySelectorAll(".comparadorInput");
+const comparadorAdd = document.getElementById("comparadorAdd");
 const comparadorScreen = document.getElementById("comparadorScreen");
+const comparadorInputContainer = document.getElementById(
+  "comparadorInputContainer"
+);
 
-comparadorButton.addEventListener("click", checkboxClick);
+comparadorAdd.addEventListener("click", comparadorAddInput);
+comparadorButton.addEventListener("click", comparadorSend);
 
-function checkboxClick(event) {
+function comparadorAddInput() {
+  comparadorInputContainer.insertAdjacentHTML(
+    "beforeend",
+    `
+              <input
+              type="text"
+              class="comparadorInput"
+              list="comparadorList"
+              placeholder="Digite um curso..."
+              required
+              />
+              `
+  );
+  comparadorSend();
+}
+
+async function comparadorSend(event) {
+  const comparadorInput = document.querySelectorAll(".comparadorInput");
   // Confere se Todos inputs estão preenchidos
   console.log(document.getElementById("comparadorForm").reportValidity());
 
-  comparadorScreen.innerHTML = ``;
+  console.log(comparadorInput);
 
-  const cursos = [];
+  comparadorScreen.innerHTML = ``;
 
   let cursoComparadorID = 0;
 
-  fetch("cursos.json")
-    .then((res) => res.json())
-    .then((data) => {
-      if (document.getElementById("comparadorForm").reportValidity() == true) {
-        comparadorInput.forEach((curso) => {
-          data.forEach((category) => {
-            category.cursos.forEach((cursoJson) => {
-              if (
-                cursoJson.nome_do_curso + " - " + cursoJson.modalidade ==
-                curso.value
-              ) {
+  if (document.getElementById("comparadorForm").reportValidity()) {
+    const cursos = await getCursos;
 
-                cursoComparadorID++;
+    comparadorInput.forEach((cursoInput) => {
+      cursos.forEach((curso) => {
+        if (
+          curso.nome_do_curso + " - " + curso.modalidade ==
+          cursoInput.value
+        ) {
+          cursoComparadorID++;
 
-                comparadorScreen.innerHTML += `
+          comparadorScreen.innerHTML += `
               <div class="comparadorCurso" >
                 <h4>
-                  ${cursoJson.nome_do_curso}
+                  ${curso.nome_do_curso}
                 </h4>
                 <ul id="cursoComparador_${cursoComparadorID}">
                   `;
 
-                cursoJson.descriptions.forEach((description) => {
-                  document.getElementById(`cursoComparador_${cursoComparadorID}`).innerHTML += `
+          curso.descriptions.forEach((description) => {
+            document.getElementById(
+              `cursoComparador_${cursoComparadorID}`
+            ).innerHTML += `
                       <li>${description}</li>
                     `;
-                });
-                comparadorScreen.innerHTML += `
+          });
+          comparadorScreen.innerHTML += `
                       
                 </ul>
+
+                <div>
+                
+                
+
+                </div>
+                
               </div>
                `;
-              }
-            });
-          });
-        });
-      }
+        }
+      });
     });
+  }
 
-  console.log(cursos);
   event.preventDefault();
 }

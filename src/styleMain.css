@@ -229,12 +229,16 @@
 /* Comparador */
 
 .comparadorSection {
-  /* background-color: red; */
+  /* background-color: var(--lightBlue); */
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  margin: 0 10%;
+  margin-top: 4rem;
+  border-radius: 1rem;
 }
 
 /* Comparador Header */
@@ -252,7 +256,8 @@
   position: relative;
 }
 
-.comparadorHeader h1, .comparadorHeader h2 {
+.comparadorHeader h1,
+.comparadorHeader h2 {
   z-index: 1;
 }
 
@@ -277,14 +282,14 @@
 /* Comparador Body */
 
 .comparadorBody {
-  width: 60%;
+  max-width: 80%;
 }
 
 .comparadorBodyContainer {
   background-color: var(--orange);
   display: flex;
   justify-content: center;
-  align-items: end;
+  flex-wrap: wrap;
   border-radius: 1rem;
   gap: 0.5rem;
   padding: 1rem;
@@ -292,9 +297,10 @@
 
 .comparadorInputContainer {
   display: flex;
+  justify-content: center;
   gap: 0.5rem;
   border-radius: 0.5rem;
-  width: 100%;
+  flex-wrap: wrap;
 }
 
 .comparadorInputContainer input {
@@ -303,32 +309,7 @@
   padding: 1rem;
   background-color: white;
   border-radius: 0.5rem;
-  width: 100%;
-}
-
-.comparadorInputActive {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  padding: 0.25rem;
-  border-radius: 0.5rem;
-  opacity: 60%;
-  font-size: 0.75rem;
-  width: min-content;
-}
-
-.comparadorInputActive button {
-  color: var(--darkOrange);
-  border: none;
-  background: none;
-  text-wrap: nowrap;
-  cursor: pointer;
-}
-
-.comparadorInputActive button:hover {
-  color: red;
-  text-decoration: line-through;
+  width: clamp(100px, 50vw + 1rem, 300px);
 }
 
 .comparadorAdd {
@@ -365,20 +346,35 @@
   font-size: 1rem;
 }
 
+/* Comparador Screen */
+
+.comparadorScreenContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .comparadorScreen {
   background-color: white;
   border-radius: 1rem;
   display: flex;
   gap: 2rem;
   padding: 1rem;
+  overflow: scroll;
+  margin: 0 10%;
 }
 
 .comparadorCurso h4 {
   border-bottom: 1px solid var(--orange);
+  text-align: center;
+  padding: 0.5rem;
 }
 
 .comparadorCurso ul {
-  
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 /* Carousel */
@@ -437,6 +433,7 @@
   padding: 1rem;
   margin: 0 10%;
   border-radius: 1rem;
+  margin-top: 8rem;
 }
 
 .videosContainer {
@@ -567,6 +564,7 @@
   flex-direction: column;
   padding-top: 4rem;
   gap: 2rem;
+  margin-top: 8rem;
 }
 
 .sobreHeader {
@@ -687,6 +685,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 8rem;
   gap: 2rem;
 }
 
