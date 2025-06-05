@@ -3,9 +3,6 @@
 /* Cursos */
 
 .cursosSection {
-  padding: 1rem 5%;
-  background-color: var(--lightBlue);
-  border-radius: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
