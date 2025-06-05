@@ -52,7 +52,7 @@ getSobre = fetch("sobre.json")
     return data;
   });
 
-/* Start Functions */
+/* Start Populate Functions */
 
 /* Populate Carreiras */
 
@@ -61,9 +61,45 @@ async function populateCarreiras() {
   const carreiras = await getCarreiras;
   carreiras.forEach((carreira) => {
     carreirasContainer.innerHTML += `
-        <button>${carreira.nome}</button>
+        <button class="carreiraFiltro" name="carreiraFiltro" value="${carreira.id}" type="submit">${carreira.nome}</button>
       `;
   });
+  carreirasContainer.innerHTML += `
+        <button class="carreiraFiltro" name="carreiraFiltro" value="-1" type="submit">Todos</button>
+      `;
+
+  // Functions Filtro
+
+  const filtroCarreiras = document.querySelectorAll(".carreiraFiltro");
+  const cursosFiltroForm = document.getElementById("cursosFiltroForm");
+
+  filtroCarreiras.forEach((filtroButton) => {
+    filtroButton.addEventListener("click", aplicarFiltro);
+  });
+
+  async function aplicarFiltro(event) {
+    console.log(event.target.value);
+
+    const cursos = await getCursos;
+
+    if (event.target.value == -1) {
+      populateCursos(cursos);
+    }
+
+    let cursosFiltrado = [];
+
+    cursos.forEach((curso) => {
+      curso.principais_carreiras.forEach((carreiraID) => {
+        if (carreiraID == event.target.value) {
+          cursosFiltrado.push(curso);
+        }
+      });
+    });
+
+    populateCursos(cursosFiltrado);
+
+    event.preventDefault();
+  }
 }
 populateCarreiras();
 
@@ -72,8 +108,12 @@ populateCarreiras();
 const cursosCarousel = document.getElementById("cursosCarousel");
 const comparadorList = document.getElementById("comparadorList");
 
-async function populateCursos() {
-  const cursos = await getCursos;
+async function populateCursos(cursos) {
+  cursosCarousel.innerHTML = ``;
+
+  if (!cursos) {
+    cursos = await getCursos;
+  }
 
   let tematicasIndex = 0;
 
@@ -118,64 +158,66 @@ async function populateCursos() {
           <option value="${curso.nome_do_curso} - ${curso.modalidade}"></option>
         `;
   });
-
-  new Swiper(".cursosCarouselContainer", {
-    // Optional parameters
-    loop: false,
-    spaceBetween: 10,
-    mousewheel: true,
-    freeMode: true,
-    speed: 500,
-
-    freeMode: {
-      sticky: true,
-    },
-
-    mousewheel: {
-      forceToAxis: true,
-    },
-
-    // And if we need scrollbar
-    scrollbar: {
-      el: ".cursos-scrollbar",
-      // Makes the Scrollbar Draggable
-      draggable: true,
-      // Snaps slider position to slides when you release Scrollbar
-      snapOnRelease: true,
-      // Size (Length) of Scrollbar Draggable Element in px
-      dragSize: "auto",
-    },
-
-    // If we need pagination
-    pagination: {
-      el: ".cursos-pagination",
-      clickable: true,
-      dynamicBullets: true,
-    },
-
-    // Navigation arrows
-    navigation: {
-      nextEl: ".cursos-next",
-      prevEl: ".cursos-prev",
-    },
-
-    breakpoints: {
-      0: {
-        slidesPerView: 1,
-      },
-      768: {
-        slidesPerView: 2,
-      },
-      1024: {
-        slidesPerView: 3,
-      },
-      1440: {
-        slidesPerView: 4,
-      },
-    },
-  });
 }
 populateCursos();
+
+// Initialize Swiper
+
+new Swiper(".cursosCarouselContainer", {
+  // Optional parameters
+  loop: false,
+  spaceBetween: 10,
+  mousewheel: true,
+  freeMode: true,
+  speed: 500,
+
+  freeMode: {
+    sticky: true,
+  },
+
+  mousewheel: {
+    forceToAxis: true,
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: ".cursos-scrollbar",
+    // Makes the Scrollbar Draggable
+    draggable: true,
+    // Snaps slider position to slides when you release Scrollbar
+    snapOnRelease: true,
+    // Size (Length) of Scrollbar Draggable Element in px
+    dragSize: "auto",
+  },
+
+  // If we need pagination
+  pagination: {
+    el: ".cursos-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".cursos-next",
+    prevEl: ".cursos-prev",
+  },
+
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+    1440: {
+      slidesPerView: 4,
+    },
+  },
+});
 
 /* Populate Videos Carousel */
 
@@ -216,7 +258,6 @@ async function populateVideos() {
     allowTouchMove: true,
     mousewheel: true,
     speed: 500,
-    
 
     mousewheel: {
       forceToAxis: true,
@@ -284,7 +325,7 @@ async function populateSobre() {
 }
 populateSobre();
 
-// Backend Comparador
+// Functions Comparador
 
 const comparadorButton = document.getElementById("comparadorButton");
 const comparadorAdd = document.getElementById("comparadorAdd");
@@ -503,4 +544,3 @@ async function comparadorSend(event) {
 
   event.preventDefault();
 }
-

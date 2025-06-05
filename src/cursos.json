@@ -22,9 +22,9 @@
           10
         ],
         "principais_carreiras": [
-          "Engenheiro de Software",
-          "Desenvolvedor de Software",
-          "Arquiteto de Software/Soluções"
+          1,
+          2,
+          3
         ],
         "descriptions": [
           "Aborda a aplicação sistemática de princípios de engenharia para o desenvolvimento de software.",
@@ -70,9 +70,9 @@
           10
         ],
         "principais_carreiras": [
-          "Arquiteto de Software/Soluções",
-          "Engenheiro de Software",
-          "Desenvolvedor de Software"
+          3,
+          1,
+          2
         ],
         "descriptions": [
           "Foca no projeto de sistemas de software que são executados em múltiplos computadores conectados por uma rede.",
@@ -118,9 +118,9 @@
           11
         ],
         "principais_carreiras": [
-          "Arquiteto de Software/Soluções",
-          "Engenheiro de Cloud",
-          "Consultor de TI"
+          3,
+          7,
+          15
         ],
         "descriptions": [
           "Envolve o desenho e a definição da estrutura geral de uma solução tecnológica para atender a requisitos de negócios específicos.",
@@ -166,9 +166,9 @@
           10
         ],
         "principais_carreiras": [
-          "Desenvolvedor de Software",
-          "Engenheiro de Software",
-          "Consultor de TI"
+          2,
+          1,
+          15
         ],
         "descriptions": [
           "Foca no uso de robôs de software (RPA) para automatizar processos de negócios repetitivos e baseados em regras.",
@@ -214,9 +214,9 @@
           6
         ],
         "principais_carreiras": [
-          "Engenheiro DevOps",
-          "Engenheiro de Software",
-          "Engenheiro de Cloud"
+          8,
+          1,
+          7
         ],
         "descriptions": [
           "Visa encurtar o ciclo de vida de desenvolvimento de sistemas e fornecer entrega contínua com alta qualidade de software.",
@@ -262,9 +262,9 @@
           13
         ],
         "principais_carreiras": [
-          "Engenheiro DevOps",
-          "Engenheiro de Software",
-          "Engenheiro de Cloud"
+          8,
+          1,
+          7
         ],
         "descriptions": [
           "Uma disciplina que incorpora aspectos da engenharia de software e os aplica a problemas de infraestrutura e operações.",
@@ -309,9 +309,9 @@
           10
         ],
         "principais_carreiras": [
-          "Engenheiro de Software",
-          "Desenvolvedor de Software",
-          "Analista de Sistemas"
+          1,
+          2,
+          14
         ],
         "descriptions": [
           "Foca em garantir a qualidade do software por meio de testes sistemáticos e processos de garantia de qualidade.",
@@ -357,9 +357,9 @@
           10
         ],
         "principais_carreiras": [
-          "Desenvolvedor de Software",
-          "Analista de Dados",
-          "Consultor de TI"
+          2,
+          6,
+          15
         ],
         "descriptions": [
           "Foca no desenvolvimento de Sistemas de Informações Geográficas (SIG) para capturar, armazenar, analisar e gerenciar dados espaciais ou geográficos.",
@@ -405,9 +405,9 @@
           10
         ],
         "principais_carreiras": [
-          "Arquiteto de Software/Soluções",
-          "Engenheiro de Software",
-          "Desenvolvedor de Software"
+          3,
+          1,
+          2
         ],
         "descriptions": [
           "Foca no projeto de sistemas de software que são executados em múltiplos computadores conectados por uma rede.",
@@ -453,9 +453,9 @@
           11
         ],
         "principais_carreiras": [
-          "Arquiteto de Software/Soluções",
-          "Engenheiro de Cloud",
-          "Consultor de TI"
+          3,
+          7,
+          15
         ],
         "descriptions": [
           "Envolve o desenho e a definição da estrutura geral de uma solução tecnológica para atender a requisitos de negócios específicos.",
@@ -501,9 +501,9 @@
           14
         ],
         "principais_carreiras": [
-          "Desenvolvedor de Software",
-          "Engenheiro de Software",
-          "Arquiteto de Software/Soluções"
+          2,
+          1,
+          3
         ],
         "descriptions": [
           "Foca no projeto, desenvolvimento e manutenção de aplicações de software para dispositivos móveis como smartphones e tablets.",
@@ -549,9 +549,9 @@
           6
         ],
         "principais_carreiras": [
-          "Desenvolvedor de Software",
-          "Engenheiro de Software",
-          "Analista de Sistemas"
+          2,
+          1,
+          14
         ],
         "descriptions": [
           "Cobre tanto o desenvolvimento front-end (lado do cliente) quanto o back-end (lado do servidor).",
@@ -597,9 +597,9 @@
           10
         ],
         "principais_carreiras": [
-          "Engenheiro de Software",
-          "Desenvolvedor de Software",
-          "Arquiteto de Software/Soluções"
+          1,
+          2,
+          3
         ],
         "descriptions": [
           "Aborda a aplicação sistemática de princípios de engenharia para o desenvolvimento de software.",
@@ -645,9 +645,9 @@
           14
         ],
         "principais_carreiras": [
-          "UX/UI Designer",
-          "Desenvolvedor de Software",
-          "Engenheiro de Software"
+          10,
+          2,
+          1
         ],
         "descriptions": [
           "Um papel híbrido que combina design de experiência do usuário (UX) com desenvolvimento front-end.",
@@ -693,9 +693,9 @@
           14
         ],
         "principais_carreiras": [
-          "UX/UI Designer",
-          "Desenvolvedor de Software",
-          "Engenheiro de Software"
+          10,
+          2,
+          1
         ],
         "descriptions": [
           "Um papel híbrido que combina design de experiência do usuário (UX) com desenvolvimento front-end.",
@@ -741,9 +741,9 @@
           10
         ],
         "principais_carreiras": [
-          "Desenvolvedor de Software",
-          "Engenheiro de Software",
-          "Consultor de TI"
+          2,
+          1,
+          15
         ],
         "descriptions": [
           "Foca no uso de robôs de software (RPA) para automatizar processos de negócios repetitivos e baseados em regras.",
@@ -789,9 +789,9 @@
           6
         ],
         "principais_carreiras": [
-          "Engenheiro DevOps",
-          "Engenheiro de Software",
-          "Engenheiro de Cloud"
+          8,
+          1,
+          7
         ],
         "descriptions": [
           "Visa encurtar o ciclo de vida de desenvolvimento de sistemas e fornecer entrega contínua com alta qualidade de software.",
@@ -836,9 +836,9 @@
           10
         ],
         "principais_carreiras": [
-          "Engenheiro de Software",
-          "Desenvolvedor de Software",
-          "Analista de Sistemas"
+          1,
+          2,
+          14
         ],
         "descriptions": [
           "Foca em garantir a qualidade do software por meio de testes sistemáticos e processos de garantia de qualidade.",
@@ -884,9 +884,9 @@
           13
         ],
         "principais_carreiras": [
-          "Engenheiro DevOps",
-          "Engenheiro de Software",
-          "Engenheiro de Cloud"
+          8,
+          1,
+          7
         ],
         "descriptions": [
           "Uma disciplina que incorpora aspectos da engenharia de software e os aplica a problemas de infraestrutura e operações.",
@@ -932,9 +932,9 @@
           6
         ],
         "principais_carreiras": [
-          "Desenvolvedor de Software",
-          "Engenheiro de Software",
-          "Analista de Sistemas"
+          2,
+          1,
+          14
         ],
         "descriptions": [
           "Cobre tanto o desenvolvimento front-end (lado do cliente) quanto o back-end (lado do servidor).",
@@ -980,9 +980,9 @@
           14
         ],
         "principais_carreiras": [
-          "Desenvolvedor de Software",
-          "Engenheiro de Software",
-          "Arquiteto de Software/Soluções"
+          2,
+          1,
+          3
         ],
         "descriptions": [
           "Foca no projeto, desenvolvimento e manutenção de aplicações de software para dispositivos móveis como smartphones e tablets.",
@@ -1028,9 +1028,9 @@
           6
         ],
         "principais_carreiras": [
-          "Analista de Sistemas",
-          "Desenvolvedor de Software",
-          "Engenheiro de Software"
+          14,
+          2,
+          1
         ],
         "descriptions": [
           "Foca no processo de criação e manutenção de sistemas de informação.",
@@ -1076,9 +1076,9 @@
           6
         ],
         "principais_carreiras": [
-          "Analista de Sistemas",
-          "Desenvolvedor de Software",
-          "Engenheiro de Software"
+          14,
+          2,
+          1
         ],
         "descriptions": [
           "Foca no processo de criação e manutenção de sistemas de informação.",
@@ -1128,9 +1128,9 @@
           14
         ],
         "principais_carreiras": [
-          "UX/UI Designer",
-          "Gerente de Produto",
-          "Analista de Dados"
+          10,
+          11,
+          6
         ],
         "descriptions": [
           "Foca na criação de produtos digitais que oferecem uma experiência significativa e relevante aos usuários.",
@@ -1176,9 +1176,9 @@
           10
         ],
         "principais_carreiras": [
-          "Analista de Dados",
-          "Consultor de TI",
-          "Desenvolvedor de Software"
+          6,
+          15,
+          2
         ],
         "descriptions": [
           "Envolve o processamento de dados georreferenciados.",
@@ -1224,9 +1224,9 @@
           11
         ],
         "principais_carreiras": [
-          "Analista de Dados",
-          "Cientista de Dados",
-          "Gerente de TI/Projetos"
+          6,
+          5,
+          12
         ],
         "descriptions": [
           "Foca na prática de medir, gerenciar e analisar o desempenho do marketing para maximizar sua eficácia.",
@@ -1272,9 +1272,9 @@
           14
         ],
         "principais_carreiras": [
-          "UX/UI Designer",
-          "Gerente de Produto",
-          "Analista de Dados"
+          10,
+          11,
+          6
         ],
         "descriptions": [
           "Foca na criação de produtos digitais que oferecem uma experiência significativa e relevante aos usuários.",
@@ -1320,9 +1320,9 @@
           14
         ],
         "principais_carreiras": [
-          "Gerente de Produto",
-          "Analista de Dados",
-          "UX/UI Designer"
+          11,
+          6,
+          10
         ],
         "descriptions": [
           "Envolve a supervisão de todo o ciclo de vida de um produto digital, desde a concepção até o lançamento e além.",
@@ -1368,9 +1368,9 @@
           14
         ],
         "principais_carreiras": [
-          "Gerente de Produto",
-          "Analista de Dados",
-          "UX/UI Designer"
+          11,
+          6,
+          10
         ],
         "descriptions": [
           "Envolve a supervisão de todo o ciclo de vida de um produto digital, desde a concepção até o lançamento e além.",
@@ -1421,9 +1421,9 @@
           13
         ],
         "principais_carreiras": [
-          "Engenheiro de Cloud",
-          "Arquiteto de Software/Soluções",
-          "Analista de Cibersegurança"
+          7,
+          3,
+          9
         ],
         "descriptions": [
           "Cobre a entrega de serviços de computação — incluindo servidores, armazenamento, bancos de dados, redes e software — pela Internet ('a nuvem').",
@@ -1469,9 +1469,9 @@
           13
         ],
         "principais_carreiras": [
-          "Analista de Cibersegurança",
-          "Consultor de TI",
-          "Engenheiro de Cloud"
+          9,
+          15,
+          7
         ],
         "descriptions": [
           "Foca na proteção de sistemas e redes de computadores contra divulgação de informações, roubo ou danos.",
@@ -1516,9 +1516,9 @@
           13
         ],
         "principais_carreiras": [
-          "Engenheiro de Cloud",
-          "Analista de Cibersegurança",
-          "Consultor de TI"
+          7,
+          9,
+          15
         ],
         "descriptions": [
           "Envolve o planejamento, projeto, implementação e manutenção de redes de computadores.",
@@ -1560,9 +1560,9 @@
           11
         ],
         "principais_carreiras": [
-          "Gerente de TI/Projetos",
-          "Consultor de TI",
-          "Arquiteto de Software/Soluções"
+          12,
+          15,
+          3
         ],
         "descriptions": [
           "Foca no alinhamento da estratégia de tecnologia da informação com a estratégia de negócios.",
@@ -1608,9 +1608,9 @@
           13
         ],
         "principais_carreiras": [
-          "Engenheiro de Cloud",
-          "Arquiteto de Software/Soluções",
-          "Analista de Cibersegurança"
+          7,
+          3,
+          9
         ],
         "descriptions": [
           "Cobre a entrega de serviços de computação — incluindo servidores, armazenamento, bancos de dados, redes e software — pela Internet ('a nuvem').",
@@ -1656,9 +1656,9 @@
           13
         ],
         "principais_carreiras": [
-          "Analista de Cibersegurança",
-          "Consultor de TI",
-          "Engenheiro de Cloud"
+          9,
+          15,
+          7
         ],
         "descriptions": [
           "Foca na proteção de sistemas e redes de computadores contra divulgação de informações, roubo ou danos.",
@@ -1704,9 +1704,9 @@
           13
         ],
         "principais_carreiras": [
-          "Gerente de TI/Projetos",
-          "Analista de Cibersegurança",
-          "Consultor de TI"
+          12,
+          9,
+          15
         ],
         "descriptions": [
           "Foca na identificação, avaliação e mitigação de riscos de cibersegurança para uma organização.",
@@ -1757,9 +1757,9 @@
           11
         ],
         "principais_carreiras": [
-          "Gerente de TI/Projetos",
-          "Analista de Dados",
-          "Cientista de Dados"
+          12,
+          6,
+          5
         ],
         "descriptions": [
           "Foca no uso da análise de dados para informar decisões de negócios estratégicas.",
@@ -1805,9 +1805,9 @@
           10
         ],
         "principais_carreiras": [
-          "Analista de Dados",
-          "Cientista de Dados",
-          "Desenvolvedor de Software"
+          6,
+          5,
+          2
         ],
         "descriptions": [
           "Foca nos processos e tecnologias usadas para analisar dados e apresentar informações acionáveis para ajudar executivos, gerentes e outros usuários finais a tomar decisões de negócios informadas.",
@@ -1853,9 +1853,9 @@
           12
         ],
         "principais_carreiras": [
-          "Cientista de Dados",
-          "Engenheiro de Dados",
-          "Analista de Dados"
+          5,
+          4,
+          6
         ],
         "descriptions": [
           "Um campo interdisciplinar que usa métodos, processos, algoritmos e sistemas científicos para extrair conhecimento e insights de dados estruturados e não estruturados.",
@@ -1901,9 +1901,9 @@
           7
         ],
         "principais_carreiras": [
-          "Engenheiro de Dados",
-          "Cientista de Dados",
-          "Desenvolvedor de Software"
+          4,
+          5,
+          2
         ],
         "descriptions": [
           "Foca na aplicação prática da coleta e análise de dados.",
@@ -1949,9 +1949,9 @@
           7
         ],
         "principais_carreiras": [
-          "Especialista em IA/Machine Learning",
-          "Cientista de Dados",
-          "Engenheiro de Software"
+          13,
+          5,
+          1
         ],
         "descriptions": [
           "Explora a teoria e o desenvolvimento de sistemas de computador capazes de realizar tarefas que normalmente exigem inteligência humana.",
@@ -1997,9 +1997,9 @@
           9
         ],
         "principais_carreiras": [
-          "Engenheiro de Dados",
-          "Arquiteto de Software/Soluções",
-          "Analista de Dados"
+          4,
+          3,
+          6
         ],
         "descriptions": [
           "Composto por modelos, políticas, regras e padrões que governam quais dados são coletados e como são armazenados, organizados, integrados e utilizados.",
@@ -2045,9 +2045,9 @@
           11
         ],
         "principais_carreiras": [
-          "Cientista de Dados",
-          "Analista de Dados",
-          "Especialista em IA/Machine Learning"
+          5,
+          6,
+          13
         ],
         "descriptions": [
           "Foca nos conceitos e métodos estatísticos que formam a base da ciência de dados.",
@@ -2093,9 +2093,9 @@
           10
         ],
         "principais_carreiras": [
-          "Analista de Dados",
-          "Cientista de Dados",
-          "Consultor de TI"
+          6,
+          5,
+          15
         ],
         "descriptions": [
           "Foca na análise de dados geográficos para identificar padrões, relacionamentos e tendências.",
@@ -2137,9 +2137,9 @@
           10
         ],
         "principais_carreiras": [
-          "Analista de Dados",
-          "Cientista de Dados",
-          "Desenvolvedor de Software"
+          6,
+          5,
+          2
         ],
         "descriptions": [
           "Foca nos processos e tecnologias usadas para analisar dados e apresentar informações acionáveis para ajudar executivos, gerentes e outros usuários finais a tomar decisões de negócios informadas.",
@@ -2185,9 +2185,9 @@
           12
         ],
         "principais_carreiras": [
-          "Cientista de Dados",
-          "Engenheiro de Dados",
-          "Analista de Dados"
+          5,
+          4,
+          6
         ],
         "descriptions": [
           "Um campo interdisciplinar que usa métodos, processos, algoritmos e sistemas científicos para extrair conhecimento e insights de dados estruturados e não estruturados.",
@@ -2233,9 +2233,9 @@
           7
         ],
         "principais_carreiras": [
-          "Engenheiro de Dados",
-          "Cientista de Dados",
-          "Desenvolvedor de Software"
+          4,
+          5,
+          2
         ],
         "descriptions": [
           "Foca na aplicação prática da coleta e análise de dados.",
@@ -2281,9 +2281,9 @@
           11
         ],
         "principais_carreiras": [
-          "Gerente de TI/Projetos",
-          "Analista de Dados",
-          "Cientista de Dados"
+          12,
+          6,
+          5
         ],
         "descriptions": [
           "Foca no uso da análise de dados para informar decisões de negócios estratégicas.",
@@ -2329,9 +2329,9 @@
           7
         ],
         "principais_carreiras": [
-          "Especialista em IA/Machine Learning",
-          "Cientista de Dados",
-          "Engenheiro de Software"
+          13,
+          5,
+          1
         ],
         "descriptions": [
           "Explora a teoria e o desenvolvimento de sistemas de computador capazes de realizar tarefas que normalmente exigem inteligência humana.",
@@ -2377,9 +2377,9 @@
           9
         ],
         "principais_carreiras": [
-          "Engenheiro de Dados",
-          "Arquiteto de Software/Soluções",
-          "Analista de Dados"
+          4,
+          3,
+          6
         ],
         "descriptions": [
           "Composto por modelos, políticas, regras e padrões que governam quais dados são coletados e como são armazenados, organizados, integrados e utilizados.",
@@ -2425,9 +2425,9 @@
           12
         ],
         "principais_carreiras": [
-          "Cientista de Dados",
-          "Analista de Dados",
-          "Consultor de TI"
+          5,
+          6,
+          15
         ],
         "descriptions": [
           "Foca na aplicação de técnicas de ciência de dados para analisar dados relacionados à saúde.",
@@ -2473,9 +2473,9 @@
           11
         ],
         "principais_carreiras": [
-          "Cientista de Dados",
-          "Analista de Dados",
-          "Especialista em IA/Machine Learning"
+          5,
+          6,
+          13
         ],
         "descriptions": [
           "Foca nos conceitos e métodos estatísticos que formam a base da ciência de dados.",
@@ -2521,9 +2521,9 @@
           7
         ],
         "principais_carreiras": [
-          "Especialista em IA/Machine Learning",
-          "Engenheiro de Software",
-          "Cientista de Dados"
+          13,
+          1,
+          5
         ],
         "descriptions": [
           "Um campo científico interdisciplinar que lida com como os computadores podem ser feitos para obter uma compreensão de alto nível a partir de imagens ou vídeos digitais.",
@@ -2569,9 +2569,9 @@
           7
         ],
         "principais_carreiras": [
-          "Especialista em IA/Machine Learning",
-          "Desenvolvedor de Software",
-          "Cientista de Dados"
+          13,
+          2,
+          5
         ],
         "descriptions": [
           "Um subcampo da inteligência artificial focado em permitir que os computadores entendam, interpretem e gerem a linguagem humana.",
@@ -2617,9 +2617,9 @@
           11
         ],
         "principais_carreiras": [
-          "Gerente de TI/Projetos",
-          "Especialista em IA/Machine Learning",
-          "Consultor de TI"
+          12,
+          13,
+          15
         ],
         "descriptions": [
           "Foca na preparação de líderes para conduzir iniciativas e estratégias de IA dentro de uma organização.",
