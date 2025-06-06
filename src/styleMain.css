@@ -383,6 +383,15 @@
   height: 2rem;
   cursor: pointer;
   justify-self: end;
+  opacity: 80%;
+}
+
+.comparadorClose:hover {
+  opacity: 100%;
+}
+
+.comparadorClose ion-icon {
+  font-size: 2rem;
 }
 
 .comparadorScreenContainer {

@@ -333,9 +333,11 @@ const comparadorScreen = document.getElementById("comparadorScreen");
 const comparadorInputContainer = document.getElementById(
   "comparadorInputContainer"
 );
+const comparadorClose = document.getElementById('comparadorClose')
 
 comparadorAdd.addEventListener("click", comparadorAddInput);
 comparadorButton.addEventListener("click", comparadorSend);
+comparadorClose.addEventListener("click", closeComparador)
 
 function comparadorAddInput() {
   comparadorInputContainer.insertAdjacentHTML(
@@ -366,7 +368,7 @@ async function comparadorSend(event) {
   comparadorScreen.innerHTML = ``;
   comparadorTable.innerHTML = `
     <tr id="cursoComparadorTableHeader">
-      <th>Matérias</th>
+      <th>Diciplinas</th>
     </tr>
   `;
 
@@ -423,7 +425,7 @@ async function comparadorSend(event) {
     let lineDiciplina = [];
     let groupDiciplina = {
       nome: "",
-      id_grupo_disciplina: -1,
+      id_grupo_disciplina: 0,
       cursos: [],
     };
     let cursoComparar = {
@@ -434,7 +436,7 @@ async function comparadorSend(event) {
     diciplinas.forEach((diciplina) => {
       let groupDiciplina = {
         nome: "",
-        id_grupo_disciplina: -1,
+        id_grupo_disciplina: 0,
         cursos: [],
       };
 
@@ -483,6 +485,7 @@ async function comparadorSend(event) {
     const grupos = await getGrupos;
     let groupLines = {
       nome: "",
+      group_id: -1,
       lines: [],
     };
 
@@ -491,10 +494,12 @@ async function comparadorSend(event) {
     grupos.forEach((grupo) => {
       groupLines = {
         nome: "",
+        group_id: -1,
         lines: [],
       };
 
       groupLines.nome = grupo.dsc_grupo_disciplina;
+      groupLines.group_id = grupo.id_grupo_disciplina;
       lineDiciplina.forEach((line) => {
         if (grupo.id_grupo_disciplina == line.id_grupo_disciplina) {
           groupLines.lines.push(line);
@@ -508,12 +513,24 @@ async function comparadorSend(event) {
         console.log(groupDiciplinas);
 
         comparadorTable.innerHTML += `
-                <tr>
-                  <td style="background-color: var(--darkBlue); color: white">
-                    ${groupDiciplinas.nome}
-                  </td>
+                <tr id="group_${groupDiciplinas.group_id}">
+                 <th class="comparadorGroupDiciplinas" style="background-color: var(--darkBlue); color: white">
+                 ${groupDiciplinas.nome}
+                 </th> 
+
                 </tr>
           `;
+
+        console.log(groupDiciplinas.group_id);
+
+        comparadorInput.forEach(() => {
+          document.getElementById(
+            `group_${groupDiciplinas.group_id}`
+          ).innerHTML += `
+                <th class="comparadorGroupDiciplinas" style="background-color: var(--darkBlue); color: white">
+                </th> 
+            `;
+        });
 
         groupDiciplinas.lines.forEach((lineDiciplina) => {
           lineID++;
@@ -543,4 +560,12 @@ async function comparadorSend(event) {
   }
 
   event.preventDefault();
+}
+
+function closeComparador() {
+    const comparadorScreenContainer = document.getElementById(
+    "comparadorScreenContainer"
+  );
+
+  comparadorScreenContainer.style.display = "none";
 }
