@@ -1,3 +1,5 @@
+/* GLOBAL STYLES */
+
 :root {
   --backgroundBlue: #dde8ea;
   --darkBlue: #25596d;
@@ -22,8 +24,7 @@ header {
   padding: 0% 10%;
 }
 
-/* Logo Header */
-
+/* Header (Barra superior) */
 .logosContainer {
   display: flex;
   justify-content: center;
@@ -42,8 +43,6 @@ header {
   height: 100px;
 }
 
-/* Opções Header */
-
 .opcoesContainer {
   display: flex;
   justify-content: center;
@@ -58,7 +57,6 @@ header {
 }
 
 /* Footer */
-
 footer {
   display: flex;
   flex-direction: column;
@@ -72,12 +70,14 @@ footer nav {
   justify-content: center;
   align-items: center;
 }
+
 footer nav {
   display: flex;
   gap: 1rem;
   margin: 0;
   list-style: none;
 }
+
 footer nav a {
   font-weight: 500;
   color: white;
@@ -99,6 +99,8 @@ footer nav a {
   width: 100%;
   object-fit: cover;
 }
+
+/* Imagens de fundo */
 
 .floatingCards {
   position: absolute;
@@ -122,6 +124,7 @@ footer nav a {
   border-radius: 0 0 1rem 1rem;
   z-index: 1;
 }
+
 .floatingCardsBottom {
   position: absolute;
   top: 80px;
@@ -133,353 +136,11 @@ footer nav a {
 
 /* MAIN PAGE - START*/
 
-/* Áreas de Interesse */
-
-.areasInteresse {
-  padding: 2rem 10%;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.areasInteresseHeader {
-  width: 100%;
-}
-
-.areasInteresseHeader h1 {
-  color: var(--darkBlue);
-  font-size: 1.5rem;
-}
-
-.areaCardContainer {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.areaCard {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  padding: 0.8rem;
-  border-radius: 1rem;
-  font-size: 1.5rem;
-  text-decoration: none;
-  color: var(--darkBlue);
-  font-weight: 500;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.maisCursos {
-  gap: 10px;
-  color: white;
-  background-color: var(--darkBlue);
-}
-
-/* Carousel */
-
-.carouselSection {
-  background-color: var(--lightBlue);
-  border-radius: 1rem;
-  height: 600px;
-  margin: 2rem 10%;
-  padding: 2rem;
-}
-
-.carouselHeader {
-  display: flex;
-  justify-content: center;
-}
-
-.carouselHeader h1 {
-  background-color: var(--orange);
-  border-radius: 1rem;
-  padding: 1rem;
-  color: white;
-  font-size: 2rem;
-}
-
-/* Carousel Slider */
-
-.carouselContainer {
-  position: relative;
-  width: 100%;
-  height: 600px;
-  overflow: hidden;
-  z-index: 10;
-  display: flex;
-  justify-content: center;
-}
-
-.carouselCard {
-  position: absolute;
-  width: 500px;
-  padding: 2rem;
-  transition: 500ms;
-  top: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.carouselVideo {
-  display: flex;
-  justify-content: center;
-  height: 300px;
-  aspect-ratio: 16/9;
-}
-.carouselVideo iframe {
-  aspect-ratio: 16/9;
-  border: none;
-  border-radius: 1rem;
-}
-
-.carouselDescContainer {
-  transition: 500ms;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-}
-
-.carouselDesc {
-  font-weight: 500;
-  color: var(--darkBlue);
-  text-align: center;
-}
-
-.carouselProf {
-  font-weight: 800;
-  color: var(--darkBlue);
-}
-
-#carouselNext,
-#carouselPrev {
-  position: absolute;
-  top: 50%;
-  left: 5px;
-  color: var(--orange);
-  border: none;
-  background-color: transparent;
-  font-size: xxx-large;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#carouselNext {
-  left: unset;
-  right: 5px;
-}
-
-/* Ver Cursos */
-
-.verCursosSection {
-  background-color: var(--darkBlue);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  gap: 2rem;
-  padding: 3rem 25%;
-}
-
-.verCursosHeader {
-  font-weight: 500;
-  font-size: 2rem;
-}
-
-.verCursosBtn {
-  background-color: var(--orange);
-  color: white;
-  text-decoration: none;
-  border-radius: 1rem;
-  padding: 1rem;
-  font-weight: 600;
-  font-size: 2.5rem;
-}
-
-.verCusosDesc {
-  font-weight: 400;
-  font-size: 1.8rem;
-}
-
-/* Sobre */
-
-.sobreSection {
-  padding: 4rem 0;
-  color: var(--darkBlue);
-  background-color: var(--lightBlue);
-}
-
-.sobreHeader {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.sobreHeader h1 {
-  font-size: 2rem;
-  text-align: center;
-}
-
-.sobreHeader div {
-  border-radius: 1rem;
-  height: 2px;
-  width: 80%;
-  background-color: var(--darkBlue);
-}
-
-.sobreHeader p {
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-/* sobreCarousel */
-
-.sobreCarouselContainer {
-  overflow: hidden;
-}
-
-.sobreCarousel {
-  position: relative;
-  display: flex;
-  gap: 1rem;
-  width: 100%;
-  min-width: calc(var(--width) * var(--quantity));
-  height: 150px;
-  margin: 6rem 0;
-}
-
-/* Card */
-
-.sobreCard {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--orange);
-  border-radius: 1rem;
-  width: var(--width);
-  height: var(--height);
-  left: 100%;
-  animation: autoRun 20s linear infinite;
-  animation-delay: calc((20s / var(--quantity)) * (var(--position) - 10));
-  transition: 200ms;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.sobreCarousel:hover .sobreCard {
-  animation-play-state: paused !important;
-  opacity: 0.75;
-}
-
-.sobreCard:hover {
-  opacity: 1 !important;
-}
-
-/* Icon */
-
-.sobreIcon {
-  background-color: var(--orange);
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%) translateY(calc(-50% - 2rem));
-  border-radius: 100%;
-  transition: 200ms;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.sobreIcon ion-icon {
-  font-size: 4rem;
-  color: var(--darkOrange);
-}
-
-/* Text */
-
-.sobreCard h3 {
-  color: white;
-  text-align: center;
-  margin: 1rem;
-  margin-top: 2rem;
-  z-index: 10;
-}
-
-@keyframes autoRun {
-  from {
-    left: 100%;
-  }
-  to {
-    left: calc(var(--width) * -1);
-  }
-}
-
-/* Duvidas */
-
-.sobreDuvidas {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-}
-
-.sobreDuvidas h1 {
-  font-size: 2rem;
-}
-
-.sobreDuvidas p {
-  font-size: 1.5rem;
-}
-.sobreDuvidas p a {
-  font-weight: 600;
-  color: var(--darkBlue);
-}
-
-/* Duvidas */
-
-.duvidasContainer {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: fit-content;
-}
-
-.duvidasCard {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  align-items: center;
-  width: 30%;
-  padding: 1rem;
-  background-color: var(--darkBlue);
-  border-radius: 1rem;
-  color: white;
-  text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.duvidasCard h1 {
-  font-weight: 800;
-  font-size: 1.5rem;
-}
-
-.duvidasCard h2 {
-  font-weight: 400;
-  color: var(--lightBlue);
-  font-size: 1rem;
-  padding: 0 2rem;
-}
+/*-------------------------------------------
+---------------------------------------------
+Coloque todo o Style da Pagina principal aqui
+---------------------------------------------
+-------------------------------------------*/
 
 /* MAIN PAGE - END*/
 
@@ -538,7 +199,6 @@ main aside {
   color: var(--darkOrange);
   cursor: pointer;
   font-size: 0.85rem;
-
 }
 
 .compararCursos h2 {
@@ -586,19 +246,16 @@ main aside {
   gap: 0.1rem;
 }
 
-.cursosSelect input {
-  border: 0px;
-  width: 10%;
-  height: 1rem;
-}
-
-.cursosSelect label {
-  display: flex;
-  align-items: center;
+.tipoCursos select {
+  font-size: 1rem;
+  background-color: var(--darkBlue);
+  color: white;
   cursor: pointer;
-  padding: 0.5rem 0;
-  width: 100%;
-  font-size: 1.5rem;
+  border-style: none;
+  width: auto;
+  height: 2rem;
+  border-radius: 0.5rem;
+  position: relative;
 }
 
 /* Curso texto */
@@ -615,6 +272,14 @@ main aside {
 .textoCurso h1 {
   font-size: 2.5em;
   color: var(--orange);
+}
+
+/* Cards Importados */
+
+.conjuntoCards {
+  margin-top: 2em;
+  gap: 16px;
+  justify-content: center;
 }
 
 .textotopico {
@@ -637,25 +302,21 @@ main aside {
   font-size: 1.3rem;
 }
 
-.MostrarMais {
+.conjunto {
   display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
   justify-content: center;
-  margin-top: 4em;
-  width: 100%;
 }
 
-.botaoMostrarMais {
-  background-color: var(--darkBlue);
-  color: white;
-  padding: 16px 32px;
-  border-radius: 18px;
-  font-size: 20px;
-  font-weight: bold;
+.cursoCardTop {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 10px;
-  border: none;
-  cursor: pointer;
+}
+
+.hidden {
+  display: none;
 }
 
 /* curso card */
@@ -706,13 +367,6 @@ input[type="checkbox"] {
   font-size: 0.9em;
 }
 
-.Modalidade {
-  padding: 4px 10px;
-  border: 1px solid;
-  border-radius: 20px;
-  background-color: #f8f8f8;
-}
-
 .cursoBody {
   align-items: end;
   justify-content: space-between;
@@ -733,48 +387,14 @@ input[type="checkbox"] {
   opacity: 80%;
 }
 
-.btnDetalhes {
-  padding: 6px 12px;
-  border-radius: 20px;
+.Modalidade {
+  padding: 4px 10px;
   border: 1px solid;
-  background: #f8f8f8;
-  font-size: 0.9em;
-  align-self: flex-start;
-  cursor: pointer;
-  transition: background 0.2s ease;
+  border-radius: 20px;
+  background-color: #f8f8f8;
 }
 
-.conjunto {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  justify-content: center;
-}
-
-.image_card {
-  height: 4.5rem;
-}
-
-.image_div {
-  display: flex;
-  align-items: center;
-}
-
-.cursoCardTop {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.conjuntoCards {
-  margin-top: 2em;
-  gap: 16px;
-  justify-content: center;
-}
-
-.hidden {
-  display: none;
-}
+/* Mostrar Mais */
 
 .mostrarMais{
   display: flex;
@@ -794,42 +414,4 @@ input[type="checkbox"] {
   align-items: center;
   border: none;
   cursor: pointer;
-}
-
-.tipoCursos label {
-  font-size: 1rem;
-  color: white;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4em;
-}
-
-.tipoCursos label input[type="radio"]:checked {
-  accent-color: white;
-  cursor: pointer;
-}
-
-.tipoCursos label input[type="radio"] {
-  accent-color: var(--darkBlue);
-  cursor: pointer;
-}
-
-.tipoCursos option {
-  font-size: 1rem;
-  background-color: var(--darkBlue);
-  color: white;
-  cursor: pointer;
-}
-
-.tipoCursos select {
-  font-size: 1rem;
-  background-color: var(--darkBlue);
-  color: white;
-  cursor: pointer;
-  border-style: none;
-  width: auto;
-  height: 2rem;
-  border-radius: 0.5rem;
-  position: relative;
 }
