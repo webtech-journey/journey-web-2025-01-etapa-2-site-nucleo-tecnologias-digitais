@@ -62,7 +62,7 @@ function importarCursos() {
 
       const mostrarMaisBtns = document.querySelectorAll('.mostrarMaisBtn');
       mostrarMaisBtns.forEach(btn => {
-        btn.addEventListener('click', function() {
+        btn.addEventListener('click', function () {
           const conjunto = this.closest('.conjuntoCards').querySelectorAll('.cursoCard');
           const ocultos = this.closest('.conjuntoCards').querySelectorAll('.cursoCard.hidden');
 
@@ -72,18 +72,17 @@ function importarCursos() {
                 card.classList.remove('hidden');
               }
             });
-            this.textContent = 'Mostrar menos';
+            this.innerHTML = 'Mostrar menos <ion-icon name="chevron-up-outline"></ion-icon>';
           } else {
             conjunto.forEach((card, index) => {
               if (index >= 7) {
                 card.classList.add('hidden');
               }
             });
-            this.textContent = 'Mostrar mais';
+            this.innerHTML = 'Mostrar mais <ion-icon name="chevron-down-outline"></ion-icon>';
           }
         });
       });
-
 
       const checkboxes = document.querySelectorAll('.cursoCard input[type="checkbox"]');
       checkboxes.forEach(checkbox => {

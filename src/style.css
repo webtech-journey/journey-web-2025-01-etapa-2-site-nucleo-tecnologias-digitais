@@ -309,23 +309,12 @@ main aside {
   justify-content: center;
 }
 
-.cursoCardTop {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.hidden {
-  display: none;
-}
-
 /* curso card */
 
 .cursoCard {
   margin-top: 2em;
-  background: #fff;
-  border-radius: 40px;
-  padding: 20px 16px 16px 16px;
+  background: var(--backgroundBlue);
+  border-radius: 7px;
   flex: 0 1 300px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -333,19 +322,23 @@ main aside {
   justify-content: space-between;
   color: #333;
   position: relative;
-  height: 9rem;
-  width: 20rem;
+  height: 10rem;
+  width: 25rem;
   font-size: 0.9em;
   color: var(--darkBlue);
 }
 
-.selecionado {
-  box-shadow: 0 10px 20px var(--orange);
+.hidden {
+  display: none;
 }
 
-input[type="checkbox"] {
-  accent-color: var(--orange);
-  cursor: pointer;
+.selecionado {
+  box-shadow: 0 10px 20px var(--orange);
+  font-style: var(--darkOrange);
+}
+
+.cursoCardTop {
+  margin-top: 0.5rem;
 }
 
 .compararLabel {
@@ -359,6 +352,14 @@ input[type="checkbox"] {
   background-color: var(--darkBlue);
   color: white;
   border-radius: 10rem;
+  border: none;
+}
+
+input[type="checkbox"] {
+  accent-color: var(--orange);
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
 }
 
 .compararLabel input[type="checkbox"] {
@@ -372,12 +373,17 @@ input[type="checkbox"] {
   justify-content: space-between;
   height: 5rem;
   background-color: white;
+  border-radius: 0 0 7px 7px;
+  
 }
 
 .cursoBodyText {
-  align-items: end;
+  margin: 0.3rem;;
   font-size: 0.7rem;
   height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .cursoBody h3 {
@@ -392,6 +398,15 @@ input[type="checkbox"] {
   border: 1px solid;
   border-radius: 20px;
   background-color: #f8f8f8;
+  justify-content: center;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: var(--darkBlue);
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  font-size: 1em;
+  border-radius: 10rem;
 }
 
 /* Mostrar Mais */
