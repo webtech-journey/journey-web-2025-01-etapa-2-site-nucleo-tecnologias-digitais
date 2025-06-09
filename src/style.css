@@ -326,15 +326,11 @@ main aside {
   width: 25rem;
   font-size: 0.9em;
   color: var(--darkBlue);
+  border: 1px solid rgba(37, 89, 109, 0.2);
 }
 
 .hidden {
   display: none;
-}
-
-.selecionado {
-  box-shadow: 0 10px 20px var(--orange);
-  font-style: var(--darkOrange);
 }
 
 .cursoCardTop {
@@ -352,7 +348,7 @@ main aside {
   background-color: var(--darkBlue);
   color: white;
   border-radius: 10rem;
-  border: none;
+  border: 1px solid var(--darkBlue);
 }
 
 input[type="checkbox"] {
@@ -366,6 +362,7 @@ input[type="checkbox"] {
   width: 18px;
   height: 18px;
   font-size: 0.9em;
+  right: 0%;
 }
 
 .cursoBody {
@@ -407,6 +404,22 @@ input[type="checkbox"] {
   display: flex;
   font-size: 1em;
   border-radius: 10rem;
+}
+
+.selecionado {
+  box-shadow: 0 10px 20px var(--orange);
+  font-style: var(--darkOrange);
+  border: 1px solid rgba(255, 127, 28, 0.2);
+
+}
+
+.selecionado *{
+  color: var(--orange);
+}
+
+.selecionado label {
+  background-color: white;
+  border: 1px solid var(--orange);
 }
 
 /* Mostrar Mais */
