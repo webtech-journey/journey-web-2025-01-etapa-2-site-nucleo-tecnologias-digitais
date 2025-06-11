@@ -1,4 +1,4 @@
-getCategorias = fetch("cursos.json")
+getCategorias = fetch("categorias.json")
   .then((res) => res.json())
   .then((data) => {
     return data;
@@ -13,13 +13,7 @@ getGrupos = fetch("grupos.json")
 getCursos = fetch("cursos.json")
   .then((res) => res.json())
   .then((data) => {
-    const cursos = [];
-    data.forEach((category) => {
-      category.cursos.forEach((curso) => {
-        cursos.push(curso);
-      });
-    });
-    return cursos;
+    return data;
   });
 
 getCarreiras = fetch("carreiras.json")

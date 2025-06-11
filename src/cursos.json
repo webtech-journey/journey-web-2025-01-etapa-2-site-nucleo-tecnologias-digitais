@@ -1,2650 +1,2740 @@
 [
   {
-    "categoria": "Desenvolvimento de Software",
-    "cursos": [
-      {
-        "nome_do_curso": "Engenharia de Software",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Engenharia-de-Software_Online.aspx?pageID=381&moda=5&modaTipo=2&polo=40&curso=174&situ=1",
-        "icon": "ES",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          6,
-          9,
-          10
-        ],
-        "principais_carreiras": [
-          1,
-          2,
-          3
-        ],
-        "descriptions": [
-          "Aborda a aplicação sistemática de princípios de engenharia para o desenvolvimento de software.",
-          "Cobre todo o ciclo de vida do software, desde a concepção e análise de requisitos até a manutenção.",
-          "Visa produzir software de alta qualidade, confiável e de fácil manutenção, dentro do orçamento e dos prazos."
-        ],
-        "ids_disciplinas_ofertadas": [
-          4,
-          74,
-          83,
-          262,
-          263,
-          265,
-          269,
-          277,
-          294,
-          360,
-          384,
-          413,
-          499,
-          609,
-          621,
-          730
-        ]
-      },
-      {
-        "nome_do_curso": "Arquitetura de Software Distribuído",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Arquitetura-de-Software-Distribu%C3%ADdo-_Online.aspx?pageID=3814&moda=5&modaTipo=2&polo=40&curso=128&situ=1",
-        "icon": "ASD",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          1,
-          6,
-          10
-        ],
-        "principais_carreiras": [
-          3,
-          1,
-          2
-        ],
-        "descriptions": [
-          "Foca no projeto de sistemas de software que são executados em múltiplos computadores conectados por uma rede.",
-          "Aborda desafios como concorrência, tolerância a falhas e escalabilidade.",
-          "Explora padrões e princípios para a construção de aplicações distribuídas robustas e resilientes."
-        ],
-        "ids_disciplinas_ofertadas": [
-          4,
-          98,
-          103,
-          106,
-          262,
-          263,
-          269,
-          360,
-          384,
-          413,
-          414,
-          432,
-          602,
-          614,
-          677,
-          744
-        ]
-      },
-      {
-        "nome_do_curso": "Arquitetura de Soluções",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Arquitetura%20de%20Solucoes_Pos%20Online_Especializacao%20e%20Master.aspx?pageID=4065&moda=5&modaTipo=2&polo=40&curso=1140&situ=1",
-        "icon": "AS",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          4,
-          10,
-          11
-        ],
-        "principais_carreiras": [
-          3,
-          7,
-          15
-        ],
-        "descriptions": [
-          "Envolve o desenho e a definição da estrutura geral de uma solução tecnológica para atender a requisitos de negócios específicos.",
-          "Faz a ponte entre os problemas de negócio e as soluções tecnológicas.",
-          "Considera aspectos como infraestrutura, segurança e integração com outros sistemas."
-        ],
-        "ids_disciplinas_ofertadas": [
-          4,
-          261,
-          262,
-          263,
-          269,
-          368,
-          384,
-          413,
-          432,
-          506,
-          670,
-          677,
-          745,
-          747,
-          765,
-          766
-        ]
-      },
-      {
-        "nome_do_curso": "Automação de Processos: RPA e Hiperautomação",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Automa%C3%A7%C3%A3o-de-Processos-RPA-e-hiperautoma%C3%A7%C3%A3o.aspx?pageID=4468&moda=5&modaTipo=2&polo=40&curso=1535&situ=1",
-        "icon": "APRH",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          2,
-          9,
-          10
-        ],
-        "principais_carreiras": [
-          2,
-          1,
-          15
-        ],
-        "descriptions": [
-          "Foca no uso de robôs de software (RPA) para automatizar processos de negócios repetitivos e baseados em regras.",
-          "Explora a hiperautomação, que combina RPA com outras tecnologias como IA e aprendizado de máquina para automações mais complexas.",
-          "Visa melhorar a eficiência, reduzir erros e liberar os trabalhadores humanos para tarefas mais estratégicas."
-        ],
-        "ids_disciplinas_ofertadas": [
-          4,
-          164,
-          269,
-          413,
-          446,
-          447,
-          448,
-          449,
-          450,
-          616,
-          689,
-          730,
-          748,
-          749,
-          760,
-          761
-        ]
-      },
-      {
-        "nome_do_curso": "DevOps & Continuous Software Engineering",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/DevOps--Continuous-Software-Engineering.aspx?PageID=4469&moda=5&modaTipo=2&polo=40&curso=1536&situ=1",
-        "icon": "DCSE",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          2,
-          4,
-          6
-        ],
-        "principais_carreiras": [
-          8,
-          1,
-          7
-        ],
-        "descriptions": [
-          "Visa encurtar o ciclo de vida de desenvolvimento de sistemas e fornecer entrega contínua com alta qualidade de software.",
-          "Enfatiza a colaboração e a comunicação entre desenvolvedores de software e profissionais de operações de TI.",
-          "Integra práticas de integração contínua, entrega contínua (CI/CD) e infraestrutura como código."
-        ],
-        "ids_disciplinas_ofertadas": [
-          4,
-          360,
-          384,
-          413,
-          432,
-          454,
-          455,
-          456,
-          459,
-          460,
-          461,
-          509,
-          609,
-          620,
-          730,
-          731
-        ]
-      },
-      {
-        "nome_do_curso": "Site Reliability Engineering",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Site-Reliability-Engineering-(SRE).aspx?pageID=4478&moda=5&modaTipo=2&polo=40&curso=1545&situ=1",
-        "icon": "SRE",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          2,
-          4,
-          13
-        ],
-        "principais_carreiras": [
-          8,
-          1,
-          7
-        ],
-        "descriptions": [
-          "Uma disciplina que incorpora aspectos da engenharia de software e os aplica a problemas de infraestrutura e operações.",
-          "Foca na criação de sistemas de software escaláveis e altamente confiáveis.",
-          "Usa princípios de engenharia de software para automatizar tarefas de operações de TI."
-        ],
-        "ids_disciplinas_ofertadas": [
-          316,
-          384,
-          413,
-          432,
-          456,
-          460,
-          502,
-          509,
-          690,
-          691,
-          726,
-          731,
-          770,
-          772,
-          773,
-          775
-        ]
-      },
-      {
-        "nome_do_curso": "Engenharia de Qualidade e Teste de Software",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Engenharia%20de%20Qualidade%20e%20Teste%20de%20Software_Pos%20Online_Especializacao%20e%20Master.aspx?pageID=4585&moda=5&modaTipo=2&polo=40&curso=1634&situ=1",
-        "icon": "EQTS",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          5,
-          10
-        ],
-        "principais_carreiras": [
-          1,
-          2,
-          14
-        ],
-        "descriptions": [
-          "Foca em garantir a qualidade do software por meio de testes sistemáticos e processos de garantia de qualidade.",
-          "Cobre várias metodologias de teste, desde testes de unidade até testes de ponta a ponta.",
-          "Visa identificar e corrigir defeitos no início do ciclo de desenvolvimento para entregar um produto de alta qualidade."
-        ],
-        "ids_disciplinas_ofertadas": [
-          167,
-          384,
-          413,
-          432,
-          456,
-          501,
-          502,
-          505,
-          723,
-          724,
-          725,
-          726,
-          727,
-          728,
-          729,
-          730
-        ]
-      },
-      {
-        "nome_do_curso": "Geotecnologias e Desenvolvimento de SIG",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/GeotecnologiaseDesenvolvimentodeSIG%E2%80%93SistemadeInformacaoGeografica_EAD_Especializacao%20e%20Master.aspx?pageID=5316&moda=5&polo=43&curso=1882&situ=1",
-        "icon": "GDS",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          1,
-          3,
-          10
-        ],
-        "principais_carreiras": [
-          2,
-          6,
-          15
-        ],
-        "descriptions": [
-          "Foca no desenvolvimento de Sistemas de Informações Geográficas (SIG) para capturar, armazenar, analisar e gerenciar dados espaciais ou geográficos.",
-          "Envolve a programação e personalização de aplicações SIG para resolver problemas específicos.",
-          "Combina geografia, cartografia e ciência da computação."
-        ],
-        "ids_disciplinas_ofertadas": [
-          4,
-          74,
-          262,
-          309,
-          524,
-          530,
-          531,
-          542,
-          545,
-          546,
-          561,
-          562,
-          569,
-          570,
-          591,
-          658
-        ]
-      },
-      {
-        "nome_do_curso": "Arquitetura de Software Distribuído",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/ArquiteturadeSoftwareDistribuido_EAD_Especializacao%20e%20Master.aspx?pageID=5205&moda=5&polo=43&curso=128&situ=1",
-        "icon": "ASD",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          1,
-          6,
-          10
-        ],
-        "principais_carreiras": [
-          3,
-          1,
-          2
-        ],
-        "descriptions": [
-          "Foca no projeto de sistemas de software que são executados em múltiplos computadores conectados por uma rede.",
-          "Aborda desafios como concorrência, tolerância a falhas e escalabilidade.",
-          "Explora padrões e princípios para a construção de aplicações distribuídas robustas e resilientes."
-        ],
-        "ids_disciplinas_ofertadas": [
-          4,
-          98,
-          103,
-          106,
-          262,
-          263,
-          269,
-          360,
-          384,
-          414,
-          432,
-          602,
-          614,
-          658,
-          677,
-          744
-        ]
-      },
-      {
-        "nome_do_curso": "Arquitetura de Soluções",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/ArquiteturadeSolucoes_EAD_Especializacao%20e%20Master.aspx?pageID=5286&moda=5&polo=43&curso=1140&situ=1",
-        "icon": "AS",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          4,
-          10,
-          11
-        ],
-        "principais_carreiras": [
-          3,
-          7,
-          15
-        ],
-        "descriptions": [
-          "Envolve o desenho e a definição da estrutura geral de uma solução tecnológica para atender a requisitos de negócios específicos.",
-          "Faz a ponte entre os problemas de negócio e as soluções tecnológicas.",
-          "Considera aspectos como infraestrutura, segurança e integração com outros sistemas."
-        ],
-        "ids_disciplinas_ofertadas": [
-          4,
-          261,
-          262,
-          263,
-          269,
-          368,
-          384,
-          432,
-          506,
-          658,
-          670,
-          677,
-          745,
-          747,
-          765,
-          766
-        ]
-      },
-      {
-        "nome_do_curso": "Mobile Engineering",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/MobileEngineering_EAD_Especializacao%20e%20Master.aspx?pageID=5343&moda=5&polo=43&curso=1053&situ=1",
-        "icon": "ME",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          1,
-          6,
-          14
-        ],
-        "principais_carreiras": [
-          2,
-          1,
-          3
-        ],
-        "descriptions": [
-          "Foca no projeto, desenvolvimento e manutenção de aplicações de software para dispositivos móveis como smartphones e tablets.",
-          "Cobre o desenvolvimento para diferentes plataformas, como iOS e Android.",
-          "Aborda desafios específicos para dispositivos móveis, como recursos limitados, tamanhos de tela variados e problemas de conectividade."
-        ],
-        "ids_disciplinas_ofertadas": [
-          4,
-          74,
-          274,
-          277,
-          608,
-          610,
-          611,
-          625,
-          626,
-          627,
-          628,
-          629,
-          630,
-          632,
-          633,
-          658
-        ]
-      },
-      {
-        "nome_do_curso": "Desenvolvimento Full Stack",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/DesenvolvimentoFullStack_EAD_Especializacao%20e%20Master.aspx?pageID=5403&moda=5&polo=43&curso=691&situ=1",
-        "icon": "DFS",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          1,
-          3,
-          6
-        ],
-        "principais_carreiras": [
-          2,
-          1,
-          14
-        ],
-        "descriptions": [
-          "Cobre tanto o desenvolvimento front-end (lado do cliente) quanto o back-end (lado do servidor).",
-          "Permite que os desenvolvedores construam aplicações web completas do início ao fim.",
-          "Envolve o trabalho com bancos de dados, servidores, engenharia de sistemas e sites voltados para o cliente."
-        ],
-        "ids_disciplinas_ofertadas": [
-          4,
-          74,
-          262,
-          265,
-          269,
-          277,
-          311,
-          314,
-          452,
-          608,
-          611,
-          634,
-          635,
-          636,
-          637,
-          658
-        ]
-      },
-      {
-        "nome_do_curso": "Engenharia de Software",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/EngenhariadeSoftware_EAD_Especializacao%20e%20Master.aspx?pageID=5217&moda=5&polo=43&curso=174&situ=1",
-        "icon": "ES",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          6,
-          9,
-          10
-        ],
-        "principais_carreiras": [
-          1,
-          2,
-          3
-        ],
-        "descriptions": [
-          "Aborda a aplicação sistemática de princípios de engenharia para o desenvolvimento de software.",
-          "Cobre todo o ciclo de vida do software, desde a concepção e análise de requisitos até a manutenção.",
-          "Visa produzir software de alta qualidade, confiável e de fácil manutenção, dentro do orçamento e dos prazos."
-        ],
-        "ids_disciplinas_ofertadas": [
-          4,
-          74,
-          83,
-          262,
-          263,
-          265,
-          269,
-          277,
-          294,
-          360,
-          384,
-          499,
-          609,
-          621,
-          658,
-          730
-        ]
-      },
-      {
-        "nome_do_curso": "UX Engineering",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Desenvolvimento%20Web%20Front%20End_Pos%20Online_Especializacao%20e%20Master.aspx",
-        "icon": "UXE",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          6,
-          10,
-          14
-        ],
-        "principais_carreiras": [
-          10,
-          2,
-          1
-        ],
-        "descriptions": [
-          "Um papel híbrido que combina design de experiência do usuário (UX) com desenvolvimento front-end.",
-          "Foca na criação de interfaces funcionais e amigáveis, fazendo a ponte entre design e implementação.",
-          "Envolve a prototipagem, teste e implementação da interface do usuário para garantir uma experiência de usuário perfeita."
-        ],
-        "ids_disciplinas_ofertadas": [
-          1,
-          4,
-          74,
-          263,
-          269,
-          413,
-          479,
-          483,
-          489,
-          510,
-          601,
-          608,
-          611,
-          636,
-          637,
-          767
-        ]
-      },
-      {
-        "nome_do_curso": "UX Engineering",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/UXEngineering_EAD_Especializacao%20e%20Master.aspx?pageID=5346&moda=5&polo=43&curso=1146&situ=1",
-        "icon": "UXE",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          6,
-          10,
-          14
-        ],
-        "principais_carreiras": [
-          10,
-          2,
-          1
-        ],
-        "descriptions": [
-          "Um papel híbrido que combina design de experiência do usuário (UX) com desenvolvimento front-end.",
-          "Foca na criação de interfaces funcionais e amigáveis, fazendo a ponte entre design e implementação.",
-          "Envolve a prototipagem, teste e implementação da interface do usuário para garantir uma experiência de usuário perfeita."
-        ],
-        "ids_disciplinas_ofertadas": [
-          1,
-          4,
-          74,
-          263,
-          269,
-          479,
-          483,
-          489,
-          510,
-          601,
-          608,
-          611,
-          636,
-          637,
-          658,
-          767
-        ]
-      },
-      {
-        "nome_do_curso": "Automação de Processos: RPA e Hiperautomação",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/AutomacaodeProcessosRPAeHiperautomacao_EAD_Especializacao%20e%20Master.aspx?pageID=5340&moda=5&polo=43&curso=1900&situ=1",
-        "icon": "APRH",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          2,
-          9,
-          10
-        ],
-        "principais_carreiras": [
-          2,
-          1,
-          15
-        ],
-        "descriptions": [
-          "Foca no uso de robôs de software (RPA) para automatizar processos de negócios repetitivos e baseados em regras.",
-          "Explora a hiperautomação, que combina RPA com outras tecnologias como IA e aprendizado de máquina para automações mais complexas.",
-          "Visa melhorar a eficiência, reduzir erros e liberar os trabalhadores humanos para tarefas mais estratégicas."
-        ],
-        "ids_disciplinas_ofertadas": [
-          4,
-          164,
-          269,
-          446,
-          447,
-          448,
-          449,
-          450,
-          616,
-          658,
-          689,
-          730,
-          748,
-          749,
-          760,
-          761
-        ]
-      },
-      {
-        "nome_do_curso": "DevOps & Continuous Software Engineering",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/DevOps_ContinuousSoftwareEngineering_EAD_Especializacao%20e%20Master.aspx?pageID=5439&moda=5&polo=43&curso=1536&situ=1",
-        "icon": "DCSE",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          2,
-          4,
-          6
-        ],
-        "principais_carreiras": [
-          8,
-          1,
-          7
-        ],
-        "descriptions": [
-          "Visa encurtar o ciclo de vida de desenvolvimento de sistemas e fornecer entrega contínua com alta qualidade de software.",
-          "Enfatiza a colaboração e a comunicação entre desenvolvedores de software e profissionais de operações de TI.",
-          "Integra práticas de integração contínua, entrega contínua (CI/CD) e infraestrutura como código."
-        ],
-        "ids_disciplinas_ofertadas": [
-          4,
-          360,
-          384,
-          432,
-          454,
-          455,
-          456,
-          459,
-          460,
-          461,
-          509,
-          609,
-          620,
-          658,
-          730,
-          731
-        ]
-      },
-      {
-        "nome_do_curso": "Engenharia de Qualidade e Teste de Software",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/EngenhariadeQualidadeeTestedeSoftware_EAD_Especializacao%20e%20Master.aspx?pageID=5341&moda=5&polo=43&curso=1634&situ=1",
-        "icon": "EQTS",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          5,
-          10
-        ],
-        "principais_carreiras": [
-          1,
-          2,
-          14
-        ],
-        "descriptions": [
-          "Foca em garantir a qualidade do software por meio de testes sistemáticos e processos de garantia de qualidade.",
-          "Cobre várias metodologias de teste, desde testes de unidade até testes de ponta a ponta.",
-          "Visa identificar e corrigir defeitos no início do ciclo de desenvolvimento para entregar um produto de alta qualidade."
-        ],
-        "ids_disciplinas_ofertadas": [
-          167,
-          384,
-          432,
-          456,
-          501,
-          502,
-          505,
-          658,
-          723,
-          724,
-          725,
-          726,
-          727,
-          728,
-          729,
-          730
-        ]
-      },
-      {
-        "nome_do_curso": "Site Reliability Engineering (SRE)",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/SiteReliabilityEngineering_EAD_Especializacao%20e%20Master.aspx?pageID=5344&moda=5&polo=43&curso=1901&situ=1",
-        "icon": "SRE",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          2,
-          4,
-          13
-        ],
-        "principais_carreiras": [
-          8,
-          1,
-          7
-        ],
-        "descriptions": [
-          "Uma disciplina que incorpora aspectos da engenharia de software e os aplica a problemas de infraestrutura e operações.",
-          "Foca na criação de sistemas de software escaláveis e altamente confiáveis.",
-          "Usa princípios de engenharia de software para automatizar tarefas de operações de TI."
-        ],
-        "ids_disciplinas_ofertadas": [
-          316,
-          384,
-          432,
-          456,
-          460,
-          502,
-          509,
-          658,
-          690,
-          691,
-          726,
-          731,
-          770,
-          772,
-          773,
-          775
-        ]
-      },
-      {
-        "nome_do_curso": "Desenvolvimento Full Stack",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Desenvolvimento-Web-Full-Stack_Online.aspx",
-        "icon": "DFS",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          1,
-          3,
-          6
-        ],
-        "principais_carreiras": [
-          2,
-          1,
-          14
-        ],
-        "descriptions": [
-          "Cobre tanto o desenvolvimento front-end (lado do cliente) quanto o back-end (lado do servidor).",
-          "Permite que os desenvolvedores construam aplicações web completas do início ao fim.",
-          "Envolve o trabalho com bancos de dados, servidores, engenharia de sistemas e sites voltados para o cliente."
-        ],
-        "ids_disciplinas_ofertadas": [
-          1,
-          2,
-          4,
-          74,
-          262,
-          265,
-          269,
-          277,
-          311,
-          314,
-          413,
-          452,
-          608,
-          611,
-          636,
-          637
-        ]
-      },
-      {
-        "nome_do_curso": "Mobile Engineering",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Desenvolvimento-Mobile_Online.aspx",
-        "icon": "ME",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          1,
-          6,
-          14
-        ],
-        "principais_carreiras": [
-          2,
-          1,
-          3
-        ],
-        "descriptions": [
-          "Foca no projeto, desenvolvimento e manutenção de aplicações de software para dispositivos móveis como smartphones e tablets.",
-          "Cobre o desenvolvimento para diferentes plataformas, como iOS e Android.",
-          "Aborda desafios específicos para dispositivos móveis, como recursos limitados, tamanhos de tela variados e problemas de conectividade."
-        ],
-        "ids_disciplinas_ofertadas": [
-          4,
-          74,
-          274,
-          277,
-          413,
-          608,
-          610,
-          611,
-          625,
-          626,
-          627,
-          628,
-          629,
-          630,
-          632,
-          633
-        ]
-      },
-      {
-        "nome_do_curso": "Análise e Desenvolvimento de Sistemas",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/An%C3%A1lise-e-Desenvolvimento-de-Sistemas.aspx",
-        "icon": "ADS",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          1,
-          3,
-          6
-        ],
-        "principais_carreiras": [
-          14,
-          2,
-          1
-        ],
-        "descriptions": [
-          "Foca no processo de criação e manutenção de sistemas de informação.",
-          "Envolve a compreensão das necessidades de negócios, o desenho de especificações de sistemas e o desenvolvimento do software.",
-          "Prepara profissionais para trabalhar com programação, bancos de dados e metodologias de engenharia de software."
-        ],
-        "ids_disciplinas_ofertadas": [
-          4,
-          74,
-          164,
-          269,
-          277,
-          413,
-          446,
-          452,
-          510,
-          608,
-          634,
-          635,
-          636,
-          637,
-          659,
-          660
-        ]
-      },
-      {
-        "nome_do_curso": "Análise e Desenvolvimento de Sistemas",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/AnaliseeDesenvolvimentodeSistemas_EAD_Especializacao%20e%20Master.aspx?pageID=5338&moda=5&polo=43&curso=1749&situ=1",
-        "icon": "ADS",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          1,
-          3,
-          6
-        ],
-        "principais_carreiras": [
-          14,
-          2,
-          1
-        ],
-        "descriptions": [
-          "Foca no processo de criação e manutenção de sistemas de informação.",
-          "Envolve a compreensão das necessidades de negócios, o desenho de especificações de sistemas e o desenvolvimento do software.",
-          "Prepara profissionais para trabalhar com programação, bancos de dados e metodologias de engenharia de software."
-        ],
-        "ids_disciplinas_ofertadas": [
-          4,
-          74,
-          164,
-          269,
-          277,
-          446,
-          452,
-          510,
-          608,
-          634,
-          635,
-          636,
-          637,
-          658,
-          659,
-          660
-        ]
-      }
-    ]
+    "cursoID": 0,
+    "nome_do_curso": "Engenharia de Software",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Engenharia-de-Software_Online.aspx?pageID=381&moda=5&modaTipo=2&polo=40&curso=174&situ=1",
+    "icon": "ES",
+    "caracteristicas": [
+      1,
+      1,
+      1
+    ],
+    "ids_tematicas": [
+      6,
+      9,
+      10
+    ],
+    "principais_carreiras": [
+      1,
+      2,
+      3
+    ],
+    "descriptions": [
+      "Aborda a aplicação sistemática de princípios de engenharia para o desenvolvimento de software.",
+      "Cobre todo o ciclo de vida do software, desde a concepção e análise de requisitos até a manutenção.",
+      "Visa produzir software de alta qualidade, confiável e de fácil manutenção, dentro do orçamento e dos prazos."
+    ],
+    "ids_disciplinas_ofertadas": [
+      4,
+      74,
+      83,
+      262,
+      263,
+      265,
+      269,
+      277,
+      294,
+      360,
+      384,
+      413,
+      499,
+      609,
+      621,
+      730
+    ],
+    "categoria": 1
   },
   {
-    "categoria": "Soluções e Negócios Digitais",
-    "cursos": [
-      {
-        "nome_do_curso": "UX e Design de Produtos Digitais",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/UX%20e%20Design%20de%20Produtos%20Digitais-.aspx?PageID=3868&moda=5&modaTipo=2&polo=40&curso=327&situ=1",
-        "icon": "UDPD",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          10,
-          14
-        ],
-        "principais_carreiras": [
-          10,
-          11,
-          6
-        ],
-        "descriptions": [
-          "Foca na criação de produtos digitais que oferecem uma experiência significativa e relevante aos usuários.",
-          "Envolve todo o processo de criação de produtos, desde a pesquisa e ideação até a prototipagem e testes com usuários.",
-          "Combina aspectos de experiência do usuário (UX), design de interface do usuário (UI) e estratégia de produto."
-        ],
-        "ids_disciplinas_ofertadas": [
-          74,
-          270,
-          413,
-          479,
-          480,
-          481,
-          482,
-          483,
-          485,
-          486,
-          487,
-          488,
-          489,
-          490,
-          767,
-          777
-        ]
-      },
-      {
-        "nome_do_curso": "Geoprocessamento",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Geoprocessamento_EAD_Especializacao%20e%20Master.aspx?pageID=5326&moda=5&polo=43&curso=1889&situ=1",
-        "icon": "GEO",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          1,
-          3,
-          10
-        ],
-        "principais_carreiras": [
-          6,
-          15,
-          2
-        ],
-        "descriptions": [
-          "Envolve o processamento de dados georreferenciados.",
-          "Usa tecnologia para coletar, armazenar, processar, analisar e exibir informações geográficas.",
-          "É aplicado em vários campos como planejamento urbano, análise ambiental e logística."
-        ],
-        "ids_disciplinas_ofertadas": [
-          524,
-          526,
-          527,
-          538,
-          542,
-          543,
-          544,
-          545,
-          562,
-          566,
-          568,
-          569,
-          578,
-          591,
-          597,
-          658
-        ]
-      },
-      {
-        "nome_do_curso": "MBA em Marketing Analytics",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Marketing-Analytics-opera%C3%A7%C3%B5es,-big-data-e-metodologias-%C3%A1geis.aspx?pageID=4353&moda=5&modaTipo=2&polo=40&curso=1440&situ=1",
-        "icon": "MMA",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          5,
-          10,
-          11
-        ],
-        "principais_carreiras": [
-          6,
-          5,
-          12
-        ],
-        "descriptions": [
-          "Foca na prática de medir, gerenciar e analisar o desempenho do marketing para maximizar sua eficácia.",
-          "Ensina como usar dados para entender o comportamento do cliente e otimizar as campanhas de marketing.",
-          "Combina princípios de marketing com análise de dados e métodos estatísticos."
-        ],
-        "ids_disciplinas_ofertadas": [
-          74,
-          167,
-          169,
-          270,
-          277,
-          413,
-          510,
-          515,
-          516,
-          525,
-          549,
-          557,
-          565,
-          596,
-          771,
-          776,
-          777
-        ]
-      },
-      {
-        "nome_do_curso": "UX e Design de Produtos Digitais",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/UXeDesigndeProdutosDigitais_EAD_Especializacao%20e%20Master.aspx?pageID=5345&moda=5&polo=43&curso=327&situ=1",
-        "icon": "UDPD",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          10,
-          14
-        ],
-        "principais_carreiras": [
-          10,
-          11,
-          6
-        ],
-        "descriptions": [
-          "Foca na criação de produtos digitais que oferecem uma experiência significativa e relevante aos usuários.",
-          "Envolve todo o processo de criação de produtos, desde a pesquisa e ideação até a prototipagem e testes com usuários.",
-          "Combina aspectos de experiência do usuário (UX), design de interface do usuário (UI) e estratégia de produto."
-        ],
-        "ids_disciplinas_ofertadas": [
-          74,
-          270,
-          479,
-          480,
-          481,
-          482,
-          483,
-          485,
-          486,
-          487,
-          488,
-          489,
-          601,
-          658,
-          767,
-          777
-        ]
-      },
-      {
-        "nome_do_curso": "Gestão de Produtos Digitais",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Gest%C3%A3o-e-Desenvolvimento-de-Produtos-Digitais.aspx",
-        "icon": "GDPD",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          10,
-          11,
-          14
-        ],
-        "principais_carreiras": [
-          11,
-          6,
-          10
-        ],
-        "descriptions": [
-          "Envolve a supervisão de todo o ciclo de vida de um produto digital, desde a concepção até o lançamento e além.",
-          "Foca na definição da visão, estratégia e roteiro do produto.",
-          "Requer a coordenação de equipes multifuncionais, incluindo design, engenharia e marketing."
-        ],
-        "ids_disciplinas_ofertadas": [
-          74,
-          270,
-          287,
-          403,
-          404,
-          405,
-          406,
-          407,
-          408,
-          410,
-          412,
-          413,
-          767,
-          768,
-          774,
-          777
-        ]
-      },
-      {
-        "nome_do_curso": "Gestão de Produtos Digitais",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/GestaodeProdutosDigitais_EAD_Especializacao%20e%20Master.aspx?pageID=5363&moda=5&polo=43&curso=1444&situ=1",
-        "icon": "GDPD",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          10,
-          11,
-          14
-        ],
-        "principais_carreiras": [
-          11,
-          6,
-          10
-        ],
-        "descriptions": [
-          "Envolve a supervisão de todo o ciclo de vida de um produto digital, desde a concepção até o lançamento e além.",
-          "Foca na definição da visão, estratégia e roteiro do produto.",
-          "Requer a coordenação de equipes multifuncionais, incluindo design, engenharia e marketing."
-        ],
-        "ids_disciplinas_ofertadas": [
-          74,
-          270,
-          287,
-          403,
-          404,
-          405,
-          406,
-          407,
-          408,
-          410,
-          606,
-          658,
-          767,
-          768,
-          774,
-          777
-        ]
-      }
-    ]
+    "cursoID": 1,
+    "nome_do_curso": "Arquitetura de Software Distribuído",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Arquitetura-de-Software-Distribu%C3%ADdo-_Online.aspx?pageID=3814&moda=5&modaTipo=2&polo=40&curso=128&situ=1",
+    "icon": "ASD",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      1,
+      6,
+      10
+    ],
+    "principais_carreiras": [
+      3,
+      1,
+      2
+    ],
+    "descriptions": [
+      "Foca no projeto de sistemas de software que são executados em múltiplos computadores conectados por uma rede.",
+      "Aborda desafios como concorrência, tolerância a falhas e escalabilidade.",
+      "Explora padrões e princípios para a construção de aplicações distribuídas robustas e resilientes."
+    ],
+    "ids_disciplinas_ofertadas": [
+      4,
+      98,
+      103,
+      106,
+      262,
+      263,
+      269,
+      360,
+      384,
+      413,
+      414,
+      432,
+      602,
+      614,
+      677,
+      744
+    ],
+    "categoria": 1
   },
   {
-    "categoria": "Gestão & Infraestrutura de TI",
-    "cursos": [
-      {
-        "nome_do_curso": "Computação em Nuvem",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Computa%C3%A7%C3%A3o-em-Nuvem_Online.aspx?pageID=3805&moda=5&modaTipo=2&polo=40&curso=141&situ=1",
-        "icon": "CN",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          4,
-          10,
-          13
-        ],
-        "principais_carreiras": [
-          7,
-          3,
-          9
-        ],
-        "descriptions": [
-          "Cobre a entrega de serviços de computação — incluindo servidores, armazenamento, bancos de dados, redes e software — pela Internet ('a nuvem').",
-          "Explora as principais plataformas de nuvem como AWS, Azure e Google Cloud.",
-          "Foca em arquitetura de nuvem, segurança e gerenciamento de custos."
-        ],
-        "ids_disciplinas_ofertadas": [
-          74,
-          267,
-          309,
-          316,
-          360,
-          384,
-          385,
-          386,
-          387,
-          388,
-          389,
-          390,
-          391,
-          392,
-          393,
-          413
-        ]
-      },
-      {
-        "nome_do_curso": "CiberSegurança e Governança de Dados",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Ciberseguran%C3%A7a-e-Governan%C3%A7a-de-Dados.aspx?pageID=4357&moda=5&modaTipo=2&polo=40&curso=1443&situ=1",
-        "icon": "CGD",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          4,
-          10,
-          13
-        ],
-        "principais_carreiras": [
-          9,
-          15,
-          7
-        ],
-        "descriptions": [
-          "Foca na proteção de sistemas e redes de computadores contra divulgação de informações, roubo ou danos.",
-          "Cobre o gerenciamento geral da disponibilidade, usabilidade, integridade e segurança dos dados.",
-          "Ensina como estabelecer políticas e procedimentos para o manuseio de dados e mitigação de ameaças."
-        ],
-        "ids_disciplinas_ofertadas": [
-          167,
-          324,
-          360,
-          361,
-          362,
-          364,
-          365,
-          366,
-          367,
-          368,
-          413,
-          428,
-          432,
-          469,
-          470,
-          712
-        ]
-      },
-      {
-        "nome_do_curso": "Engenharia de Redes",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Engenharia-de-Redes-Online.aspx?PageID=3809&moda=5&modaTipo=2&polo=40&curso=334&situ=1",
-        "icon": "ER",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          4,
-          13
-        ],
-        "principais_carreiras": [
-          7,
-          9,
-          15
-        ],
-        "descriptions": [
-          "Envolve o planejamento, projeto, implementação e manutenção de redes de computadores.",
-          "Cobre protocolos de rede, hardware e software.",
-          "Prepara profissionais para construir e gerenciar infraestruturas de rede robustas, seguras e escaláveis."
-        ],
-        "ids_disciplinas_ofertadas": [
-          267,
-          316,
-          328,
-          330,
-          384,
-          413,
-          472,
-          473,
-          474,
-          475,
-          476,
-          477
-        ]
-      },
-      {
-        "nome_do_curso": "MBA em Gestão Estratégica de TI",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/MBAemGestaoEstrategicadeTI_EAD_Especializacao%20e%20Master.aspx?pageID=5362&moda=5&polo=43&curso=1674&situ=1",
-        "icon": "GETI",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          4,
-          10,
-          11
-        ],
-        "principais_carreiras": [
-          12,
-          15,
-          3
-        ],
-        "descriptions": [
-          "Foca no alinhamento da estratégia de tecnologia da informação com a estratégia de negócios.",
-          "Ensina como usar a TI para obter vantagem competitiva e alcançar os objetivos de negócios.",
-          "Cobre tópicos como governança de TI, gerenciamento de projetos e transformação digital."
-        ],
-        "ids_disciplinas_ofertadas": [
-          74,
-          167,
-          261,
-          309,
-          316,
-          320,
-          321,
-          384,
-          484,
-          528,
-          551,
-          552,
-          577,
-          598,
-          599,
-          658
-        ]
-      },
-      {
-        "nome_do_curso": "Computação em Nuvem",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/ComputacaoemNuvem_EAD_Especializacao%20e%20Master.aspx?pageID=5249&moda=5&polo=43&curso=141&situ=1",
-        "icon": "CN",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          4,
-          10,
-          13
-        ],
-        "principais_carreiras": [
-          7,
-          3,
-          9
-        ],
-        "descriptions": [
-          "Cobre a entrega de serviços de computação — incluindo servidores, armazenamento, bancos de dados, redes e software — pela Internet ('a nuvem').",
-          "Explora as principais plataformas de nuvem como AWS, Azure e Google Cloud.",
-          "Foca em arquitetura de nuvem, segurança e gerenciamento de custos."
-        ],
-        "ids_disciplinas_ofertadas": [
-          74,
-          267,
-          309,
-          316,
-          360,
-          384,
-          385,
-          386,
-          387,
-          388,
-          389,
-          390,
-          391,
-          392,
-          393,
-          658
-        ]
-      },
-      {
-        "nome_do_curso": "CiberSegurança e Governança de Dados",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/CibersegurancaeGovernancadeDados_EAD_Especializacao%20e%20Master.aspx?pageID=5309&moda=5&polo=43&curso=1443&situ=1",
-        "icon": "CGD",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          4,
-          10,
-          13
-        ],
-        "principais_carreiras": [
-          9,
-          15,
-          7
-        ],
-        "descriptions": [
-          "Foca na proteção de sistemas e redes de computadores contra divulgação de informações, roubo ou danos.",
-          "Cobre o gerenciamento geral da disponibilidade, usabilidade, integridade e segurança dos dados.",
-          "Ensina como estabelecer políticas e procedimentos para o manuseio de dados e mitigação de ameaças."
-        ],
-        "ids_disciplinas_ofertadas": [
-          167,
-          324,
-          360,
-          361,
-          362,
-          364,
-          365,
-          366,
-          367,
-          368,
-          428,
-          432,
-          469,
-          470,
-          658,
-          712
-        ]
-      },
-      {
-        "nome_do_curso": "Gestão de Cibersegurança e Riscos",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Gestao%20de%20Ciberseguranca%20e%20Riscos_Pos%20Online_Especializacao%20e%20Master.aspx",
-        "icon": "GCR",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          10,
-          11,
-          13
-        ],
-        "principais_carreiras": [
-          12,
-          9,
-          15
-        ],
-        "descriptions": [
-          "Foca na identificação, avaliação e mitigação de riscos de cibersegurança para uma organização.",
-          "Envolve o desenvolvimento e implementação de políticas, procedimentos e controles de segurança.",
-          "Combina conhecimento técnico de cibersegurança com princípios de gerenciamento de riscos e continuidade de negócios."
-        ],
-        "ids_disciplinas_ofertadas": [
-          167,
-          360,
-          413,
-          428,
-          432,
-          469,
-          470,
-          661,
-          662,
-          663,
-          664,
-          665,
-          666,
-          667,
-          668,
-          712
-        ]
-      }
-    ]
+    "cursoID": 2,
+    "nome_do_curso": "Arquitetura de Soluções",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Arquitetura%20de%20Solucoes_Pos%20Online_Especializacao%20e%20Master.aspx?pageID=4065&moda=5&modaTipo=2&polo=40&curso=1140&situ=1",
+    "icon": "AS",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      4,
+      10,
+      11
+    ],
+    "principais_carreiras": [
+      3,
+      7,
+      15
+    ],
+    "descriptions": [
+      "Envolve o desenho e a definição da estrutura geral de uma solução tecnológica para atender a requisitos de negócios específicos.",
+      "Faz a ponte entre os problemas de negócio e as soluções tecnológicas.",
+      "Considera aspectos como infraestrutura, segurança e integração com outros sistemas."
+    ],
+    "ids_disciplinas_ofertadas": [
+      4,
+      261,
+      262,
+      263,
+      269,
+      368,
+      384,
+      413,
+      432,
+      506,
+      670,
+      677,
+      745,
+      747,
+      765,
+      766
+    ],
+    "categoria": 1
   },
   {
-    "categoria": "Data Analytics & IA",
-    "cursos": [
-      {
-        "nome_do_curso": "Gestão e Análise Estratégica de Dados",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Gest%C3%A3o-e-An%C3%A1lise-Estrat%C3%A9gica-de-Dados_Online.aspx?pageID=3821&moda=5&modaTipo=2&polo=40&curso=707&situ=1",
-        "icon": "GAED",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          5,
-          10,
-          11
-        ],
-        "principais_carreiras": [
-          12,
-          6,
-          5
-        ],
-        "descriptions": [
-          "Foca no uso da análise de dados para informar decisões de negócios estratégicas.",
-          "Ensina como coletar, gerenciar e analisar dados para identificar tendências, padrões e insights.",
-          "Combina técnicas de gerenciamento de dados com estratégia de negócios e métodos analíticos."
-        ],
-        "ids_disciplinas_ofertadas": [
-          74,
-          162,
-          164,
-          166,
-          167,
-          169,
-          170,
-          270,
-          289,
-          413,
-          511,
-          512,
-          603,
-          604,
-          605,
-          606
-        ]
-      },
-      {
-        "nome_do_curso": "Analytics e Business Intelligence",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Analytics-e-Business-Intelligence_Online.aspx?pageID=3812&moda=5&modaTipo=2&polo=40&curso=134&situ=1",
-        "icon": "ABI",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          3,
-          5,
-          10
-        ],
-        "principais_carreiras": [
-          6,
-          5,
-          2
-        ],
-        "descriptions": [
-          "Foca nos processos e tecnologias usadas para analisar dados e apresentar informações acionáveis para ajudar executivos, gerentes e outros usuários finais a tomar decisões de negócios informadas.",
-          "Cobre data warehousing, mineração de dados e visualização de dados.",
-          "Visa transformar dados brutos em informações significativas e úteis para fins comerciais."
-        ],
-        "ids_disciplinas_ofertadas": [
-          21,
-          27,
-          28,
-          74,
-          121,
-          162,
-          167,
-          169,
-          268,
-          284,
-          289,
-          304,
-          413,
-          603,
-          619,
-          762
-        ]
-      },
-      {
-        "nome_do_curso": "Ciência de Dados e Big Data",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Ci%C3%AAncia-de-Dados-e-Big-Data-_Online.aspx",
-        "icon": "CDBD",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          5,
-          10,
-          12
-        ],
-        "principais_carreiras": [
-          5,
-          4,
-          6
-        ],
-        "descriptions": [
-          "Um campo interdisciplinar que usa métodos, processos, algoritmos e sistemas científicos para extrair conhecimento e insights de dados estruturados e não estruturados.",
-          "Lida com conjuntos de dados grandes e complexos (Big Data) que não podem ser facilmente gerenciados com ferramentas tradicionais de processamento de dados.",
-          "Incorpora habilidades de ciência da computação, estatística e conhecimento de domínio."
-        ],
-        "ids_disciplinas_ofertadas": [
-          28,
-          30,
-          166,
-          169,
-          265,
-          268,
-          270,
-          304,
-          402,
-          413,
-          415,
-          416,
-          497,
-          618,
-          619,
-          732
-        ]
-      },
-      {
-        "nome_do_curso": "Engenharia de Dados",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Engenharia-de-Dados.aspx?pageID=3903&moda=5&modaTipo=2&polo=40&curso=607&situ=1",
-        "icon": "ED",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          3,
-          4,
-          7
-        ],
-        "principais_carreiras": [
-          4,
-          5,
-          2
-        ],
-        "descriptions": [
-          "Foca na aplicação prática da coleta e análise de dados.",
-          "Envolve a construção e manutenção da infraestrutura e arquitetura para geração, armazenamento e processamento de dados.",
-          "Prepara os dados para uso por cientistas e analistas de dados, criando pipelines de dados."
-        ],
-        "ids_disciplinas_ofertadas": [
-          164,
-          167,
-          266,
-          267,
-          268,
-          269,
-          394,
-          395,
-          396,
-          397,
-          398,
-          399,
-          400,
-          401,
-          402,
-          413
-        ]
-      },
-      {
-        "nome_do_curso": "Inteligência Artificial e Aprendizado de Máquina",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Intelig%C3%AAncia-Artificial-e-Aprendizado-de-M%C3%A1quina_Online.aspx?PageID=3823&moda=5&modaTipo=2&polo=40&curso=1097&situ=1",
-        "icon": "IAAM",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          5,
-          6,
-          7
-        ],
-        "principais_carreiras": [
-          13,
-          5,
-          1
-        ],
-        "descriptions": [
-          "Explora a teoria e o desenvolvimento de sistemas de computador capazes de realizar tarefas que normalmente exigem inteligência humana.",
-          "Foca no aprendizado de máquina, um subconjunto da IA onde os algoritmos são treinados em dados para aprender e fazer previsões.",
-          "Cobre tópicos como redes neurais, aprendizado profundo e processamento de linguagem natural."
-        ],
-        "ids_disciplinas_ofertadas": [
-          28,
-          30,
-          131,
-          166,
-          169,
-          258,
-          268,
-          270,
-          304,
-          413,
-          415,
-          416,
-          423,
-          686,
-          687,
-          692
-        ]
-      },
-      {
-        "nome_do_curso": "Arquitetura de Dados",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Arquitetura-de-Dados.aspx?pageID=4467&moda=5&modaTipo=2&polo=40&curso=151&situ=1",
-        "icon": "AD",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          1,
-          3,
-          9
-        ],
-        "principais_carreiras": [
-          4,
-          3,
-          6
-        ],
-        "descriptions": [
-          "Composto por modelos, políticas, regras e padrões que governam quais dados são coletados e como são armazenados, organizados, integrados e utilizados.",
-          "Fornece um blueprint para os sistemas de gerenciamento de dados de uma organização.",
-          "Garante que os dados sejam gerenciados de forma segura, confiável e alinhada aos objetivos de negócios."
-        ],
-        "ids_disciplinas_ofertadas": [
-          167,
-          268,
-          270,
-          398,
-          400,
-          413,
-          429,
-          432,
-          613,
-          671,
-          672,
-          673,
-          679,
-          741,
-          742,
-          743
-        ]
-      },
-      {
-        "nome_do_curso": "Estatística para Ciência de Dados",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Estat%C3%ADstica-para-Ci%C3%AAncia-de-Dados.aspx?pageID=4473&moda=5&modaTipo=2&polo=40&curso=1540&situ=1",
-        "icon": "ECD",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          6,
-          9,
-          11
-        ],
-        "principais_carreiras": [
-          5,
-          6,
-          13
-        ],
-        "descriptions": [
-          "Foca nos conceitos e métodos estatísticos que formam a base da ciência de dados.",
-          "Cobre tópicos como probabilidade, teste de hipóteses e análise de regressão.",
-          "Equipa os alunos com as habilidades quantitativas necessárias para realizar análises de dados rigorosas e construir modelos preditivos precisos."
-        ],
-        "ids_disciplinas_ofertadas": [
-          28,
-          167,
-          268,
-          270,
-          304,
-          413,
-          415,
-          416,
-          491,
-          492,
-          493,
-          494,
-          495,
-          496,
-          497,
-          619
-        ]
-      },
-      {
-        "nome_do_curso": "Geoprocessamento e Análise Espacial",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Geoprocessamento-e-An%C3%A1lise-Espacial.aspx?pageID=3934&moda=5&modaTipo=2&polo=40&curso=296&situ=1",
-        "icon": "GAP",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          1,
-          3,
-          10
-        ],
-        "principais_carreiras": [
-          6,
-          5,
-          15
-        ],
-        "descriptions": [
-          "Foca na análise de dados geográficos para identificar padrões, relacionamentos e tendências.",
-          "Utiliza estatísticas espaciais e técnicas geoestatísticas.",
-          "Aplica-se a campos como planejamento urbano, ciências ambientais e epidemiologia."
-        ],
-        "ids_disciplinas_ofertadas": [
-          413,
-          517,
-          518,
-          519,
-          541,
-          563,
-          587,
-          639,
-          640,
-          642,
-          643,
-          644
-        ]
-      },
-      {
-        "nome_do_curso": "Analytics e Business Intelligence",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/AnalyticseBusinessIntelligence_EAD_Especializacao%20e%20Master.aspx?pageID=5272&moda=5&polo=43&curso=134&situ=1",
-        "icon": "ABI",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          3,
-          5,
-          10
-        ],
-        "principais_carreiras": [
-          6,
-          5,
-          2
-        ],
-        "descriptions": [
-          "Foca nos processos e tecnologias usadas para analisar dados e apresentar informações acionáveis para ajudar executivos, gerentes e outros usuários finais a tomar decisões de negócios informadas.",
-          "Cobre data warehousing, mineração de dados e visualização de dados.",
-          "Visa transformar dados brutos em informações significativas e úteis para fins comerciais."
-        ],
-        "ids_disciplinas_ofertadas": [
-          21,
-          27,
-          28,
-          74,
-          121,
-          167,
-          169,
-          265,
-          268,
-          284,
-          289,
-          304,
-          603,
-          619,
-          658,
-          762
-        ]
-      },
-      {
-        "nome_do_curso": "Ciência de Dados e Big Data",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/CienciadedadoseBigData_EAD_Especializacao%20e%20Master.aspx?pageID=5233&moda=5&polo=43&curso=138&situ=1",
-        "icon": "CDBD",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          5,
-          10,
-          12
-        ],
-        "principais_carreiras": [
-          5,
-          4,
-          6
-        ],
-        "descriptions": [
-          "Um campo interdisciplinar que usa métodos, processos, algoritmos e sistemas científicos para extrair conhecimento e insights de dados estruturados e não estruturados.",
-          "Lida com conjuntos de dados grandes e complexos (Big Data) que não podem ser facilmente gerenciados com ferramentas tradicionais de processamento de dados.",
-          "Incorpora habilidades de ciência da computação, estatística e conhecimento de domínio."
-        ],
-        "ids_disciplinas_ofertadas": [
-          28,
-          30,
-          166,
-          169,
-          265,
-          268,
-          270,
-          304,
-          402,
-          415,
-          416,
-          442,
-          618,
-          619,
-          658,
-          732
-        ]
-      },
-      {
-        "nome_do_curso": "Engenharia de Dados",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/EngenhariadeDados_EAD_Especializacao%20e%20Master.aspx?pageID=5314&moda=5&polo=43&curso=607&situ=1",
-        "icon": "ED",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          3,
-          4,
-          7
-        ],
-        "principais_carreiras": [
-          4,
-          5,
-          2
-        ],
-        "descriptions": [
-          "Foca na aplicação prática da coleta e análise de dados.",
-          "Envolve a construção e manutenção da infraestrutura e arquitetura para geração, armazenamento e processamento de dados.",
-          "Prepara os dados para uso por cientistas e analistas de dados, criando pipelines de dados."
-        ],
-        "ids_disciplinas_ofertadas": [
-          164,
-          167,
-          266,
-          267,
-          269,
-          394,
-          395,
-          396,
-          397,
-          398,
-          399,
-          400,
-          401,
-          402,
-          584,
-          658
-        ]
-      },
-      {
-        "nome_do_curso": "Gestão e Análise Estratégica de Dados",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/GestaoeAnaliseEstrategicadeDados_EAD_Especializacao%20e%20Master.aspx?pageID=5274&moda=5&polo=43&curso=707&situ=1",
-        "icon": "GAED",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          5,
-          10,
-          11
-        ],
-        "principais_carreiras": [
-          12,
-          6,
-          5
-        ],
-        "descriptions": [
-          "Foca no uso da análise de dados para informar decisões de negócios estratégicas.",
-          "Ensina como coletar, gerenciar e analisar dados para identificar tendências, padrões e insights.",
-          "Combina técnicas de gerenciamento de dados com estratégia de negócios e métodos analíticos."
-        ],
-        "ids_disciplinas_ofertadas": [
-          21,
-          74,
-          164,
-          166,
-          167,
-          169,
-          170,
-          270,
-          289,
-          511,
-          512,
-          603,
-          604,
-          605,
-          606,
-          658
-        ]
-      },
-      {
-        "nome_do_curso": "Inteligência Artificial e Aprendizado de Máquina",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/InteligenciaArtificialeAprendizadodeMaquina_EAD_Especializacao%20e%20Master.aspx?pageID=5248&moda=5&polo=43&curso=1097&situ=1",
-        "icon": "IAAM",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          5,
-          6,
-          7
-        ],
-        "principais_carreiras": [
-          13,
-          5,
-          1
-        ],
-        "descriptions": [
-          "Explora a teoria e o desenvolvimento de sistemas de computador capazes de realizar tarefas que normalmente exigem inteligência humana.",
-          "Foca no aprendizado de máquina, um subconjunto da IA onde os algoritmos são treinados em dados para aprender e fazer previsões.",
-          "Cobre tópicos como redes neurais, aprendizado profundo e processamento de linguagem natural."
-        ],
-        "ids_disciplinas_ofertadas": [
-          28,
-          30,
-          131,
-          166,
-          169,
-          258,
-          268,
-          270,
-          304,
-          415,
-          416,
-          423,
-          658,
-          686,
-          687,
-          692
-        ]
-      },
-      {
-        "nome_do_curso": "Arquitetura de Dados",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/ArquiteturadeDados_EAD_Especializacao%20e%20Master.aspx?pageID=5339&moda=5&polo=43&curso=1533&situ=1",
-        "icon": "AD",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          1,
-          3,
-          9
-        ],
-        "principais_carreiras": [
-          4,
-          3,
-          6
-        ],
-        "descriptions": [
-          "Composto por modelos, políticas, regras e padrões que governam quais dados são coletados e como são armazenados, organizados, integrados e utilizados.",
-          "Fornece um blueprint para os sistemas de gerenciamento de dados de uma organização.",
-          "Garante que os dados sejam gerenciados de forma segura, confiável e alinhada aos objetivos de negócios."
-        ],
-        "ids_disciplinas_ofertadas": [
-          167,
-          268,
-          270,
-          398,
-          400,
-          429,
-          432,
-          613,
-          658,
-          671,
-          672,
-          673,
-          679,
-          741,
-          742,
-          743
-        ]
-      },
-      {
-        "nome_do_curso": "Ciência de Dados Aplicada à Saude",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Cienciadedadosaplicadaasaude_EAD_Especializacao%20e%20Master.aspx?pageID=5310&moda=5&polo=43&curso=1382&situ=1",
-        "icon": "CDAS",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          5,
-          10,
-          12
-        ],
-        "principais_carreiras": [
-          5,
-          6,
-          15
-        ],
-        "descriptions": [
-          "Foca na aplicação de técnicas de ciência de dados para analisar dados relacionados à saúde.",
-          "Visa melhorar o atendimento ao paciente, otimizar as operações de saúde e avançar a pesquisa médica.",
-          "Envolve o trabalho com prontuários eletrônicos, dados de ensaios clínicos e dados genômicos."
-        ],
-        "ids_disciplinas_ofertadas": [
-          166,
-          167,
-          169,
-          270,
-          286,
-          304,
-          418,
-          442,
-          618,
-          658,
-          682,
-          684,
-          778,
-          779,
-          780,
-          781
-        ]
-      },
-      {
-        "nome_do_curso": "Estatística para Ciência de Dados",
-        "modalidade": "EAD",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/EstatisticaparaCienciadeDados_EAD_Especializacao%20e%20Master.aspx?pageID=5342&moda=5&polo=43&curso=1540&situ=1",
-        "icon": "ECD",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          6,
-          9,
-          11
-        ],
-        "principais_carreiras": [
-          5,
-          6,
-          13
-        ],
-        "descriptions": [
-          "Foca nos conceitos e métodos estatísticos que formam a base da ciência de dados.",
-          "Cobre tópicos como probabilidade, teste de hipóteses e análise de regressão.",
-          "Equipa os alunos com as habilidades quantitativas necessárias para realizar análises de dados rigorosas e construir modelos preditivos precisos."
-        ],
-        "ids_disciplinas_ofertadas": [
-          28,
-          167,
-          268,
-          270,
-          304,
-          415,
-          416,
-          437,
-          441,
-          442,
-          491,
-          493,
-          494,
-          495,
-          619,
-          658
-        ]
-      },
-      {
-        "nome_do_curso": "Visão Computacional",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Gestao%20de%20Ciberseguranca%20e%20Riscos_Pos%20Online_Especializacao%20e%20Master.aspx",
-        "icon": "VC",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          5,
-          6,
-          7
-        ],
-        "principais_carreiras": [
-          13,
-          1,
-          5
-        ],
-        "descriptions": [
-          "Um campo científico interdisciplinar que lida com como os computadores podem ser feitos para obter uma compreensão de alto nível a partir de imagens ou vídeos digitais.",
-          "Envolve tarefas como reconhecimento de objetos, restauração de imagens e reconstrução de cenas.",
-          "Busca automatizar tarefas que o sistema visual humano pode realizar."
-        ],
-        "ids_disciplinas_ofertadas": [
-          28,
-          169,
-          268,
-          304,
-          384,
-          413,
-          686,
-          687,
-          699,
-          700,
-          701,
-          702,
-          703,
-          704,
-          705,
-          763
-        ]
-      },
-      {
-        "nome_do_curso": "Processamento de Linguagem natural",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Gestao%20de%20Ciberseguranca%20e%20Riscos_Pos%20Online_Especializacao%20e%20Master.aspx",
-        "icon": "PLN",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          5,
-          6,
-          7
-        ],
-        "principais_carreiras": [
-          13,
-          2,
-          5
-        ],
-        "descriptions": [
-          "Um subcampo da inteligência artificial focado em permitir que os computadores entendam, interpretem e gerem a linguagem humana.",
-          "Envolve tarefas como tradução de texto, análise de sentimentos e modelagem de tópicos.",
-          "Faz a ponte entre a comunicação humana e a compreensão do computador."
-        ],
-        "ids_disciplinas_ofertadas": [
-          28,
-          268,
-          270,
-          304,
-          384,
-          413,
-          415,
-          686,
-          687,
-          692,
-          693,
-          694,
-          695,
-          696,
-          697,
-          698
-        ]
-      },
-      {
-        "nome_do_curso": "MBA em Liderança Estratégica em IA",
-        "modalidade": "Online",
-        "objetivos": [
-          "",
-          ""
-        ],
-        "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/MBA_em_Lideranca_Estrategica_em_IA_Pos_Online_Especializacao_e_Master.aspx?PageID=5502&moda=5&modaTipo=2&polo=40&curso=1997&situ=1",
-        "icon": "LEIA",
-        "caracteristicas": {
-          "caracteristica_1": 1,
-          "caracteristica_2": 1,
-          "caracteristica_3": 1
-        },
-        "ids_tematicas": [
-          5,
-          10,
-          11
-        ],
-        "principais_carreiras": [
-          12,
-          13,
-          15
-        ],
-        "descriptions": [
-          "Foca na preparação de líderes para conduzir iniciativas e estratégias de IA dentro de uma organização.",
-          "Combina o conhecimento de tecnologias de IA com habilidades de liderança e gestão de negócios.",
-          "Ensina como identificar oportunidades para IA, gerenciar projetos de IA e navegar pelas implicações éticas da inteligência artificial."
-        ],
-        "ids_disciplinas_ofertadas": [
-          270,
-          284,
-          413,
-          606,
-          713,
-          714,
-          715,
-          716,
-          717,
-          718,
-          719,
-          720,
-          721,
-          722,
-          767,
-          777
-        ]
-      }
-    ]
+    "cursoID": 3,
+    "nome_do_curso": "Automação de Processos: RPA e Hiperautomação",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Automa%C3%A7%C3%A3o-de-Processos-RPA-e-hiperautoma%C3%A7%C3%A3o.aspx?pageID=4468&moda=5&modaTipo=2&polo=40&curso=1535&situ=1",
+    "icon": "APRH",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      2,
+      9,
+      10
+    ],
+    "principais_carreiras": [
+      2,
+      1,
+      15
+    ],
+    "descriptions": [
+      "Foca no uso de robôs de software (RPA) para automatizar processos de negócios repetitivos e baseados em regras.",
+      "Explora a hiperautomação, que combina RPA com outras tecnologias como IA e aprendizado de máquina para automações mais complexas.",
+      "Visa melhorar a eficiência, reduzir erros e liberar os trabalhadores humanos para tarefas mais estratégicas."
+    ],
+    "ids_disciplinas_ofertadas": [
+      4,
+      164,
+      269,
+      413,
+      446,
+      447,
+      448,
+      449,
+      450,
+      616,
+      689,
+      730,
+      748,
+      749,
+      760,
+      761
+    ],
+    "categoria": 1
+  },
+  {
+    "cursoID": 4,
+    "nome_do_curso": "DevOps & Continuous Software Engineering",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/DevOps--Continuous-Software-Engineering.aspx?PageID=4469&moda=5&modaTipo=2&polo=40&curso=1536&situ=1",
+    "icon": "DCSE",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      2,
+      4,
+      6
+    ],
+    "principais_carreiras": [
+      8,
+      1,
+      7
+    ],
+    "descriptions": [
+      "Visa encurtar o ciclo de vida de desenvolvimento de sistemas e fornecer entrega contínua com alta qualidade de software.",
+      "Enfatiza a colaboração e a comunicação entre desenvolvedores de software e profissionais de operações de TI.",
+      "Integra práticas de integração contínua, entrega contínua (CI/CD) e infraestrutura como código."
+    ],
+    "ids_disciplinas_ofertadas": [
+      4,
+      360,
+      384,
+      413,
+      432,
+      454,
+      455,
+      456,
+      459,
+      460,
+      461,
+      509,
+      609,
+      620,
+      730,
+      731
+    ],
+    "categoria": 1
+  },
+  {
+    "cursoID": 5,
+    "nome_do_curso": "Site Reliability Engineering",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Site-Reliability-Engineering-(SRE).aspx?pageID=4478&moda=5&modaTipo=2&polo=40&curso=1545&situ=1",
+    "icon": "SRE",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      2,
+      4,
+      13
+    ],
+    "principais_carreiras": [
+      8,
+      1,
+      7
+    ],
+    "descriptions": [
+      "Uma disciplina que incorpora aspectos da engenharia de software e os aplica a problemas de infraestrutura e operações.",
+      "Foca na criação de sistemas de software escaláveis e altamente confiáveis.",
+      "Usa princípios de engenharia de software para automatizar tarefas de operações de TI."
+    ],
+    "ids_disciplinas_ofertadas": [
+      316,
+      384,
+      413,
+      432,
+      456,
+      460,
+      502,
+      509,
+      690,
+      691,
+      726,
+      731,
+      770,
+      772,
+      773,
+      775
+    ],
+    "categoria": 1
+  },
+  {
+    "cursoID": 6,
+    "nome_do_curso": "Engenharia de Qualidade e Teste de Software",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Engenharia%20de%20Qualidade%20e%20Teste%20de%20Software_Pos%20Online_Especializacao%20e%20Master.aspx?pageID=4585&moda=5&modaTipo=2&polo=40&curso=1634&situ=1",
+    "icon": "EQTS",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      5,
+      10
+    ],
+    "principais_carreiras": [
+      1,
+      2,
+      14
+    ],
+    "descriptions": [
+      "Foca em garantir a qualidade do software por meio de testes sistemáticos e processos de garantia de qualidade.",
+      "Cobre várias metodologias de teste, desde testes de unidade até testes de ponta a ponta.",
+      "Visa identificar e corrigir defeitos no início do ciclo de desenvolvimento para entregar um produto de alta qualidade."
+    ],
+    "ids_disciplinas_ofertadas": [
+      167,
+      384,
+      413,
+      432,
+      456,
+      501,
+      502,
+      505,
+      723,
+      724,
+      725,
+      726,
+      727,
+      728,
+      729,
+      730
+    ],
+    "categoria": 1
+  },
+  {
+    "cursoID": 7,
+    "nome_do_curso": "Geotecnologias e Desenvolvimento de SIG",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/GeotecnologiaseDesenvolvimentodeSIG%E2%80%93SistemadeInformacaoGeografica_EAD_Especializacao%20e%20Master.aspx?pageID=5316&moda=5&polo=43&curso=1882&situ=1",
+    "icon": "GDS",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      1,
+      3,
+      10
+    ],
+    "principais_carreiras": [
+      2,
+      6,
+      15
+    ],
+    "descriptions": [
+      "Foca no desenvolvimento de Sistemas de Informações Geográficas (SIG) para capturar, armazenar, analisar e gerenciar dados espaciais ou geográficos.",
+      "Envolve a programação e personalização de aplicações SIG para resolver problemas específicos.",
+      "Combina geografia, cartografia e ciência da computação."
+    ],
+    "ids_disciplinas_ofertadas": [
+      4,
+      74,
+      262,
+      309,
+      524,
+      530,
+      531,
+      542,
+      545,
+      546,
+      561,
+      562,
+      569,
+      570,
+      591,
+      658
+    ],
+    "categoria": 1
+  },
+  {
+    "cursoID": 8,
+    "nome_do_curso": "Arquitetura de Software Distribuído",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/ArquiteturadeSoftwareDistribuido_EAD_Especializacao%20e%20Master.aspx?pageID=5205&moda=5&polo=43&curso=128&situ=1",
+    "icon": "ASD",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      1,
+      6,
+      10
+    ],
+    "principais_carreiras": [
+      3,
+      1,
+      2
+    ],
+    "descriptions": [
+      "Foca no projeto de sistemas de software que são executados em múltiplos computadores conectados por uma rede.",
+      "Aborda desafios como concorrência, tolerância a falhas e escalabilidade.",
+      "Explora padrões e princípios para a construção de aplicações distribuídas robustas e resilientes."
+    ],
+    "ids_disciplinas_ofertadas": [
+      4,
+      98,
+      103,
+      106,
+      262,
+      263,
+      269,
+      360,
+      384,
+      414,
+      432,
+      602,
+      614,
+      658,
+      677,
+      744
+    ],
+    "categoria": 1
+  },
+  {
+    "cursoID": 9,
+    "nome_do_curso": "Arquitetura de Soluções",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/ArquiteturadeSolucoes_EAD_Especializacao%20e%20Master.aspx?pageID=5286&moda=5&polo=43&curso=1140&situ=1",
+    "icon": "AS",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      4,
+      10,
+      11
+    ],
+    "principais_carreiras": [
+      3,
+      7,
+      15
+    ],
+    "descriptions": [
+      "Envolve o desenho e a definição da estrutura geral de uma solução tecnológica para atender a requisitos de negócios específicos.",
+      "Faz a ponte entre os problemas de negócio e as soluções tecnológicas.",
+      "Considera aspectos como infraestrutura, segurança e integração com outros sistemas."
+    ],
+    "ids_disciplinas_ofertadas": [
+      4,
+      261,
+      262,
+      263,
+      269,
+      368,
+      384,
+      432,
+      506,
+      658,
+      670,
+      677,
+      745,
+      747,
+      765,
+      766
+    ],
+    "categoria": 1
+  },
+  {
+    "cursoID": 10,
+    "nome_do_curso": "Mobile Engineering",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/MobileEngineering_EAD_Especializacao%20e%20Master.aspx?pageID=5343&moda=5&polo=43&curso=1053&situ=1",
+    "icon": "ME",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      1,
+      6,
+      14
+    ],
+    "principais_carreiras": [
+      2,
+      1,
+      3
+    ],
+    "descriptions": [
+      "Foca no projeto, desenvolvimento e manutenção de aplicações de software para dispositivos móveis como smartphones e tablets.",
+      "Cobre o desenvolvimento para diferentes plataformas, como iOS e Android.",
+      "Aborda desafios específicos para dispositivos móveis, como recursos limitados, tamanhos de tela variados e problemas de conectividade."
+    ],
+    "ids_disciplinas_ofertadas": [
+      4,
+      74,
+      274,
+      277,
+      608,
+      610,
+      611,
+      625,
+      626,
+      627,
+      628,
+      629,
+      630,
+      632,
+      633,
+      658
+    ],
+    "categoria": 1
+  },
+  {
+    "cursoID": 11,
+    "nome_do_curso": "Desenvolvimento Full Stack",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/DesenvolvimentoFullStack_EAD_Especializacao%20e%20Master.aspx?pageID=5403&moda=5&polo=43&curso=691&situ=1",
+    "icon": "DFS",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      1,
+      3,
+      6
+    ],
+    "principais_carreiras": [
+      2,
+      1,
+      14
+    ],
+    "descriptions": [
+      "Cobre tanto o desenvolvimento front-end (lado do cliente) quanto o back-end (lado do servidor).",
+      "Permite que os desenvolvedores construam aplicações web completas do início ao fim.",
+      "Envolve o trabalho com bancos de dados, servidores, engenharia de sistemas e sites voltados para o cliente."
+    ],
+    "ids_disciplinas_ofertadas": [
+      4,
+      74,
+      262,
+      265,
+      269,
+      277,
+      311,
+      314,
+      452,
+      608,
+      611,
+      634,
+      635,
+      636,
+      637,
+      658
+    ],
+    "categoria": 1
+  },
+  {
+    "cursoID": 12,
+    "nome_do_curso": "Engenharia de Software",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/EngenhariadeSoftware_EAD_Especializacao%20e%20Master.aspx?pageID=5217&moda=5&polo=43&curso=174&situ=1",
+    "icon": "ES",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      6,
+      9,
+      10
+    ],
+    "principais_carreiras": [
+      1,
+      2,
+      3
+    ],
+    "descriptions": [
+      "Aborda a aplicação sistemática de princípios de engenharia para o desenvolvimento de software.",
+      "Cobre todo o ciclo de vida do software, desde a concepção e análise de requisitos até a manutenção.",
+      "Visa produzir software de alta qualidade, confiável e de fácil manutenção, dentro do orçamento e dos prazos."
+    ],
+    "ids_disciplinas_ofertadas": [
+      4,
+      74,
+      83,
+      262,
+      263,
+      265,
+      269,
+      277,
+      294,
+      360,
+      384,
+      499,
+      609,
+      621,
+      658,
+      730
+    ],
+    "categoria": 1
+  },
+  {
+    "cursoID": 13,
+    "nome_do_curso": "UX Engineering",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Desenvolvimento%20Web%20Front%20End_Pos%20Online_Especializacao%20e%20Master.aspx",
+    "icon": "UXE",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      6,
+      10,
+      14
+    ],
+    "principais_carreiras": [
+      10,
+      2,
+      1
+    ],
+    "descriptions": [
+      "Um papel híbrido que combina design de experiência do usuário (UX) com desenvolvimento front-end.",
+      "Foca na criação de interfaces funcionais e amigáveis, fazendo a ponte entre design e implementação.",
+      "Envolve a prototipagem, teste e implementação da interface do usuário para garantir uma experiência de usuário perfeita."
+    ],
+    "ids_disciplinas_ofertadas": [
+      1,
+      4,
+      74,
+      263,
+      269,
+      413,
+      479,
+      483,
+      489,
+      510,
+      601,
+      608,
+      611,
+      636,
+      637,
+      767
+    ],
+    "categoria": 1
+  },
+  {
+    "cursoID": 14,
+    "nome_do_curso": "UX Engineering",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/UXEngineering_EAD_Especializacao%20e%20Master.aspx?pageID=5346&moda=5&polo=43&curso=1146&situ=1",
+    "icon": "UXE",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      6,
+      10,
+      14
+    ],
+    "principais_carreiras": [
+      10,
+      2,
+      1
+    ],
+    "descriptions": [
+      "Um papel híbrido que combina design de experiência do usuário (UX) com desenvolvimento front-end.",
+      "Foca na criação de interfaces funcionais e amigáveis, fazendo a ponte entre design e implementação.",
+      "Envolve a prototipagem, teste e implementação da interface do usuário para garantir uma experiência de usuário perfeita."
+    ],
+    "ids_disciplinas_ofertadas": [
+      1,
+      4,
+      74,
+      263,
+      269,
+      479,
+      483,
+      489,
+      510,
+      601,
+      608,
+      611,
+      636,
+      637,
+      658,
+      767
+    ],
+    "categoria": 1
+  },
+  {
+    "cursoID": 15,
+    "nome_do_curso": "Automação de Processos: RPA e Hiperautomação",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/AutomacaodeProcessosRPAeHiperautomacao_EAD_Especializacao%20e%20Master.aspx?pageID=5340&moda=5&polo=43&curso=1900&situ=1",
+    "icon": "APRH",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      2,
+      9,
+      10
+    ],
+    "principais_carreiras": [
+      2,
+      1,
+      15
+    ],
+    "descriptions": [
+      "Foca no uso de robôs de software (RPA) para automatizar processos de negócios repetitivos e baseados em regras.",
+      "Explora a hiperautomação, que combina RPA com outras tecnologias como IA e aprendizado de máquina para automações mais complexas.",
+      "Visa melhorar a eficiência, reduzir erros e liberar os trabalhadores humanos para tarefas mais estratégicas."
+    ],
+    "ids_disciplinas_ofertadas": [
+      4,
+      164,
+      269,
+      446,
+      447,
+      448,
+      449,
+      450,
+      616,
+      658,
+      689,
+      730,
+      748,
+      749,
+      760,
+      761
+    ],
+    "categoria": 1
+  },
+  {
+    "cursoID": 16,
+    "nome_do_curso": "DevOps & Continuous Software Engineering",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/DevOps_ContinuousSoftwareEngineering_EAD_Especializacao%20e%20Master.aspx?pageID=5439&moda=5&polo=43&curso=1536&situ=1",
+    "icon": "DCSE",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      2,
+      4,
+      6
+    ],
+    "principais_carreiras": [
+      8,
+      1,
+      7
+    ],
+    "descriptions": [
+      "Visa encurtar o ciclo de vida de desenvolvimento de sistemas e fornecer entrega contínua com alta qualidade de software.",
+      "Enfatiza a colaboração e a comunicação entre desenvolvedores de software e profissionais de operações de TI.",
+      "Integra práticas de integração contínua, entrega contínua (CI/CD) e infraestrutura como código."
+    ],
+    "ids_disciplinas_ofertadas": [
+      4,
+      360,
+      384,
+      432,
+      454,
+      455,
+      456,
+      459,
+      460,
+      461,
+      509,
+      609,
+      620,
+      658,
+      730,
+      731
+    ],
+    "categoria": 1
+  },
+  {
+    "cursoID": 17,
+    "nome_do_curso": "Engenharia de Qualidade e Teste de Software",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/EngenhariadeQualidadeeTestedeSoftware_EAD_Especializacao%20e%20Master.aspx?pageID=5341&moda=5&polo=43&curso=1634&situ=1",
+    "icon": "EQTS",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      5,
+      10
+    ],
+    "principais_carreiras": [
+      1,
+      2,
+      14
+    ],
+    "descriptions": [
+      "Foca em garantir a qualidade do software por meio de testes sistemáticos e processos de garantia de qualidade.",
+      "Cobre várias metodologias de teste, desde testes de unidade até testes de ponta a ponta.",
+      "Visa identificar e corrigir defeitos no início do ciclo de desenvolvimento para entregar um produto de alta qualidade."
+    ],
+    "ids_disciplinas_ofertadas": [
+      167,
+      384,
+      432,
+      456,
+      501,
+      502,
+      505,
+      658,
+      723,
+      724,
+      725,
+      726,
+      727,
+      728,
+      729,
+      730
+    ],
+    "categoria": 1
+  },
+  {
+    "cursoID": 18,
+    "nome_do_curso": "Site Reliability Engineering (SRE)",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/SiteReliabilityEngineering_EAD_Especializacao%20e%20Master.aspx?pageID=5344&moda=5&polo=43&curso=1901&situ=1",
+    "icon": "SRE",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      2,
+      4,
+      13
+    ],
+    "principais_carreiras": [
+      8,
+      1,
+      7
+    ],
+    "descriptions": [
+      "Uma disciplina que incorpora aspectos da engenharia de software e os aplica a problemas de infraestrutura e operações.",
+      "Foca na criação de sistemas de software escaláveis e altamente confiáveis.",
+      "Usa princípios de engenharia de software para automatizar tarefas de operações de TI."
+    ],
+    "ids_disciplinas_ofertadas": [
+      316,
+      384,
+      432,
+      456,
+      460,
+      502,
+      509,
+      658,
+      690,
+      691,
+      726,
+      731,
+      770,
+      772,
+      773,
+      775
+    ],
+    "categoria": 1
+  },
+  {
+    "cursoID": 19,
+    "nome_do_curso": "Desenvolvimento Full Stack",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Desenvolvimento-Web-Full-Stack_Online.aspx",
+    "icon": "DFS",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      1,
+      3,
+      6
+    ],
+    "principais_carreiras": [
+      2,
+      1,
+      14
+    ],
+    "descriptions": [
+      "Cobre tanto o desenvolvimento front-end (lado do cliente) quanto o back-end (lado do servidor).",
+      "Permite que os desenvolvedores construam aplicações web completas do início ao fim.",
+      "Envolve o trabalho com bancos de dados, servidores, engenharia de sistemas e sites voltados para o cliente."
+    ],
+    "ids_disciplinas_ofertadas": [
+      1,
+      2,
+      4,
+      74,
+      262,
+      265,
+      269,
+      277,
+      311,
+      314,
+      413,
+      452,
+      608,
+      611,
+      636,
+      637
+    ],
+    "categoria": 1
+  },
+  {
+    "cursoID": 20,
+    "nome_do_curso": "Mobile Engineering",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Desenvolvimento-Mobile_Online.aspx",
+    "icon": "ME",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      1,
+      6,
+      14
+    ],
+    "principais_carreiras": [
+      2,
+      1,
+      3
+    ],
+    "descriptions": [
+      "Foca no projeto, desenvolvimento e manutenção de aplicações de software para dispositivos móveis como smartphones e tablets.",
+      "Cobre o desenvolvimento para diferentes plataformas, como iOS e Android.",
+      "Aborda desafios específicos para dispositivos móveis, como recursos limitados, tamanhos de tela variados e problemas de conectividade."
+    ],
+    "ids_disciplinas_ofertadas": [
+      4,
+      74,
+      274,
+      277,
+      413,
+      608,
+      610,
+      611,
+      625,
+      626,
+      627,
+      628,
+      629,
+      630,
+      632,
+      633
+    ],
+    "categoria": 1
+  },
+  {
+    "cursoID": 21,
+    "nome_do_curso": "Análise e Desenvolvimento de Sistemas",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/An%C3%A1lise-e-Desenvolvimento-de-Sistemas.aspx",
+    "icon": "ADS",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      1,
+      3,
+      6
+    ],
+    "principais_carreiras": [
+      14,
+      2,
+      1
+    ],
+    "descriptions": [
+      "Foca no processo de criação e manutenção de sistemas de informação.",
+      "Envolve a compreensão das necessidades de negócios, o desenho de especificações de sistemas e o desenvolvimento do software.",
+      "Prepara profissionais para trabalhar com programação, bancos de dados e metodologias de engenharia de software."
+    ],
+    "ids_disciplinas_ofertadas": [
+      4,
+      74,
+      164,
+      269,
+      277,
+      413,
+      446,
+      452,
+      510,
+      608,
+      634,
+      635,
+      636,
+      637,
+      659,
+      660
+    ],
+    "categoria": 1
+  },
+  {
+    "cursoID": 22,
+    "nome_do_curso": "Análise e Desenvolvimento de Sistemas",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/AnaliseeDesenvolvimentodeSistemas_EAD_Especializacao%20e%20Master.aspx?pageID=5338&moda=5&polo=43&curso=1749&situ=1",
+    "icon": "ADS",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      1,
+      3,
+      6
+    ],
+    "principais_carreiras": [
+      14,
+      2,
+      1
+    ],
+    "descriptions": [
+      "Foca no processo de criação e manutenção de sistemas de informação.",
+      "Envolve a compreensão das necessidades de negócios, o desenho de especificações de sistemas e o desenvolvimento do software.",
+      "Prepara profissionais para trabalhar com programação, bancos de dados e metodologias de engenharia de software."
+    ],
+    "ids_disciplinas_ofertadas": [
+      4,
+      74,
+      164,
+      269,
+      277,
+      446,
+      452,
+      510,
+      608,
+      634,
+      635,
+      636,
+      637,
+      658,
+      659,
+      660
+    ],
+    "categoria": 1
+  },
+  {
+    "cursoID": 23,
+    "nome_do_curso": "UX e Design de Produtos Digitais",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/UX%20e%20Design%20de%20Produtos%20Digitais-.aspx?PageID=3868&moda=5&modaTipo=2&polo=40&curso=327&situ=1",
+    "icon": "UDPD",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      10,
+      14
+    ],
+    "principais_carreiras": [
+      10,
+      11,
+      6
+    ],
+    "descriptions": [
+      "Foca na criação de produtos digitais que oferecem uma experiência significativa e relevante aos usuários.",
+      "Envolve todo o processo de criação de produtos, desde a pesquisa e ideação até a prototipagem e testes com usuários.",
+      "Combina aspectos de experiência do usuário (UX), design de interface do usuário (UI) e estratégia de produto."
+    ],
+    "ids_disciplinas_ofertadas": [
+      74,
+      270,
+      413,
+      479,
+      480,
+      481,
+      482,
+      483,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490,
+      767,
+      777
+    ],
+    "categoria": 2
+  },
+  {
+    "cursoID": 24,
+    "nome_do_curso": "Geoprocessamento",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Geoprocessamento_EAD_Especializacao%20e%20Master.aspx?pageID=5326&moda=5&polo=43&curso=1889&situ=1",
+    "icon": "GEO",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      1,
+      3,
+      10
+    ],
+    "principais_carreiras": [
+      6,
+      15,
+      2
+    ],
+    "descriptions": [
+      "Envolve o processamento de dados georreferenciados.",
+      "Usa tecnologia para coletar, armazenar, processar, analisar e exibir informações geográficas.",
+      "É aplicado em vários campos como planejamento urbano, análise ambiental e logística."
+    ],
+    "ids_disciplinas_ofertadas": [
+      524,
+      526,
+      527,
+      538,
+      542,
+      543,
+      544,
+      545,
+      562,
+      566,
+      568,
+      569,
+      578,
+      591,
+      597,
+      658
+    ],
+    "categoria": 2
+  },
+  {
+    "cursoID": 25,
+    "nome_do_curso": "MBA em Marketing Analytics",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Marketing-Analytics-opera%C3%A7%C3%B5es,-big-data-e-metodologias-%C3%A1geis.aspx?pageID=4353&moda=5&modaTipo=2&polo=40&curso=1440&situ=1",
+    "icon": "MMA",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      5,
+      10,
+      11
+    ],
+    "principais_carreiras": [
+      6,
+      5,
+      12
+    ],
+    "descriptions": [
+      "Foca na prática de medir, gerenciar e analisar o desempenho do marketing para maximizar sua eficácia.",
+      "Ensina como usar dados para entender o comportamento do cliente e otimizar as campanhas de marketing.",
+      "Combina princípios de marketing com análise de dados e métodos estatísticos."
+    ],
+    "ids_disciplinas_ofertadas": [
+      74,
+      167,
+      169,
+      270,
+      277,
+      413,
+      510,
+      515,
+      516,
+      525,
+      549,
+      557,
+      565,
+      596,
+      771,
+      776,
+      777
+    ],
+    "categoria": 2
+  },
+  {
+    "cursoID": 26,
+    "nome_do_curso": "UX e Design de Produtos Digitais",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/UXeDesigndeProdutosDigitais_EAD_Especializacao%20e%20Master.aspx?pageID=5345&moda=5&polo=43&curso=327&situ=1",
+    "icon": "UDPD",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      10,
+      14
+    ],
+    "principais_carreiras": [
+      10,
+      11,
+      6
+    ],
+    "descriptions": [
+      "Foca na criação de produtos digitais que oferecem uma experiência significativa e relevante aos usuários.",
+      "Envolve todo o processo de criação de produtos, desde a pesquisa e ideação até a prototipagem e testes com usuários.",
+      "Combina aspectos de experiência do usuário (UX), design de interface do usuário (UI) e estratégia de produto."
+    ],
+    "ids_disciplinas_ofertadas": [
+      74,
+      270,
+      479,
+      480,
+      481,
+      482,
+      483,
+      485,
+      486,
+      487,
+      488,
+      489,
+      601,
+      658,
+      767,
+      777
+    ],
+    "categoria": 2
+  },
+  {
+    "cursoID": 27,
+    "nome_do_curso": "Gestão de Produtos Digitais",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Gest%C3%A3o-e-Desenvolvimento-de-Produtos-Digitais.aspx",
+    "icon": "GDPD",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      10,
+      11,
+      14
+    ],
+    "principais_carreiras": [
+      11,
+      6,
+      10
+    ],
+    "descriptions": [
+      "Envolve a supervisão de todo o ciclo de vida de um produto digital, desde a concepção até o lançamento e além.",
+      "Foca na definição da visão, estratégia e roteiro do produto.",
+      "Requer a coordenação de equipes multifuncionais, incluindo design, engenharia e marketing."
+    ],
+    "ids_disciplinas_ofertadas": [
+      74,
+      270,
+      287,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      410,
+      412,
+      413,
+      767,
+      768,
+      774,
+      777
+    ],
+    "categoria": 2
+  },
+  {
+    "cursoID": 28,
+    "nome_do_curso": "Gestão de Produtos Digitais",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/GestaodeProdutosDigitais_EAD_Especializacao%20e%20Master.aspx?pageID=5363&moda=5&polo=43&curso=1444&situ=1",
+    "icon": "GDPD",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      10,
+      11,
+      14
+    ],
+    "principais_carreiras": [
+      11,
+      6,
+      10
+    ],
+    "descriptions": [
+      "Envolve a supervisão de todo o ciclo de vida de um produto digital, desde a concepção até o lançamento e além.",
+      "Foca na definição da visão, estratégia e roteiro do produto.",
+      "Requer a coordenação de equipes multifuncionais, incluindo design, engenharia e marketing."
+    ],
+    "ids_disciplinas_ofertadas": [
+      74,
+      270,
+      287,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      410,
+      606,
+      658,
+      767,
+      768,
+      774,
+      777
+    ],
+    "categoria": 2
+  },
+  {
+    "cursoID": 29,
+    "nome_do_curso": "Computação em Nuvem",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Computa%C3%A7%C3%A3o-em-Nuvem_Online.aspx?pageID=3805&moda=5&modaTipo=2&polo=40&curso=141&situ=1",
+    "icon": "CN",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      4,
+      10,
+      13
+    ],
+    "principais_carreiras": [
+      7,
+      3,
+      9
+    ],
+    "descriptions": [
+      "Cobre a entrega de serviços de computação — incluindo servidores, armazenamento, bancos de dados, redes e software — pela Internet ('a nuvem').",
+      "Explora as principais plataformas de nuvem como AWS, Azure e Google Cloud.",
+      "Foca em arquitetura de nuvem, segurança e gerenciamento de custos."
+    ],
+    "ids_disciplinas_ofertadas": [
+      74,
+      267,
+      309,
+      316,
+      360,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      413
+    ],
+    "categoria": 3
+  },
+  {
+    "cursoID": 30,
+    "nome_do_curso": "CiberSegurança e Governança de Dados",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Ciberseguran%C3%A7a-e-Governan%C3%A7a-de-Dados.aspx?pageID=4357&moda=5&modaTipo=2&polo=40&curso=1443&situ=1",
+    "icon": "CGD",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      4,
+      10,
+      13
+    ],
+    "principais_carreiras": [
+      9,
+      15,
+      7
+    ],
+    "descriptions": [
+      "Foca na proteção de sistemas e redes de computadores contra divulgação de informações, roubo ou danos.",
+      "Cobre o gerenciamento geral da disponibilidade, usabilidade, integridade e segurança dos dados.",
+      "Ensina como estabelecer políticas e procedimentos para o manuseio de dados e mitigação de ameaças."
+    ],
+    "ids_disciplinas_ofertadas": [
+      167,
+      324,
+      360,
+      361,
+      362,
+      364,
+      365,
+      366,
+      367,
+      368,
+      413,
+      428,
+      432,
+      469,
+      470,
+      712
+    ],
+    "categoria": 3
+  },
+  {
+    "cursoID": 31,
+    "nome_do_curso": "Engenharia de Redes",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Engenharia-de-Redes-Online.aspx?PageID=3809&moda=5&modaTipo=2&polo=40&curso=334&situ=1",
+    "icon": "ER",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      4,
+      13
+    ],
+    "principais_carreiras": [
+      7,
+      9,
+      15
+    ],
+    "descriptions": [
+      "Envolve o planejamento, projeto, implementação e manutenção de redes de computadores.",
+      "Cobre protocolos de rede, hardware e software.",
+      "Prepara profissionais para construir e gerenciar infraestruturas de rede robustas, seguras e escaláveis."
+    ],
+    "ids_disciplinas_ofertadas": [
+      267,
+      316,
+      328,
+      330,
+      384,
+      413,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477
+    ],
+    "categoria": 3
+  },
+  {
+    "cursoID": 32,
+    "nome_do_curso": "MBA em Gestão Estratégica de TI",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/MBAemGestaoEstrategicadeTI_EAD_Especializacao%20e%20Master.aspx?pageID=5362&moda=5&polo=43&curso=1674&situ=1",
+    "icon": "GETI",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      4,
+      10,
+      11
+    ],
+    "principais_carreiras": [
+      12,
+      15,
+      3
+    ],
+    "descriptions": [
+      "Foca no alinhamento da estratégia de tecnologia da informação com a estratégia de negócios.",
+      "Ensina como usar a TI para obter vantagem competitiva e alcançar os objetivos de negócios.",
+      "Cobre tópicos como governança de TI, gerenciamento de projetos e transformação digital."
+    ],
+    "ids_disciplinas_ofertadas": [
+      74,
+      167,
+      261,
+      309,
+      316,
+      320,
+      321,
+      384,
+      484,
+      528,
+      551,
+      552,
+      577,
+      598,
+      599,
+      658
+    ],
+    "categoria": 3
+  },
+  {
+    "cursoID": 33,
+    "nome_do_curso": "Computação em Nuvem",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/ComputacaoemNuvem_EAD_Especializacao%20e%20Master.aspx?pageID=5249&moda=5&polo=43&curso=141&situ=1",
+    "icon": "CN",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      4,
+      10,
+      13
+    ],
+    "principais_carreiras": [
+      7,
+      3,
+      9
+    ],
+    "descriptions": [
+      "Cobre a entrega de serviços de computação — incluindo servidores, armazenamento, bancos de dados, redes e software — pela Internet ('a nuvem').",
+      "Explora as principais plataformas de nuvem como AWS, Azure e Google Cloud.",
+      "Foca em arquitetura de nuvem, segurança e gerenciamento de custos."
+    ],
+    "ids_disciplinas_ofertadas": [
+      74,
+      267,
+      309,
+      316,
+      360,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      658
+    ],
+    "categoria": 3
+  },
+  {
+    "cursoID": 34,
+    "nome_do_curso": "CiberSegurança e Governança de Dados",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/CibersegurancaeGovernancadeDados_EAD_Especializacao%20e%20Master.aspx?pageID=5309&moda=5&polo=43&curso=1443&situ=1",
+    "icon": "CGD",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      4,
+      10,
+      13
+    ],
+    "principais_carreiras": [
+      9,
+      15,
+      7
+    ],
+    "descriptions": [
+      "Foca na proteção de sistemas e redes de computadores contra divulgação de informações, roubo ou danos.",
+      "Cobre o gerenciamento geral da disponibilidade, usabilidade, integridade e segurança dos dados.",
+      "Ensina como estabelecer políticas e procedimentos para o manuseio de dados e mitigação de ameaças."
+    ],
+    "ids_disciplinas_ofertadas": [
+      167,
+      324,
+      360,
+      361,
+      362,
+      364,
+      365,
+      366,
+      367,
+      368,
+      428,
+      432,
+      469,
+      470,
+      658,
+      712
+    ],
+    "categoria": 3
+  },
+  {
+    "cursoID": 35,
+    "nome_do_curso": "Gestão de Cibersegurança e Riscos",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Gestao%20de%20Ciberseguranca%20e%20Riscos_Pos%20Online_Especializacao%20e%20Master.aspx",
+    "icon": "GCR",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      10,
+      11,
+      13
+    ],
+    "principais_carreiras": [
+      12,
+      9,
+      15
+    ],
+    "descriptions": [
+      "Foca na identificação, avaliação e mitigação de riscos de cibersegurança para uma organização.",
+      "Envolve o desenvolvimento e implementação de políticas, procedimentos e controles de segurança.",
+      "Combina conhecimento técnico de cibersegurança com princípios de gerenciamento de riscos e continuidade de negócios."
+    ],
+    "ids_disciplinas_ofertadas": [
+      167,
+      360,
+      413,
+      428,
+      432,
+      469,
+      470,
+      661,
+      662,
+      663,
+      664,
+      665,
+      666,
+      667,
+      668,
+      712
+    ],
+    "categoria": 3
+  },
+  {
+    "cursoID": 36,
+    "nome_do_curso": "Gestão e Análise Estratégica de Dados",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Gest%C3%A3o-e-An%C3%A1lise-Estrat%C3%A9gica-de-Dados_Online.aspx?pageID=3821&moda=5&modaTipo=2&polo=40&curso=707&situ=1",
+    "icon": "GAED",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      5,
+      10,
+      11
+    ],
+    "principais_carreiras": [
+      12,
+      6,
+      5
+    ],
+    "descriptions": [
+      "Foca no uso da análise de dados para informar decisões de negócios estratégicas.",
+      "Ensina como coletar, gerenciar e analisar dados para identificar tendências, padrões e insights.",
+      "Combina técnicas de gerenciamento de dados com estratégia de negócios e métodos analíticos."
+    ],
+    "ids_disciplinas_ofertadas": [
+      74,
+      162,
+      164,
+      166,
+      167,
+      169,
+      170,
+      270,
+      289,
+      413,
+      511,
+      512,
+      603,
+      604,
+      605,
+      606
+    ],
+    "categoria": 4
+  },
+  {
+    "cursoID": 37,
+    "nome_do_curso": "Analytics e Business Intelligence",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Analytics-e-Business-Intelligence_Online.aspx?pageID=3812&moda=5&modaTipo=2&polo=40&curso=134&situ=1",
+    "icon": "ABI",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      3,
+      5,
+      10
+    ],
+    "principais_carreiras": [
+      6,
+      5,
+      2
+    ],
+    "descriptions": [
+      "Foca nos processos e tecnologias usadas para analisar dados e apresentar informações acionáveis para ajudar executivos, gerentes e outros usuários finais a tomar decisões de negócios informadas.",
+      "Cobre data warehousing, mineração de dados e visualização de dados.",
+      "Visa transformar dados brutos em informações significativas e úteis para fins comerciais."
+    ],
+    "ids_disciplinas_ofertadas": [
+      21,
+      27,
+      28,
+      74,
+      121,
+      162,
+      167,
+      169,
+      268,
+      284,
+      289,
+      304,
+      413,
+      603,
+      619,
+      762
+    ],
+    "categoria": 4
+  },
+  {
+    "cursoID": 38,
+    "nome_do_curso": "Ciência de Dados e Big Data",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Ci%C3%AAncia-de-Dados-e-Big-Data-_Online.aspx",
+    "icon": "CDBD",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      5,
+      10,
+      12
+    ],
+    "principais_carreiras": [
+      5,
+      4,
+      6
+    ],
+    "descriptions": [
+      "Um campo interdisciplinar que usa métodos, processos, algoritmos e sistemas científicos para extrair conhecimento e insights de dados estruturados e não estruturados.",
+      "Lida com conjuntos de dados grandes e complexos (Big Data) que não podem ser facilmente gerenciados com ferramentas tradicionais de processamento de dados.",
+      "Incorpora habilidades de ciência da computação, estatística e conhecimento de domínio."
+    ],
+    "ids_disciplinas_ofertadas": [
+      28,
+      30,
+      166,
+      169,
+      265,
+      268,
+      270,
+      304,
+      402,
+      413,
+      415,
+      416,
+      497,
+      618,
+      619,
+      732
+    ],
+    "categoria": 4
+  },
+  {
+    "cursoID": 39,
+    "nome_do_curso": "Engenharia de Dados",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Engenharia-de-Dados.aspx?pageID=3903&moda=5&modaTipo=2&polo=40&curso=607&situ=1",
+    "icon": "ED",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      3,
+      4,
+      7
+    ],
+    "principais_carreiras": [
+      4,
+      5,
+      2
+    ],
+    "descriptions": [
+      "Foca na aplicação prática da coleta e análise de dados.",
+      "Envolve a construção e manutenção da infraestrutura e arquitetura para geração, armazenamento e processamento de dados.",
+      "Prepara os dados para uso por cientistas e analistas de dados, criando pipelines de dados."
+    ],
+    "ids_disciplinas_ofertadas": [
+      164,
+      167,
+      266,
+      267,
+      268,
+      269,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      413
+    ],
+    "categoria": 4
+  },
+  {
+    "cursoID": 40,
+    "nome_do_curso": "Inteligência Artificial e Aprendizado de Máquina",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Intelig%C3%AAncia-Artificial-e-Aprendizado-de-M%C3%A1quina_Online.aspx?PageID=3823&moda=5&modaTipo=2&polo=40&curso=1097&situ=1",
+    "icon": "IAAM",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      5,
+      6,
+      7
+    ],
+    "principais_carreiras": [
+      13,
+      5,
+      1
+    ],
+    "descriptions": [
+      "Explora a teoria e o desenvolvimento de sistemas de computador capazes de realizar tarefas que normalmente exigem inteligência humana.",
+      "Foca no aprendizado de máquina, um subconjunto da IA onde os algoritmos são treinados em dados para aprender e fazer previsões.",
+      "Cobre tópicos como redes neurais, aprendizado profundo e processamento de linguagem natural."
+    ],
+    "ids_disciplinas_ofertadas": [
+      28,
+      30,
+      131,
+      166,
+      169,
+      258,
+      268,
+      270,
+      304,
+      413,
+      415,
+      416,
+      423,
+      686,
+      687,
+      692
+    ],
+    "categoria": 4
+  },
+  {
+    "cursoID": 41,
+    "nome_do_curso": "Arquitetura de Dados",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Arquitetura-de-Dados.aspx?pageID=4467&moda=5&modaTipo=2&polo=40&curso=151&situ=1",
+    "icon": "AD",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      1,
+      3,
+      9
+    ],
+    "principais_carreiras": [
+      4,
+      3,
+      6
+    ],
+    "descriptions": [
+      "Composto por modelos, políticas, regras e padrões que governam quais dados são coletados e como são armazenados, organizados, integrados e utilizados.",
+      "Fornece um blueprint para os sistemas de gerenciamento de dados de uma organização.",
+      "Garante que os dados sejam gerenciados de forma segura, confiável e alinhada aos objetivos de negócios."
+    ],
+    "ids_disciplinas_ofertadas": [
+      167,
+      268,
+      270,
+      398,
+      400,
+      413,
+      429,
+      432,
+      613,
+      671,
+      672,
+      673,
+      679,
+      741,
+      742,
+      743
+    ],
+    "categoria": 4
+  },
+  {
+    "cursoID": 42,
+    "nome_do_curso": "Estatística para Ciência de Dados",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Estat%C3%ADstica-para-Ci%C3%AAncia-de-Dados.aspx?pageID=4473&moda=5&modaTipo=2&polo=40&curso=1540&situ=1",
+    "icon": "ECD",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      6,
+      9,
+      11
+    ],
+    "principais_carreiras": [
+      5,
+      6,
+      13
+    ],
+    "descriptions": [
+      "Foca nos conceitos e métodos estatísticos que formam a base da ciência de dados.",
+      "Cobre tópicos como probabilidade, teste de hipóteses e análise de regressão.",
+      "Equipa os alunos com as habilidades quantitativas necessárias para realizar análises de dados rigorosas e construir modelos preditivos precisos."
+    ],
+    "ids_disciplinas_ofertadas": [
+      28,
+      167,
+      268,
+      270,
+      304,
+      413,
+      415,
+      416,
+      491,
+      492,
+      493,
+      494,
+      495,
+      496,
+      497,
+      619
+    ],
+    "categoria": 4
+  },
+  {
+    "cursoID": 43,
+    "nome_do_curso": "Geoprocessamento e Análise Espacial",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Geoprocessamento-e-An%C3%A1lise-Espacial.aspx?pageID=3934&moda=5&modaTipo=2&polo=40&curso=296&situ=1",
+    "icon": "GAP",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      1,
+      3,
+      10
+    ],
+    "principais_carreiras": [
+      6,
+      5,
+      15
+    ],
+    "descriptions": [
+      "Foca na análise de dados geográficos para identificar padrões, relacionamentos e tendências.",
+      "Utiliza estatísticas espaciais e técnicas geoestatísticas.",
+      "Aplica-se a campos como planejamento urbano, ciências ambientais e epidemiologia."
+    ],
+    "ids_disciplinas_ofertadas": [
+      413,
+      517,
+      518,
+      519,
+      541,
+      563,
+      587,
+      639,
+      640,
+      642,
+      643,
+      644
+    ],
+    "categoria": 4
+  },
+  {
+    "cursoID": 44,
+    "nome_do_curso": "Analytics e Business Intelligence",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/AnalyticseBusinessIntelligence_EAD_Especializacao%20e%20Master.aspx?pageID=5272&moda=5&polo=43&curso=134&situ=1",
+    "icon": "ABI",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      3,
+      5,
+      10
+    ],
+    "principais_carreiras": [
+      6,
+      5,
+      2
+    ],
+    "descriptions": [
+      "Foca nos processos e tecnologias usadas para analisar dados e apresentar informações acionáveis para ajudar executivos, gerentes e outros usuários finais a tomar decisões de negócios informadas.",
+      "Cobre data warehousing, mineração de dados e visualização de dados.",
+      "Visa transformar dados brutos em informações significativas e úteis para fins comerciais."
+    ],
+    "ids_disciplinas_ofertadas": [
+      21,
+      27,
+      28,
+      74,
+      121,
+      167,
+      169,
+      265,
+      268,
+      284,
+      289,
+      304,
+      603,
+      619,
+      658,
+      762
+    ],
+    "categoria": 4
+  },
+  {
+    "cursoID": 45,
+    "nome_do_curso": "Ciência de Dados e Big Data",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/CienciadedadoseBigData_EAD_Especializacao%20e%20Master.aspx?pageID=5233&moda=5&polo=43&curso=138&situ=1",
+    "icon": "CDBD",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      5,
+      10,
+      12
+    ],
+    "principais_carreiras": [
+      5,
+      4,
+      6
+    ],
+    "descriptions": [
+      "Um campo interdisciplinar que usa métodos, processos, algoritmos e sistemas científicos para extrair conhecimento e insights de dados estruturados e não estruturados.",
+      "Lida com conjuntos de dados grandes e complexos (Big Data) que não podem ser facilmente gerenciados com ferramentas tradicionais de processamento de dados.",
+      "Incorpora habilidades de ciência da computação, estatística e conhecimento de domínio."
+    ],
+    "ids_disciplinas_ofertadas": [
+      28,
+      30,
+      166,
+      169,
+      265,
+      268,
+      270,
+      304,
+      402,
+      415,
+      416,
+      442,
+      618,
+      619,
+      658,
+      732
+    ],
+    "categoria": 4
+  },
+  {
+    "cursoID": 46,
+    "nome_do_curso": "Engenharia de Dados",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/EngenhariadeDados_EAD_Especializacao%20e%20Master.aspx?pageID=5314&moda=5&polo=43&curso=607&situ=1",
+    "icon": "ED",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      3,
+      4,
+      7
+    ],
+    "principais_carreiras": [
+      4,
+      5,
+      2
+    ],
+    "descriptions": [
+      "Foca na aplicação prática da coleta e análise de dados.",
+      "Envolve a construção e manutenção da infraestrutura e arquitetura para geração, armazenamento e processamento de dados.",
+      "Prepara os dados para uso por cientistas e analistas de dados, criando pipelines de dados."
+    ],
+    "ids_disciplinas_ofertadas": [
+      164,
+      167,
+      266,
+      267,
+      269,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      584,
+      658
+    ],
+    "categoria": 4
+  },
+  {
+    "cursoID": 47,
+    "nome_do_curso": "Gestão e Análise Estratégica de Dados",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/GestaoeAnaliseEstrategicadeDados_EAD_Especializacao%20e%20Master.aspx?pageID=5274&moda=5&polo=43&curso=707&situ=1",
+    "icon": "GAED",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      5,
+      10,
+      11
+    ],
+    "principais_carreiras": [
+      12,
+      6,
+      5
+    ],
+    "descriptions": [
+      "Foca no uso da análise de dados para informar decisões de negócios estratégicas.",
+      "Ensina como coletar, gerenciar e analisar dados para identificar tendências, padrões e insights.",
+      "Combina técnicas de gerenciamento de dados com estratégia de negócios e métodos analíticos."
+    ],
+    "ids_disciplinas_ofertadas": [
+      21,
+      74,
+      164,
+      166,
+      167,
+      169,
+      170,
+      270,
+      289,
+      511,
+      512,
+      603,
+      604,
+      605,
+      606,
+      658
+    ],
+    "categoria": 4
+  },
+  {
+    "cursoID": 48,
+    "nome_do_curso": "Inteligência Artificial e Aprendizado de Máquina",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/InteligenciaArtificialeAprendizadodeMaquina_EAD_Especializacao%20e%20Master.aspx?pageID=5248&moda=5&polo=43&curso=1097&situ=1",
+    "icon": "IAAM",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      5,
+      6,
+      7
+    ],
+    "principais_carreiras": [
+      13,
+      5,
+      1
+    ],
+    "descriptions": [
+      "Explora a teoria e o desenvolvimento de sistemas de computador capazes de realizar tarefas que normalmente exigem inteligência humana.",
+      "Foca no aprendizado de máquina, um subconjunto da IA onde os algoritmos são treinados em dados para aprender e fazer previsões.",
+      "Cobre tópicos como redes neurais, aprendizado profundo e processamento de linguagem natural."
+    ],
+    "ids_disciplinas_ofertadas": [
+      28,
+      30,
+      131,
+      166,
+      169,
+      258,
+      268,
+      270,
+      304,
+      415,
+      416,
+      423,
+      658,
+      686,
+      687,
+      692
+    ],
+    "categoria": 4
+  },
+  {
+    "cursoID": 49,
+    "nome_do_curso": "Arquitetura de Dados",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/ArquiteturadeDados_EAD_Especializacao%20e%20Master.aspx?pageID=5339&moda=5&polo=43&curso=1533&situ=1",
+    "icon": "AD",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      1,
+      3,
+      9
+    ],
+    "principais_carreiras": [
+      4,
+      3,
+      6
+    ],
+    "descriptions": [
+      "Composto por modelos, políticas, regras e padrões que governam quais dados são coletados e como são armazenados, organizados, integrados e utilizados.",
+      "Fornece um blueprint para os sistemas de gerenciamento de dados de uma organização.",
+      "Garante que os dados sejam gerenciados de forma segura, confiável e alinhada aos objetivos de negócios."
+    ],
+    "ids_disciplinas_ofertadas": [
+      167,
+      268,
+      270,
+      398,
+      400,
+      429,
+      432,
+      613,
+      658,
+      671,
+      672,
+      673,
+      679,
+      741,
+      742,
+      743
+    ],
+    "categoria": 4
+  },
+  {
+    "cursoID": 50,
+    "nome_do_curso": "Ciência de Dados Aplicada à Saude",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Cienciadedadosaplicadaasaude_EAD_Especializacao%20e%20Master.aspx?pageID=5310&moda=5&polo=43&curso=1382&situ=1",
+    "icon": "CDAS",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      5,
+      10,
+      12
+    ],
+    "principais_carreiras": [
+      5,
+      6,
+      15
+    ],
+    "descriptions": [
+      "Foca na aplicação de técnicas de ciência de dados para analisar dados relacionados à saúde.",
+      "Visa melhorar o atendimento ao paciente, otimizar as operações de saúde e avançar a pesquisa médica.",
+      "Envolve o trabalho com prontuários eletrônicos, dados de ensaios clínicos e dados genômicos."
+    ],
+    "ids_disciplinas_ofertadas": [
+      166,
+      167,
+      169,
+      270,
+      286,
+      304,
+      418,
+      442,
+      618,
+      658,
+      682,
+      684,
+      778,
+      779,
+      780,
+      781
+    ],
+    "categoria": 4
+  },
+  {
+    "cursoID": 51,
+    "nome_do_curso": "Estatística para Ciência de Dados",
+    "modalidade": "EAD",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/EstatisticaparaCienciadeDados_EAD_Especializacao%20e%20Master.aspx?pageID=5342&moda=5&polo=43&curso=1540&situ=1",
+    "icon": "ECD",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      6,
+      9,
+      11
+    ],
+    "principais_carreiras": [
+      5,
+      6,
+      13
+    ],
+    "descriptions": [
+      "Foca nos conceitos e métodos estatísticos que formam a base da ciência de dados.",
+      "Cobre tópicos como probabilidade, teste de hipóteses e análise de regressão.",
+      "Equipa os alunos com as habilidades quantitativas necessárias para realizar análises de dados rigorosas e construir modelos preditivos precisos."
+    ],
+    "ids_disciplinas_ofertadas": [
+      28,
+      167,
+      268,
+      270,
+      304,
+      415,
+      416,
+      437,
+      441,
+      442,
+      491,
+      493,
+      494,
+      495,
+      619,
+      658
+    ],
+    "categoria": 4
+  },
+  {
+    "cursoID": 52,
+    "nome_do_curso": "Visão Computacional",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Gestao%20de%20Ciberseguranca%20e%20Riscos_Pos%20Online_Especializacao%20e%20Master.aspx",
+    "icon": "VC",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      5,
+      6,
+      7
+    ],
+    "principais_carreiras": [
+      13,
+      1,
+      5
+    ],
+    "descriptions": [
+      "Um campo científico interdisciplinar que lida com como os computadores podem ser feitos para obter uma compreensão de alto nível a partir de imagens ou vídeos digitais.",
+      "Envolve tarefas como reconhecimento de objetos, restauração de imagens e reconstrução de cenas.",
+      "Busca automatizar tarefas que o sistema visual humano pode realizar."
+    ],
+    "ids_disciplinas_ofertadas": [
+      28,
+      169,
+      268,
+      304,
+      384,
+      413,
+      686,
+      687,
+      699,
+      700,
+      701,
+      702,
+      703,
+      704,
+      705,
+      763
+    ],
+    "categoria": 4
+  },
+  {
+    "cursoID": 53,
+    "nome_do_curso": "Processamento de Linguagem natural",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Gestao%20de%20Ciberseguranca%20e%20Riscos_Pos%20Online_Especializacao%20e%20Master.aspx",
+    "icon": "PLN",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      5,
+      6,
+      7
+    ],
+    "principais_carreiras": [
+      13,
+      2,
+      5
+    ],
+    "descriptions": [
+      "Um subcampo da inteligência artificial focado em permitir que os computadores entendam, interpretem e gerem a linguagem humana.",
+      "Envolve tarefas como tradução de texto, análise de sentimentos e modelagem de tópicos.",
+      "Faz a ponte entre a comunicação humana e a compreensão do computador."
+    ],
+    "ids_disciplinas_ofertadas": [
+      28,
+      268,
+      270,
+      304,
+      384,
+      413,
+      415,
+      686,
+      687,
+      692,
+      693,
+      694,
+      695,
+      696,
+      697,
+      698
+    ],
+    "categoria": 4
+  },
+  {
+    "cursoID": 54,
+    "nome_do_curso": "MBA em Liderança Estratégica em IA",
+    "modalidade": "Online",
+    "objetivos": [
+      "",
+      ""
+    ],
+    "link": "https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/MBA_em_Lideranca_Estrategica_em_IA_Pos_Online_Especializacao_e_Master.aspx?PageID=5502&moda=5&modaTipo=2&polo=40&curso=1997&situ=1",
+    "icon": "LEIA",
+    "caracteristicas": {
+      "caracteristica_1": 1,
+      "caracteristica_2": 1,
+      "caracteristica_3": 1
+    },
+    "ids_tematicas": [
+      5,
+      10,
+      11
+    ],
+    "principais_carreiras": [
+      12,
+      13,
+      15
+    ],
+    "descriptions": [
+      "Foca na preparação de líderes para conduzir iniciativas e estratégias de IA dentro de uma organização.",
+      "Combina o conhecimento de tecnologias de IA com habilidades de liderança e gestão de negócios.",
+      "Ensina como identificar oportunidades para IA, gerenciar projetos de IA e navegar pelas implicações éticas da inteligência artificial."
+    ],
+    "ids_disciplinas_ofertadas": [
+      270,
+      284,
+      413,
+      606,
+      713,
+      714,
+      715,
+      716,
+      717,
+      718,
+      719,
+      720,
+      721,
+      722,
+      767,
+      777
+    ],
+    "categoria": 4
   }
 ]

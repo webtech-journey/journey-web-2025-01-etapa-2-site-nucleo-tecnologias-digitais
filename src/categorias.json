@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nome_da_categoria": "Desenvolvimento de Software"
+  },
+  {
+    "id": 2,
+    "nome_da_categoria": "Soluções e Negócios Digitais"
+  },
+  {
+    "id": 3,
+    "nome_da_categoria": "Gestão & Infraestrutura de TI"
+  },
+  {
+    "id": 4,
+    "nome_da_categoria": "Data Analytics & IA"
+  }
+]
