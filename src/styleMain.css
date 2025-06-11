@@ -4,7 +4,6 @@
 
 .cursosSection {
   padding: 1rem 5%;
-  background-color: var(--lightBlue);
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -30,11 +29,14 @@
 }
 
 .cursosHeader h1 {
-  font-size: 1.5rem;
+  font-size: 3rem;
+  color: white;
 }
+
 .cursosHeader h4 {
-  font-size: 1rem;
-  opacity: 0.75;
+  font-size: 1.5rem;
+  color: white;
+  opacity: 1;
   font-weight: 600;
 }
 
@@ -56,6 +58,11 @@
   cursor: pointer;
 }
 
+#carreiraFiltroTodos {
+  background-color: var(--darkerBlue);
+  color: white;
+}
+
 /* Cursos Carousel */
 
 .cursos-prev,
@@ -64,7 +71,7 @@
   z-index: 2;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 2rem;
+  font-size: 3rem;
   background: none;
   border: none;
   cursor: pointer;
@@ -254,7 +261,7 @@
 
 .comparadorHeader {
   background-color: var(--softOrange);
-  
+
   text-align: center;
   padding: 1rem 2rem;
   border-radius: 1rem;
@@ -266,7 +273,6 @@
   overflow: hidden;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
 }
 
 .comparadorHeader h1,

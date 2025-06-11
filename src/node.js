@@ -65,7 +65,7 @@ async function populateCarreiras() {
       `;
   });
   carreirasContainer.innerHTML += `
-        <button class="carreiraFiltro" name="carreiraFiltro" value="-1" type="submit">Todos</button>
+        <button class="carreiraFiltro" id="carreiraFiltroTodos" name="carreiraFiltro" value="-1" type="submit">Todos</button>
       `;
 
   // Functions Filtro
