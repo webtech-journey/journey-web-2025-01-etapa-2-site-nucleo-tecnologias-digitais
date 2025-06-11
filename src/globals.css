@@ -14,17 +14,18 @@
 }
 
 body {
-  background-color: var(--backgroundBlue);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1000' height='1000' viewBox='0 0 1000 1000'%3E%3Cg fill='none' stroke='%2325596d' stroke-opacity='0.34' stroke-width='1'%3E%3Cpath d='M0 100 Q250 50 500 100 T1000 100' /%3E%3Cpath d='M0 200 Q250 150 500 200 T1000 200' /%3E%3Cpath d='M0 300 Q250 250 500 300 T1000 300' /%3E%3Cpath d='M0 400 Q250 350 500 400 T1000 400' /%3E%3Cpath d='M0 500 Q250 450 500 500 T1000 500' /%3E%3Cpath d='M0 600 Q250 550 500 600 T1000 600' /%3E%3Cpath d='M0 700 Q250 650 500 700 T1000 700' /%3E%3Cpath d='M0 800 Q250 750 500 800 T1000 800' /%3E%3Cpath d='M0 900 Q250 850 500 900 T1000 900' /%3E%3Cpath d='M100 0 Q50 250 100 500 T100 1000' /%3E%3Cpath d='M200 0 Q150 250 200 500 T200 1000' /%3E%3Cpath d='M300 0 Q250 250 300 500 T300 1000' /%3E%3Cpath d='M400 0 Q350 250 400 500 T400 1000' /%3E%3Cpath d='M500 0 Q450 250 500 500 T500 1000' /%3E%3Cpath d='M600 0 Q550 250 600 500 T600 1000' /%3E%3Cpath d='M700 0 Q650 250 700 500 T700 1000' /%3E%3Cpath d='M800 0 Q750 250 800 500 T800 1000' /%3E%3Cpath d='M900 0 Q850 250 900 500 T900 1000' /%3E%3C/g%3E%3C/svg%3E"),
+  /* URL-encoded version of the SVG above */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1000' height='1000' viewBox='0 0 1000 1000'%3E%3Cg fill='none' stroke='%2325596d' stroke-opacity='0.34' stroke-width='1'%3E%3Cpath d='M0 50 Q250 0 500 50 T1000 50' /%3E%3Cpath d='M0 150 Q250 100 500 150 T1000 150' /%3E%3Cpath d='M0 250 Q250 200 500 250 T1000 250' /%3E%3Cpath d='M0 350 Q250 300 500 350 T1000 350' /%3E%3Cpath d='M0 450 Q250 400 500 450 T1000 450' /%3E%3Cpath d='M0 550 Q250 500 500 550 T1000 550' /%3E%3Cpath d='M0 650 Q250 600 500 650 T1000 650' /%3E%3Cpath d='M0 750 Q250 700 500 750 T1000 750' /%3E%3Cpath d='M0 850 Q250 800 500 850 T1000 850' /%3E%3Cpath d='M0 950 Q250 900 500 950 T1000 950' /%3E%3Cpath d='M50 0 Q0 250 50 500 T50 1000' /%3E%3Cpath d='M150 0 Q100 250 150 500 T150 1000' /%3E%3Cpath d='M250 0 Q200 250 250 500 T250 1000' /%3E%3Cpath d='M350 0 Q300 250 350 500 T350 1000' /%3E%3Cpath d='M450 0 Q400 250 450 500 T450 1000' /%3E%3Cpath d='M550 0 Q500 250 550 500 T550 1000' /%3E%3Cpath d='M650 0 Q600 250 650 500 T650 1000' /%3E%3Cpath d='M750 0 Q700 250 750 500 T750 1000' /%3E%3Cpath d='M850 0 Q800 250 850 500 T850 1000' /%3E%3Cpath d='M950 0 Q900 250 950 500 T950 1000' /%3E%3C/g%3E%3C/svg%3E"),
+  
     linear-gradient(
       to bottom,
-      var(--darkBlue) 0%,
+      var(--darkBlue) 5%,
       #ffffff 50%
     );
-  background-repeat: no-repeat, no-repeat;
-  background-size: 2000px 2000px, cover;
-  background-position: top, top;
-  background-attachment: fixed, scroll;
+    
+    background-repeat: repeat;
+    background-size: 500px 500px, cover;
+    background-attachment: fixed, scroll;
 }
 
 header {
