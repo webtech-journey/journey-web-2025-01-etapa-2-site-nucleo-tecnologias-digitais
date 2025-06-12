@@ -128,24 +128,27 @@ async function populateCursos(cursos) {
     });
 
     // Cursos Carousel
-    cursosCarousel.innerHTML += `
-            <div class="cursosCarouselCard swiper-slide">
-              <div class="cursosCarouselCardHeader">
-                <h4>${curso.modalidade}</h4>
-                <img
-                  src="https://www.shutterstock.com/image-photo/digital-technology-big-data-storage-600nw-2164313403.jpg"
-                />
-              </div>
+    const isEAD = curso.modalidade.toLowerCase() === "ead";
+    const modalidadeClass = isEAD ? "modalidade-ea" : "modalidade-presencial";
 
-              <div class="cursosCarouselCardBody">
-                <div class="cursosCarouselCardTematicas" id="tematicasIndex_${tematicasIndex}">
-                ${tematicasDiv}
-                </div>
-                <h2>${curso.nome_do_curso}</h2>
-                <a href="${curso.link}" target="_blank"">Detalhes</a>
-              </div>
-            </div>
-        `;
+    cursosCarousel.innerHTML += `
+      <div class="cursosCarouselCard swiper-slide">
+        <div class="cursosCarouselCardHeader">
+          <h4 class="${modalidadeClass}">${curso.modalidade}</h4>
+          <img
+            src="https://www.shutterstock.com/image-photo/digital-technology-big-data-storage-600nw-2164313403.jpg"
+          />
+        </div>
+
+        <div class="cursosCarouselCardBody">
+          <div class="cursosCarouselCardTematicas" id="tematicasIndex_${tematicasIndex}">
+          ${tematicasDiv}
+          </div>
+          <h2>${curso.nome_do_curso}</h2>
+          <a href="${curso.link}" target="_blank">Detalhes</a>
+        </div>
+      </div>
+    `;
 
     // Populate Lista Comparar
     comparadorList.innerHTML += `
@@ -327,11 +330,11 @@ const comparadorScreen = document.getElementById("comparadorScreen");
 const comparadorInputContainer = document.getElementById(
   "comparadorInputContainer"
 );
-const comparadorClose = document.getElementById('comparadorClose')
+const comparadorClose = document.getElementById("comparadorClose");
 
 comparadorAdd.addEventListener("click", comparadorAddInput);
 comparadorButton.addEventListener("click", comparadorSend);
-comparadorClose.addEventListener("click", closeComparador)
+comparadorClose.addEventListener("click", closeComparador);
 
 function comparadorAddInput() {
   comparadorInputContainer.insertAdjacentHTML(
@@ -557,7 +560,7 @@ async function comparadorSend(event) {
 }
 
 function closeComparador() {
-    const comparadorScreenContainer = document.getElementById(
+  const comparadorScreenContainer = document.getElementById(
     "comparadorScreenContainer"
   );
 
