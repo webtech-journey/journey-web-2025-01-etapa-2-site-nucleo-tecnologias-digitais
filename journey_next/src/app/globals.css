@@ -1,0 +1,445 @@
+/* GLOBAL STYLES */
+
+:root {
+  --backgroundBlue: #dde8ea;
+  --darkBlue: #25596d;
+  --orange: #ff7f1c;
+  --darkOrange: #803f0e;
+  --lightBlue: #cad7d9;
+}
+
+* {
+  margin: 0;
+  font-family: Montserrat, Arial;
+}
+
+body {
+  background-color: var(--backgroundBlue);
+}
+
+header {
+  background-color: var(--darkBlue);
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 10%;
+}
+
+/* Header (Barra superior) */
+.logosContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.divLogo {
+  height: 100%;
+  width: 1px;
+  background-color: white;
+}
+
+.logosContainer img {
+  height: 100px;
+}
+
+.opcoesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.opcoesContainer a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 4rem;
+  background-color: var(--darkBlue);
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer nav {
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  list-style: none;
+}
+
+footer nav a {
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* Main Image */
+
+.mainImage {
+  position: relative;
+  height: 45dvh;
+  overflow: hidden;
+  display: flex;
+  z-index: -1;
+}
+
+.mainImage img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Imagens de fundo */
+
+.floatingCards {
+  position: absolute;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-align: center;
+  height: 45dvh;
+  right: 10%;
+}
+
+.floatingCardsTop,
+.floatingCardsBottom {
+  padding: 1.5rem 1rem;
+  width: 250px;
+}
+
+.floatingCardsTop {
+  position: relative;
+  background-color: var(--orange);
+  border-radius: 0 0 1rem 1rem;
+  z-index: 1;
+}
+
+.floatingCardsBottom {
+  position: absolute;
+  top: 80px;
+  left: -25%;
+  z-index: 0;
+  background-color: var(--darkBlue);
+  border-radius: 1rem;
+}
+
+/* MAIN PAGE - START*/
+
+/*-------------------------------------------
+---------------------------------------------
+Coloque todo o Style da Pagina principal aqui
+---------------------------------------------
+-------------------------------------------*/
+
+/* MAIN PAGE - END*/
+
+/* CURSOS PAGE - START */
+
+.divMain {
+  height: 10px;
+  background-color: var(--darkBlue);
+}
+
+main {
+  display: flex;
+}
+
+/* Aside Filtros */
+
+main aside {
+  width: 13%;
+  color: white;
+  position: sticky;
+  height: 100dvh;
+  top: 0;
+  background-color: var(--darkBlue);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+/* Comparar + Pesquisar (Btn) */
+
+.asideBtns {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Seleciona os dois Btn */
+.asideBtns * {
+  border: none;
+  height: 50px;
+  font-size: 100%;
+  border-radius: 1rem;
+}
+
+/* Comparar Cursos */
+
+.compararCursos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--orange);
+  color: var(--darkOrange);
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.compararCursos h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Pesquisar Cursos */
+
+.pesquisarCursos {
+  padding: 0 1rem;
+}
+
+/* Tipos de Curso */
+
+.tipoCursosHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.8rem;
+}
+
+.tipoCursosHeader button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: var(--backgroundBlue);
+  color: var(--darkBlue);
+  font-size: 1rem;
+  font-weight: 800;
+  border: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.cursosSelect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  gap: 0.1rem;
+}
+
+.tipoCursos select {
+  font-size: 1rem;
+  background-color: var(--darkBlue);
+  color: white;
+  cursor: pointer;
+  border-style: none;
+  width: auto;
+  height: 2rem;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+/* Curso texto */
+
+.Cursos {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  padding-left: 3em;
+  padding-right: 3em;
+  flex: 1;
+  width: 100%;
+}
+
+.textoCurso h1 {
+  font-size: 2.5em;
+  color: var(--orange);
+}
+
+/* Cards Importados */
+
+.conjuntoCards {
+  margin-top: 2em;
+  gap: 16px;
+  justify-content: center;
+}
+
+.textotopico {
+  padding-top: 0.2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  padding-right: 3.5em;
+}
+
+.textotopico h1 {
+  color: var(--darkBlue);
+  align-items: center;
+
+}
+
+.qtdCursos h1 {
+  color: #5f5f5f;
+  font-size: 1.3rem;
+}
+
+.conjunto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+/* curso card */
+
+.cursoCard {
+  margin-top: 2em;
+  background: var(--backgroundBlue);
+  border-radius: 7px;
+  flex: 0 1 300px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #333;
+  position: relative;
+  height: 10rem;
+  width: 25rem;
+  font-size: 0.9em;
+  color: var(--darkBlue);
+  border: 1px solid rgba(37, 89, 109, 0.2);
+}
+
+.hidden {
+  display: none;
+}
+
+.cursoCardTop {
+  margin-top: 0.5rem;
+}
+
+.compararLabel {
+  position: absolute;
+  justify-content: center;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+  font-size: 1em;
+  padding: 2px 6px;
+  background-color: var(--darkBlue);
+  color: white;
+  border-radius: 10rem;
+  border: 1px solid var(--darkBlue);
+}
+
+input[type="checkbox"] {
+  accent-color: var(--orange);
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+.compararLabel input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  font-size: 0.9em;
+  right: 0%;
+}
+
+.cursoBody {
+  align-items: end;
+  justify-content: space-between;
+  height: 5rem;
+  background-color: white;
+  border-radius: 0 0 7px 7px;
+  
+}
+
+.cursoBodyText {
+  margin: 0.3rem;;
+  font-size: 0.7rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cursoBody h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1.3;
+  opacity: 80%;
+}
+
+.Modalidade {
+  padding: 4px 10px;
+  border: 1px solid;
+  border-radius: 20px;
+  background-color: #f8f8f8;
+  justify-content: center;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: var(--darkBlue);
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  font-size: 1em;
+  border-radius: 10rem;
+}
+
+.selecionado {
+  box-shadow: 0 10px 20px var(--orange);
+  font-style: var(--darkOrange);
+  border: 1px solid rgba(255, 127, 28, 0.2);
+
+}
+
+.selecionado *{
+  color: var(--orange);
+}
+
+.selecionado label {
+  background-color: white;
+  border: 1px solid var(--orange);
+}
+
+/* Mostrar Mais */
+
+.mostrarMais{
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  width: 100%;
+}
+
+.mostrarMaisBtn {
+  background-color: var(--darkBlue);
+  color: white;
+  padding: 0.8rem;
+  border-radius: 0.9em;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
