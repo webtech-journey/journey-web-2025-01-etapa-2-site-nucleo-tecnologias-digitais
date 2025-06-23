@@ -6,11 +6,11 @@ export function Header() {
     <header>
       <div className="logosContainer">
         <a href="">
-          <img src="/imagens/logoPuc.png" alt="LogoPuc"/>
+          <img src="/img/logoPuc.png" alt="LogoPuc"/>
         </a>
         <div className="divLogo"></div>
         <a href="">
-          <img src="/imagens/logoIcei.png" alt="LogoIcei"/>
+          <img src="/img/logoIcei.png" alt="LogoIcei"/>
         </a>
       </div>
       <div className="opcoesContainer">
@@ -35,7 +35,7 @@ export function ImageCard() {
       </div>
 
       <div className="mainImage">
-        <img src="/imagens/banner.png" alt="Imagem_do_Header"/>
+        <img src="/img/banner2.jpg" alt="Imagem_do_Header"/>
       </div>
     </section>
   );
@@ -47,10 +47,10 @@ export function Footer() {
     <footer>
       <div className="logosContainer">
         <a href="">
-          <img src="/imagens/logoPuc.png" alt="Logo PUC" />
+          <img src="/img/logoPuc.png" alt="Logo PUC" />
         </a>
         <a href="">
-          <img src="/imagens/logoIcei.png" alt="Logo ICEI" />
+          <img src="/img/logoIcei.png" alt="Logo ICEI" />
         </a>
       </div>
       <nav>
